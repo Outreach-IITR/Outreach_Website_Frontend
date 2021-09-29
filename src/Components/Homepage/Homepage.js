@@ -14,7 +14,7 @@ class Homepage extends React.Component {
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, ligula dictum facilisis et morbi aliquet. Egestas diam porttitor faucibus elementum facilisis consequat risus elit.
                         </p>
-                        <button className="ui positive basic button">
+                        <button >
                             Tap to know more
                         </button>
                     </div>

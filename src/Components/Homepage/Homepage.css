@@ -1,7 +1,7 @@
 #FirstSection {
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 #FirstSectionContent {
@@ -26,8 +26,7 @@
     display: flex;
     margin-bottom: 3rem;
     text-transform: uppercase;
-
-color: #333333;
+    color: #333333;
 
 }
 #FirstSectionContent button{
@@ -43,8 +42,7 @@ color: #333333;
     line-height: 1rem;
     padding-top: 0.55rem;
     /* identical to box height */
-
     letter-spacing: -0.02em;
-
     color: #FEC32E;
 }
+

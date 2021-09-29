@@ -13,19 +13,19 @@ const Navbar = () => {
                 <div className= {showList ? "mobile-menu-link" : "menu-link"}>
                     <ul>
                         <li className="menu-link-item">
-                            <a href="https://google.com">About</a>
+                            <a href="https://google.com" className="menu-item">About</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="https://google.com">Academics</a>
+                            <a href="https://google.com" className="menu-item">Academics</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="https://google.com">Achievements</a>
+                            <a href="https://google.com" className="menu-item">Achievements</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="https://google.com">Life&nbsp;at&nbsp;IITR</a>
+                            <a href="https://google.com" className="menu-item">Life&nbsp;at&nbsp;IITR</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="https://google.com">Placements</a>
+                            <a href="https://google.com" className="menu-item">Placements</a>
                         </li>
                     </ul>                    
                 </div>

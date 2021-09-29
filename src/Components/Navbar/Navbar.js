@@ -37,10 +37,8 @@ const Navbar = () => {
                     </button>
                 </a>
                 </div>
-                <div className="List-menu">
-                    <button class="ui button" onClick={() => setShowList(!showList)}>
-                        <i class="bars icon"></i>
-                    </button>
+                <div className="List-menu" onClick={() => setShowList(!showList)}>
+                    <i class="bars icon"></i>
                 </div>
             </nav>
         )

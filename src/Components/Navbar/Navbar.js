@@ -12,19 +12,19 @@ export class Navbar extends Component {
 
                 <div className="menu-link">
                     <ul>
-                        <li>
+                        <li className="menu-link-item">
                             <a href="https://google.com">About</a>
                         </li>
-                        <li>
+                        <li className="menu-link-item">
                             <a href="https://google.com">Academics</a>
                         </li>
-                        <li>
+                        <li className="menu-link-item">
                             <a href="https://google.com">Achievements</a>
                         </li>
-                        <li>
+                        <li className="menu-link-item">
                             <a href="https://google.com" style={{}}>Life at IITR</a>
                         </li>
-                        <li>
+                        <li className="menu-link-item">
                             <a href="https://google.com">Placements</a>
                         </li>
                     </ul>                    

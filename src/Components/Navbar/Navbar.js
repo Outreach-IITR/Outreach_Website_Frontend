@@ -27,7 +27,7 @@ const Navbar = () => {
                         <li className="menu-link-item">
                             <a href="/" className="menu-item">Placements</a>
                         </li>
-                    </ul>                    
+                    </ul>      
                 </div>
 
                 <div className="Discussion-forum">

@@ -23,6 +23,7 @@
     font-size: medium;
     font-weight: bold;
     list-style-type:none;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -105,6 +106,4 @@
     .List-menu {
         display: grid;
     }
-
-
 }

@@ -11,34 +11,34 @@ const Navbar = () => {
                 </div>
 
                 <div className= {showList ? "mobile-menu-link" : "menu-link"}>
-                    <ul>
+                    <ul className="menu-link-ul">
                         <li className="menu-link-item">
-                            <a href="https://google.com" className="menu-item">About</a>
+                            <a href="/" className="menu-item">About</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="https://google.com" className="menu-item">Academics</a>
+                            <a href="/" className="menu-item">Academics</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="https://google.com" className="menu-item">Achievements</a>
+                            <a href="/" className="menu-item">Achievements</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="https://google.com" className="menu-item">Life&nbsp;at&nbsp;IITR</a>
+                            <a href="/" className="menu-item">Life&nbsp;at&nbsp;IITR</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="https://google.com" className="menu-item">Placements</a>
+                            <a href="/" className="menu-item">Placements</a>
                         </li>
                     </ul>                    
                 </div>
 
                 <div className="Discussion-forum">
-                <a href="https://google.com" target="_blank" rel="noreferrer">
-                    <button class="primary" className="Discussion-forum-button">
+                <a href="/" target="_blank" rel="noreferrer">
+                    <button className={showList ? "Discussion-forum-button" : "Discussion-forum-button-list Discussion-forum-button"}>
                         Join&nbsp;the&nbsp;Discussion&nbsp;forum
                     </button>
                 </a>
                 </div>
                 <div className="List-menu" onClick={() => setShowList(!showList)}>
-                    <i class="bars icon"></i>
+                    <i class={showList ? "chevron up icon List-menu-icon" : "chevron down icon List-menu-icon"} ></i>
                 </div>
             </nav>
         )

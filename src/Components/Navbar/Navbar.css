@@ -81,21 +81,22 @@
     .mobile-menu-link {
         grid-row:2/4;
         grid-column: 1/6;
-        z-index: 99;
         font-size: medium;
         font-weight: bold;
         text-align: center;
         display: grid;
-        margin-top: -2rem;
+        margin-top: -1.2rem;
         margin-left:-3rem;
         transition: all 2s linear;
         transform-origin: top;
-        
-
+        z-index: 99;
+        background-color: white;
     }
     .Discussion-forum {
+        background-color: white;
         grid-row:4/5;
         grid-column: 1/6;
+        z-index: 99;
     }
 
     .Discussion-forum-button-list{

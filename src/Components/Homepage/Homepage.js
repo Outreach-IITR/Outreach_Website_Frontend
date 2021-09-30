@@ -18,7 +18,7 @@ class Homepage extends React.Component {
                             Tap to know more
                         </button>
                     </div>
-                    <div>
+                    <div id="FirstSectionImage">
                         <img alt="img" src={RightImage} />
                     </div>
                 </div>

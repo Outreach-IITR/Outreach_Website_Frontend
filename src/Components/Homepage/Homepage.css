@@ -53,7 +53,185 @@
     color: white;
 }
 
+/* Right Side Image Section 1 on Home Page */
+/* Image transition on first section of home page */
+#FirstSectionImage {
+    position: relative;
+    margin-top: 2rem;
+}
 
+#Text-bottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+/* Setting max width of both the images */
+.Transform-img{
+    max-width: 36rem;
+}
+
+#First-image {
+    margin-top: 4rem;
+    z-index: 1;
+    position: relative; 
+}
+
+/* First image + Question marks both combined div css */
+.First-image-combined {
+        animation-name: fade-in-image-first;
+        animation-duration: 12s;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+}
+
+/* First image css */
+#First-image {
+    margin-top: 4rem;
+    z-index: 1;
+    position: relative; 
+}
+
+/* Q marks css */
+#Q-marks {
+    margin-top: 1rem;
+    z-index: 2;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    animation-name: Q-mark-up-down;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+/* Animation of Q marks - Jumping Up and Down */
+@keyframes Q-mark-up-down {
+    0% {
+        top: 0rem;
+    }
+    5% {
+        top: 0.05rem;
+    }
+    10% {
+        top: 0.1rem;
+    }
+    15% {
+        top: 0.15rem;
+    }
+    20% {
+        top: 0.2rem;
+    }
+    25% {
+        top: 0.25rem;
+    }
+    30% {
+        top: 0.3rem;
+    }
+    35% {
+        top: 0.35rem;
+    }
+    40% {
+        top: 0.4rem;
+    }
+    45% {
+        top: 0.45rem;
+    }
+    50% {
+        top: 0.5rem;
+    }
+    55% {
+        top: 0.45rem;
+    }
+    60% {
+        top: 0.4rem;
+    }
+    65% {
+        top: 0.35rem;
+    }
+    70% {
+        top: 0.3rem;
+    }
+    75% {
+        top: 0.25rem;
+    }
+    80% {
+        top: 0.2rem;
+    }
+    85% {
+        top: 0.15rem;
+    }
+    90% {
+        top: 0.1rem;
+    }
+    95% {
+        top: 0.05rem;
+    }
+    100% {
+        top: 0rem;
+    }
+}
+
+/* Animation of first image combined */
+@keyframes fade-in-image-first {
+    0% {
+        opacity:1;
+        z-index: 1;
+    }
+    43% {
+        opacity:1;
+        z-index: 1;
+    }
+    57% {
+        opacity:0;
+        display: none;
+        z-index: -1;
+    }
+    100% {
+        opacity:0;
+        display: none;
+        z-index: -1;
+    }
+
+}
+
+/* Second image css */
+#Second-image {
+    position: absolute;
+    top: 2rem;
+    left: 0rem;
+    background-size: auto;
+    animation-name: fade-in-image-second;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+/* Animation of Second image */
+@keyframes fade-in-image-second {
+    100% {
+        opacity:1;
+        z-index: 1;
+    }
+    57% {
+        opacity:1;
+        z-index: 1;
+    }
+    43% {
+        opacity:0;
+        z-index: -1;
+    }
+    0% {
+        opacity:0;
+        z-index: -1;
+    }
+
+}
 
 
 @media screen and (max-width: 995px){

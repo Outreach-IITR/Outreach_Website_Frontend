@@ -1,0 +1,148 @@
+#SecondSection {
+  position: relative;
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+#SecondSectionImage {
+  width: 45%;
+  position: relative;
+  margin-right: 2rem;
+  height: 36rem;
+}
+
+#SecondSectionContent {
+  position: relative;
+  margin-left: 2rem;
+  justify-content: center;
+  align-self: center;
+  max-width: 30rem;
+  padding-bottom: 3rem;
+}
+
+#SecondSectionContent p:nth-of-type(1) {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #3f3f3fad;
+}
+
+#SecondSectionContent p:nth-of-type(2) {
+  font-family: "SF UI Text", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+#SecondSectionContent h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  color: #026ba1;
+}
+
+.WhyIITR__Img3 {
+  position: relative;
+  top: 4rem;
+  left: 11rem;
+}
+
+.WhyIITR__Img2 {
+  position: absolute;
+  left: 0%;
+  z-index: 1;
+}
+
+.WhyIITR__Img1 {
+  position: absolute;
+  left: 17rem;
+  margin-top: 8rem;
+  z-index: 2;
+}
+
+.WhyIITR__Img {
+  transition: transform cubic-bezier(0.19, 1, 0.22, 1) 500ms;
+}
+
+.WhyIITR__Img:hover {
+  transform: scale(1.1);
+  z-index: 3;
+}
+
+.WhyIITR__Icon {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.WhyIITR__Icon > div {
+  max-width: 7rem;
+  text-align: center;
+}
+
+.WhyIITR__Icon > div > p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #333333;
+}
+
+@media screen and (max-width: 1200px) {
+  #SecondSection {
+    justify-content: center;
+  }
+
+  #SecondSectionImage {
+    height: auto;
+  }
+
+  .WhyIITR__Img3 {
+    left: 8rem;
+    top: 2.5rem;
+    max-width: 20rem;
+    max-height: 16rem;
+  }
+  .WhyIITR__Img2 {
+    max-width: 20rem;
+    max-height: 22rem;
+  }
+  .WhyIITR__Img1 {
+    left: 10rem;
+    margin-top: 5rem;
+    max-width: 16rem;
+    max-height: 20rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .WhyIITR__Img3 {
+    left: 4rem;
+    top: 1.25rem;
+    max-width: 10rem;
+    max-height: 8rem;
+  }
+  .WhyIITR__Img2 {
+    max-width: 10rem;
+    max-height: 11rem;
+  }
+  .WhyIITR__Img1 {
+    left: 5rem;
+    margin-top: 2.5rem;
+    max-width: 8rem;
+    max-height: 10rem;
+  }
+}

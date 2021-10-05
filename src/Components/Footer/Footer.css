@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
+
+
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: absolute;
+    background: #1D1D1F;
+    padding-top: 26px;
+    padding-inline: 1rem;
+}
+
+
+.footer-content {
+    display: flex;
+    position: static;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF UI Text', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex: 1;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FDFDFF;
+    width:100%;
+}
+
+.f-heading {
+    position: right;
+    width: 75px;
+    height: 17px;
+    left: 0px;
+    top: 0px;
+    /* Heading 3 */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+}
+
+.h-link {
+    color: #F96508;
+}
+
+.h-acads {
+    color: #FEBA10;
+}
+
+.h-life {
+    color: #06CA3D;
+}
+
+.h-about {
+    color: #026BA1;
+}
+
+.footer-subcontent {
+    padding-top: 3rem;
+    flex: 1;
+}
+
+.footer-subcontent h3 {
+    margin-left: 2.5rem;
+}
+
+.footer-subcontent ul li{
+    margin-top: 14px;
+}
+
+.footer-info {
+    display: flex;
+    position: relative; 
+    left: 0px;
+    top: 0px;
+    font-family: SF UI Text;
+    font-size: 12px;
+    line-height: 131%;
+    /* or 16px */
+    letter-spacing: 0.05em;
+    color: #FDFDFF;
+}
+
+.footer-info img {
+    height: 71px;
+    width: 68px;
+}
+
+.footer-info h1 {
+    font-family: Montserrat;
+    margin-left: 15px;
+    margin-top: 22px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+
+.footer-rightcontent {
+    display: flex;
+    flex-direction: column;
+    margin-right: 9rem;
+    margin-top: 2.2rem;
+    align-items: center;
+}
+
+.footer-info p {
+    font-family: Montserrat;
+}
+
+a {
+     margin-right: 9px; 
+}
+
+.footer-bottom{
+width: 283px;
+height: 18px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 131%;
+bottom: 0;
+padding-left: 24px;
+
+letter-spacing: 0.1em;
+
+color: #94989B;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        
+        flex-direction: column !important;
+      }
+}

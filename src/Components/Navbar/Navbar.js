@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import "./Navbar.css";
-import logo from './Assets/logo.png';
+import logo from './Assets/logo.svg';
 
 const Navbar = () => {
     const [showList, setShowList] = useState(false);

@@ -42,7 +42,7 @@ class Updates extends React.Component {
 
                 </div>
             </div>
-            <div id="updates_image" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="800" data-aos-easing="ease-in-sine">
+            <div id="updates_image" data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine">
             <img alt="img" src={Updateimage} />
             </div>
 

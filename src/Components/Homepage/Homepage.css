@@ -81,7 +81,7 @@
 /* First image + Question marks both combined div css */
 .First-image-combined {
         animation-name: fade-in-image-first;
-        animation-duration: 12s;
+        animation-duration: 5s;
         animation-timing-function: ease-in-out;
         animation-direction: alternate;
         animation-iteration-count: infinite;
@@ -206,7 +206,7 @@
     left: 0rem;
     background-size: auto;
     animation-name: fade-in-image-second;
-    animation-duration: 12s;
+    animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
     animation-iteration-count: infinite;

@@ -15,25 +15,25 @@ class Updates extends React.Component {
                 <div id="update_content">
                     <div id="update_content_data">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
-                         <br/> <a>Know More</a>
+                         <br/> <a href="/">Know More</a>
                     </p>
                     
                     </div>
                     <div id="update_content_data">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
-                         <br/> <a>Know More</a>
+                         <br/> <a href="/">Know More</a>
                     </p>
                     
                     </div>
                     <div id="update_content_data">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
-                         <br/> <a>Know More</a>
+                         <br/> <a href="/">Know More</a>
                     </p>
                     
                     </div>
                     <div id="update_content_data">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
-                         <br/> <a>Know More</a>
+                         <br/> <a href="/">Know More</a>
                     </p>
                     
                     </div>

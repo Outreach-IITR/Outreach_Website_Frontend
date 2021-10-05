@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* height: 85vh; */
+    padding-top: 7rem;
 }
 
 
@@ -244,5 +246,11 @@
 @media screen and (max-width: 665px){
         #FirstSectionImage img{
             max-width: 25rem;
+        }
+        #FirstSection{
+            padding-top: 0rem;
+        }
+        #FirstSectionContent{
+            padding-top: 5rem;
         }
 }

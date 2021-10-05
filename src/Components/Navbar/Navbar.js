@@ -38,7 +38,7 @@ const Navbar = () => {
                 </a>
                 </div>
                 <div className="List-menu" onClick={() => setShowList(!showList)}>
-                    <i class={showList ? "chevron up icon List-menu-icon" : "chevron down icon List-menu-icon"} ></i>
+                    <i className={showList ? "chevron up icon List-menu-icon" : "chevron down icon List-menu-icon"} ></i>
                 </div>
             </nav>
         )

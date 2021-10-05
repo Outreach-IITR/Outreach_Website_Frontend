@@ -1,11 +1,12 @@
 import React from "react";
 import RightImage from "./Assets/Right_image.svg";
 import Qmarks from "./Assets/Q-marks.svg";
-import RightImage2 from './Assets/Right_image2.svg'
-import TextBottom from './Assets/Image-text-bottom.svg'
+import RightImage2 from "./Assets/Right_image2.svg";
+import TextBottom from "./Assets/Image-text-bottom.svg";
 import "./Homepage.css";
 
 import HomePageCarousel from "../HomePageCarousel/HomePageCarousel";
+import WhyIITR from "./WhyIITR/WhyIITR";
 
 class Homepage extends React.Component {
   render() {
@@ -23,14 +24,33 @@ class Homepage extends React.Component {
               <button>Tap to know more</button>
             </div>
             <div id="FirstSectionImage">
-              <div className="First-image-combined" >
-                <img alt="img" className="Transform-img" id="First-image" src={RightImage} />
-                <img alt="img" className="Transform-img" id="Q-marks" src={Qmarks} />
+              <div className="First-image-combined">
+                <img
+                  alt="img"
+                  className="Transform-img"
+                  id="First-image"
+                  src={RightImage}
+                />
+                <img
+                  alt="img"
+                  className="Transform-img"
+                  id="Q-marks"
+                  src={Qmarks}
+                />
               </div>
-              <img alt="img" className="Transform-img" id="Second-image" src={RightImage2} />
-              <img alt="img" id="Text-bottom" src={TextBottom}/>
+              <img
+                alt="img"
+                className="Transform-img"
+                id="Second-image"
+                src={RightImage2}
+              />
+              <img alt="img" id="Text-bottom" src={TextBottom} />
             </div>
           </div>
+        </div>
+
+        <div className="ui container">
+          <WhyIITR />
         </div>
 
         <div className="ui container">

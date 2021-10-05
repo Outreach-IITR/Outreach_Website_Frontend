@@ -3,6 +3,9 @@ import React, { useState, useEffect, useCallback } from "react";
 import "./HomePageCarousel.css";
 
 import { slides } from "./CarouselData";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+AOS.init();
 
 const HomePageCarousel = () => {
   const [current, setCurrent] = useState(2);
@@ -28,7 +31,12 @@ const HomePageCarousel = () => {
   }
 
   return (
-    <div className="Carousel">
+    <div
+      className="Carousel"
+      data-aos="fade"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-sine"
+    >
       <div className="Carousel__Title">
         <h3>IIT Roorkee at a Glance</h3>
         <p>Dont just take our word, see yourself</p>

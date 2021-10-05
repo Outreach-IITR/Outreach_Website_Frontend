@@ -14,6 +14,9 @@
     padding-inline: 1rem;
 }
 
+#footer_logo {
+    width: 20rem;
+}
 
 .footer-content {
     display: flex;

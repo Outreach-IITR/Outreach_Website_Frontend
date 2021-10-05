@@ -56,7 +56,7 @@ export class Footer extends Component {
                 
                 <div className="footer-rightcontent">
                     <div className="footer-info">
-                        <img src={outreach_logo} alt="outreach logo"/>
+                        <img id="footer_logo" src={outreach_logo} alt="outreach logo"/>
                     </div>
                     <div className="footer-info">
                         <p className="footer-text">

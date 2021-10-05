@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import "./Footer.css";
 import facebook from './Assets/facebook.png';
 import linkedin from './Assets/linkedin.png';
-import outreach_logo from './Assets/outreach_logo.png';
+import outreach_logo from './Assets/outreach_logo.svg';
 import twitter from './Assets/twitter.png';
 import youtube from './Assets/youtube.png';
 
@@ -12,7 +12,7 @@ export class Footer extends Component {
             <div className="footer">
                 <div className="footer-content">
                     <div className="footer-subcontent">
-                        <h3 className="f-heading h-link" style={{'width':'86px'}}>Quick Links</h3>
+                    <h3 className="f-heading h-link">Quick&#160;links</h3>
                         <ul style={{'list-style' : 'none'}}>
                             <li>Lorem Ipsum</li>
                             <li>Lorem Ipsum</li>
@@ -53,27 +53,27 @@ export class Footer extends Component {
                         </ul>
                     </div>
                 </div>
-            
+                
                 <div className="footer-rightcontent">
                     <div className="footer-info">
-                        <img src={outreach_logo} width="68px" height="71px" alt="outreach logo"/>
-                        <h1 className="h-outreach"><b>OUTREACH</b></h1>
+                        <img src={outreach_logo} alt="outreach logo"/>
                     </div>
                     <div className="footer-info">
-                        <p>
+                        <p className="footer-text">
                             <br/>
-                            +91 0123456789 <br/>
-                            outreach@iitr.ac.in<br/>
+                            +91 0123456789<br/><br/>
+                            outreach@iitr.ac.in<br/><br/>
                             SAC Building, IIT Roorkee,<br/>
                             Roorkee, Uttarakhand, India - 247667
+                            <br/>
                         </p>
                     </div>
                     
                     <div className="f-social">
-                        <a href="/"><img src={facebook} width="20px" alt="facebook"/></a>
-                        <a href="/"><img src={twitter} width="20px" height="" alt="twitter"/></a>
-                        <a href="/"><img src={linkedin} width="20px" alt="linkedin"/></a>
-                        <a href="/"><img src={youtube} width="20px" height="" alt="youtube"/></a>
+                        <a href="/" className="logo-links"><img src={facebook} width="20px" alt="facebook"/></a>
+                        <a href="/" className="logo-links"><img src={twitter} width="20px" height="" alt="twitter"/></a>
+                        <a href="/" className="logo-links"><img src={linkedin} width="20px" alt="linkedin"/></a>
+                        <a href="/" className="logo-links"><img src={youtube} width="20px" height="" alt="youtube"/></a>
 
                     </div>
                     <div className="footer-bottom">

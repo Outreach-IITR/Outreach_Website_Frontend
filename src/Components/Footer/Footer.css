@@ -21,46 +21,44 @@
     font-family: -apple-system, BlinkMacSystemFont, 'SF UI Text', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     flex: 1;
     font-weight: 300;
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: #FDFDFF;
     width:100%;
 }
 
 .f-heading {
-    position: right;
-    width: 4.688rem;
-    height: 1.063rem;
-    left: 0rem;
-    top: 0rem;
     /* Heading 3 */
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 0.875rem;
-    line-height: 1.063rem;
-    /* identical to box height */
-    letter-spacing: -0.02em;
 }
 
 .h-link {
     color: #F96508;
+    text-align: center;
+    
 }
 
 .h-acads {
     color: #FEBA10;
+    text-align: center;
 }
 
 .h-life {
     color: #06CA3D;
+    text-align: center;
 }
 
 .h-about {
     color: #026BA1;
+    text-align: center;
 }
 
 .footer-subcontent {
-    padding-top: 3rem;
+    padding-top: 1rem;
     flex: 1;
+    text-align: center;
 }
 
 .footer-subcontent h3 {
@@ -79,9 +77,13 @@
     font-family: SF UI Text;
     font-size: 0.75rem;
     line-height: 131%;
-    /* or 16px */
     letter-spacing: 0.05em;
     color: #FDFDFF;
+}
+
+.footer-text {
+    padding: 1rem;
+    padding-top: 0;
 }
 
 .footer-info img {
@@ -102,13 +104,23 @@
 .footer-rightcontent {
     display: flex;
     flex-direction: column;
-    margin-right: 9rem;
-    margin-top: 2.2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-right: 6rem;
+    padding-top: -1rem;
     align-items: center;
 }
 
 .footer-info p {
     font-family: Montserrat;
+}
+
+.f-social {
+    padding-bottom:1rem;
+}
+
+.logo-links {
+    padding:0.5rem;
 }
 
 a {
@@ -124,16 +136,31 @@ font-weight: normal;
 font-size: 0.625rem;
 line-height: 131%;
 bottom: 0;
-padding-left: 1.5rem;
 
 letter-spacing: 0.1em;
 
 color: #94989B;
 }
 
-@media only screen and (max-width: 50rem) {
+@media only screen and (max-width: 68rem) {
     .footer {
-        
         flex-direction: column !important;
-      }
+    }
+    .footer-rightcontent {
+        padding: 0;
+        text-align: center;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .f-social{
+        align-items: center;
+    }
+    .footer-info {
+        align-items: center;
+    }
+    .f-heading {
+        text-align: center;
+    }
+    
 }

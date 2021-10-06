@@ -49,7 +49,7 @@ class Homepage extends React.Component {
           </div>
         </div>
 
-        <div className="ui container">
+        <div>
           <WhyIITR />
         </div>
 

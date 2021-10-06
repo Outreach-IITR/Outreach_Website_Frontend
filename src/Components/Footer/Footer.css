@@ -126,8 +126,9 @@
     text-align: center;
   }
   .icons {
-    /* margin-left: 3rem; */
+    padding-left: 7rem;
     align-items: center;
+    
   }
   .footer-column {
     padding-bottom: 2rem;

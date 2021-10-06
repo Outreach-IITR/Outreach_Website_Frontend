@@ -21,7 +21,7 @@ class Homepage extends React.Component {
                 ligula dictum facilisis et morbi aliquet. Egestas diam porttitor
                 faucibus elementum facilisis consequat risus elit.
               </p>
-              <button>Tap to know more</button>
+              <button id="tap_to_know">Tap to know more</button>
             </div>
             <div id="FirstSectionImage">
               <div className="First-image-combined">

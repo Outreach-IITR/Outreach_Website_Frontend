@@ -19,6 +19,10 @@
     grid-column: 3/4;
 }
 
+#join_button{
+    cursor: pointer;
+}
+
 .menu-link ul {
     height: 4rem;
     display: flex;

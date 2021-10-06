@@ -11,6 +11,10 @@
     padding-top: 10rem;
 }
 
+#tap_to_know{
+    cursor: pointer;
+}
+
 #FirstSectionContent p{
     max-width: 30rem;
     height: 3.7rem;

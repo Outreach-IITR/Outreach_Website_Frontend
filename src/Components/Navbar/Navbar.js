@@ -32,7 +32,7 @@ const Navbar = () => {
 
                 <div className="Discussion-forum">
                 <a href="/" target="_blank" rel="noreferrer">
-                    <button className={showList ? "Discussion-forum-button" : "Discussion-forum-button-list Discussion-forum-button"}>
+                    <button id="join_button" className={showList ? "Discussion-forum-button" : "Discussion-forum-button-list Discussion-forum-button"}>
                         Join&nbsp;the&nbsp;Discussion&nbsp;forum
                     </button>
                 </a>

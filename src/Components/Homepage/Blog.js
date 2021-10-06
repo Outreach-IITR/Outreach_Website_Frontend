@@ -21,7 +21,7 @@ class Blog extends React.Component {
                         
                     </div>
                     
-                    <div id="Blogboxes" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <div id="Blogboxes" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                     <div id="blog_mobile1">
                     <div id="blogbox1">
                         <div id="blogbox_content"><h2>

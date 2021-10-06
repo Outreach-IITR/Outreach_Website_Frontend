@@ -1,130 +1,111 @@
-
 .main-footer {
-    display: flex;
-    flex-direction: row;
-    background-color: #1D1D1F;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #1d1d1f;
+  align-items: center;
 }
 
 .section-one {
-    display: flex;
-    flex:1;
+  display: flex;
 }
 
 .quick-links-div {
-    flex: 1;
+  flex: 1;
 }
 
 .academics-div {
-    flex: 1;
+  flex: 1;
 }
 
-
 .section-two {
-    display: flex;
-    flex:1;
+  display: flex;
 }
 
 .life-div {
-    flex: 1;
+  flex: 1;
 }
 .about-us-div {
-    flex: 1;
+  flex: 1;
 }
-
 
 .section-three {
-    display: flex;
-    justify-content: space-between;
-    flex:2;
+  display: flex;
+  margin-left: auto;
 }
 
-
-
-
-
-
-
 #footer-quick-links {
-    color: #F96508;
-    padding-top: 4rem;
-    margin-left: 5rem;
+  color: #f96508;
+  padding-top: 4rem;
+  margin-left: 5rem;
 }
 
 #footer-academics {
-    color: #FEBA10;
-    padding-top: 4rem;
-    margin-left: 5rem;
+  color: #feba10;
+  padding-top: 4rem;
+  margin-left: 5rem;
 }
 
 #footer-life {
-    color: #06CA3D;
-    padding-top: 4rem;
-    margin-left: 5rem;
+  color: #06ca3d;
+  padding-top: 4rem;
+  margin-left: 5rem;
 }
 
 #footer-about-us {
-    color: #026BA1;
-    padding-top: 4rem;
-    margin-left: 5rem;
+  color: #026ba1;
+  padding-top: 4rem;
+  margin-left: 5rem;
 }
 
-
-
 .footer-column {
-    list-style-type: none;
-    padding-bottom: 4rem;
-    padding-left: 5rem;
+  list-style-type: none;
+  padding-bottom: 4rem;
+  padding-left: 5rem;
 }
 
 .footer-item {
-    color: #FDFDFF;
+  color: #fdfdff;
 }
 
-
-
 .footer-column-item {
-    padding-top:0.5rem;
+  padding-top: 0.5rem;
 }
 
 #outreach_logo {
-    max-width: 30rem;
-    padding-top: 2rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-
+  max-width: 30rem;
+  padding-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 .footer-right-text {
-    font-size: 0.8rem;
-    color: #FDFDFF;
-    padding-top: 1rem;
-    padding-left: 8rem;
+  font-size: 0.8rem;
+  color: #fdfdff;
+  padding-top: 1rem;
+  padding-left: 8rem;
 }
 
 .icons {
-    padding-left: 8rem;
-    display: flex;
+  padding-left: 8rem;
+  display: flex;
 }
 
 .icons img {
-    padding-right: 0.5rem;
-    width: 80%;
+  padding-right: 0.5rem;
+  width: 80%;
 }
 
 #copy-right {
-    color: #94989B;
-    padding-top:0rem;
+  color: #94989b;
+  padding-top: 0rem;
 }
-  
 
-
-
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
-  @media (max-width: 75rem) {
-    .main-footer {
-
-    }
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 75rem) {
+  .main-footer {
   }
+}

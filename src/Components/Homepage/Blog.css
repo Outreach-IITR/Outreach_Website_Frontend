@@ -15,7 +15,7 @@
     margin-right: auto;
     /* right: auto; */
     padding-top: 5%;
-    padding-left: 5%;
+    padding-left: 13vw;
     /* animation: blogslideright 0.7s ease-in; */
 }
 #Blog_first_section p{
@@ -42,6 +42,7 @@
 }
 #Blogboxes{
     padding-top: 5%;
+    margin-right: 10vw;
  
     display: flex;
     height: 25vh;

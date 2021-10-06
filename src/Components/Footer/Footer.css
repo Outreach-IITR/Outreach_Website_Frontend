@@ -111,7 +111,6 @@
 @media (max-width: 85rem) {
   .main-footer {
     flex-direction: column;
-    padding-right: 3rem;
   }
   .section-one {
     margin-left: 0rem;
@@ -119,16 +118,46 @@
 
   .section-three {
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer-right-text {
-    margin-left: -2.5rem;
+    padding: 0;
     text-align: center;
   }
   .icons {
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
+    align-items: center;
   }
   .footer-column {
     padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
+  #outreach_logo {
+    align-items: center;
+    padding-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #footer-life {
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
+  
+  #footer-about-us {
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
+  #footer-quick-links {
+    margin-left: 2rem;
+  }
+  
+  #footer-academics {
+    margin-left: 2rem;
+  }
+  
 }
 

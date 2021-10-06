@@ -10,10 +10,10 @@ import Blog from './Components/Homepage/Blog';
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <Homepage />
       <Updates />
-      <Blog />
+      <Blog /> */}
       <Footer/>
     </div>
   );

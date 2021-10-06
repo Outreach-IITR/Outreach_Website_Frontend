@@ -8,7 +8,8 @@
 }
 
 .section-one {
-  display: flex;
+  display: flex;  
+  margin-left: 10rem;
 }
 
 .quick-links-div {
@@ -33,6 +34,7 @@
 .section-three {
   display: flex;
   margin-left: auto;
+  margin-right: auto;
 }
 
 #footer-quick-links {
@@ -77,7 +79,7 @@
   max-width: 30rem;
   padding-top: 2rem;
   display: block;
-  margin-left: auto;
+  margin-left: 7rem;
   margin-right: auto;
   width: 60%;
 }
@@ -102,10 +104,31 @@
 #copy-right {
   color: #94989b;
   padding-top: 0rem;
+  padding-bottom: 1rem;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
-@media (max-width: 75rem) {
+@media (max-width: 85rem) {
   .main-footer {
+    flex-direction: column;
+    padding-right: 3rem;
+  }
+  .section-one {
+    margin-left: 0rem;
+  }
+
+  .section-three {
+    align-items: center;
+  }
+  .footer-right-text {
+    margin-left: -2.5rem;
+    text-align: center;
+  }
+  .icons {
+    margin-left: 3rem;
+  }
+  .footer-column {
+    padding-bottom: 2rem;
   }
 }
+

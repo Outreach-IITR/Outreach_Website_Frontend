@@ -9,19 +9,18 @@
 }
 
 #SecondSectionImage {
-  width: 45%;
   position: relative;
-  margin-right: 2rem;
-  height: 36rem;
+  width: 40%;
 }
 
 #SecondSectionContent {
+  width: 60%;
+  max-width: 45rem;
+  margin: auto;
   position: relative;
-  margin-left: 2rem;
   justify-content: center;
   align-self: center;
-  max-width: 30rem;
-  padding-bottom: 3rem;
+  padding: 3rem;
 }
 
 #SecondSectionContent p:nth-of-type(1) {
@@ -54,20 +53,26 @@
 
 .WhyIITR__Img3 {
   position: relative;
-  top: 4rem;
-  left: 11rem;
+  top: 10%;
+  left: 10%;
+  width: 33vw;
+  height: auto;
 }
 
 .WhyIITR__Img2 {
   position: absolute;
   left: 0%;
   z-index: 1;
+  width: 24.3vw;
+  height: auto;
 }
 
 .WhyIITR__Img1 {
   position: absolute;
-  left: 17rem;
-  margin-top: 8rem;
+  left: 10%;
+  top: 20%;
+  width: 25vw;
+  height: auto;
   z-index: 2;
 }
 
@@ -90,6 +95,7 @@
 .WhyIITR__Icon > div {
   max-width: 7rem;
   text-align: center;
+  margin: 0.5rem;
 }
 
 .WhyIITR__Icon > div > p {
@@ -101,48 +107,29 @@
   color: #333333;
 }
 
-@media screen and (max-width: 1200px) {
-  #SecondSection {
-    justify-content: center;
+@media screen and (max-width: 900px) and (min-width: 780px) {
+  #SecondSectionContent {
+    width: 60%;
+    max-width: 100%;
   }
-
   #SecondSectionImage {
-    height: auto;
+    width: 40%;
   }
-
-  .WhyIITR__Img3 {
-    left: 8rem;
-    top: 2.5rem;
-    max-width: 20rem;
-    max-height: 16rem;
-  }
-  .WhyIITR__Img2 {
-    max-width: 20rem;
-    max-height: 22rem;
-  }
-  .WhyIITR__Img1 {
-    left: 10rem;
-    margin-top: 5rem;
-    max-width: 16rem;
-    max-height: 20rem;
+  .WhyIITR__Icon > div {
+    position: relative;
+    width: 45%;
+    max-width: none;
   }
 }
 
-@media screen and (max-width: 650px) {
-  .WhyIITR__Img3 {
-    left: 4rem;
-    top: 1.25rem;
-    max-width: 10rem;
-    max-height: 8rem;
+@media screen and (max-width: 780px) {
+  #SecondSection {
+    flex-direction: column-reverse;
   }
-  .WhyIITR__Img2 {
-    max-width: 10rem;
-    max-height: 11rem;
+  #SecondSectionImage {
+    display: none;
   }
-  .WhyIITR__Img1 {
-    left: 5rem;
-    margin-top: 2.5rem;
-    max-width: 8rem;
-    max-height: 10rem;
+  #SecondSectionContent {
+    width: 100%;
   }
 }

@@ -1,4 +1,5 @@
 import Carousel1 from "./Assets/carousel1.png";
+import Carousel2 from "../Homepage/WhyIITR/Assets/WhyIITR_1.png";
 
 export const slides = [
   {
@@ -8,7 +9,7 @@ export const slides = [
       "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
   },
   {
-    image: Carousel1,
+    image: Carousel2,
     caption: "2 Lorem Ipsum is simply dummy",
     description:
       "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
@@ -20,7 +21,7 @@ export const slides = [
       "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
-    image: Carousel1,
+    image: Carousel2,
     caption: "4 Lorem Ipsum is simply dummy",
     description:
       "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",

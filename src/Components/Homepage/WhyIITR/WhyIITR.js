@@ -1,4 +1,4 @@
-//
+//*************Created By Rahul Modi*************
 import React from "react";
 
 import WhyIITR_1 from "./Assets/WhyIITR_1.png";
@@ -23,8 +23,8 @@ const HomePageCarousel = () => {
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"
       >
-        <img alt="img" className="WhyIITR__Img3" src={WhyIITR_3} />
         <img alt="img" className="WhyIITR__Img WhyIITR__Img2" src={WhyIITR_2} />
+        <img alt="img" className="WhyIITR__Img3" src={WhyIITR_3} />
         <img alt="img" className="WhyIITR__Img WhyIITR__Img1" src={WhyIITR_1} />
       </div>
       <div

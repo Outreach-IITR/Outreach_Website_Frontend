@@ -1,22 +1,28 @@
-import React from 'react';
+import React, {Component} from 'react';
+import {BrowserRouter, Route} from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import Homepage from './Components/Homepage/Homepage'
-import Navbar from './Components/Navbar/Navbar'
-import Updates from './Components/Homepage/Updates';
-import Blog from './Components/Homepage/Blog';
+import About from './Components/About/About';
 
 
+class App extends Component {
 
-function App() {
-  return (
-    <div>
-      <Navbar />
-      <Homepage />
-      <Updates />
-      <Blog />
-      <Footer/>
-    </div>
-  );
+  render(){
+    return(
+      <div>
+        <div>
+          <BrowserRouter>
+            <Route path="/" exact component={Homepage}/>
+            <Route path = "/about" exact component={About} />
+          </BrowserRouter>
+        </div>
+        <div>
+          <Footer/>
+        </div>
+      </div>
+      
+    )
+  }
 }
 
 export default App;

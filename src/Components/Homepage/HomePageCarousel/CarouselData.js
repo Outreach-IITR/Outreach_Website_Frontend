@@ -1,5 +1,6 @@
 import Carousel1 from "./Assets/carousel1.png";
-import Carousel2 from "../Homepage/WhyIITR/Assets/WhyIITR_1.png";
+// import Carousel2 from "./WhyIITR/Assets/WhyIITR_1.png";
+import Carousel2 from '../WhyIITR/Assets/WhyIITR_1.png'
 
 export const slides = [
   {

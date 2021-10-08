@@ -17,6 +17,7 @@ class Homepage extends React.Component {
       <>
         <Navbar/>
         <div className="ui container">
+          
           <div id="FirstSection">
             <div id="FirstSectionContent">
               <h1>Lorem Ipsum</h1>

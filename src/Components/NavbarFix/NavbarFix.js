@@ -6,11 +6,11 @@ import logo from './Assets/logo.svg';
 const NavbarFix = () => {
     
     const [showList, setShowList] = useState(false);
-    const [navbar, setHeader] = useState("main-nav")
+    const [navbar, setHeader] = useState("main-nav1")
 
     const listenScrollEvent = (event) => {
         if (window.scrollY < 80) {
-          return setHeader("main-nav")
+          return setHeader("main-nav1")
         } else if (window.scrollY > 7) {
           return setHeader("main-nav-fix")
         } 

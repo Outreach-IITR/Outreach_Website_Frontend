@@ -1,0 +1,103 @@
+#AboutIITR {
+  box-sizing: border-box;
+  margin-top: 10rem;
+  padding: 0 5.625rem;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#AboutIITR_content {
+  box-sizing: border-box;
+  position: relative;
+  min-height: fit-content;
+  width: 39rem;
+  margin-left: 3rem;
+}
+
+#AboutIITR_content_data {
+  box-sizing: border-box;
+  position: relative;
+  font-family: "SF UI Text", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 131%;
+  letter-spacing: 0.05em;
+  color: #3f3f3f;
+}
+
+#AboutIITR_heading {
+  position: relative;
+  margin-bottom: 1.25rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  color: #026ba1;
+}
+
+#AboutIITR_image {
+  position: relative;
+  text-align: center;
+}
+
+#AboutIITR_image img {
+  position: relative;
+  width: 40.546;
+}
+
+@media screen and (max-width: 1400px) {
+  #AboutIITR {
+    align-items: center;
+  }
+  #AboutIITR_content {
+    min-width: 27rem;
+    max-width: 40%;
+  }
+  #AboutIITR_image {
+    min-width: 26rem;
+    max-width: 50%;
+  }
+  #AboutIITR_image img {
+    position: relative;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  #AboutIITR {
+    justify-content: center;
+  }
+  #AboutIITR_content {
+    margin-top: 1rem;
+    max-width: 42%;
+  }
+  #AboutIITR_image {
+    max-width: 42%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #AboutIITR {
+    padding: 0 1rem;
+  }
+
+  #AboutIITR_content {
+    min-width: 0;
+    max-width: 80%;
+    width: 100%;
+  }
+  #AboutIITR_image {
+    min-width: 0;
+    max-width: 80%;
+  }
+  #AboutIITR_image > img {
+    position: relative;
+    min-width: 0;
+    max-width: 100%;
+  }
+}

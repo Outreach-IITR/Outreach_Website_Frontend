@@ -1,0 +1,91 @@
+#aboutus {
+  box-sizing: border-box;
+  margin-top: 7rem;
+  padding: 0 5.625rem;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#aboutus_content {
+  box-sizing: border-box;
+  position: relative;
+  min-height: fit-content;
+  width: 36rem;
+  margin-right: 3rem;
+}
+
+#aboutus_content_data {
+  box-sizing: border-box;
+  position: relative;
+  font-family: "SF UI Text", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 131%;
+  letter-spacing: 0.05em;
+  color: #3f3f3f;
+}
+
+#aboutus_heading {
+  position: relative;
+  margin-bottom: 1.25rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  color: #f96508;
+}
+
+#aboutus_image {
+  position: relative;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#aboutus_image img {
+  position: relative;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  #aboutus_content {
+    min-width: 28rem;
+    max-width: 40%;
+    margin-right: 0;
+  }
+  #aboutus_image {
+    min-width: 28rem;
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 942px) {
+  #aboutus {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #aboutus {
+    padding: 0 1rem;
+  }
+
+  #aboutus_content {
+    min-width: 0;
+    max-width: 80%;
+    width: 100%;
+  }
+  #aboutus_image {
+    min-width: 0;
+    max-width: 80%;
+  }
+  #aboutus_image > img {
+    position: relative;
+    min-width: 0;
+    max-width: 100%;
+  }
+}

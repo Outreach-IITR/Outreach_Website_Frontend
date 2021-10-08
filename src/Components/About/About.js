@@ -1,15 +1,14 @@
-import React, {Component} from 'react';
+import React, { Component } from "react";
 
-
+import OurTeam from "./OurTeam";
 
 class App extends Component {
-
-  render(){
-    return(
+  render() {
+    return (
       <div>
-          This is the about page
+        <OurTeam />
       </div>
-    )
+    );
   }
 }
 

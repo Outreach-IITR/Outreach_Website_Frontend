@@ -1,0 +1,49 @@
+.TeamTemplate {
+  display: grid;
+  position: relative;
+  padding: 0 4rem;
+  margin-top: 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  column-gap: auto;
+  row-gap: 2vw;
+  text-align: center;
+  justify-items: center;
+}
+
+.TeamTemplate__ImgCard {
+  position: relative;
+  width: fit-content;
+  overflow: hidden;
+  background: #f1f1f1;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  color: #3f3f3f;
+}
+
+.TeamTemplate__ImgCard img {
+  width: 15rem;
+  height: 12.6rem;
+}
+
+.TeamTemplate__ImgCard:hover {
+  background-color: var(--hover_color);
+  color: #fdfdff;
+}
+
+.TeamTemplate__MemberName {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  margin: 0.8rem 0 0 0;
+}
+
+.TeamTemplate__MemberPost {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  margin: 0.5rem 0;
+}

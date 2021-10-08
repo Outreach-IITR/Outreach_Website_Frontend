@@ -25,9 +25,9 @@ const NavbarFix = () => {
 
         return (
             <nav className={navbar}>
-                <div className="logo">
+                <a href ='/' className="logo">
                     <img alt="img" src={logo} />
-                </div>
+                </a>
 
                 <div className= {showList ? "mobile-menu-link" : "menu-link"}>
                     <ul className="menu-link-ul">

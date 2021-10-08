@@ -6,7 +6,7 @@ const AboutOutreach = () => {
   return (
     <div id="AboutIITR">
       <div id="AboutIITR_image">
-        <img alt="IITR image" src={AboutIITR_Img} />
+        <img alt="IITR_image" src={AboutIITR_Img} />
       </div>
       <div id="AboutIITR_content">
         <div id="AboutIITR_heading">

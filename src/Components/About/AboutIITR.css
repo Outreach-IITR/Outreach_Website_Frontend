@@ -1,4 +1,4 @@
-#aboutus {
+#AboutIITR {
   box-sizing: border-box;
   margin-top: 7rem;
   padding: 0 5.625rem;
@@ -6,18 +6,18 @@
   position: relative;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
-#aboutus_content {
+#AboutIITR_content {
   box-sizing: border-box;
   position: relative;
   min-height: fit-content;
-  width: 36rem;
-  margin-right: 3rem;
+  width: 39rem;
+  margin-left: 3rem;
 }
 
-#aboutus_content_data {
+#AboutIITR_content_data {
   box-sizing: border-box;
   position: relative;
   font-family: "SF UI Text", sans-serif;
@@ -29,7 +29,7 @@
   color: #3f3f3f;
 }
 
-#aboutus_heading {
+#AboutIITR_heading {
   position: relative;
   margin-bottom: 1.25rem;
   font-family: Montserrat;
@@ -37,53 +37,65 @@
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 2.75rem;
-  color: #f96508;
+  color: #026ba1;
 }
 
-#aboutus_image {
+#AboutIITR_image {
   position: relative;
-  margin-top: 1rem;
   text-align: center;
 }
 
-#aboutus_image img {
+#AboutIITR_image img {
   position: relative;
-  max-width: 100%;
+  width: 40.546;
 }
 
-@media screen and (max-width: 1300px) {
-  #aboutus_content {
-    min-width: 28rem;
-    max-width: 40%;
-    margin-right: 0;
+@media screen and (max-width: 1400px) {
+  #AboutIITR {
+    align-items: center;
   }
-  #aboutus_image {
-    min-width: 28rem;
+  #AboutIITR_content {
+    min-width: 27rem;
     max-width: 40%;
+  }
+  #AboutIITR_image {
+    min-width: 26rem;
+    max-width: 50%;
+  }
+  #AboutIITR_image img {
+    position: relative;
+    max-width: 100%;
   }
 }
 
-@media screen and (max-width: 942px) {
-  #aboutus {
+@media screen and (max-width: 984px) {
+  #AboutIITR {
     justify-content: center;
+  }
+  #AboutIITR_content {
+    margin-top: 1rem;
+    max-width: 42%;
+  }
+  #AboutIITR_image {
+    max-width: 42%;
   }
 }
 
 @media screen and (max-width: 470px) {
-  #aboutus {
+  #AboutIITR {
     padding: 0 1rem;
   }
 
-  #aboutus_content {
+  #AboutIITR_content {
     min-width: 0;
     max-width: 80%;
     width: 100%;
   }
-  #aboutus_image {
+  #AboutIITR_image {
     min-width: 0;
     max-width: 80%;
   }
-  #aboutus_image > img {
+  #AboutIITR_image > img {
     position: relative;
     min-width: 0;
     max-width: 100%;

@@ -1,6 +1,6 @@
 #AboutIITR {
   box-sizing: border-box;
-  margin-top: 10rem;
+  margin-top: 7rem;
   padding: 0 5.625rem;
   display: flex;
   position: relative;
@@ -75,6 +75,7 @@
   #AboutIITR_content {
     margin-top: 1rem;
     max-width: 42%;
+    margin-left: 0;
   }
   #AboutIITR_image {
     max-width: 42%;

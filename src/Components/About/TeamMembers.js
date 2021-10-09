@@ -3,7 +3,7 @@ import image2 from "./Assets/test_boy.png";
 
 const Secretaries = [
   {
-    name: "SName1",
+    name: "Chris Hemsworth",
     image: image1,
   },
   {

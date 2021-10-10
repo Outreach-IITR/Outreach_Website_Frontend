@@ -5,12 +5,15 @@ import aboutusimg from "./Assets/AboutOutreach_Img.png";
 
 const AboutOutreach = () => {
   return (
-    <div id="aboutus">
-      <div id="aboutus_content">
-        <div id="aboutus_heading">
+    <div id="AboutOutreach">
+      <h1 id="AboutOutreach_heading" className="MobileView">
+        About IIT Roorkee
+      </h1>
+      <div id="AboutOutreach_content">
+        <div id="AboutOutreach_heading">
           <h1>About Outreach</h1>
         </div>
-        <div id="aboutus_content_data">
+        <div id="AboutOutreach_content_data">
           <p>
             Located in the banks of the Ganga canal in the foothills of the
             Himalayas, IIT Roorkee is one of the most prestigious institutes of
@@ -32,8 +35,8 @@ const AboutOutreach = () => {
           </p>
         </div>
       </div>
-      <div id="aboutus_image">
-        <img alt="aboutus" src={aboutusimg} />
+      <div id="AboutOutreach_image">
+        <img alt="About Outreach" src={aboutusimg} />
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import AboutIITR from "./AboutIITR";
 import AboutOutreach from "./AboutOutreach";
 import OurTeam from "./OurTeam";
-import NavbarFix from "../NavbarFix/NavbarFix"
+import NavbarFix from "../NavbarFix/NavbarFix";
 
 class App extends Component {
   render() {

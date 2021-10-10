@@ -1,9 +1,10 @@
+//*************Created By Rahul Modi*************
 import image1 from "./Assets/test_girl.png";
 import image2 from "./Assets/test_boy.png";
 
 const Secretaries = [
   {
-    name: "SName1",
+    name: "Chris Hemsworth",
     image: image1,
   },
   {

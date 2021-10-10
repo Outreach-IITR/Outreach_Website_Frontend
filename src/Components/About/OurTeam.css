@@ -26,10 +26,6 @@
   justify-content: center;
   align-items: center;
   column-gap: 0.5rem;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.5rem;
-  line-height: 1.8;
   color: #feba10;
 }
 
@@ -38,6 +34,10 @@
   padding: 0;
   margin: 0;
   font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8;
 }
 
 .vertical__list {
@@ -73,10 +73,24 @@
 }
 
 @media screen and (max-width: 600px) {
+  .OurTeam__heading {
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+  }
+
+  .OurTeam__subheading h3 {
+    font-size: 0.688rem;
+    line-height: 0.813rem;
+    letter-spacing: -0.02em;
+  }
+
   .vertical__list {
     margin-top: 1rem;
     flex-direction: column;
     align-items: center;
-    row-gap: 0.8rem;
+    row-gap: 0.4rem;
+  }
+  .vertical__list > li {
+    font-size: 0.688rem;
   }
 }

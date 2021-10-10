@@ -60,6 +60,7 @@
   }
   .TeamTemplate__ImgCard {
     border-radius: 10%;
+    max-width: 100%;
   }
   .TeamTemplate__ImgCard img {
     position: relative;
@@ -70,6 +71,10 @@
 }
 
 @media screen and (max-width: 700px) {
+  .TeamTemplate {
+    margin-top: 1rem;
+  }
+
   .TeamTemplate__MemberName {
     font-size: 0.6rem;
     line-height: 0.688rem;

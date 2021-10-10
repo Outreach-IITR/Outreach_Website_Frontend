@@ -5,13 +5,14 @@ import AboutIITR_Img from "./Assets/AboutIITR_Img.png";
 const AboutOutreach = () => {
   return (
     <div id="AboutIITR">
+      <h1 id="AboutIITR_heading" className="MobileView">
+        About IIT Roorkee
+      </h1>
       <div id="AboutIITR_image">
-        <img alt="IITR image" src={AboutIITR_Img} />
+        <img alt="About IITR" src={AboutIITR_Img} />
       </div>
       <div id="AboutIITR_content">
-        <div id="AboutIITR_heading">
-          <h1>About IIT Roorkee</h1>
-        </div>
+        <h1 id="AboutIITR_heading">About IIT Roorkee</h1>
         <div id="AboutIITR_content_data">
           <p>
             Located in the banks of the Ganga canal in the foothills of the

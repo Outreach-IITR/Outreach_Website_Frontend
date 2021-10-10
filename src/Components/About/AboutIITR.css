@@ -75,14 +75,14 @@
 
   #AboutIITR_image {
     justify-self: center;
-    max-width: 50%;
+    max-width: 60%;
   }
 
   #AboutIITR_content {
     box-sizing: border-box;
     grid-row: 3;
     justify-self: center;
-    max-width: 60%;
+    max-width: 59%;
     margin-top: 2.563rem;
   }
 }

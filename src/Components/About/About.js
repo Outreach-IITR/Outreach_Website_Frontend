@@ -7,12 +7,14 @@ import NavbarFix from "../NavbarFix/NavbarFix";
 class App extends Component {
   render() {
     return (
-      <div>
-        <NavbarFix />
+      <>
+      <NavbarFix />
+      <div>        
         <AboutIITR />
         <AboutOutreach />
         <OurTeam />
       </div>
+      </>
     );
   }
 }

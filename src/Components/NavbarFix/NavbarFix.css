@@ -5,7 +5,7 @@
     padding-bottom: 1rem;
     grid-template-columns: 3rem 1fr 2fr 1fr 3rem;
     position:fixed;
-    margin-top:-10.8rem;
+    top: 0;
 }
 .main-nav-fix {
     display: grid;
@@ -18,7 +18,7 @@
     background-color:white;
     opacity:1;
     box-shadow: 0rem 0.20rem 0.6rem -0.4rem #333333;
-    margin-top:-10rem;
+    top: 0;
 }
 
 .logo {

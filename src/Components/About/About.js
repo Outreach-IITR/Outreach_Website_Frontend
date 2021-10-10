@@ -6,7 +6,7 @@ import NavbarFix from "../NavbarFix/NavbarFix";
 import down from "./Assets/down.svg";
 import "./About.css";
 
-class App extends Component {
+class About extends Component {
   render() {
     return (
       <div>
@@ -35,4 +35,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default About;

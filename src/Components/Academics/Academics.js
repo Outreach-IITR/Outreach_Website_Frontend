@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import DepartmentName from "./DepartmentName";
 
 
 class Academics extends Component {
   render() {
     return (
       <div>
-          This is the academics page
+          <DepartmentName />
       </div>
     );
   }

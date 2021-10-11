@@ -1,4 +1,4 @@
-import Carousel1 from "./Assets/carousel1.png";
+import Carousel1 from "../Crousel/Assets/carousel1.png";
 // import Carousel2 from "./WhyIITR/Assets/WhyIITR_1.png";
 // import Carousel2 from '../WhyIITR/Assets/WhyIITR_1.png'
 

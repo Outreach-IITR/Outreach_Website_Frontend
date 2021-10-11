@@ -1,13 +1,14 @@
 //*************Created By Rahul Modi*************
 import React, { useState, useEffect, useCallback } from "react";
-import "./AcadPageCarousel.css";
+import "./Carousel.css";
 
-import { slides } from "./AcadCarouselData";
+// import { slides } from "./AcadCarouselData";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 AOS.init();
 
-const AcadPageCarousel = () => {
+const Crousel = (props) => {
+  let slides = props.slides;
   const [current, setCurrent] = useState(2);
   const length = slides.length;
 
@@ -47,11 +48,10 @@ const AcadPageCarousel = () => {
         {slides.map((img, indx) => {
           return (
             <div
-              className={`slide ${indx === current ? "active " : ""}${
-                (indx < current && `prevImg${current - indx}`) ||
+              className={`slide ${indx === current ? "active " : ""}${(indx < current && `prevImg${current - indx}`) ||
                 (indx > current && `nextImg${indx - current}`) ||
                 (indx === current && "currentImg")
-              }`}
+                }`}
               key={indx}
             >
               <img src={img.image} alt="travel" className={`Img`} />
@@ -71,7 +71,8 @@ const AcadPageCarousel = () => {
         return (
           indx === current && (
             <div key={indx} className="img__descp">
-              {img.description}
+              {/* {img.description} */}
+              {/* {props.} */}
             </div>
           )
         );
@@ -80,4 +81,4 @@ const AcadPageCarousel = () => {
   );
 };
 
-export default AcadPageCarousel;
+export default Crousel;

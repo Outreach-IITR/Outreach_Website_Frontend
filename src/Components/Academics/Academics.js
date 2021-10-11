@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar";
 import Departments from "./Departments";
-import DepartmentName from "./DepartmentName";
-
 
 class Academics extends Component {
   render() {
@@ -11,7 +9,7 @@ class Academics extends Component {
         <Navbar />
         This is the academics page
         <Departments />
-          <DepartmentName />
+        {/* <DepartmentName /> */}
       </div>
     );
   }

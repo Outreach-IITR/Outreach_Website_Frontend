@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Group from './assets/Group.svg'
-import Group2 from './assets/Group2.svg'
+import Group from './Assets/Group.svg'
+import Group2 from './Assets/Group2.svg'
 import './minors.css'
 class Minors extends Component {
     render() {

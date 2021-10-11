@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
-.container {
+.accordion_segment_container {
   margin-right: 4%;
 }
 
 
-h2{
+.accordion_segment_header{
   text-align: center;
   height: 41px; 
   font-family: Montserrat;
@@ -18,13 +18,16 @@ h2{
 }
 
 .content_box{
+  display: flex;
+  flex-direction: row;
   margin-left: 6%;
   height: 500px;
 }
 
 
 .accordion{
-    max-width: 500px;
+    /* max-width: 500px; */
+    flex: 80%;
     overflow: hidden;
     float: left;
 }
@@ -39,7 +42,7 @@ h2{
     position: relative;
 }
 
-ul:hover{
+.accordion_segment_section:hover{
     color: #F96508;
     cursor: pointer;
 }
@@ -48,7 +51,7 @@ input[type = checkbox]:checked + label {
    color: #F96508;
 }
 
-ul{
+.accordion_segment_section{
   position: static;
   width: 700px;
   height: 17px;
@@ -90,9 +93,24 @@ margin-top: 40px;
 }
 
 .image_box{
+  flex: 40%;
   position: relative;
-  float: right;
+  /* float: right; */
   margin-top: 34.3px;
   margin-right: 50px;
 };
+
+@media (max-width: 1000px) {
+
+  .content_box{
+    flex-direction: column;
+  }
+
+  /* .accordion, .image_box {
+    flex: 100%;
+  }
+  .image_box{
+    position: absolute;
+  } */
+}
 

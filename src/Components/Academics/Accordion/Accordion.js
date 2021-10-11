@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Accordion.css";
-import myimage from "./Assets/myimage.png"
+import ScholarshipImage from "./Assets/scholarshipImage.png"
 
 function Accordion_segment() {
   return (
@@ -102,7 +102,7 @@ function Accordion_segment() {
         </div>
 
         <div className="image_box">
-          <img src={myimage} alt="myimage" height="400" />
+          <img src={ScholarshipImage} alt="ScholarshipImage" height="400" />
         </div>
       </div>
     </div>

@@ -1,21 +1,24 @@
 #aboutbg {
-  margin: 7rem auto;
   background: url("./Assets/bg1.svg");
+  margin-right: auto;
+  margin-left: auto;
+
   height: 31rem;
-  max-width: 90%;
+  width: 82.5rem;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   border-radius: 1.25rem;
-  background-size: cover;
+  background-size: 82.5rem 31rem;
 }
 #about_data {
-  position: relative;
-  /* margin-top: 6rem; */
+  /* position: relative; */
+  margin-top: 6.5rem;
   /* overflow: auto; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
+  height: 31rem;
 }
 
 #about_us_head_tag {

@@ -19,9 +19,7 @@ const HomePageCarousel = () => {
     <div id="SecondSection">
       <div
         id="SecondSectionImage"
-        data-aos="fade-right"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine"
+        
       >
         <img alt="img" className="WhyIITR__Img WhyIITR__Img2" src={WhyIITR_2} />
         <img alt="img" className="WhyIITR__Img3" src={WhyIITR_3} />
@@ -29,9 +27,8 @@ const HomePageCarousel = () => {
       </div>
       <div
         id="SecondSectionContent"
-        data-aos="fade-left"
-        data-aos-offset="200"
-        data-aos-easing="ease-in-sine"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         <p>Know more about IITR before deciding</p>
         <h1>Why IIT Roorkee ?</h1>

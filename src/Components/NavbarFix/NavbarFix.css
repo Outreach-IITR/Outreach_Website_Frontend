@@ -7,7 +7,7 @@
   position: fixed;
   top: 0;
   background-color: white;
-  z-index: 1008;
+  
 }
 .main-nav-fix {
   display: grid;
@@ -42,7 +42,7 @@
 .menu-link ul {
   height: 4rem;
   display: flex;
-  font-size: medium;
+  
   font-weight: bold;
   list-style-type: none;
   justify-content: space-around;
@@ -63,7 +63,8 @@
 
 .Discussion-forum-button {
   background-color: #f96508;
-  padding: 0.7rem 2rem;
+  /* padding: 0.7rem 2rem; */
+  margin-left: 10rem;
   border: none;
   color: white;
   font-weight: bold;

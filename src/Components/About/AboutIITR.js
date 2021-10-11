@@ -11,7 +11,7 @@ const AboutOutreach = () => {
       <div id="AboutIITR_image">
         <img alt="About IITR" src={AboutIITR_Img} />
       </div>
-      <div id="AboutIITR_content">
+      <div id="AboutIITR_content" >
         <h1 id="AboutIITR_heading">About IIT Roorkee</h1>
         <div id="AboutIITR_content_data">
           <p>

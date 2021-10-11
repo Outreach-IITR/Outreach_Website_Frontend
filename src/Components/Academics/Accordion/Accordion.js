@@ -71,6 +71,7 @@ function Accordion_segment() {
             <div className="accordion_content">
               <p>lorem psum dolor sit amet</p>
               <a href="/">Know more...</a>
+              
             </div>
           </div>
 

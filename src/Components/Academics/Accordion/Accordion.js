@@ -94,7 +94,7 @@ function Accordion_segment() {
                 <li>Aditya Birla Scholarship</li>
               </ul>
             </label>
-            <div className="accordion_content">
+            <div className="accordion_content accordion_last_section">
               <p>lorem psum dolor sit amet</p>
               <a href="/">Know more...</a>
             </div>

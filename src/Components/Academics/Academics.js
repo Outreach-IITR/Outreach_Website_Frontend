@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import Minors from "./Minors";
 
 
 class Academics extends Component {
   render() {
     return (
       <div>
-          This is the academics page
+          <Minors />
       </div>
     );
   }

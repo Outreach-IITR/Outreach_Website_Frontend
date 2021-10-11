@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import NavbarFix from "../Navbar/Navbar";
 import Departments from "./Departments";
+import Minors from "./Minors";
+
 
 class Academics extends Component {
   render() {
@@ -9,6 +11,7 @@ class Academics extends Component {
         <NavbarFix />
         <Departments />
         {/* <DepartmentName /> */}
+        <Minors />
       </div>
     );
   }

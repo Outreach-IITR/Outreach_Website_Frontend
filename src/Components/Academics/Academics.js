@@ -8,6 +8,7 @@ class Academics extends Component {
       <div>
           This is the academics page
         <Accordion_segment />
+        
       </div>
       
     );

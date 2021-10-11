@@ -21,12 +21,17 @@
 
 #join_button{
     cursor: pointer;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 0.75rem;
+line-height: 0.9375rem;
+letter-spacing: -0.02em;
 }
 
 .menu-link ul {
     height: 4rem;
     display: flex;
-    font-size: medium;
     font-weight: bold;
     list-style-type:none;
     justify-content: space-around;
@@ -41,7 +46,7 @@
 .Discussion-forum {
     display: grid;
     grid-column: 4/5;
-    justify-content: center;
+    justify-content: right;
     align-items: center; 
 }
 

@@ -1,21 +1,23 @@
 #aboutbg {
-  margin: 7rem auto;
   background: url("./Assets/bg1.svg");
+  margin-left: auto;
+  margin-right: auto;
   height: 31rem;
-  max-width: 90%;
+  width: 89.6vw ;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   border-radius: 1.25rem;
-  background-size: cover;
+  background-size: 89.6vw 31rem;
 }
 #about_data {
-  position: relative;
-  /* margin-top: 6rem; */
+  /* position: relative; */
+  margin-top: 6.3rem;
   /* overflow: auto; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
+  height: 31rem;
 }
 
 #about_us_head_tag {
@@ -64,18 +66,21 @@
 
 @media screen and (max-width: 900px) {
   #aboutbg {
-    margin: 7rem 0;
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
+    margin-top: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 100vw;
+    /* height: 150vw; */
     border-radius: 0;
-    aspect-ratio: 426.53 / 248;
     background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-position-x:center;
+    background-position-y:0;
+    background-size: 100vw 80vw;
+    
   }
   #about_data {
-    height: 100%;
+    height: 50vw;
     background: transparent;
   }
   #about_us_head_downsign img {
@@ -85,17 +90,31 @@
 
 @media screen and (max-width: 550px) {
   #aboutbg {
-    background-repeat: no-repeat;
     background: url("./Assets/bg2.svg");
-    max-width: 100%;
+    /* padding-top: 5rem; */
+    margin-top: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    /* height: 10rem; */
+    background-repeat: no-repeat;
+    
+    width: 100vw;
+    height: 15rem;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 100vw 100vw;
+    background-position-x: center;
+    background-position-y: 0;
+  }
+  #about_data{
+    height: 10rem;
+    padding-top: 4rem;
   }
   #about_us_head_tag h1 {
     font-size: 1.477rem;
     line-height: 1.813rem;
+    /* color: black; */
   }
   #about_us_head_downsign img {
     display: none;
@@ -104,5 +123,6 @@
   #about_us_head_data p {
     font-size: 0.25rem;
     line-height: 0.25px;
+    /* color: black; */
   }
 }

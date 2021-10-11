@@ -1,5 +1,5 @@
 //*************Created By Akshit Gupta*************
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./Departments.css";
 import list from "./departmentInfo";
 import { departmentinfo } from "./DepartmentName";
@@ -12,6 +12,7 @@ const Departments = () => {
   const [background, setBackground] = useState("");
   const [clickBackground, setClickBackground] = useState("");
   const [id, setId] = useState("");
+  const myRef = useRef();
   const backgroundColor_List = ["#feba10", "#f96508", "#06ca3d", "#026ba1"];
 
   const OnHoverHandler = () => {
@@ -25,6 +26,8 @@ const Departments = () => {
   const handleSelection = (index) => {
     setId(index);
     setClickBackground(background);
+    console.log(myRef.current)
+    myRef.current.scrollIntoView();
   };
 
   return (
@@ -51,7 +54,7 @@ const Departments = () => {
       </div>
       {id !== "" ? (
         <>
-          <div className="crouselDep">
+          <div className="crouselDep" ref={myRef} id="dep">
             <h1>{departmentinfo[id].name}</h1>
             <Crousel slides={slides} />
             <div className="imgDescription_Dep">

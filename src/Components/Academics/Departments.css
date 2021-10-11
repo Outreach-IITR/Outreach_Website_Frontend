@@ -16,6 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #3F3F3F;
 }
 
 .cardD>p {
@@ -28,7 +29,7 @@
   line-height: 22px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #3F3F3F;
+  color: inherit;
 }
 
 h1 {
@@ -45,4 +46,10 @@ h1 {
   color: #06CA3D;
   height: 57px;
   margin-bottom: 43px;
+}
+
+.cardD:hover {
+  cursor: pointer;
+  background-color: var(--hover_color);
+  color: #fdfdff !important;
 }

@@ -1,13 +1,13 @@
 //*************Created By Rahul Modi*************
 import React, { useState, useEffect, useCallback } from "react";
-import "./HomePageCarousel.css";
+import "./AcadPageCarousel.css";
 
-import { slides } from "./CarouselData";
-// import AOS from "aos";
-// import "aos/dist/aos.css"; // You can also use <link> for styles
-// AOS.init();
+import { slides } from "./AcadCarouselData";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+AOS.init();
 
-const HomePageCarousel = () => {
+const AcadPageCarousel = () => {
   const [current, setCurrent] = useState(2);
   const length = slides.length;
 
@@ -37,10 +37,10 @@ const HomePageCarousel = () => {
       data-aos-offset="200"
       data-aos-easing="ease-in-sine"
     >
-      <div className="Carousel__Title">
+      {/* <div className="Carousel__Title">
         <h3>IIT Roorkee at a Glance</h3>
         <p>Dont just take our word, see yourself</p>
-      </div>
+      </div> */}
 
       <section className="slider">
         <i className="large angle left icon left-arrow" onClick={prevSlide} />
@@ -80,4 +80,4 @@ const HomePageCarousel = () => {
   );
 };
 
-export default HomePageCarousel;
+export default AcadPageCarousel;

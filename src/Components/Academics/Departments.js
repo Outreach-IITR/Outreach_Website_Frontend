@@ -1,30 +1,19 @@
-import React from "react";
+//*************Created By Akshit Gupta*************
+import React, { useState } from "react";
 import "./Departments.css";
+import list from "./departmentInfo";
 
 const Departments = () => {
-  const list = [
-    { dep: "Architecture & Planning" },
-    { dep: "Biosciences and Bioengineering" },
-    { dep: "Chemical Engineering" },
-    { dep: "Chemistry" },
-    { dep: "Civil Engineering" },
-    { dep: "Computer Science and Engineering" },
-    { dep: "Design" },
-    { dep: "Earthquake Engineering" },
-    { dep: "Earth Sciences" },
-    { dep: "Electrical Engineering" },
-    { dep: "Electronics and communication engineering" },
-    { dep: "Humanities and Social sciences" },
-    { dep: "Hydrology" },
-    { dep: "Hydro and Renewable energy" },
-    { dep: "Management studies" },
-    { dep: "Mathematics" },
-    { dep: "Mechanics and Industrial Engineering" },
-    { dep: "Metallurgical and Materials Engineering" },
-    { dep: "Paper Technology" },
-    { dep: "Physics" },
-    { dep: "WaterResource Department and Management" },
-  ];
+  const [background, setBackground] = useState("");
+  const backgroundColor_List = ["#feba10", "#f96508", "#06ca3d", "#026ba1"];
+
+  const OnHoverHandler = () => {
+    let indx;
+    do {
+      indx = Math.floor(4 * Math.random());
+    } while (background === backgroundColor_List[indx]);
+    setBackground(backgroundColor_List[indx]);
+  };
 
   return (
     <>
@@ -33,7 +22,12 @@ const Departments = () => {
         {list.map((data, idx) => {
           return (
             <>
-              <div className="cardD">
+              <div
+                className="cardD"
+                key={list.id}
+                onMouseEnter={OnHoverHandler}
+                style={{ "--hover_color": background }}
+              >
                 <p>{data.dep}</p>
               </div>
             </>

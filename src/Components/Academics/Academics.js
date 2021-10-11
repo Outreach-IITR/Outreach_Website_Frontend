@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Accordion_segment from "./Accordion/Accordion";
 
 
 class Academics extends Component {
@@ -6,7 +7,9 @@ class Academics extends Component {
     return (
       <div>
           This is the academics page
+        <Accordion_segment />
       </div>
+      
     );
   }
 }

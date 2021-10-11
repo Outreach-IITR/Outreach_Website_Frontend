@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+.container {
+  margin-right: 4%;
+}
+
+
+h2{
+  text-align: center;
+  height: 41px; 
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FEBA10;
+  
+}
+
+.content_box{
+  margin-left: 6%;
+  height: 500px;
+}
+
+
+.accordion{
+    max-width: 500px;
+    overflow: hidden;
+    float: left;
+}
+
+.accordion_content{
+    padding-left: 50px;
+}
+
+.accordion_label{
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+
+ul:hover{
+    color: #F96508;
+    cursor: pointer;
+}
+
+input[type = checkbox]:checked + label {
+   color: #F96508;
+}
+
+ul{
+  position: static;
+  width: 700px;
+  height: 17px;
+  left: 0px;
+  top: 0px;
+
+/* Heading 3 */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+letter-spacing: 0.04em;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-top: 40px;
+}
+
+
+.accordion_content{
+    background: white;
+    line-height: 1;
+    font-size: 0.85em;
+    display: none;
+}
+
+.accordion_input{
+    display: none;
+}
+
+.accordion_input:checked ~ .accordion_content{
+    display: block;
+}
+
+.image_box{
+  position: relative;
+  float: right;
+  margin-top: 34.3px;
+  margin-right: 50px;
+};
+

@@ -1,0 +1,48 @@
+.containerD {
+  width: 80%;
+  margin: 0px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardD {
+  margin: 20px;
+  background: #FDFDFF;
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  width: 230px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardD>p {
+  width: 182px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #3F3F3F;
+}
+
+h1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #06CA3D;
+  height: 57px;
+  margin-bottom: 43px;
+}

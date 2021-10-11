@@ -16,7 +16,7 @@ const Navbar = () => {
                             <a href="/about" className="menu-item">About</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="/" className="menu-item">Academics</a>
+                            <a href="/academics" className="menu-item">Academics</a>
                         </li>
                         <li className="menu-link-item">
                             <a href="/" className="menu-item">Achievements</a>

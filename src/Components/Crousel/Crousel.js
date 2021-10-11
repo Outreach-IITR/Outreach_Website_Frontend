@@ -3,9 +3,6 @@ import React, { useState, useEffect, useCallback } from "react";
 import "./Carousel.css";
 
 // import { slides } from "./AcadCarouselData";
-import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-AOS.init();
 
 const Crousel = (props) => {
   let slides = props.slides;
@@ -32,26 +29,17 @@ const Crousel = (props) => {
   }
 
   return (
-    <div
-      className="Carousel"
-      data-aos="fade"
-      data-aos-offset="200"
-      data-aos-easing="ease-in-sine"
-    >
-      {/* <div className="Carousel__Title">
-        <h3>IIT Roorkee at a Glance</h3>
-        <p>Dont just take our word, see yourself</p>
-      </div> */}
-
+    <div className="Carousel">
       <section className="slider">
         <i className="large angle left icon left-arrow" onClick={prevSlide} />
         {slides.map((img, indx) => {
           return (
             <div
-              className={`slide ${indx === current ? "active " : ""}${(indx < current && `prevImg${current - indx}`) ||
+              className={`slide ${indx === current ? "active " : ""}${
+                (indx < current && `prevImg${current - indx}`) ||
                 (indx > current && `nextImg${indx - current}`) ||
                 (indx === current && "currentImg")
-                }`}
+              }`}
               key={indx}
             >
               <img src={img.image} alt="travel" className={`Img`} />

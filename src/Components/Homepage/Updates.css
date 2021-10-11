@@ -4,6 +4,9 @@
     overflow-x: hidden;
 } */
 
+ul {
+    padding-inline-start: 1.125rem;
+}
 
 #updatessection{
     display: flex;

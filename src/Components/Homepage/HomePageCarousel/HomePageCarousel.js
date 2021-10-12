@@ -1,16 +1,16 @@
 //*************Created By Rahul Modi*************
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import "./HomePageCarousel.css";
 
 import { slides } from "./CarouselData";
-// import AOS from "aos";
-// import "aos/dist/aos.css"; // You can also use <link> for styles
-// AOS.init();
+import LeftArrow from "./Assets/LeftArrow.svg";
+import RightArrow from "./Assets/RightArrow.svg";
 
 const HomePageCarousel = () => {
   const [current, setCurrent] = useState(2);
   const length = slides.length;
 
+  //Functions to change slides
   const nextSlide = useCallback(() => {
     setCurrent(current === length - 1 ? 0 : current + 1);
   }, [current, length]);
@@ -19,13 +19,14 @@ const HomePageCarousel = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  useEffect(() => {
-    const timer = setTimeout(() => nextSlide(), 3000);
-    return () => {
-      clearTimeout(timer);
-    };
-  }, [current, nextSlide]);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => nextSlide(), 3000);
+  //   return () => {
+  //     clearTimeout(timer);
+  //   };
+  // }, [current, nextSlide]);
 
+  //to check passed variable is an array and is not empty
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
@@ -43,7 +44,13 @@ const HomePageCarousel = () => {
       </div>
 
       <section className="slider">
-        <i className="large angle left icon left-arrow" onClick={prevSlide} />
+        <img
+          className="left-arrow"
+          src={LeftArrow}
+          alt="left control"
+          onClick={prevSlide}
+        />
+        {/* To show each slide */}
         {slides.map((img, indx) => {
           return (
             <div
@@ -54,18 +61,23 @@ const HomePageCarousel = () => {
               }`}
               key={indx}
             >
-              <img src={img.image} alt="travel" className={`Img`} />
-
-              <div className="gradient" />
-              {indx === current && (
-                <>
-                  <p className="img__caption">{img.caption}</p>
-                </>
-              )}
+              {/* Giving each slide a class wrt to its position from current slide */}
+              <iframe
+                className="Img"
+                src={img.video}
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+              ></iframe>
             </div>
           );
         })}
-        <i className="large angle right icon right-arrow" onClick={nextSlide} />
+        <img
+          className="right-arrow"
+          src={RightArrow}
+          alt="right control"
+          onClick={nextSlide}
+        />
       </section>
       {slides.map((img, indx) => {
         return (

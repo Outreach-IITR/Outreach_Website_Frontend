@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Group from './assets/Group.svg'
-import Group2 from './assets/Group2.svg'
+import Group from './assets/Group.png'
+import Group2 from './assets/Group2.png'
 import './minors.css'
 class Minors extends Component {
     render() {
@@ -33,12 +33,17 @@ class Minors extends Component {
                             minor specialization aptly<br /> mentioned on their degree they receive upon graduation.
                         </p>
                     </div>
+                    <div className="minors_img">
+                        
                     <img src={Group} />
+                        
+                    </div>
+                    
                 </div>
                 <div id="r2">
                     <div className="lcont">
                         <h3>Departmental Honours</h3>
-                        <p>
+                        <p >
                             The basic structure of Departmental Honours is similar to Minor Specialization.<br />
                             Students with interests in their own department and having a CGPA greater than<br /> 7.5
                             can take 4-5 extra courses from their department and pass out with an <br />Honours degree.
@@ -48,7 +53,9 @@ class Minors extends Component {
                             mentioned in his degree.
                         </p>
                     </div>
+                    <div className="minors_img">
                     <img src={Group2} />
+                    </div>
                 </div>
                 <div id="r3">
                     <h3>Switching to an Integrated Dual Degree Program(IDD) from BTech Program</h3>

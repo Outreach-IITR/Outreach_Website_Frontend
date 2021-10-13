@@ -33,7 +33,7 @@ class Minors extends Component {
                             minor specialization aptly<br /> mentioned on their degree they receive upon graduation.
                         </p>
                     </div>
-                    <img src={Group} />
+                    <img alt="img" src={Group} />
                 </div>
                 <div id="r2">
                     <div className="lcont">
@@ -48,7 +48,7 @@ class Minors extends Component {
                             mentioned in his degree.
                         </p>
                     </div>
-                    <img src={Group2} />
+                    <img alt="img" src={Group2} />
                 </div>
                 <div id="r3">
                     <h3>Switching to an Integrated Dual Degree Program(IDD) from BTech Program</h3>

@@ -26,7 +26,7 @@ const Departments = () => {
   const handleSelection = (index) => {
     setId(index);
     setClickBackground(background);
-    console.log(myRef.current)
+    console.log(myRef.current);
     myRef.current.scrollIntoView();
   };
 
@@ -52,9 +52,14 @@ const Departments = () => {
           );
         })}
       </div>
-      {id !== "" ? (
-        <>
-          <div className="crouselDep" ref={myRef} id="dep">
+      <div ref={myRef}></div>
+      <div
+        className="crouselDep"
+        id="dep"
+        style={{ visibility: `${id === "" ? "hidden" : ""}` }}
+      >
+        {id !== "" ? (
+          <>
             <h1>{departmentinfo[id].name}</h1>
             <Crousel slides={slides} />
             <div className="imgDescription_Dep">
@@ -79,9 +84,9 @@ const Departments = () => {
                 <button>Placement Statistics</button>
               </div>
             </div>
-          </div>
-        </>
-      ) : null}
+          </>
+        ) : null}
+      </div>
     </>
   );
 };

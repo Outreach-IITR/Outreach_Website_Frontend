@@ -32,7 +32,7 @@ const Departments = () => {
 
   return (
     <>
-      <h1>Departments</h1>
+      <h1 id="Departments_heading">Departments</h1>
       <div className="containerD">
         {list.map((data, idx) => {
           return (
@@ -60,7 +60,7 @@ const Departments = () => {
       >
         {id !== "" ? (
           <>
-            <h1>{departmentinfo[id].name}</h1>
+            <h1 id="Departments_heading">{departmentinfo[id].name}</h1>
             <Crousel slides={slides} />
             <div className="imgDescription_Dep">
               <p>{departmentinfo[id].info1}</p>

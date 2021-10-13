@@ -84,11 +84,12 @@ letter-spacing: 0.05em;
         justify-content: center;
         padding-top: 5%;
         padding-right: 0rem;
+        margin-left: 2.5rem;
         /* padding-right: 10%; */
     }
         #updates_image img{
             
-            max-width: 25rem;
+            max-width: 90%;
         }
-        
+        #data-aos{animation-duration:0;}
 }

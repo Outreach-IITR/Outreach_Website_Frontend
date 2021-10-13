@@ -257,7 +257,9 @@
     #Blogsection{
         display: flex;
         flex-flow: column;
+        justify-content: center;
         padding-bottom: 20rem;
+        /* margin-left: 3rem; */
     }
     
     #Blog_first_section{
@@ -272,7 +274,7 @@
     #Blog_first_section p{
         width: 100%;
         height: 0;
-        margin-bottom: 2rem;
+        margin-bottom: 10%;
         font-size: 1rem;
     }
     #Blogboxes{
@@ -281,27 +283,29 @@
         flex-flow: column;
         flex-direction: column;
         /* justify-content: center; */
+        margin-left: 2rem;
     }
     #blog_mobile1{
    
         display: flex;
         flex-direction: row;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
         /* width: 95%; */
-        justify-content: center;
+        justify-content: space-around;
         
     }
     #blog_mobile2{
         
         display:flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
     
     }
     #blogbox1{
 
-        width: 12rem;
+        width: 10rem;
         height: 14rem;
+        padding-right: 1rem;
         
         /* top: 177.125rem; */
         background: #F1F1F1;
@@ -317,7 +321,7 @@
     }
     #blogbox2{
 
-        width: 12rem;
+        width: 10rem;
         height: 14rem;
         left: 0;
         /* top: 177.125rem; */
@@ -336,7 +340,7 @@
     #blogbox3{
 
 
-        width: 12rem;
+        width: 10rem;
         height: 14rem;
         left: 0rem;
     
@@ -352,7 +356,7 @@
     }
     #blogbox4{
 
-        width: 12rem;
+        width: 10rem;
         height: 14rem;
         left:0rem;
   
@@ -461,5 +465,16 @@
         position: relative;
         display: flex;
        
+    }
+    
+    
+    
+}
+@media (max-width: 665px){
+    .aos-init,.aos-animate{
+        transform: none !important;
+        animation-play-state: none !important;
+        transition-property: none !important;
+        transition-duration: 0 !important;
     }
 }

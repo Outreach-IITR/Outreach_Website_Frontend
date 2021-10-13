@@ -133,4 +133,5 @@
   #SecondSectionContent {
     width: 100%;
   }
+  #data-aos{animation-duration:0;} 
 }

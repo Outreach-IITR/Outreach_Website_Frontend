@@ -32,10 +32,10 @@ const NavbarFix = () => {
                 <div className= {showList ? "mobile-menu-link" : "menu-link"}>
                     <ul className="menu-link-ul">
                         <li className="menu-link-item">
-                            <a href="/" className="menu-item">About</a>
+                            <a href="/about" className="menu-item">About</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="/" className="menu-item">Academics</a>
+                            <a href="/academics" className="menu-item">Academics</a>
                         </li>
                         <li className="menu-link-item">
                             <a href="/" className="menu-item">Achievements</a>

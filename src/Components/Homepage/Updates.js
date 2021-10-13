@@ -13,32 +13,36 @@ class Updates extends React.Component {
             <div id="updates_first_section" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                 <h1>Updates</h1>
                 <div id="update_content">
-                    <div id="update_content_data">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
-                         <br/> <a href="/">Know More</a>
-                    </p>
-                    
-                    </div>
-                    <div id="update_content_data">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
-                         <br/> <a href="/">Know More</a>
-                    </p>
-                    
-                    </div>
-                    <div id="update_content_data">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
-                         <br/> <a href="/">Know More</a>
-                    </p>
-                    
-                    </div>
-                    <div id="update_content_data">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
-                         <br/> <a href="/">Know More</a>
-                    </p>
-                    
-                    </div>
-                    
-                    
+                    <ul>
+                        <li>
+                            <div id="update_content_data">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
+                                <br/> <a href="/">Know More</a>
+                            </p>    
+                            </div>
+                        </li>
+                        <li>
+                            <div id="update_content_data">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
+                                <br/> <a href="/">Know More</a>
+                            </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="update_content_data">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
+                                <br/> <a href="/">Know More</a>
+                            </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="update_content_data">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
+                                <br/> <a href="/">Know More</a>
+                            </p>
+                            </div>
+                        </li>
+                    </ul>
 
                 </div>
             </div>

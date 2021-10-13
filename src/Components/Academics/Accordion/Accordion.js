@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Accordion.css";
-import ScholarshipImage from "./Assets/scholarshipImage.png"
+import ScholarshipImage from "./Assets/scholarshipImage.png";
 
 function Accordion_segment() {
   return (

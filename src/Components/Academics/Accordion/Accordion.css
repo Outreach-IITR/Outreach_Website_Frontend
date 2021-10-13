@@ -1,113 +1,126 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 .accordion_segment_container {
+  margin-top: 3.4rem;
   margin-right: 4%;
 }
 
-
-.accordion_segment_header{
+.accordion_segment_header {
   text-align: center;
-  height: 41px; 
+  height: 41px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 44px;
-  color: #FEBA10;
-  
+  color: #feba10;
 }
 
-.content_box{
+.content_box {
   display: flex;
+  align-items: center;
   flex-direction: row;
   margin-left: 6%;
   max-height: 1000px;
 }
 
-
-.accordion{
-    flex: 80%;
-    overflow: hidden;
-    float: left;
+.accordion {
+  flex: 80%;
+  overflow: hidden;
+  float: left;
 }
 
-.accordion_content{
-    padding-left: 50px;
+.accordion_content {
+  padding-left: 50px;
 }
 
-.accordion_label{
-    display: block;
-    cursor: pointer;
-    position: relative;
+.accordion_label {
+  display: block;
+  cursor: pointer;
+  position: relative;
 }
 
-.accordion_segment_section:hover{
-    color: #F96508;
-    cursor: pointer;
+.accordion_segment_section:hover {
+  color: #f96508;
+  cursor: pointer;
 }
 
-input[type = checkbox]:checked + label {
-   color: #F96508;
+input[type="checkbox"]:checked + label {
+  color: #f96508;
 }
 
-.accordion_segment_section{
+.accordion_segment_section {
   position: relative;
   width: 700px;
   height: 17px;
   left: 0px;
   top: 0px;
 
-/* Heading 3 */
+  /* Heading 3 */
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 20px;
-letter-spacing: 0.04em;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
 
+  /* Inside Auto Layout */
 
-/* Inside Auto Layout */
-
-/* flex: none; */
-order: 0;
-flex-grow: 0;
-margin-top: 40px;
+  /* flex: none; */
+  order: 0;
+  flex-grow: 0;
+  margin-top: 40px;
 }
 
-
-.accordion_content{
-    background: white;
-    line-height: 1;
-    font-size: 0.85em;
-    display: none;
+.accordion_content {
+  background: white;
+  line-height: 1;
+  font-size: 0.85em;
+  display: none;
 }
 
-.accordion_last_section{
+.accordion_last_section {
   padding-bottom: 40px;
 }
 
-.accordion_input{
-    display: none;
+.accordion_input {
+  display: none;
 }
 
-.accordion_input:checked ~ .accordion_content{
-    display: block;
+.accordion_input:checked ~ .accordion_content {
+  display: block;
 }
 
-.image_box{
+.image_box {
   flex: 40%;
   position: relative;
   margin-top: 20px;
   margin-right: 50px;
   padding-bottom: 20px;
-};
-
-@media (max-width: 1000px) {
-
-  .content_box{
-    display: flex;
-    flex-direction: column-reverse;
-  }
 }
 
+.image_box img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .content_box {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .accordion_segment_section {
+    width: fit-content;
+  }
+
+  .image_box {
+    max-width: 425px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
+}

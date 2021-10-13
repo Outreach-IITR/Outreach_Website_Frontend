@@ -46,7 +46,7 @@
 }
 
 .slide {
-  position: absolute;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
   top: 0;
@@ -140,6 +140,7 @@
     display: none;
     overflow: hide;
     height: 90%;
+    margin: 0 10px;
   }
   .slide.active {
     display: block;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./studentsForHigherStudies.css"
-import bargraph from "../Assets/studentsPursuingHigherStudies.png";
+import bargraph from "../Assets/1.png";
 function StudentsForHigherStudies() {
   return (
     <>
@@ -10,7 +10,7 @@ function StudentsForHigherStudies() {
 
       <div className="image-holder-studentsForPhd">
         <div className="students_image_container">
-          <img src={bargraph} alt="" />
+          <img className="higherStudiesBargraph" src={bargraph} alt="" />
         </div>
         <div className="para-container">
           <div>

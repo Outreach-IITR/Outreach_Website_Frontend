@@ -26,8 +26,15 @@
 }
 
 .CTCImage{
-    width: 90%;
+    width: 100%;
 
+}
+
+@media (max-width: 1000px){
+    .image-holder{
+        width:100vw;
+        margin-left: 0;
+    }
 }
 
 

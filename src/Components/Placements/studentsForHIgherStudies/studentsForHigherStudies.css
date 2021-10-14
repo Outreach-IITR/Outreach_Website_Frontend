@@ -16,23 +16,25 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
+    right: 5%;
     margin-top: 20px;
     padding-bottom: 30px;
 }
 
+.students_image_container{
+  right: 10%;
+}
+
 .para-container{
-    flex: 40%;
+    flex: 50%;
     position: relative;
-    margin-left: 30px;
     max-width: 300px;
     max-height: 1000px;
     text-align: center;
     align-items:center;
     justify-content: center;
     margin-top: 100px;
-    margin-left: 10%;
+    right: 30px;
 
     font-family: SF UI Text;
   font-style: normal;
@@ -47,12 +49,18 @@
 
 }
 
+.higherStudiesBargraph{
+  width: 100%;
+}
+
 @media (max-width: 800px) {
   .image-holder-studentsForPhd{
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: fit-content;
+    right:0%;
+    
   }
 
   .para-container{

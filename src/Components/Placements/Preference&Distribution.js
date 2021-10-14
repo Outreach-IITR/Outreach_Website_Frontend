@@ -1,7 +1,7 @@
 import React from "react";
 import "./Preference&Distribution.css"
-import image1 from "./Assets/Preference.png"
-import image2 from "./Assets/Distribution.png";
+import image1 from "./Assets/3.png"
+import image2 from "./Assets/4.png";
 function LastPart() {
   return (
     <>

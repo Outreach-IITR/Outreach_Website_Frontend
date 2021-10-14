@@ -102,7 +102,7 @@ function Accordion_segment() {
         </div>
 
         <div className="image_box">
-          <img src={ScholarshipImage} alt="ScholarshipImage" height="400" />
+          <img className="scholarshipImage" src={ScholarshipImage} alt="ScholarshipImage" height="400" />
         </div>
       </div>
     </div>

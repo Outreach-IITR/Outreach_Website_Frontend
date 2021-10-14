@@ -5,7 +5,7 @@ function StudentsForHigherStudies() {
   return (
     <>
       <div className="heading">
-        <span>Highest CTC in LPA (2019-20)</span>{" "}
+        <span>Percentage of students going for higher studies</span>{" "}
       </div>
 
       <div className="image-holder-studentsForPhd">

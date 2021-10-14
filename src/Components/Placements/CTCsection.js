@@ -1,5 +1,5 @@
 import React from "react";
-import "./Page_content.css"
+import "./CTCsection.css"
 import  CTCimage  from "./Assets/CTC_img.png"
 function CTC() {
     return (

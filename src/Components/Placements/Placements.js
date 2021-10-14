@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import CTC from "./Page_content";
+import CTC from "./CTCsection";
 import CampusOffers from "./Campus_offers";
 import StudentsForHigherStudies from "./studentsForHIgherStudies/studentsForHigherStudies";
-import LastPart from "./LastPart";
+import LastPart from "./Preference&Distribution";
 
 class Placements extends Component {
   render() {

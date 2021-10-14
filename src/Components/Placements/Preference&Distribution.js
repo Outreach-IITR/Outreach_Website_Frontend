@@ -1,5 +1,5 @@
 import React from "react";
-import "./LastPart.css"
+import "./Preference&Distribution.css"
 import image1 from "./Assets/Preference.png"
 import image2 from "./Assets/Distribution.png";
 function LastPart() {

@@ -107,6 +107,13 @@
   padding-bottom: 1rem;
 }
 
+.icons-mobile-view {
+  /* display: none; */
+  padding-top: 2rem;
+  margin-left: -0.5rem;
+  display: none;
+}
+
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 85rem) {
   .main-footer {
@@ -160,6 +167,12 @@
   #footer-academics {
     margin-left: 2rem;
   }
+
+  .icons-mobile-view {
+    display:flex;
+  }
+  .icons-desktop-view {
+    display: none;
+  }
   
 }
-

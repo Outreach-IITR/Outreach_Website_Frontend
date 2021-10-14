@@ -115,6 +115,20 @@ const Footer = () => {
       <div className="section-three">
         <div className="right-section">
           <img alt="img" id="outreach_logo" src={outreach_logo} />
+          <div className="icons icons-mobile-view">
+            <a href="/" target="_blank" rel="noreferrer">
+              <img alt="img" src={facebook} />
+            </a>
+            <a href="/" target="_blank" rel="noreferrer">
+              <img alt="img" src={twitter} />
+            </a>
+            <a href="/" target="_blank" rel="noreferrer">
+              <img alt="img" src={linkedin} />
+            </a>
+            <a href="/" target="_blank" rel="noreferrer">
+              <img alt="img" src={youtube} />
+            </a>
+          </div>
           <p className="footer-right-text">
             <br />
             +91&#160;0123456789
@@ -127,7 +141,7 @@ const Footer = () => {
             <br />
             Roorkee, Uttrakhand, India - 247667
           </p>
-          <div className="icons">
+          <div className="icons icons-desktop-view">
             <a href="/" target="_blank" rel="noreferrer">
               <img alt="img" src={facebook} />
             </a>

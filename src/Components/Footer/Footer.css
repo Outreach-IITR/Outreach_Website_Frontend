@@ -37,32 +37,24 @@
 
 .h-link {
   color: #f96508;
-  text-align: center;
 }
 
 .h-acads {
   color: #feba10;
-  text-align: center;
 }
 
 .h-life {
   color: #06ca3d;
-  text-align: center;
 }
 
 .h-about {
   color: #026ba1;
-  text-align: center;
 }
 
 .footer-subcontent {
   padding-top: 1rem;
   flex: 1;
   text-align: center;
-}
-
-.footer-subcontent h3 {
-  margin-left: 2.5rem;
 }
 
 .footer-subcontent ul li {
@@ -115,6 +107,7 @@
 
 .f-social {
   padding-bottom: 1rem;
+  margin-left: -4rem;
 }
 
 .logo-links {
@@ -134,10 +127,13 @@ a {
   font-size: 0.625rem;
   line-height: 131%;
   bottom: 0;
-
   letter-spacing: 0.1em;
-
+  margin-left: 2rem;
   color: #94989b;
+}
+
+.f-mobile-view {
+  display: none;
 }
 
 @media only screen and (max-width: 68rem) {
@@ -159,5 +155,13 @@ a {
   }
   .f-heading {
     text-align: center;
+  }
+  .f-mobile-view {
+    display: block;
+    padding-left: 4rem;
+    padding-top: 2rem;
+  }
+  .f-desktop-view {
+    display: none;
   }
 }

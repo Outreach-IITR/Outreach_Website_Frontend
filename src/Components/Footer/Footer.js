@@ -58,6 +58,13 @@ export class Footer extends Component {
                     <div className="footer-info">
                         <img id="footer_logo" src={outreach_logo} alt="outreach logo"/>
                     </div>
+                    <div className="f-social f-mobile-view">
+                        <a href="/" className="logo-links"><img src={facebook} width="20px" alt="facebook"/></a>
+                        <a href="/" className="logo-links"><img src={twitter} width="20px" height="" alt="twitter"/></a>
+                        <a href="/" className="logo-links"><img src={linkedin} width="20px" alt="linkedin"/></a>
+                        <a href="/" className="logo-links"><img src={youtube} width="20px" height="" alt="youtube"/></a>
+
+                    </div>
                     <div className="footer-info">
                         <p className="footer-text">
                             <br/>
@@ -69,7 +76,7 @@ export class Footer extends Component {
                         </p>
                     </div>
                     
-                    <div className="f-social">
+                    <div className="f-social f-desktop-view">
                         <a href="/" className="logo-links"><img src={facebook} width="20px" alt="facebook"/></a>
                         <a href="/" className="logo-links"><img src={twitter} width="20px" height="" alt="twitter"/></a>
                         <a href="/" className="logo-links"><img src={linkedin} width="20px" alt="linkedin"/></a>
@@ -77,7 +84,7 @@ export class Footer extends Component {
 
                     </div>
                     <div className="footer-bottom">
-                        &copy; 2021 Copyright, All rights reserved 
+                        2021 Copyright, All rights reserved 
                     </div>
                 </div>
             </div>

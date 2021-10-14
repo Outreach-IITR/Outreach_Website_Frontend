@@ -8,7 +8,7 @@ export class HigherStudiesOptions extends Component {
             <div id="EllipseContent">
                 <div id="image">
                     <div className="ellipseImage">
-                        <img src={Ellipse} />
+                        <img alt="img" src={Ellipse} />
                     </div>
 
                     <h4 className="ellipseNumber">{this.props.num}</h4>

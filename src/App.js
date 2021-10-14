@@ -5,6 +5,7 @@ import Homepage from "./Components/Homepage/Homepage";
 import About from "./Components/About/About";
 import Academics from  "./Components/Academics/Academics";
 import Achievements from "./Components/Achievements/Achievements";
+import Placements from "./Components/Placements/Placements";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <Route path="/about" exact component={About} />
             <Route path="/academics" exact component={Academics} />
             <Route path="/achievements" exact component={Achievements} />
+            <Route path="/placements" exact component={Placements} />
           </BrowserRouter>
         </div>
         <div>

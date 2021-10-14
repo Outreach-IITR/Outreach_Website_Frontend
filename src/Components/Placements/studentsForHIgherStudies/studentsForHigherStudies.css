@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+.heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #33434C;
+    text-align: center;
+}
+
+.image-holder-studentsForPhd{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.para-container{
+    flex: 40%;
+    position: relative;
+    margin-left: 30px;
+    max-width: 300px;
+    max-height: 1000px;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 10%;
+
+    font-family: SF UI Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 131%;
+/* or 18px */
+
+  letter-spacing: 0.05em;
+
+  color: #3F3F3F;
+
+}
+
+@media (max-width: 800px) {
+  .image-holder-studentsForPhd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: fit-content;
+  }
+
+  .para-container{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  .students_image_container{
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+
+}
+
+

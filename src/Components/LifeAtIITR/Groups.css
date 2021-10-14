@@ -1,0 +1,128 @@
+.containerG {
+  width: 100%;
+  margin-top: 100px !important;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+#groupsHeading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FEBA10;
+}
+
+#subheadingGroup {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* text-align: center; */
+  letter-spacing: -0.02em;
+  color: #FEBA10;
+}
+
+.subBoxGroup {
+  width: 93%;
+  margin-left: 7%;
+  display: flex;
+  align-items: left !important;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  /* height: 300px; */
+}
+
+.sliderGroup {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  /* width: 200px; */
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.cardG {
+  width: 320px !important;
+  /* height: 370px; */
+  margin-right: 75px;
+  background: #F1F1F1;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* text-align: center; */
+  /* margin-right: 20px; */
+  /* padding: 20px; */
+  /* margin: 20px; */
+}
+
+.cardG>img {
+  margin: 10px;
+  height: 130px;
+  width: 130px;
+}
+
+.cardG>h6 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  /* line-height: 22px; */
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #F96508;
+  /* tex */
+}
+
+.cardG>p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 131%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #3F3F3F;
+  width: 230px;
+  margin: 20px;
+}
+
+input[type=range]{
+  /* -webkit-appearance:inherit */
+}
+
+/* input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 7px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+  
+} */
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 5px !important;
+  width: 5px !important;
+  border-radius: 0 50% 50% 0%;
+  background: goldenrod;
+  /* margin-top: -2px; */
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: goldenrod;
+}

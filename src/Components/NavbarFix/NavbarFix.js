@@ -41,7 +41,7 @@ const NavbarFix = () => {
                             <a href="/" className="menu-item">Achievements</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="/" className="menu-item">Life&nbsp;at&nbsp;IITR</a>
+                            <a href="/lifeatiitr" className="menu-item">Life&nbsp;at&nbsp;IITR</a>
                         </li>
                         <li className="menu-link-item">
                             <a href="/" className="menu-item">Placements</a>

@@ -5,6 +5,7 @@ import Events from "./Events";
 import Groups from './Groups';
 import OutsideCampus from "./OutsideCampus";
 import Hostellife from './Hostellife';
+import Campuslife from "./Campuslife"
 
 const Life = () => {
   return (

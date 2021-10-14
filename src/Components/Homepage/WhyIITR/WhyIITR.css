@@ -34,7 +34,7 @@
 }
 
 #SecondSectionContent p:nth-of-type(2) {
-  font-family: "SF UI Text", sans-serif;
+  font-family: SF UI Text;
   font-style: normal;
   font-weight: normal;
   font-size: 0.9rem;

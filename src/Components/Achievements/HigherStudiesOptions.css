@@ -1,0 +1,56 @@
+#EllipseContent{
+    display: flex;
+    width: 27%;
+    position: relative;
+    align-items: center;
+}
+
+
+
+.ellipseImage {
+    /* position: relative; */
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    /* padding-top: 1.8rem; */
+  }
+.ellipseNumber{
+    position: absolute;
+  top: 1.6rem;
+  bottom: 0;
+  left: 1.9rem;
+  right: 0;
+  color: #FDFDFF;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 1.125rem;
+line-height: 1.375rem;
+letter-spacing: 0.04em;
+}
+
+#EllipseContent p{
+    font-family: Montserrat;
+font-style: normal;
+padding-bottom: 3px;
+font-weight: 500;
+font-size: 1.125rem;
+line-height: 1.375rem;
+letter-spacing: 0.04em;
+padding-left: 0.938rem;
+}
+
+@media (max-width:900px){
+   
+    #EllipseContent{
+        width: 40%;
+    }
+} 
+
+@media (max-width:620px){
+   
+    #EllipseContent{
+        width: 90%;
+    }
+} 
+

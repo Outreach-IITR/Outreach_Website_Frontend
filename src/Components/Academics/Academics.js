@@ -10,12 +10,14 @@ class Academics extends Component {
     return (
       <div>
         <NavbarFix />
-        <Background heading="Academics" text="Lacus elementum blandit venenatis faucibus vulputate ultrices blandit euismod." />
+        <Background
+          heading="Academics"
+          text="Lacus elementum blandit venenatis faucibus vulputate ultrices blandit euismod."
+        />
         <AccordionSegment />
         <Departments />
         {/* <DepartmentName /> */}
         <Minors />
-
       </div>
     );
   }

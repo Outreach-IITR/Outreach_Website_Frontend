@@ -1,0 +1,138 @@
+#achievement_startups{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+#startups_tides, #starups_ecell{
+    display: flex;
+    flex-direction: column;
+}
+#tides_detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#ecell_detail{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+#tides_content{
+    flex: 0.6;
+    margin-right: 3%;
+}
+#tides_content h1{
+    color: #F96508;
+
+}
+#tides_logo{
+    flex: 0.1;
+    text-align: center;
+    margin-left: 8%;
+}
+#ecell_content{
+    flex: 0.6;
+    margin-left: 8%;
+}
+#ecell_content h1{
+    color: #F96508;
+}
+#ecell_logo{
+    flex: 0.1;
+    margin-right: 5%;
+}
+#brand{
+    text-align: center;
+}
+#startups_alumni h1{
+    margin-left: 16.5%;
+    color: #F96508;
+    }
+#startups_alumni{
+    margin-top: 30px;
+}
+#startups_first h2{
+   
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+color: #026BA1;
+}
+#startups_first p{
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.05em;
+text-align: center;
+width: 70%;
+margin: 0 15% ;
+}
+
+#startups_first{
+    margin-bottom: 30px;
+}
+#tides_mobileview{
+    display: none;
+}
+#tides_mobilenone{
+    display: block;
+}
+#ecell_mobileview{
+    display: none;
+}
+#ecell_mobilenone{
+    display: block;
+}
+
+@media (max-width:850px){
+    #brand{
+        display:none;
+    }
+    #tides_detail{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #ecell_detail{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #tides_content{
+            text-align: left;
+            margin-left: 5%;
+        
+    }
+    #ecell_content{
+        text-align: left;
+        margin-left: 5%;
+    }
+    #tides_mobileview{
+        display: block;
+        color: #F96508;
+        margin-left: 3%;
+    }
+    #tides_mobilenone{
+        display: none;
+    }
+    #ecell_mobileview{
+        display: block;
+        color: #F96508;
+        
+    }
+    #ecell_mobilenone{
+        display: none;
+    }
+    #startups_first p{
+        text-align: center;
+        
+    }
+}

@@ -4,6 +4,7 @@ import Background from "../Background/Background";
 import LatestUpdate from "./LatestUpdate";
 import HigherStudiesCarousel from "./HigherStudiesCarousel";
 import HigherStudies from "./HigherStudies";
+import Startups from './Startups'
 
 class Achievements extends Component {
   render() {
@@ -17,6 +18,7 @@ class Achievements extends Component {
         <LatestUpdate />
         <HigherStudies />
         <HigherStudiesCarousel />
+        <Startups />
       </div>
     );
   }

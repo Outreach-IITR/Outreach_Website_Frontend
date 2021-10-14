@@ -116,11 +116,15 @@ input[type="checkbox"]:checked + label {
   }
 
   .image_box {
-    max-width: 425px;
+    width: 80%;
     text-align: center;
     position: relative;
     margin-top: 20px;
     margin-right: 0;
     padding-bottom: 20px;
+  }
+
+  .scholarshipImage{
+    width: 100%;
   }
 }

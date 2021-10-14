@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+.container_images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+.image-holder-left{
+    flex: auto;
+    position: relative;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    margin-right: 5%;
+}
+
+.image-holder-right{
+    flex: auto;
+    position: relative;
+    max-height: 1000px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.heading_left{
+    text-align: center;
+    position: relative;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: -0.02em;
+
+color: #33434C;
+}
+
+.heading_right{
+    margin-top: 20px;
+    max-width: 95%;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: -0.02em;
+
+color: #33434C;
+}
+
+.image1{
+    position: relative;
+    left: 80px;
+    width: 100%;
+}
+
+.image2{
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .container_images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-holder-left .image-holder-right {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 0vw;
+    margin-left: 0vw;
+  }
+
+  .image1{
+      left: 20px;
+  }
+}
+
+

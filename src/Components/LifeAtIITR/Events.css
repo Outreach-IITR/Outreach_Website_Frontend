@@ -1,0 +1,83 @@
+#Events__Section {
+  margin: 6.875rem 0 6.8rem 0;
+  text-align: center;
+}
+
+.Events__heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 3.75rem;
+  text-align: center;
+  color: #026ba1;
+}
+
+.Events__list {
+  margin: auto;
+  padding: 0;
+  margin-top: 3rem;
+  width: 90%;
+  max-width: 45rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1.5rem;
+}
+
+.Events__list > li {
+  color: #33333380;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  cursor: pointer;
+}
+
+.Events__list > li:hover {
+  color: #012131;
+}
+
+.Events__list > .active {
+  color: #026ba1;
+}
+
+.Event__description {
+  margin: auto;
+  max-width: 54rem;
+  padding: 0 2rem;
+  font-family: "SF UI Text";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #3f3f3f;
+}
+
+.Companies_Logo {
+  margin-top: 1rem;
+  width: 90%;
+  max-width: 60.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .Events__heading {
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+  }
+
+  .Events__list {
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.4rem;
+  }
+  .Events__list > li {
+    font-size: 0.688rem;
+  }
+}

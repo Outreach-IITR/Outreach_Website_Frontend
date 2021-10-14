@@ -1,6 +1,8 @@
 //*************Created By Rahul Modi*************
 import React, { useState, useEffect, useCallback } from "react";
 import "./Carousel.css";
+import LeftArrow from "./Assets/LeftArrow.svg";
+import RightArrow from "./Assets/RightArrow.svg";
 
 // import { slides } from "./AcadCarouselData";
 
@@ -31,7 +33,13 @@ const Crousel = (props) => {
   return (
     <div className="Carousel">
       <section className="slider">
-        <i className="large angle left icon left-arrow" onClick={prevSlide} />
+        <img
+          className="left-arrow"
+          src={LeftArrow}
+          alt="left control"
+          onClick={prevSlide}
+        />
+        s
         {slides.map((img, indx) => {
           return (
             <div
@@ -53,14 +61,18 @@ const Crousel = (props) => {
             </div>
           );
         })}
-        <i className="large angle right icon right-arrow" onClick={nextSlide} />
+        <img
+          className="right-arrow"
+          src={RightArrow}
+          alt="right control"
+          onClick={nextSlide}
+        />
       </section>
       {slides.map((img, indx) => {
         return (
           indx === current && (
             <div key={indx} className="img__descp">
-              {/* {img.description} */}
-              {/* {props.} */}
+              {img.description}
             </div>
           )
         );

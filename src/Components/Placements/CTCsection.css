@@ -15,24 +15,23 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 70vw;
     text-align: center;
     align-content: center;
     position: relative;
     margin-top: 20px;
     margin-right: 10%;
-    margin-left: 17%;
+    left: -10%;
     padding-bottom: 20px;
 }
 
 .CTCImage{
-    width: 100%;
+    width: 140%;
+    height: 140%;
 
 }
 
 @media (max-width: 1000px){
     .image-holder{
-        width:100vw;
         margin-left: 0;
     }
 }

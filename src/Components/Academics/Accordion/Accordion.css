@@ -32,6 +32,18 @@
 
 .accordion_content {
   padding-left: 50px;
+  font-family: SF UI Text;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 131%;
+/* or 18px */
+
+letter-spacing: 0.05em;
+
+color: #3F3F3F;
+width: 588px;
+height: 36px;
 }
 
 .accordion_label {

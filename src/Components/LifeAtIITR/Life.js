@@ -1,9 +1,10 @@
 import React from 'react';
 import NavbarFix from '../NavbarFix/NavbarFix';
-import Campuslife from './Campuslife';
+import InsideCampus from "./InsideCampus";
+import Events from "./Events";
 import Groups from './Groups';
+import OutsideCampus from "./OutsideCampus";
 import Hostellife from './Hostellife';
-// import Campuslife from './Campuslife';
 
 const Life = () => {
   return (
@@ -11,9 +12,12 @@ const Life = () => {
       <Hostellife />
       <Campuslife />
       <NavbarFix />
+      <InsideCampus />
+      <Events />
       <Groups />
+      <OutsideCampus />
     </div>
-  )
-}
+  );
+};
 
-export default Life
+export default Life;

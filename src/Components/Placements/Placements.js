@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavbarFix from "../NavbarFix/NavbarFix";
+// import NavbarFix from "../NavbarFix/NavbarFix";
 
 class Placements extends Component {
   render() {

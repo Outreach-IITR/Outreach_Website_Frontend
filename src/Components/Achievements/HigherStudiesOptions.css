@@ -40,7 +40,8 @@ letter-spacing: 0.04em;
 padding-left: 0.938rem;
 }
 
-@media (max-width:900px){
+@media (max-width:1000px){
+
    
     #EllipseContent{
         width: 40%;
@@ -52,5 +53,11 @@ padding-left: 0.938rem;
     #EllipseContent{
         width: 90%;
     }
+
+   
 } 
+
+
+
+
 

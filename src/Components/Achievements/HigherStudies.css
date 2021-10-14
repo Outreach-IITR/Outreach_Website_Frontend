@@ -41,6 +41,33 @@
       width: 40%;
   }
 
+  @media (max-width:500px){
+   
+    #HigherStudies {
+      padding: 0;
+    } 
+} 
+
+@media (max-width:500px){
+   
+  #HigherStudies {
+    padding: 0;
+  } 
+} 
+
+@media (max-width:900px){
+   
+  #PartFirst{
+    text-align: justify;
+  }
+} 
+
+@media (max-width:400px){
+  #PartFirst{
+  padding-left: 7%;
+  }
+} 
+
 
   
 

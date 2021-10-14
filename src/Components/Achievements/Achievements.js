@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import Startups from "./Startups";
 
 class Achievements extends Component {
   render() {
     return (
       <div>
-          This is the achievements page
+         <Startups />
       </div>
     );
   }

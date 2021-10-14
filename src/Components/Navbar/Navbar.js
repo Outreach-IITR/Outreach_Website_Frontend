@@ -19,7 +19,7 @@ const Navbar = () => {
                             <a href="/academics" className="menu-item">Academics</a>
                         </li>
                         <li className="menu-link-item">
-                            <a href="/" className="menu-item">Achievements</a>
+                            <a href="/achievements" className="menu-item">Achievements</a>
                         </li>
                         <li className="menu-link-item">
                             <a href="/" className="menu-item">Life&nbsp;at&nbsp;IITR</a>

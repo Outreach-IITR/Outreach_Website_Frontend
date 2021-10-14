@@ -6,6 +6,7 @@ import About from "./Components/About/About";
 import Academics from  "./Components/Academics/Academics";
 import Achievements from "./Components/Achievements/Achievements";
 import Life from "./Components/LifeAtIITR/Life";
+import Placements from "./Components/Placements/Placements";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/academics" exact component={Academics} />
             <Route path="/achievements" exact component={Achievements} />
             <Route path="/lifeatiitr" exact component={Life} />
+            <Route path="/placements" exact component={Placements} />
           </BrowserRouter>
         </div>
         <div>

@@ -1,16 +1,17 @@
 import React from 'react'
 import person_ref from './Assets/person_ref.png'
-import './Blog.css'
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
+import './Blog.css'
 AOS.init();
 
 class Blog extends React.Component {
     render() {
         return (
             <><div id="Blogsection">
-            <div id="Blog_first_section" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+            <div id="Blog_first_section" data-aos="fade-up" data-aos-duration="1000">
                         <h1>
                             Blogs
                         </h1>
@@ -21,7 +22,7 @@ class Blog extends React.Component {
                         
                     </div>
                     
-                    <div id="Blogboxes" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                    <div id="Blogboxes" >
                     <div id="blog_mobile1">
                     <div id="blogbox1">
                         <div id="blogbox_content"><h2>

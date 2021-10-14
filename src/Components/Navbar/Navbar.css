@@ -11,6 +11,7 @@
     display: grid;
     grid-column: 2/3;
     padding: 1.4rem;
+    padding-left: 0;
     justify-content: center;
     align-items: center; 
 }
@@ -21,12 +22,18 @@
 
 #join_button{
     cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    letter-spacing: -0.02em;
 }
 
 .menu-link ul {
     height: 4rem;
     display: flex;
-    font-size: medium;
+    /* font-size: medium; */
     font-weight: bold;
     list-style-type:none;
     justify-content: space-around;

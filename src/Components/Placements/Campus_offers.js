@@ -1,6 +1,5 @@
 import React from "react";
 import "./Campus_offers.css";
-// import CampusOfferImage from "./Assets/campusOffers.png"
 import CampusOfferImage from "./Assets/5.png"
 function CampusOffers() {
   return (

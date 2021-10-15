@@ -5,6 +5,8 @@ import Events from "./Events";
 import Groups from "./Groups";
 import OutsideCampus from "./OutsideCampus";
 import Background from "../Background/Background";
+import Hostellife from "./Hostellife"
+import Campuslife from "./Campuslife";
 
 const Life = () => {
   return (
@@ -13,6 +15,8 @@ const Life = () => {
       <Background heading="Life at R-Land" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus amet sit purus, in facilisis risus. Nulla sem lectus at habitasse turpis.
 07/08/21 " />
       <InsideCampus />
+      <Hostellife />
+      <Campuslife />
       <Events />
       <Groups />
       <OutsideCampus />

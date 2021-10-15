@@ -1,0 +1,101 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.carouselimg{
+    width: 100%;
+    height: 100%;
+}
+
+#hostellifep{
+    display: flex;
+    flex: 0.1;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+#hostelhead{
+    font-size: 2rem;
+    color: #F96508;
+    font-family: Montserrat;
+}
+#sliderbox{
+    width: 40%;
+}
+#hostel_content{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Montserrat;
+}
+.imagescareousl_hl {
+    position: relative;
+    text-align: center;
+    padding-top: 1.8rem;
+  }
+.imgdis{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 40%;
+  color: #fff;
+  font-family: Montserrat;
+}
+.slick-dots
+{
+    position: absolute;
+    left: 55%;
+    bottom: 40%;
+    transform: rotate(90deg);
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li button:before{
+    font-family: 'slick';
+    font-size: 0.9rem;
+    line-height: 20px;
+    color:#c4c4c4;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: #026BA1;
+}
+@media(max-width: 1100px){
+    .slick-dots li button:before{
+        font-family: 'slick';
+        font-size: 0.8rem;
+        line-height: 20px;
+        color:#c4c4c4;
+    }
+    #hostellifep{
+        display: flex;
+        flex: 0.1;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10%;
+    }
+    .imgdis{
+        padding-top: 36%;
+    }
+    #hostelhead{
+        text-align: center;
+        padding-top: 10%;
+    }
+    #hostelcontent{
+        padding: 5%;
+    }
+    #sliderbox{
+        width: 95%;
+    }
+    
+
+}

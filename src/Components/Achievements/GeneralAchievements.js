@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import BubbleCarousel from "./BubbleCarousel";
 
-import GeneralA_List from "./GeneralA_Data";
+import { GeneralA_List, GeneralA_Bubble } from "./GeneralA_Data";
 import "./GeneralAchievements.css";
 
 const GeneralAchievements = () => {
@@ -37,7 +37,7 @@ const GeneralAchievements = () => {
               );
             })}
           </div>
-          <BubbleCarousel current={current} />
+          <BubbleCarousel current={current} Bubble_List={GeneralA_Bubble} />
         </div>
       </div>
     </div>

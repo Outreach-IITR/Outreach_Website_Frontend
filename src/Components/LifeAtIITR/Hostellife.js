@@ -43,27 +43,27 @@ export class Hostellife extends Component {
                   <Slider {...settings}>
                     
                       <div className="imagescareousl_hl">
-                          <img className="carouselimg" src={demo}></img>
+                          <img alt="src" className="carouselimg" src={demo}></img>
                         <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
-                          <img className="carouselimg" src={demo}></img>
+                          <img alt="src" className="carouselimg" src={demo}></img>
                         <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
-                          <img className="carouselimg" src={demo}></img>
+                          <img alt="src" className="carouselimg" src={demo}></img>
                         <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
-                          <img className="carouselimg" src={demo}></img>
+                          <img alt="img" className="carouselimg" src={demo}></img>
                         <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
-                          <img className="carouselimg" src={demo}></img>
+                          <img alt="img" className="carouselimg" src={demo}></img>
                         <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
-                          <img className="carouselimg" src={demo}></img>
+                          <img alt="img" className="carouselimg" src={demo}></img>
                         <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                     

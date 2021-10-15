@@ -33,27 +33,27 @@ export class Campuslife extends Component {
                   <Slider {...settings}>
                     
                       <div className="imagescareousl_cl">
-                          <img className="carouselimg_cl" src={demo}></img>
+                          <img alt="img" className="carouselimg_cl" src={demo}></img>
                         <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_cl">
-                          <img className="carouselimg_cl" src={demo}></img>
+                          <img alt="img" className="carouselimg_cl" src={demo}></img>
                         <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_cl">
-                          <img className="carouselimg_cl" src={demo}></img>
+                          <img alt="img" className="carouselimg_cl" src={demo}></img>
                         <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_cl">
-                          <img className="carouselimg_cl" src={demo}></img>
+                          <img alt="img" className="carouselimg_cl" src={demo}></img>
                         <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_cl">
-                          <img className="carouselimg_cl" src={demo}></img>
+                          <img alt="img" className="carouselimg_cl" src={demo}></img>
                         <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_cl">
-                          <img className="carouselimg_cl" src={demo}></img>
+                          <img alt="img" className="carouselimg_cl" src={demo}></img>
                         <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                     

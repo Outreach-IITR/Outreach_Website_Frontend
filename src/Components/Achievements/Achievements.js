@@ -3,6 +3,8 @@ import NavbarFix from "../NavbarFix/NavbarFix";
 import Background from "../Background/Background";
 import LatestUpdate from "./LatestUpdate";
 import HigherStudiesCarousel from "./HigherStudiesCarousel";
+import HigherStudies from "./HigherStudies";
+import Startups from './Startups'
 
 class Achievements extends Component {
   render() {
@@ -14,7 +16,9 @@ class Achievements extends Component {
           text="Lacus elementum blandit venenatis faucibus vulputate ultrices blandit euismod."
         />
         <LatestUpdate />
+        <HigherStudies />
         <HigherStudiesCarousel />
+        <Startups />
       </div>
     );
   }

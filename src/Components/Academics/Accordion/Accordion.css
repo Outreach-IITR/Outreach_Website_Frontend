@@ -32,6 +32,18 @@
 
 .accordion_content {
   padding-left: 50px;
+  font-family: SF UI Text;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 131%;
+/* or 18px */
+
+letter-spacing: 0.05em;
+
+color: #3F3F3F;
+width: 588px;
+height: 36px;
 }
 
 .accordion_label {
@@ -116,11 +128,15 @@ input[type="checkbox"]:checked + label {
   }
 
   .image_box {
-    max-width: 425px;
+    width: 80%;
     text-align: center;
     position: relative;
     margin-top: 20px;
     margin-right: 0;
     padding-bottom: 20px;
+  }
+
+  .scholarshipImage{
+    width: 100%;
   }
 }

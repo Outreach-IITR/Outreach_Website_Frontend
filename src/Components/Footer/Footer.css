@@ -1,163 +1,178 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap");
-
-.footer {
+.main-footer {
   display: flex;
+  width: 100%;
+  flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
-  position: absolute;
-  background: #1d1d1f;
-  padding-top: 1.625rem;
-  padding-inline: 1rem;
-}
-
-#footer_logo {
-  width: 20rem;
-}
-
-.footer-content {
-  display: flex;
-  position: static;
-  font-family: -apple-system, BlinkMacSystemFont, "SF UI Text", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  flex: 1;
-  font-weight: 300;
-  font-size: 1rem;
-  color: #fdfdff;
-  width: 100%;
-}
-
-.f-heading {
-  /* Heading 3 */
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 0.875rem;
-}
-
-.h-link {
-  color: #f96508;
-  text-align: center;
-}
-
-.h-acads {
-  color: #feba10;
-  text-align: center;
-}
-
-.h-life {
-  color: #06ca3d;
-  text-align: center;
-}
-
-.h-about {
-  color: #026ba1;
-  text-align: center;
-}
-
-.footer-subcontent {
-  padding-top: 1rem;
-  flex: 1;
-  text-align: center;
-}
-
-.footer-subcontent h3 {
-  margin-left: 2.5rem;
-}
-
-.footer-subcontent ul li {
-  margin-top: 0.875rem;
-}
-
-.footer-info {
-  display: flex;
-  position: relative;
-  left: 0rem;
-  top: 0rem;
-  font-family: SF UI Text;
-  font-size: 0.75rem;
-  line-height: 131%;
-  letter-spacing: 0.05em;
-  color: #fdfdff;
-}
-
-.footer-text {
-  padding: 1rem;
-  padding-top: 0;
-}
-
-.footer-info img {
-  height: 71px;
-  width: 68px;
-}
-
-.footer-info h1 {
-  font-family: Montserrat;
-  margin-left: 0.938rem;
-  margin-top: 1.375rem;
-  font-size: 2.25rem;
-  font-weight: 700;
-}
-
-.footer-rightcontent {
-  display: flex;
-  flex-direction: column;
-  padding-left: 7rem;
-  padding-right: 7rem;
-  padding-right: 6rem;
-  padding-top: -1rem;
+  background-color: #1d1d1f;
   align-items: center;
 }
 
-.footer-info p {
-  font-family: Montserrat;
+.section-one {
+  display: flex;  
+  margin-left: 10rem;
 }
 
-.f-social {
+.quick-links-div {
+  flex: 1;
+}
+
+.academics-div {
+  flex: 1;
+}
+
+.section-two {
+  display: flex;
+}
+
+.life-div {
+  flex: 1;
+}
+.about-us-div {
+  flex: 1;
+}
+
+.section-three {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer-quick-links {
+  color: #f96508;
+  padding-top: 4rem;
+  margin-left: 5rem;
+}
+
+#footer-academics {
+  color: #feba10;
+  padding-top: 4rem;
+  margin-left: 5rem;
+}
+
+#footer-life {
+  color: #06ca3d;
+  padding-top: 4rem;
+  margin-left: 5rem;
+}
+
+#footer-about-us {
+  color: #026ba1;
+  padding-top: 4rem;
+  margin-left: 5rem;
+}
+
+.footer-column {
+  list-style-type: none;
+  padding-bottom: 4rem;
+  padding-left: 5rem;
+}
+
+.footer-item {
+  color: #fdfdff;
+}
+
+.footer-column-item {
+  padding-top: 0.5rem;
+}
+
+#outreach_logo {
+  max-width: 40rem;
+  padding-top: 2rem;
+  display: block;
+  margin-left: 7rem;
+  margin-right: auto;
+  width: 60%;
+}
+
+.footer-right-text {
+  font-size: 0.8rem;
+  color: #fdfdff;
+  padding-top: 1rem;
+  padding-left: 8rem;
+}
+
+.icons {
+  padding-left: 8rem;
+  display: flex;
+}
+
+.icons img {
+  padding-right: 0.5rem;
+  width: 80%;
+}
+
+#copy-right {
+  color: #94989b;
+  padding-top: 0rem;
   padding-bottom: 1rem;
 }
 
-.logo-links {
-  padding: 0.5rem;
+.icons-mobile-view {
+  /* display: none; */
+  padding-top: 2rem;
+  margin-left: -0.5rem;
+  display: none;
 }
 
-a {
-  margin-right: 0.563rem;
-}
-
-.footer-bottom {
-  width: 17.688rem;
-  height: 1.125rem;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.625rem;
-  line-height: 131%;
-  bottom: 0;
-
-  letter-spacing: 0.1em;
-
-  color: #94989b;
-}
-
-@media only screen and (max-width: 68rem) {
-  .footer {
-    flex-direction: column !important;
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 85rem) {
+  .main-footer {
+    flex-direction: column;
   }
-  .footer-rightcontent {
+  .section-one {
+    margin-left: 0rem;
+  }
+
+  .section-three {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-right-text {
     padding: 0;
     text-align: center;
   }
-  .footer-bottom {
-    text-align: center;
-  }
-  .f-social {
+  .icons {
+    padding-left: 7rem;
     align-items: center;
+    
   }
-  .footer-info {
+  .footer-column {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #outreach_logo {
     align-items: center;
+    padding-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
-  .f-heading {
-    text-align: center;
+
+  #footer-life {
+    padding-top: 1rem;
+    margin-left: 2rem;
   }
+  
+  #footer-about-us {
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
+  #footer-quick-links {
+    margin-left: 2rem;
+  }
+  
+  #footer-academics {
+    margin-left: 2rem;
+  }
+
+  .icons-mobile-view {
+    display:flex;
+  }
+  .icons-desktop-view {
+    display: none;
+  }
+  
 }

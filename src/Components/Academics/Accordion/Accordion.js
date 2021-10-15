@@ -17,7 +17,10 @@ function Accordion_segment() {
               </ul>
             </label>
             <div className="accordion_content">
-              <p>lorem psum dolor sit amet</p>
+              <p>
+                This scholarship is awarded to 25% of the undergraduate students
+                based on their family income and merit.
+              </p>
               <a href="/">Know more...</a>
             </div>
           </div>
@@ -102,7 +105,12 @@ function Accordion_segment() {
         </div>
 
         <div className="image_box">
-          <img src={ScholarshipImage} alt="ScholarshipImage" height="400" />
+          <img
+            className="scholarshipImage"
+            src={ScholarshipImage}
+            alt="ScholarshipImage"
+            height="400"
+          />
         </div>
       </div>
     </div>

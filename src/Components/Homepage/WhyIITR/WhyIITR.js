@@ -3,6 +3,7 @@ import React from "react";
 
 import WhyIITR_1 from "./Assets/WhyIITR_1.png";
 import WhyIITR_2 from "./Assets/WhyIITR_2.png";
+import WhyIITR_2_Mobile from "./Assets/WhyIITR_2_Mobile.png";
 import WhyIITR_3 from "./Assets/WhyIITR_3.png";
 
 import Architecture_Planing from "./Assets/Architecture_Planing.svg";
@@ -17,19 +18,29 @@ AOS.init();
 const HomePageCarousel = () => {
   return (
     <div id="SecondSection">
-      <div
-        id="SecondSectionImage"
-      >
-        <img alt="img" className="WhyIITR__Img WhyIITR__Img2" src={WhyIITR_2} />
-        <img alt="img" className="WhyIITR__Img3" src={WhyIITR_3} />
+      <div className="Mobile">
+        <p className="WhyIITR__Para">Know more about IITR before deciding</p>
+        <h1 className="WhyIITR__Heading">Why IIT Roorkee ?</h1>
+      </div>
+      <div id="SecondSectionImage">
+        <img alt="img" className="WhyIITR__Img WhyIITR__Img3" src={WhyIITR_3} />
         <img alt="img" className="WhyIITR__Img WhyIITR__Img1" src={WhyIITR_1} />
+        <img alt="img" className="WhyIITR__Img WhyIITR__Img2" src={WhyIITR_2} />
+        <img
+          alt="img"
+          className="WhyIITR__Img2_Mobile"
+          src={WhyIITR_2_Mobile}
+        />
       </div>
       <div
         id="SecondSectionContent"
-        data-aos="fade-up" data-aos-duration="1000"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
-        <p>Know more about IITR before deciding</p>
-        <h1>Why IIT Roorkee ?</h1>
+        <div className="PC">
+          <p className="WhyIITR__Para">Know more about IITR before deciding</p>
+          <h1 className="WhyIITR__Heading">Why IIT Roorkee ?</h1>
+        </div>
         <p>
           IIT Roorkee creates an environment that fosters the growth of
           intellectually capable, innovative, and entrepreneurial professionals.

@@ -50,12 +50,7 @@ const HomePageCarousel = () => {
   };
 
   return (
-    <div
-      className="Carousel"
-      data-aos="fade"
-      data-aos-offset="200"
-      data-aos-easing="ease-in-sine"
-    >
+    <div className="Carousel">
       <div className="Carousel__Title">
         <h3>IIT Roorkee at a Glance</h3>
         <p>Dont just take our word, see yourself</p>

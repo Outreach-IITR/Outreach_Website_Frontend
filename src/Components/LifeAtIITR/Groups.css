@@ -15,7 +15,7 @@
   font-weight: bold;
   font-size: 36px;
   line-height: 44px;
-  color: #FEBA10;
+  color: #feba10;
 }
 
 #subheadingGroup {
@@ -26,7 +26,7 @@
   line-height: 29px;
   /* text-align: center; */
   letter-spacing: -0.02em;
-  color: #FEBA10;
+  color: #feba10;
 }
 
 .subBoxGroup {
@@ -52,7 +52,7 @@
   width: 320px !important;
   /* height: 370px; */
   margin-right: 75px;
-  background: #F1F1F1;
+  background: #f1f1f1;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -64,13 +64,13 @@
   /* margin: 20px; */
 }
 
-.cardG>img {
+.cardG > img {
   margin: 10px;
   height: 130px;
   width: 130px;
 }
 
-.cardG>h6 {
+.cardG > h6 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -80,49 +80,72 @@
   /* line-height: 22px; */
   text-align: center;
   letter-spacing: 0.04em;
-  color: #F96508;
+  color: #f96508;
   /* tex */
 }
 
-.cardG>p {
+.cardG > p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 131%;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #3F3F3F;
+  color: #3f3f3f;
   width: 230px;
   margin: 20px;
 }
 
-input[type=range]{
-  /* -webkit-appearance:inherit */
-}
-
-/* input[type=range]::-webkit-slider-runnable-track {
-  width: 300px;
-  height: 7px;
-  background: #ddd;
-  border: none;
-  border-radius: 3px;
-  
-} */
-
-input[type=range]::-webkit-slider-thumb {
+/* Input Range Custom Styles */
+input[type="range"] {
   -webkit-appearance: none;
-  border: none;
-  height: 5px !important;
-  width: 5px !important;
-  border-radius: 0 50% 50% 0%;
-  background: goldenrod;
-  /* margin-top: -2px; */
+  width: 300px; /* Specific width is required for Firefox. */
+  height: 10px;
+  background: #f1f1f1; /* Otherwise white in Chrome */
+  border-radius: 1rem;
 }
 
-input[type=range]:focus {
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type="range"]:focus {
   outline: none;
 }
 
-input[type=range]:focus::-webkit-slider-runnable-track {
-  background: goldenrod;
+input[type="range"]::-ms-track {
+  width: auto;
+  background: #f1f1f1;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 50px;
+  border-radius: 1rem;
+  background: #feba10;
+  margin-top: 0px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: none; /* Add cool effects to your sliders! */
+}
+
+/* All the same stuff for Firefox */
+input[type="range"]::-moz-range-thumb {
+  box-shadow: none;
+  border: none;
+  height: 10px;
+  width: 50px;
+  border-radius: 1rem;
+  background: #feba10;
+}
+
+/* All the same stuff for IE */
+input[type="range"]::-ms-thumb {
+  box-shadow: none;
+  border: none;
+  height: 10px;
+  width: 50px;
+  border-radius: 1rem;
+  background: #feba10;
 }

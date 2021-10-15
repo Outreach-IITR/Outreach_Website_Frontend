@@ -39,7 +39,7 @@ const Crousel = (props) => {
           alt="left control"
           onClick={prevSlide}
         />
-        s
+
         {slides.map((img, indx) => {
           return (
             <div

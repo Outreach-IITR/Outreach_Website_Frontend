@@ -1,4 +1,6 @@
 import React, { useState, useRef, useLayoutEffect, useEffect } from "react";
+import MyMobile from "../../helperComponents/MyMobile";
+import MyDesktop from "../../helperComponents/MyDesktop";
 import "./Groups.css";
 import { techData } from "./techDetails";
 
@@ -40,13 +42,15 @@ const Groups = () => {
       <div className="subBoxGroup">
         <h2 id="subheadingGroup">
           Technical
-          <input
-            type="range"
-            name="scroll"
-            min="0"
-            value={scrollValTech}
-            max={scrollTech}
-          />
+          <MyDesktop>
+            <input
+              type="range"
+              name="scroll"
+              min="0"
+              value={scrollValTech}
+              max={scrollTech}
+            />
+          </MyDesktop>
         </h2>
         <div
           className="sliderGroup"
@@ -64,17 +68,30 @@ const Groups = () => {
             );
           })}
         </div>
+        <MyMobile>
+          <div className="inputContainerG">
+            <input
+              type="range"
+              name="scroll"
+              min="0"
+              value={scrollValTech}
+              max={scrollTech}
+            />
+          </div>
+        </MyMobile>
       </div>
       <div className="subBoxGroup">
         <h2 id="subheadingGroup">
           Cultural and Social
-          <input
-            type="range"
-            name="scroll"
-            min="0"
-            value={scrollValCul}
-            max={scrollCul}
-          />
+          <MyDesktop>
+            <input
+              type="range"
+              name="scroll"
+              min="0"
+              value={scrollValCul}
+              max={scrollCul}
+            />
+          </MyDesktop>
         </h2>
         <div className="sliderGroup" ref={culRef} onScroll={handleScrollCul}>
           {techData.map((data, idx) => {
@@ -87,6 +104,17 @@ const Groups = () => {
             );
           })}
         </div>
+        <MyMobile>
+          <div className="inputContainerG">
+            <input
+              type="range"
+              name="scroll"
+              min="0"
+              value={scrollValCul}
+              max={scrollCul}
+            />
+          </div>
+        </MyMobile>
       </div>
     </div>
   );

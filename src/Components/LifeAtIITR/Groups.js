@@ -36,6 +36,16 @@ const Groups = () => {
     setScollValCul(culRef.current.scrollLeft);
   };
 
+  const handleScrollRangeTech = (e) => {
+    setScollValTech(e.target.value);
+    myRef.current.scrollLeft = scrollValTech;
+  };
+
+  const handleScrollRangeCul = (e) => {
+    setScollValCul(e.target.value);
+    culRef.current.scrollLeft = scrollValCul;
+  };
+
   return (
     <div className="containerG">
       <h1 id="groupsHeading">Campus Groups</h1>
@@ -48,6 +58,7 @@ const Groups = () => {
               name="scroll"
               min="0"
               value={scrollValTech}
+              onChange={handleScrollRangeTech}
               max={scrollTech}
             />
           </MyDesktop>
@@ -74,6 +85,7 @@ const Groups = () => {
               type="range"
               name="scroll"
               min="0"
+              onChange={handleScrollRangeTech}
               value={scrollValTech}
               max={scrollTech}
             />
@@ -88,6 +100,7 @@ const Groups = () => {
               type="range"
               name="scroll"
               min="0"
+              onChange={handleScrollRangeCul}
               value={scrollValCul}
               max={scrollCul}
             />
@@ -110,6 +123,7 @@ const Groups = () => {
               type="range"
               name="scroll"
               min="0"
+              onChange={handleScrollRangeCul}
               value={scrollValCul}
               max={scrollCul}
             />

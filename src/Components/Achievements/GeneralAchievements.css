@@ -78,7 +78,7 @@
   color: #3f3f3f;
 }
 
-#gen-ach-data-text p:hover {
+#gen-ach-data-text:hover {
   cursor: pointer;
 }
 

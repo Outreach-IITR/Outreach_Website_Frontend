@@ -1,18 +1,20 @@
 import React from "react";
 import "./Campus_offers.css";
-import CampusOfferImage from "./Assets/5.png"
-function CampusOffers() {
-  return (
-    <>
-      <div className="CampusOffer-heading">
-        <span>No. of on campus offers yearwise </span>{" "}
-      </div>
-      <div id="image-holder_campusOffer">
+import Campus_offer_img from "./Assets/campus_offer.png"
 
-          <img className="campusOfferImage" src={CampusOfferImage} alt="" />
+class Campus_offer extends React.Component{
+  render(){
+    return(
+      <div id="Campus_offer">
+        <div id="Campus_offer_heading">
+          <h2>No. of Campus offers <br/> yearwise</h2>
+        </div>
+        <div id="Campus_offer_image">
+          <img src={Campus_offer_img}></img>
+
+        </div>
       </div>
-    </>
-  );
+    )
+  }
 }
-
-export default CampusOffers;
+export default Campus_offer;

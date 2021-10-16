@@ -182,3 +182,54 @@
   outline: none;
   border-radius: 5rem;
 }
+
+@media screen and (max-width:900px) {
+  #Feild_wise_ach_1{
+    width:15rem;
+    height:15rem;
+  }
+  #Feild_wise_ach_2{
+    width:15rem;
+    height:15rem;
+  }
+  #Feild_wise_ach_3{
+    width:15rem;
+    height:15rem;
+  }
+  #Feild_wise_ach_1 h2{
+    padding-top: 11.5rem;
+  }
+  #Feild_wise_ach_2 h2{
+    padding-top: 11.5rem;
+  }
+  #Feild_wise_ach_3 h2{
+    padding-top: 11.5rem;
+  }
+}
+@media screen and (max-width:550px) {
+  #Feild_wise_ach_1{
+    width:7rem;
+    height:7rem;
+  }
+  #Feild_wise_ach_2{
+    width:7rem;
+    height:7rem;
+  }
+  #Feild_wise_ach_3{
+    width:7rem;
+    height:7rem;
+  }
+  #Feild_wise_ach_1 h2{
+    font-size: 1rem;
+    padding-top: 4.5rem;
+  }
+  #Feild_wise_ach_2 h2{
+    font-size: 1rem;
+    padding-top: 4.5rem;
+  }
+  #Feild_wise_ach_3 h2{
+    font-size: 1rem;
+    padding-top: 4.5rem;
+  }
+  
+}

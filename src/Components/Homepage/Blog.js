@@ -26,10 +26,10 @@ class Blog extends React.Component {
                     <div id="blog_mobile1">
                     <div id="blogbox1">
                         <div id="blogbox_content"><h2>
-                            Article
+                        How is life at IIT Roorkee?
                         </h2>
                         <p>
-                            Lorem elit porta <br/> cras vulputate <br/>massa sed <br/>ullamcorper arcu <br/>enim.
+                        Life at an IIT <br/>is always great, <br/>but at IIT Roorkee…
                         </p>
                         <div id="blog_writer">
                             <img alt="img" src={person_ref}/>
@@ -41,10 +41,11 @@ class Blog extends React.Component {
                     </div>
                     <div id="blogbox2">
                     <div id="blogbox_content"><h2>
-                            Article
+                    What is the amazing point of IIT Roorkee?
+
                         </h2>
                         <p>
-                            Lorem elit porta <br/> cras vulputate <br/>massa sed <br/>ullamcorper arcu <br/>enim.
+                        IIT Roorkee, oldest <br/>engineering college of<br/> our country, is really…
                         </p>
                         <div id="blog_writer">
                             <img alt="img" src={person_ref}/>
@@ -56,10 +57,10 @@ class Blog extends React.Component {
                     <div id="blog_mobile2">
                     <div id="blogbox3">
                     <div id="blogbox_content"><h2>
-                            Article
+                    How are the clubs in IIT Roorkee?
                         </h2>
                         <p>
-                            Lorem elit porta <br/> cras vulputate <br/>massa sed <br/>ullamcorper arcu <br/>enim.
+                        There are coding clubs,<br/> technical clubs, <br/>cultural clubs…
                         </p>
                         <div id="blog_writer">
                             <img alt="img" src={person_ref}/>
@@ -69,10 +70,12 @@ class Blog extends React.Component {
                     </div>
                     <div id="blogbox4">
                     <div id="blogbox_content"><h2>
-                            Article
+                            Which IIT has the best coding culture?
+
                         </h2>
                         <p>
-                            Lorem elit porta <br/> cras vulputate <br/>massa sed <br/>ullamcorper arcu <br/>enim.
+                        Whenever someone talks<br/> of coding culture,<br/> the first name that comes…
+
                         </p>
                         <div id="blog_writer">
                             <img alt="img" src={person_ref}/>
@@ -84,10 +87,10 @@ class Blog extends React.Component {
                     
                     <div id="blogbox5">
                     <div id="blogbox_content"><h2>
-                            Article
+                            How is life for freshers at IIT Roorkee?
                         </h2>
                         <p>
-                            Lorem elit porta <br/> cras vulputate <br/>massa sed <br/>ullamcorper arcu <br/>enim.
+                        To be true absolutely <br/>amazing! I am not <br/>saying this just to brag…
                         </p>
                         <div id="blog_writer">
                             <img alt="img" src={person_ref}/>

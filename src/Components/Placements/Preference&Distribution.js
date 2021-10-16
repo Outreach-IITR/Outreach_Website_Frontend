@@ -1,25 +1,32 @@
 import React from "react";
 import "./Preference&Distribution.css"
-import image1 from "./Assets/3.png"
-import image2 from "./Assets/4.png";
-function LastPart() {
+import image1 from "./Assets/programs.png"
+import image2 from "./Assets/country_wise_pg.png";
+class LastPart extends React.Component {
+  render(){
   return (
     <>
 
-      <div className="container_images">
-        <div className="image-holder-left">
-          <h5 className="heading_left">Program Preference</h5>
-          <img className="image1" src={image1} alt="" />
+      <div id="container_images">
+        <div id="image-holder-left">
+          <div id="pref_left_content">
+            <h2 >Program Preference</h2>
+          </div>
+          <div id="pref_left_img">
+            <img src={image1} alt="" />
+          </div>
         </div>
-        <div className="image-holder-right">
-          <h5 className="heading_right">
-            Country wise distribution of Post Graduate Students
-          </h5>
-          <img className="image2" src={image2} alt="" />
+        <div id="image-holder-right">
+          <div id="pref_right_content">
+              <h2 >Country wise distribution of <br/>Post Graduate Students</h2>
+          </div>
+          <div id="pref_right_img">
+            <img src={image2} alt="" />
+          </div>
         </div>
       </div>
     </>
-  );
+  );}
 }
 
 export default LastPart;

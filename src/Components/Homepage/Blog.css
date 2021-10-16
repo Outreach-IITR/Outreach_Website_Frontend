@@ -154,6 +154,9 @@
     padding-top: 1rem;
     
 }
+#blogbox_content h2{
+     font-size: 1.3rem;
+}
 
 #blog_writer{
     display: flex;

@@ -1,15 +1,58 @@
-import React from "react";
+import React, { useState, useRef, useLayoutEffect, useEffect } from "react";
+import MyMobile from "../../helperComponents/MyMobile";
+import MyDesktop from "../../helperComponents/MyDesktop";
 import "./Groups.css";
 import { techData } from "./techDetails";
 
 const Groups = () => {
+  const [scrollTech, setScrollTech] = useState(0);
+  const [scrollCul, setScrollCul] = useState(0);
+  const [scrollValTech, setScollValTech] = useState(0);
+  const [scrollValCul, setScollValCul] = useState(0);
+  const myRef = useRef();
+  const culRef = useRef();
+
+  useLayoutEffect(() => {
+    function UpdateSize() {
+      setScrollTech(myRef.current.scrollWidth - myRef.current.clientWidth);
+      setScrollCul(culRef.current.scrollWidth - culRef.current.clientWidth);
+    }
+    UpdateSize();
+  }, []);
+
+  useEffect(() => {
+    function size() {
+      setScollValTech(myRef.current.scrollLeft);
+    }
+    size();
+    // window.onscroll()
+  }, []);
+
+  const handleScrollTech = (e) => {
+    setScollValTech(myRef.current.scrollLeft);
+  };
+
+  const handleScrollCul = (e) => {
+    setScollValCul(culRef.current.scrollLeft);
+  };
+
+  const handleScrollRangeTech = (e) => {
+    setScollValTech(e.target.value);
+    myRef.current.scrollLeft = scrollValTech;
+  };
+
+  const handleScrollRangeCul = (e) => {
+    setScollValCul(e.target.value);
+    culRef.current.scrollLeft = scrollValCul;
+  };
+
   return (
     <div className="containerG">
       <h1 id="groupsHeading">Campus Groups</h1>
       <div className="subBoxGroup">
         <h2 id="subheadingGroup">
           Technical
-          {/* <MyDesktop>
+          <MyDesktop>
             <input
               type="range"
               name="scroll"
@@ -18,9 +61,14 @@ const Groups = () => {
               onChange={handleScrollRangeTech}
               max={scrollTech}
             />
-          </MyDesktop> */}
+          </MyDesktop>
         </h2>
-        <div className="sliderGroup" id="test">
+        <div
+          className="sliderGroup invisible-scrollbar"
+          onScroll={handleScrollTech}
+          ref={myRef}
+          id="test"
+        >
           {techData.map((data, idx) => {
             return (
               <div className="cardG" key={idx}>
@@ -31,7 +79,7 @@ const Groups = () => {
             );
           })}
         </div>
-        {/* <MyMobile>
+        <MyMobile>
           <div className="inputContainerG">
             <input
               type="range"
@@ -42,12 +90,12 @@ const Groups = () => {
               max={scrollTech}
             />
           </div>
-        </MyMobile> */}
+        </MyMobile>
       </div>
       <div className="subBoxGroup">
         <h2 id="subheadingGroup">
           Cultural and Social
-          {/* <MyDesktop>
+          <MyDesktop>
             <input
               type="range"
               name="scroll"
@@ -56,9 +104,9 @@ const Groups = () => {
               value={scrollValCul}
               max={scrollCul}
             />
-          </MyDesktop> */}
+          </MyDesktop>
         </h2>
-        <div className="sliderGroup">
+        <div className="sliderGroup invisible-scrollbar" ref={culRef} onScroll={handleScrollCul}>
           {techData.map((data, idx) => {
             return (
               <div className="cardG" key={idx + 67}>
@@ -69,7 +117,7 @@ const Groups = () => {
             );
           })}
         </div>
-        {/* <MyMobile>
+        <MyMobile>
           <div className="inputContainerG">
             <input
               type="range"
@@ -80,7 +128,7 @@ const Groups = () => {
               max={scrollCul}
             />
           </div>
-        </MyMobile> */}
+        </MyMobile>
       </div>
     </div>
   );

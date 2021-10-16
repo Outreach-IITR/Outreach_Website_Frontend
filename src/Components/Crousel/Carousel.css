@@ -127,7 +127,7 @@
   width: 100%;
   bottom: 1rem;
   font-size: 0.875rem;
-  font-family: SF UI Text, sans-serif;
+  font-family: SF UI Text;
   text-align: center;
   margin: auto;
   color: #fdfdff;
@@ -137,7 +137,7 @@
   width: 40%;
   height: 6rem;
   text-align: center;
-  font-family: SF UI Text, sans-serif;
+  font-family: SF UI Text;
   font-size: 0.875rem;
   font-weight: 00;
   color: #3f3f3f;

@@ -6,6 +6,10 @@
   display: none;
 }
 
+#cont{
+  font-family: SF UI Text;
+}
+
 #SecondSection {
   margin: 12rem 0 8rem 0;
   padding-right: 6.25rem;

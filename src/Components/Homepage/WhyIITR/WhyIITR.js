@@ -41,7 +41,7 @@ const HomePageCarousel = () => {
           <p className="WhyIITR__Para">Know more about IITR before deciding</p>
           <h1 className="WhyIITR__Heading">Why IIT Roorkee ?</h1>
         </div>
-        <p>
+        <p id="cont">
           IIT Roorkee creates an environment that fosters the growth of
           intellectually capable, innovative, and entrepreneurial professionals.
           Students at IITR believe in following their passion. The Presence of

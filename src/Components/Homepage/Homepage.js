@@ -20,11 +20,10 @@ class Homepage extends React.Component {
           
           <div id="FirstSection">
             <div id="FirstSectionContent">
-              <h1>Lorem Ipsum</h1>
+              <h1>Outreach</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu,
-                ligula dictum facilisis et morbi aliquet. Egestas diam porttitor
-                faucibus elementum facilisis consequat risus elit.
+              Bid adieu to all your doubts, anything that you might be confused about. Get answers to all of your questions, from the silliest to the smartest of them, we are here to make things clear and coherent. 
+
               </p>
               <button id="tap_to_know">Tap to know more</button>
             </div>

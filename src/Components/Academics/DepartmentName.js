@@ -1,3 +1,39 @@
+import Carousel1 from "../Crousel/Assets/carousel1.png";
+// Archi
+import archi1 from "./Assets/departments/archi1.png"
+import archi2 from "./Assets/departments/archi2.png"
+import archi3 from "./Assets/departments/archi3.png"
+import archi4 from "./Assets/departments/archi4.png"
+import archi5 from "./Assets/departments/archi5.png"
+
+// Biosciences and Bioengineering
+import be1 from "./Assets/departments/be1.png";
+import be2 from "./Assets/departments/be2.png";
+import be3 from "./Assets/departments/be3.png";
+import be4 from "./Assets/departments/be4.png";
+import be5 from "./Assets/departments/be5.png";
+
+//Chemical Engineering
+import ce1 from "./Assets/departments/ce1.png"
+import ce2 from "./Assets/departments/ce2.png"
+import ce3 from "./Assets/departments/ce3.png"
+import ce4 from "./Assets/departments/ce4.png"
+import ce5 from "./Assets/departments/ce5.png"
+
+//Chemistry
+import c1 from "./Assets/departments/c1.png";
+import c2 from "./Assets/departments/c2.png";
+import c3 from "./Assets/departments/c3.png";
+import c4 from "./Assets/departments/c4.png";
+import c5 from "./Assets/departments/c5.png";
+
+//Civil engineering
+import civil1 from "./Assets/departments/civil1.png";
+import civil2 from "./Assets/departments/civil2.png";
+import civil3 from "./Assets/departments/civil3.png";
+import civil4 from "./Assets/departments/civil4.png";
+import civil5 from "./Assets/departments/civil5.png";
+
 export const departmentinfo = [
   {
     name: "Architechture and Planning ",
@@ -6,7 +42,39 @@ export const departmentinfo = [
       "The department has Climatology Lab, Computer Lab, lab on Net Zero Emissions, Computerized Design Studios equipped with state-of-art equipment and software, an Art Lab, and a Workshop. The students also get exposure to the professional world outside through national and international projects and internships.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: '-', wrong: '-'
+    correct: '-', wrong: '-',
+    acadCrouselData: [
+      {
+        image: archi1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: archi2,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: archi3,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: archi4,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: archi5,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Biosciences and Bioengineering ",
@@ -15,7 +83,39 @@ export const departmentinfo = [
       "The coursework offers training and research in the interdisciplinary areas of biotechnology with a particular emphasis on extending the knowledge generated from these studies towards the development of technologies of commercial significance.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: be1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: be2,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: be3,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: be4,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: be5,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Chemical Engineering ",
@@ -24,7 +124,39 @@ export const departmentinfo = [
       "The department is engaged in creating laboratories in analytical/instrumental analysis, modeling and simulation, safety, and hydrocarbon engineering at the research frontier.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: ce1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: ce2,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: ce3,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: ce4,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: ce5,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Chemistry ",
@@ -33,7 +165,39 @@ export const departmentinfo = [
       "The department is concerned with interdisciplinary research on contemporary problems of chemical science relating to industrial, rural, and agricultural areas and the utilization of industrial wastes for the generation of energy, chemicals, and biopolymers.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: c1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: c2,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: c3,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: c4,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: c5,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Civil Engineering ",
@@ -41,7 +205,39 @@ export const departmentinfo = [
     info2: null,
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: civil1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: civil2,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: civil3,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: civil4,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: civil5,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Computer Science and Engineering ",
@@ -50,7 +246,39 @@ export const departmentinfo = [
       "The Department has successfully completed a large number of sponsored research projects funded by DRDO, DST, UGC, ISRO, DOE, AICTE, MCIT, etc. The Department also provides R&D and consultancy services to various industries.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Design ",
@@ -59,7 +287,39 @@ export const departmentinfo = [
       "They aim at fostering design-focused education research and entrepreneurial activities with a focus to create commercial opportunities. The department has launched two new post-graduate programmes – masters in design (industrial design) and masters in innovation management (MIM) – commencing the academic year 2021-22.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Earthquake Engineering ",
@@ -68,7 +328,39 @@ export const departmentinfo = [
       "It is actively involved in carrying out sponsored research and consultancy projects through self-guiding state-of-art test facilities, and has played a key role at the national level in the formulation Indian Standard Codes of Practice for earthquake resistant design of Structures.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Earth Sciences ",
@@ -77,7 +369,39 @@ export const departmentinfo = [
       "During the last six decades, the department has produced a large number of trained Earth Scientists who are the backbone of the Country's mineral, oil & gas, groundwater resources, and other exploration industries.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Electrical Engineering ",
@@ -86,7 +410,39 @@ export const departmentinfo = [
       "The department has state-of-the-art research facilities to support its academic programs and research and it continues to expand the base of knowledge through numerous referred publications.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Electronics and communication engineering ",
@@ -95,7 +451,39 @@ export const departmentinfo = [
       " Various cultural and sports activities are also held year-round to inculcate the spirit of brotherhood and develop a well-rounded human being.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Humanities and Social sciences ",
@@ -104,16 +492,80 @@ export const departmentinfo = [
       "Besides, there has been a considerable progression of tangible and academic infrastructure, providing an impetus for its bright future.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
-    name: "Hydrogen ",
+    name: "Hydrology",
     info1: "UNESCO and the Government of India are sponsoring the courses offered by the department at present. National Institute of Hydrology (NIH) is located in Roorkee. The Department has full-time devoted faculties with specializations in surface water hydrology (Floods, Droughts), water resources systems, watershed management, Geo-hydrology, groundwater geophysics, stochastic hydrology, hydro-informatics, environmental hydrology, atmospheric physics, climate change etc.",
     info2:
       "Department provides research facilities and projects to work on.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Hydro and Renewable energy ",
@@ -122,7 +574,39 @@ export const departmentinfo = [
       "Technical support to over 25 different state and central government organizations for SHP development has been provided. IPPs and financial institutions are utilizing their expertise to support their SHP development.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Management studies ",
@@ -131,7 +615,39 @@ export const departmentinfo = [
       " Classrooms, together with modern infrastructure, provide an invigorating academic environment and an effective pedagogy further sets a platform conducive enough to nurture the best breed of managerial talent.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Mathematics ",
@@ -140,7 +656,39 @@ export const departmentinfo = [
       "The Department also offers facilities for research work leading to a Ph.D. degree in different branches of Pure and Applied Mathematics. The Department of Mathematics also has expertise in various fields of Computer Science and Technology and several subjects of this field are taught by teachers of the Mathematics department in tandem, majorly in fields like programming languages and techniques, fuzzy networks, simulation, modeling, and computer graphics. ",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Mechanics and Industrial Engineering ",
@@ -149,7 +697,39 @@ export const departmentinfo = [
       "The laboratory and workshop facilities are equipped with modern sophisticated equipment for effective work in research areas related to the Mechanical and Production and Industrial departments. The faculty actively participates in sponsored research and consultancy work. ",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Metallurgical and Materials Engineering ",
@@ -157,7 +737,39 @@ export const departmentinfo = [
     info2: null,
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Paper Technology ",
@@ -166,7 +778,39 @@ export const departmentinfo = [
       "The areas of active research have been fiber characterization, identification, and evaluation of new fibrous pulping raw materials, identification of chloro-organic compounds in wastewaters, color reduction of effluents, evaluation of recycling potential of pulps, drinking studies, paper surface characterization and printability, enzyme production and applications, modeling and simulation of pulp and papermaking operations to name a few.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "Physics ",
@@ -175,7 +819,39 @@ export const departmentinfo = [
       "Additional to the above courses, the facilities of the Department of Physics are also actively engaged in different areas of research on some of the trending topics like Atmospheric and Space Physics, Atomic and Molecular physics, Condensed Matter Physics, Nuclear Physics, Optics, and Theoretical High Energy Physics.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
   {
     name: "WaterResource Department and Management ",
@@ -183,7 +859,39 @@ export const departmentinfo = [
     info2: null,
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3, wrong: 5
+    correct: 3, wrong: 5,
+    acadCrouselData: [
+      {
+        image: Carousel1,
+        caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: Carousel1,
+        caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: Carousel1,
+        caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: Carousel1,
+        caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: Carousel1,
+        caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ]
   },
 
 

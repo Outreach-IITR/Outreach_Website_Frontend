@@ -3,7 +3,6 @@ import React, { useState, useRef } from "react";
 import "./Departments.css";
 import list from "./departmentInfo";
 import { departmentinfo } from "./DepartmentName";
-import { slides } from "./AcadCarouselData";
 import Crousel from "../Crousel/Crousel";
 import plus from "./Assets/plus.svg";
 import minus from "./Assets/minus.svg";
@@ -59,9 +58,8 @@ const Departments = () => {
               <>
                 {idx < 6 * depPage && idx >= 6 * (depPage - 1) ? (
                   <div
-                    className={`cardD ${
-                      idx === id ? "selectedBackground" : ""
-                    }`}
+                    className={`cardD ${idx === id ? "selectedBackground" : ""
+                      }`}
                     key={data.id}
                     onClick={() => handleSelection(idx)}
                   >
@@ -83,7 +81,7 @@ const Departments = () => {
           {list.map((data, idx) => {
             return (
               <div
-                className="cardD"
+                className={`cardD ${id === idx ? "whiteD" : ""}`}
                 key={data.id}
                 onClick={() => handleSelection(idx)}
                 onMouseEnter={OnHoverHandler}
@@ -108,7 +106,7 @@ const Departments = () => {
         {id !== "" ? (
           <>
             <h1 id="Departments_heading">{departmentinfo[id].name}</h1>
-            <Crousel slides={slides} />
+            <Crousel slides={departmentinfo[id].acadCrouselData} />
             <div className="imgDescription_Dep">
               <p>{departmentinfo[id].info1}</p>
               <p>{departmentinfo[id].info2}</p>

@@ -23,9 +23,9 @@ const TeamTemplate = (props) => {
             onMouseEnter={OnHoverHandler}
             style={{ "--hover_color": background }}
           >
-            <img alt="icon" src={member.image} />
+            <img src={member.image} alt="icon" />
             <h4 className="TeamTemplate__MemberName">{member.name}</h4>
-            <h6 className="TeamTemplate__MemberPost">Secretary</h6>
+            <h6 className="TeamTemplate__MemberPost">{member.post}</h6>
           </div>
         );
       })}

@@ -18,7 +18,7 @@
   width: fit-content;
   overflow: hidden;
   background: #f1f1f1;
-  border-radius: 1.5rem;
+  border-radius: 25px;
   overflow: hidden;
   color: #3f3f3f;
 }
@@ -26,6 +26,7 @@
 .TeamTemplate__ImgCard img {
   width: 15rem;
   height: 12.6rem;
+  background-color: #f1f1f1;
 }
 
 .TeamTemplate__ImgCard:hover {
@@ -34,12 +35,14 @@
 }
 
 .TeamTemplate__MemberName {
+  max-width: 15rem;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.6rem;
   margin: 0.8rem 0 0 0;
+  word-wrap: break-word;
 }
 
 .TeamTemplate__MemberPost {

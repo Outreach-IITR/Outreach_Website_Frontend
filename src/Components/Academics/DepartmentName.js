@@ -527,7 +527,7 @@ export const departmentinfo = [
     ]
   },
   {
-    name: "Hydrogen ",
+    name: "Hydrology",
     info1: "UNESCO and the Government of India are sponsoring the courses offered by the department at present. National Institute of Hydrology (NIH) is located in Roorkee. The Department has full-time devoted faculties with specializations in surface water hydrology (Floods, Droughts), water resources systems, watershed management, Geo-hydrology, groundwater geophysics, stochastic hydrology, hydro-informatics, environmental hydrology, atmospheric physics, climate change etc.",
     info2:
       "Department provides research facilities and projects to work on.",

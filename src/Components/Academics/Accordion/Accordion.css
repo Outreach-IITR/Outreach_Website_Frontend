@@ -46,6 +46,14 @@ width: 588px;
 height: 36px;
 }
 
+.accordion_content p{
+  font-size: 1rem;
+}
+
+.accordion_content a{
+  font-size: 0.9rem;
+}
+
 .accordion_label {
   display: block;
   cursor: pointer;
@@ -138,5 +146,16 @@ input[type="checkbox"]:checked + label {
 
   .scholarshipImage{
     width: 100%;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .accordion{
+    max-width: 90vw;
+  }
+
+  .accordion_content p{
+    max-height: 15rem;
   }
 }

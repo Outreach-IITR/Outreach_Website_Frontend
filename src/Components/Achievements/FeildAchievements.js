@@ -52,7 +52,7 @@ const Feild_wise_ach = () => {
                     <p>{obj.dep}</p>
                     <a href={obj.link}>Know More</a>
                   </div>
-                  <p>{obj.date}</p>
+                  <div id="date_ach"><p >{obj.date}</p></div>
                 </div>
               );
             })}

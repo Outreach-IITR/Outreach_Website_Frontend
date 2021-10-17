@@ -64,7 +64,7 @@ const Groups = () => {
           </MyDesktop>
         </h2>
         <div
-          className="sliderGroup invisible-scrollbar"
+          className="sliderGroup"
           onScroll={handleScrollTech}
           ref={myRef}
           id="test"
@@ -106,7 +106,7 @@ const Groups = () => {
             />
           </MyDesktop>
         </h2>
-        <div className="sliderGroup invisible-scrollbar" ref={culRef} onScroll={handleScrollCul}>
+        <div className="sliderGroup" ref={culRef} onScroll={handleScrollCul}>
           {techData.map((data, idx) => {
             return (
               <div className="cardG" key={idx + 67}>

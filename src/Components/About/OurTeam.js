@@ -21,15 +21,15 @@ const OurTeam = () => {
   }, []);
 
   const verticals__List = [
-    "Development",
     "Design",
+    "Development",
     "Multimedia",
     "Operations",
     "Editorial",
     "Social Media",
   ];
 
-  const [vertical, setVertical] = useState("Development");
+  const [vertical, setVertical] = useState("Design");
   const Verticalhandler = (vert) => {
     setVertical(vert);
   };

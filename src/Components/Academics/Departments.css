@@ -53,7 +53,7 @@
     justify-content: space-around;
   }
   .selectedBackground {
-    background: #026BA1 !important;
+    background: #026BA1 !important; 
   }
 }
 
@@ -152,8 +152,4 @@
 
 .crouselDep {
   margin: 80px 0 !important;
-}
-
-.whiteD {
-  color: #ffffff;
 }

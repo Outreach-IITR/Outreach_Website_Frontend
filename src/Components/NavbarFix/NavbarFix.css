@@ -1,3 +1,7 @@
+#nav_bg{
+  background-color: white;
+}
+
 .main-nav1 {
   display: grid;
   width: 100%;
@@ -7,7 +11,7 @@
   position: fixed;
   top: 0;
   background-color: white;
-  /* z-index: 1008; */
+  z-index: 1008;
 }
 .main-nav-fix {
   display: grid;
@@ -21,6 +25,7 @@
   opacity: 1;
   box-shadow: 0rem 0.2rem 0.6rem -0.4rem #333333;
   top: 0;
+  opacity: 0.9;
 }
 
 .logo {
@@ -82,7 +87,7 @@
   display: none;
   font-size: 1.5rem;
   border: none;
-  background-color: white;
+  /* background-color: white; */
   justify-content: center;
   align-items: center;
 }
@@ -111,25 +116,34 @@
     margin-top: 0rem;
   }
   .mobile-menu-link {
+    display: flex;
+    justify-content: center;
     grid-row: 2/4;
     grid-column: 1/6;
-    font-size: medium;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
     display: grid;
     margin-top: -1.2rem;
-    margin-left: -3rem;
+    margin-left: 0rem;
     transition: all 2s linear;
     transform-origin: top;
-    z-index: 99;
+    z-index: 10000;
     background-color: white;
+    transition: ease-in 10s;
+    
   }
   .Discussion-forum {
-    background-color: white;
+    background-color:white;
     grid-row: 4/5;
     grid-column: 1/6;
-    z-index: 99;
-    /* padding-bottom: 1rem; */
+    z-index: 10000;
+    justify-content: center;
+    /* margin: 0; */
+    padding-bottom:0;
+  }
+  .Discussion-forum-button{
+    padding: 0.6rem 1.5rem
   }
 
   .Discussion-forum-button-list {
@@ -137,5 +151,18 @@
   }
   .List-menu {
     display: grid;
+  }
+  #join_button{
+    margin: 0;
+    margin-left: 1rem;
+    
+  }
+  .menu-link-item{
+    padding-bottom: 1rem;
+    opacity: 1;
+
+  }
+  .logo{
+    margin-left: 8rem;
   }
 }

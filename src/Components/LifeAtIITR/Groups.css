@@ -37,10 +37,6 @@
   margin-left: 57px;
 }
 
-.invisible-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
 .subBoxGroup {
   width: 93%;
   margin-left: 7%;
@@ -169,7 +165,7 @@ input[type="range"]::-ms-thumb {
   background: #feba10;
 }
 
-.inputContainerG {
+.inputContainerG{
   width: 100%;
   margin-top: 20px;
   display: flex;

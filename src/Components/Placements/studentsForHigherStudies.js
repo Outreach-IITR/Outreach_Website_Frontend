@@ -11,7 +11,7 @@ class StudentsForHigherStudies extends React.Component{
         </div>
         <div id="Std_for_study_data">
           <div id="Std_for_study_img">
-            <img src={std_higher_img}></img>
+            <img alt="img" src={std_higher_img}></img>
             <p>Total Students persuing Masters` or Phds in <br/> foreign institutions : <b>63</b> (2020)</p>
           </div>
           <div id="Std_for_study_content">

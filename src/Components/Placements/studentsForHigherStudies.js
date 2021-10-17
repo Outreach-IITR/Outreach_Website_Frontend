@@ -1,6 +1,6 @@
 import React from "react";
 import "./studentsForHigherStudies.css"
-import std_higher_img from "./Assets/std.png"
+import std_higher_img from "./Assets/4part.png"
 class StudentsForHigherStudies extends React.Component{
   render(){
     return(

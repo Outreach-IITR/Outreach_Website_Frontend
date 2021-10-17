@@ -24,7 +24,7 @@ const NavbarFix = () => {
       }, []);
 
         return (
-            <nav className={navbar}>
+            <nav className={navbar} id="nav_bg">
                 <a href ='/' className="logo">
                     <img alt="img" src={logo} />
                 </a>

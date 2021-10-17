@@ -1,6 +1,6 @@
 import React from "react";
 import "./Campus_offers.css";
-import Campus_offer_img from "./Assets/campus_offer.png"
+import Campus_offer_img from "./Assets/3part.png"
 
 class Campus_offer extends React.Component{
   render(){

@@ -41,6 +41,12 @@ color: #33434C;
 #pref_left_img{
     padding-top: 2rem;
 }
+#pref_left_img img{
+    width: 40rem;
+}
+#pref_right_img img{
+    width:37.5rem;
+}
 
 @media screen and (max-width:1024px) {
     #container_images{
@@ -59,6 +65,7 @@ color: #33434C;
     }
 
 }
+
 
 @media screen and (max-width:550px) {
     #container_images{

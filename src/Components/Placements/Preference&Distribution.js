@@ -1,7 +1,7 @@
 import React from "react";
 import "./Preference&Distribution.css"
-import image1 from "./Assets/programs.png"
-import image2 from "./Assets/country_wise_pg.png";
+import image1 from "./Assets/5.1part.png"
+import image2 from "./Assets/5.2part.png";
 class LastPart extends React.Component {
   render(){
   return (

@@ -32,6 +32,9 @@
 }
 
 @media screen and (max-width:900px){
+    #ctc{
+        padding-bottom: 1rem;
+    }
     #ctc_heading{
         text-align: center;
         padding-top: 3rem;

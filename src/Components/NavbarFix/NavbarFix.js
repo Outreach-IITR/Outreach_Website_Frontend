@@ -24,7 +24,7 @@ const NavbarFix = () => {
       }, []);
 
         return (
-            <nav className={navbar}>
+            <nav className={navbar} id="nav_bg">
                 <a href ='/' className="logo">
                     <img alt="img" src={logo} />
                 </a>
@@ -57,7 +57,7 @@ const NavbarFix = () => {
                 </a>
                 </div>
                 <div className="List-menu" onClick={() => setShowList(!showList)}>
-                    <i className={showList ? "chevron up icon List-menu-icon" : "chevron down icon List-menu-icon"} ></i>
+                    <i className={showList ? "times icon List-menu-icon" : "chevron down icon List-menu-icon"} ></i>
                 </div>
             </nav>
         )

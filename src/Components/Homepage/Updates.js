@@ -16,28 +16,35 @@ class Updates extends React.Component {
                     <ul>
                         <li>
                             <div id="update_content_data">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
+                            <p>Under the department of Management studies, IIt Roorkee introduced a new integrated program in Economics.
                                 <br/> <a href="/">Know More</a>
                             </p>    
                             </div>
                         </li>
                         <li>
                             <div id="update_content_data">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
+                            <p>The course Applied Mathematics is reframed as Mathematics and Computing offering a BS and MS dual degree.
                                 <br/> <a href="/">Know More</a>
                             </p>
                             </div>
                         </li>
                         <li>
                             <div id="update_content_data">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
+                            <p>The courses of Int. MSc. Chemistry and Int. MSc. Physics are restructured as Chemical Science and Physics respectively, offering an option to exit after four years.
                                 <br/> <a href="/">Know More</a>
                             </p>
                             </div>
                         </li>
                         <li>
                             <div id="update_content_data">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.
+                            <p>Next year onwards, a new department for Data Science and Artificial intelligence will be introduced in IIT Roorkee.
+                                <br/> <a href="/">Know More</a>
+                            </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="update_content_data">
+                            <p>Team IIT Roorkee has reached its record 7th consecutive ICPC World finals.
                                 <br/> <a href="/">Know More</a>
                             </p>
                             </div>

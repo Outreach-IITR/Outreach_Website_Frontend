@@ -17,9 +17,8 @@ function Accordion_segment() {
               </ul>
             </label>
             <div className="accordion_content">
-              <p className="accordian_paragraph">
-                This scholarship is awarded to 25% of the undergraduate students
-                based on their family income and merit.
+              <p>
+              lorem psum dolor sit amet
               </p>
               <a href="/">Know more...</a>
             </div>

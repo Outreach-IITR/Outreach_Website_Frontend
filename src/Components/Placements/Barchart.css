@@ -1,0 +1,56 @@
+.Barchart_placement{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-bottom: 5rem;
+}
+.Barchart_heading{
+    margin-top: 8rem;
+}
+
+.Barchart_heading h1{
+    text-align: center;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 1.8125rem;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #33434C;
+padding-bottom: 1rem;
+
+}
+#alt_barchart{
+    display: none;
+}
+@media screen and (max-width:900px){
+    .Barchart_placement{
+        width: 90.5vw;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+}
+ @media  screen and (max-width:550px) { 
+    .Barchart_placement{
+        display: none;
+        /* max-height: 70vw; */
+        
+    }
+    #alt_barchart {
+        display: flex;
+        justify-content: center;
+        width:90%;
+        height: 90%;
+    }
+    #alt_barchart img{
+        width:100%;
+        margin-left: 2rem;
+        padding-bottom: 2rem;
+    }
+    .Barchart_heading{
+        margin-top: 2rem;
+    }
+    
+} 

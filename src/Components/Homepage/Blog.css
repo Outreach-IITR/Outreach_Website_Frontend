@@ -385,6 +385,9 @@
         font-weight: 600;
         
     }
+    #blogbox_content h2 {
+        font-size: 1rem;
+    }
     #blogbox_content p{
         font-size: .7rem;
         font-weight: 400;

@@ -1,3 +1,5 @@
+// ************* Created by Sarveshwar Pandey************
+
 import React, { Component } from 'react'
 import './Startups.css'
 import tides from './Assets/tides.png'

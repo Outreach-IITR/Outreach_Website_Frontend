@@ -52,7 +52,7 @@ const Crousel = (props) => {
             >
               <img src={img.image} alt="travel" className={`Img`} />
 
-              <div className="gradient" />
+              {/* <div className="gradient" /> */}
               {indx === current && (
                 <>
                   <p className="img__caption">{img.caption}</p>

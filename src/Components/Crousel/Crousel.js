@@ -10,6 +10,7 @@ const Crousel = (props) => {
   let slides = props.slides;
   const length = slides.length;
   const [current, setCurrent] = useState(Math.floor(length / 2));
+  const [showCaption, setShowCaption] = useState(false);
 
   const nextSlide = useCallback(() => {
     setCurrent(current === length - 1 ? 0 : current + 1);
@@ -30,6 +31,12 @@ const Crousel = (props) => {
     return null;
   }
 
+  const onHoverHandler = () => {
+    setShowCaption((prevstate) => {
+      setShowCaption(!prevstate);
+    });
+  };
+
   return (
     <div className="Carousel">
       <section className="slider">
@@ -49,11 +56,12 @@ const Crousel = (props) => {
                 (indx === current && "currentImg")
               }`}
               key={indx}
+              onMouseEnter={onHoverHandler}
+              onMouseLeave={onHoverHandler}
             >
               <img src={img.image} alt="travel" className={`Img`} />
 
-              {/* <div className="gradient" /> */}
-              {indx === current && (
+              {indx === current && showCaption && (
                 <>
                   <p className="img__caption">{img.caption}</p>
                 </>

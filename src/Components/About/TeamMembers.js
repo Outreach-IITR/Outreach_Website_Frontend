@@ -97,49 +97,9 @@ import KinshuKumar from "./Assets/OurTeam_Img/KinshuKumar.png";
 
 const Secretaries = [
   {
-    name: "Sankalp Vedrajan",
-    image: SankalpVedrajan,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Shloki Jha",
-    image: ShlokiJha,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Atul Singh",
-    image: AtulSingh,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Aishwarya Mertia",
-    image: AishwaryaMertia,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Abhishek Yadav",
-    image: AbhishekYadav,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Aman Sinha",
-    image: AmanSinha,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Lakshya Jain",
-    image: LakshyaJain,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Diksha Sehgal",
-    image: DikshaSehgal,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Abhinav Saini",
-    image: AbhinavSaini,
-    post: "Joint Secretary",
+    name: "Shivansh Bhat",
+    image: ShivanshBhat,
+    post: "Secretary",
   },
   {
     name: "Abhishek Jha",
@@ -152,9 +112,49 @@ const Secretaries = [
     post: "Additional Secretary",
   },
   {
-    name: "Shivansh Bhat",
-    image: ShivanshBhat,
-    post: "Secretary",
+    name: "Sankalp Vedrajan",
+    image: SankalpVedrajan,
+    post: "Joint Secretary - Operations",
+  },
+  {
+    name: "Aishwarya Mertia",
+    image: AishwaryaMertia,
+    post: "Joint Secretary - Editorial",
+  },
+  {
+    name: "Shloki Jha",
+    image: ShlokiJha,
+    post: "Joint Secretary - Editorial",
+  },
+  {
+    name: "Lakshya Jain",
+    image: LakshyaJain,
+    post: "Joint Secretary - Design",
+  },
+  {
+    name: "Diksha Sehgal",
+    image: DikshaSehgal,
+    post: "Joint Secretary - Design",
+  },
+  {
+    name: "Abhishek Yadav",
+    image: AbhishekYadav,
+    post: "Joint Secretary - Web Dev.",
+  },
+  {
+    name: "Atul Singh",
+    image: AtulSingh,
+    post: "Joint Secretary - Web Dev.",
+  },
+  {
+    name: "Abhinav Saini",
+    image: AbhinavSaini,
+    post: "Joint Secretary - Social",
+  },
+  {
+    name: "Aman Sinha",
+    image: AmanSinha,
+    post: "Joint Secretary - Multimedia",
   },
 ];
 

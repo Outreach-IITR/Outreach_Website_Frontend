@@ -6,7 +6,7 @@
   display: none;
 }
 
-#cont{
+#cont {
   font-family: SF UI Text;
 }
 
@@ -29,6 +29,7 @@
 
 .WhyIITR__Img2 {
   width: 30vw;
+  transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .WhyIITR__Img3 {
@@ -47,15 +48,17 @@
   left: 17vw;
   transform: translate(0, -25%);
   z-index: 0;
+  transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .WhyIITR__Img1:hover {
   transform: translate(0, -25%) scale(1.1);
+  z-index: 1;
 }
 
 .WhyIITR__Img2:hover {
-  transform: scale(1.1);
   z-index: 1;
+  transform: scale(1.1);
 }
 
 .WhyIITR__Para {
@@ -146,6 +149,7 @@
     position: relative;
     width: 70vw;
     display: inherit;
+    transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   }
 
   .WhyIITR__Img3 {

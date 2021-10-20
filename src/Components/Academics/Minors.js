@@ -35,7 +35,7 @@ class Minors extends Component {
                             minor specialization aptly mentioned on their degree they receive upon graduation.
                         </p>
                     </div>
-                    <div className="minors_img">
+                    <div className="minors_img minors_img1">
                         
                     <img alt="img" src={Group} />
                         

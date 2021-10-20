@@ -8,8 +8,8 @@ import RightArrow from "./Assets/RightArrow.svg";
 
 const Crousel = (props) => {
   let slides = props.slides;
-  const [current, setCurrent] = useState(2);
   const length = slides.length;
+  const [current, setCurrent] = useState(Math.floor(length / 2));
 
   const nextSlide = useCallback(() => {
     setCurrent(current === length - 1 ? 0 : current + 1);

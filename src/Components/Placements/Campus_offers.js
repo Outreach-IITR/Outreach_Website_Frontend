@@ -10,7 +10,7 @@ class Campus_offer extends React.Component{
           <h2>No. of Campus offers <br/> yearwise</h2>
         </div>
         <div id="Campus_offer_image">
-          <img src={Campus_offer_img}></img>
+          <img alt="img" src={Campus_offer_img}></img>
 
         </div>
       </div>

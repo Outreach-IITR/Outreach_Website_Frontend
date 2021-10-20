@@ -12,7 +12,7 @@ class CTC extends React.Component {
 
         </div>
         <div id="ctc_image">
-          <img src={CTC_image}></img>
+          <img alt="img" src={CTC_image}></img>
         </div>
 
       </div>

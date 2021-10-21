@@ -11,6 +11,9 @@
 
 
 }
+#blog_colour{
+        color: black !important;
+    }
 #Blog_first_section{
     margin-right: auto;
     /* right: auto; */
@@ -60,6 +63,7 @@
     width: 15.5rem;
     height: 18.8rem;
     left: 0rem;
+    color: black;
     /* top: 177.125rem; */
     background: #F1F1F1;
     box-shadow: -10px 0px 15px rgba(0, 0, 0, 0.15);
@@ -80,6 +84,7 @@
     width: 15.5rem;
     height: 18.8rem;
     left: 18rem;
+    color: black;
     /* top: 177.125rem; */
     background: #F1F1F1;
     box-shadow: -10px 0px 15px rgba(0, 0, 0, 0.15);
@@ -101,6 +106,7 @@
     width: 15.5rem;
     height: 18.8rem;
     left: 36rem;
+    color: black;
     /* top: 177.125rem; */
     background: #F1F1F1;
     box-shadow: -10px 0px 15px rgba(0, 0, 0, 0.15);
@@ -120,6 +126,7 @@
     width: 15.5rem;
     height: 18.8rem;
     left: 54rem;
+    color: black;
     /* top: 177.125rem; */
     background: #F1F1F1;
     box-shadow: -10px 0px 15px rgba(0, 0, 0, 0.15);
@@ -137,6 +144,7 @@
     width: 15.5rem;
     height: 18.8rem;
     left: 72rem;
+    color: black;
     /* top: 177.125rem; */
     background: #F1F1F1;
     box-shadow: -10px 0px 15px rgba(0, 0, 0, 0.15);
@@ -304,6 +312,7 @@
         justify-content: space-around;
     
     }
+    
     #blogbox1{
 
         width: 10rem;
@@ -384,6 +393,9 @@
         font-size: 0.88rem;
         font-weight: 600;
         
+    }
+    #blogbox_content h2 {
+        font-size: 1rem;
     }
     #blogbox_content p{
         font-size: .7rem;

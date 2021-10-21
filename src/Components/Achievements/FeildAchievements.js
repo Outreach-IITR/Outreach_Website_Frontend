@@ -21,14 +21,14 @@ const Feild_wise_ach = () => {
     <>
       <div id="Feild_wise_ach">
         <div onClick={() => onClickFeildhandler(0)} id="Feild_wise_ach_1">
-          <h2>Sports</h2>
+          
         </div>
         <div onClick={() => onClickFeildhandler(1)} id="Feild_wise_ach_2">
-          <h2>Technology</h2>
+          
         </div>
 
         <div onClick={() => onClickFeildhandler(2)} id="Feild_wise_ach_3">
-          <h2>Cultural</h2>
+          
         </div>
       </div>
       <div className="feild-ach-content">

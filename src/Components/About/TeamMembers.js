@@ -97,49 +97,9 @@ import KinshuKumar from "./Assets/OurTeam_Img/KinshuKumar.png";
 
 const Secretaries = [
   {
-    name: "Sankalp Vedrajan",
-    image: SankalpVedrajan,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Shloki Jha",
-    image: ShlokiJha,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Atul Singh",
-    image: AtulSingh,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Aishwarya Mertia",
-    image: AishwaryaMertia,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Abhishek Yadav",
-    image: AbhishekYadav,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Aman Sinha",
-    image: AmanSinha,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Lakshya Jain",
-    image: LakshyaJain,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Diksha Sehgal",
-    image: DikshaSehgal,
-    post: "Joint Secretary",
-  },
-  {
-    name: "Abhinav Saini",
-    image: AbhinavSaini,
-    post: "Joint Secretary",
+    name: "Shivansh Bhat",
+    image: ShivanshBhat,
+    post: "Secretary",
   },
   {
     name: "Abhishek Jha",
@@ -152,9 +112,49 @@ const Secretaries = [
     post: "Additional Secretary",
   },
   {
-    name: "Shivansh Bhat",
-    image: ShivanshBhat,
-    post: "Secretary",
+    name: "Sankalp Vedrajan",
+    image: SankalpVedrajan,
+    post: "Joint Secretary - Operations",
+  },
+  {
+    name: "Aishwarya Mertia",
+    image: AishwaryaMertia,
+    post: "Joint Secretary - Editorial",
+  },
+  {
+    name: "Shloki Jha",
+    image: ShlokiJha,
+    post: "Joint Secretary - Editorial",
+  },
+  {
+    name: "Lakshya Jain",
+    image: LakshyaJain,
+    post: "Joint Secretary - Design",
+  },
+  {
+    name: "Diksha Sehgal",
+    image: DikshaSehgal,
+    post: "Joint Secretary - Design",
+  },
+  {
+    name: "Abhishek Yadav",
+    image: AbhishekYadav,
+    post: "Joint Secretary - Web Dev.",
+  },
+  {
+    name: "Atul Singh",
+    image: AtulSingh,
+    post: "Joint Secretary - Web Dev.",
+  },
+  {
+    name: "Abhinav Saini",
+    image: AbhinavSaini,
+    post: "Joint Secretary - Social",
+  },
+  {
+    name: "Aman Sinha",
+    image: AmanSinha,
+    post: "Joint Secretary - Multimedia",
   },
 ];
 
@@ -162,52 +162,42 @@ const Design = [
   {
     name: "Aditi Raj",
     image: AditiRaj,
-    post: "Team Member",
   },
   {
     name: "Ayush Varshney",
     image: AyushVarshney,
-    post: "Team Member",
   },
   {
     name: "Aryan Dhankani",
     image: AryanDhankani,
-    post: "Team Member",
   },
   {
     name: "Harshita Verma",
     image: HarshitaVerma,
-    post: "Team Member",
   },
   {
     name: "Kanishk Singh",
     image: KanishkSingh,
-    post: "Team Member",
   },
   {
     name: "Kavya Arora",
     image: KavyaArora,
-    post: "Team Member",
   },
   {
     name: "Khwaish Bansal",
     image: KhwaishBansal,
-    post: "Team Member",
   },
   {
     name: "Kunal Khandelwal",
     image: KunalKhandelwal,
-    post: "Team Member",
   },
   {
     name: "Omkar Darde",
     image: OmkarDarde,
-    post: "Team Member",
   },
   {
     name: "Tanisha Singhal",
     image: TanishaSinghal,
-    post: "Team Member",
   },
 ];
 
@@ -215,67 +205,54 @@ const Development = [
   {
     name: "Aastha",
     image: Aastha,
-    post: "Team Member",
   },
   {
     name: "Agrani Verma",
     image: AgraniVerma,
-    post: "Team Member",
   },
   {
     name: "Akshit Gupta",
     image: AkshitGupta,
-    post: "Team Member",
   },
   {
     name: "Aman Gupta",
     image: AmanGupta,
-    post: "Team Member",
   },
   {
     name: "Ayush Bansal",
     image: AyushBansal,
-    post: "Team Member",
   },
   {
     name: "Gauri Pancholi",
     image: GauriPancholi,
-    post: "Team Member",
   },
   {
     name: "Rahul Ketan Modi",
     image: RahulKetanModi,
-    post: "Team Member",
   },
   {
     name: "RohitBamnawat",
     image: RohitBamnawat,
-    post: "Team Member",
   },
   {
     name: "Sainath Rao P.",
     image: SainathRaoP,
-    post: "Team Member",
   },
   {
     name: "Sanchit Chaba",
     image: SanchitChaba,
-    post: "Team Member",
   },
   {
     name: "Sarveshwar P.",
     image: SarveshwarP,
-    post: "Team Member",
   },
   {
     name: "Shelly Puram",
     image: ShellyPuram,
-    post: "Team Member",
   },
   {
     name: "Ujjwal Sarswat",
     image: UjjwalSarswat,
-    post: "Team Member",
   },
 ];
 
@@ -283,37 +260,30 @@ const Multimedia = [
   {
     name: "Chirayu Mor",
     image: ChirayuMor,
-    post: "Team Member",
   },
   {
     name: "Dishant Meena",
     image: DishantMeena,
-    post: "Team Member",
   },
   {
     name: "Harshwardhan R.",
     image: HarshwardhanR,
-    post: "Team Member",
   },
   {
     name: "Jatin Agarwal",
     image: JatinAgarwal,
-    post: "Team Member",
   },
   {
     name: "Kishan K. Keshari",
     image: KishanKKeshari,
-    post: "Team Member",
   },
   {
     name: "Rashi Mishra",
     image: RashiMishra,
-    post: "Team Member",
   },
   {
     name: "Saurabh Singh",
     image: SaurabhSingh,
-    post: "Team Member",
   },
 ];
 
@@ -321,77 +291,62 @@ const Operations = [
   {
     name: "Abhinav Raj",
     image: AbhinavRaj,
-    post: "Team Member",
   },
   {
     name: "Anjali Jorwal",
     image: AnjaliJorwal,
-    post: "Team Member",
   },
   {
     name: "Ankit Maheshwari",
     image: AnkitMaheshwari,
-    post: "Team Member",
   },
   {
     name: "Apporv Bansal",
     image: ApporvBansal,
-    post: "Team Member",
   },
   {
     name: "Devansh Kumar",
     image: DevanshKumar,
-    post: "Team Member",
   },
   {
     name: "Diya Pancholi",
     image: DiyaPancholi,
-    post: "Team Member",
   },
   {
     name: "Ekansh Nayak",
     image: EkanshNayak,
-    post: "Team Member",
   },
   {
     name: "Harjot Kaur",
     image: HarjotKaur,
-    post: "Team Member",
   },
   {
     name: "Kritika Paliwal",
     image: KritikaPaliwal,
-    post: "Team Member",
   },
   {
     name: "Malay Kalavadia",
     image: MalayKalavadia,
-    post: "Team Member",
   },
   {
     name: "Pranjal Gautam",
     image: PranjalGautam,
-    post: "Team Member",
   },
   {
     name: "Pratyush Mangal",
     image: PratyushMangal,
-    post: "Team Member",
   },
   {
     name: "Preeti",
     image: Preeti,
-    post: "Team Member",
   },
   {
     name: "Sachita Gupta",
     image: SachitaGupta,
-    post: "Team Member",
   },
   {
     name: "Yatharth Goyal",
     image: YatharthGoyal,
-    post: "Team Member",
   },
 ];
 
@@ -399,62 +354,50 @@ const Editorial = [
   {
     name: "Mohit Guleria",
     image: MohitGuleria,
-    post: "Team Member",
   },
   {
     name: "Piyush Agarwal",
     image: PiyushAgarwal,
-    post: "Team Member",
   },
   {
     name: "Dheer Samtani",
     image: DheerSamtani,
-    post: "Team Member",
   },
   {
     name: "Shubham Pal",
     image: ShubhamPal,
-    post: "Team Member",
   },
   {
     name: "Abhishek Kumar",
     image: AbhishekKumar,
-    post: "Team Member",
   },
   {
     name: "Shreya Bhagat",
     image: ShreyaBhagat,
-    post: "Team Member",
   },
   {
     name: "Golu Jatav",
     image: GoluJatav,
-    post: "Team Member",
   },
   {
     name: "Tushar Sahu",
     image: TusharSahu,
-    post: "Team Member",
   },
   {
     name: "Sampanna Modi",
     image: SampannaModi,
-    post: "Team Member",
   },
   {
     name: "Amisha Verma",
     image: AmishaVerma,
-    post: "Team Member",
   },
   {
     name: "Harshvardhan",
     image: Harshvardhan,
-    post: "Team Member",
   },
   {
     name: "Ayan Shree",
     image: AyanShree,
-    post: "Team Member",
   },
 ];
 
@@ -462,62 +405,50 @@ const SocialMedia = [
   {
     name: "Aman Prakash Gaurav",
     image: AmanPrakashGaurav,
-    post: "Team Member",
   },
   {
     name: "Srijan Varshney",
     image: SrijanVarshney,
-    post: "Team Member",
   },
   {
     name: "Yogeshwar Chourasia",
     image: YogeshwarChourasia,
-    post: "Team Member",
   },
   {
     name: "Apurba Prasad Padhy",
     image: ApurbaPrasadPadhy,
-    post: "Team Member",
   },
   {
     name: "Suhali Kondapalli",
     image: SuhaliKondapalli,
-    post: "Team Member",
   },
   {
     name: "Sankalp Raj",
     image: SankalpRaj,
-    post: "Team Member",
   },
   {
     name: "Prashastha Jain",
     image: PrashasthaJain,
-    post: "Team Member",
   },
   {
     name: "Tanya Bharti",
     image: TanyaBharti,
-    post: "Team Member",
   },
   {
     name: "Tanya Sinha",
     image: TanyaSinha,
-    post: "Team Member",
   },
   {
     name: "Sinja Sharma",
     image: SinjaSharma,
-    post: "Team Member",
   },
   {
     name: "Atharva Aggarwal",
     image: AtharvaAggarwal,
-    post: "Team Member",
   },
   {
     name: "Kinshu Kumar",
     image: KinshuKumar,
-    post: "Team Member",
   },
 ];
 

@@ -20,11 +20,14 @@ const AboutOutreach = () => {
             outside world with the culture of IIT Roorkee.
           </p>
           <p>
-            Spreading the message of IIT-R to places near and far, helping new
-            students achieve their potential beyond par, meeting all of your
-            demands, look no further beyond, this is the one-stop destination to
-            introduce you to our modern life and traditional values’ secure
-            bond.
+            We spread the message of IIT-R to places near and far, and our
+            simple motto is to help new students achieve their potential beyond
+            par. Meeting all of your demands, we ensure to deliver the most
+            appropriate message of our institution, so you don’t have to look
+            further beyond. We glorify the advancements of IITR and aid
+            aspirants and future students to make life-changing decisions. We
+            are the one-stop destination to introduce you to our modern life and
+            traditional values, and we secure this bond at your fingertips.
           </p>
         </div>
       </div>

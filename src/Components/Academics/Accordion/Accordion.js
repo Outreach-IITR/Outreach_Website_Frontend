@@ -18,7 +18,11 @@ function Accordion_segment() {
             </label>
             <div className="accordion_content">
               <p>
-              lorem psum dolor sit amet
+                This scholarship is for those students who maintain an annual
+                C.G.P.A above 7.5(First yearites however, are judged on the
+                basis of their JEE rank, which has to be under 10,000) and whose
+                family income is less than 5 LPA. The beneficiary gets Rs. 1000
+                per month for 10 months.
               </p>
               <a href="/">Know more...</a>
             </div>
@@ -32,7 +36,10 @@ function Accordion_segment() {
               </ul>
             </label>
             <div className="accordion_content">
-              <p>lorem psum dolor sit amet</p>
+              <p>
+                This scholarship is awarded to meritorious students (AIR under
+                300) with a monthly stipend of Rs. 25000.
+              </p>
               <a href="/">Know more...</a>
             </div>
           </div>
@@ -45,7 +52,12 @@ function Accordion_segment() {
               </ul>
             </label>
             <div className="accordion_content">
-              <p>lorem psum dolor sit amet</p>
+              <p>
+                This scholarship is offered exclusively to students enrolled in
+                basic science streams a.k.a Integrated MSc courses with a 4
+                digit JEE AIR or less. Eligible candidates may avail 80000/-
+                every year.
+              </p>
               <a href="/">Know more...</a>
             </div>
           </div>
@@ -58,7 +70,11 @@ function Accordion_segment() {
               </ul>
             </label>
             <div className="accordion_content">
-              <p>lorem psum dolor sit amet</p>
+              <p>
+                Fourth yearites are eligible to apply for this scholarship and
+                their track record for the preceding three years is taken into
+                account while giving out the scholarship which is of Rs 50000.
+              </p>
               <a href="/">Know more...</a>
             </div>
           </div>
@@ -71,7 +87,11 @@ function Accordion_segment() {
               </ul>
             </label>
             <div className="accordion_content">
-              <p>lorem psum dolor sit amet</p>
+              <p>
+                These awards recognize students for outstanding academic, co and
+                extra curricular achievements. The award amount is based on the
+                donor pool.
+              </p>
               <a href="/">Know more...</a>
             </div>
           </div>
@@ -84,7 +104,12 @@ function Accordion_segment() {
               </ul>
             </label>
             <div className="accordion_content">
-              <p>lorem psum dolor sit amet</p>
+              <p>
+                The scholarship is a medium to motivate girls to perform
+                excellently and acquire leadership roles in computing and
+                technology. Google chooses the girls on the basis of their
+                academic and leadership qualities.
+              </p>
               <a href="/">Know more...</a>
             </div>
           </div>
@@ -97,7 +122,11 @@ function Accordion_segment() {
               </ul>
             </label>
             <div className="accordion_content accordion_last_section">
-              <p>lorem psum dolor sit amet</p>
+              <p>
+                Aditya Birla Scholarship is available to the top 20 students(JEE
+                Rank -wise) in the institute. . ABS scholars receive a sum of
+                1,00,000/- annually.
+              </p>
               <a href="/">Know more...</a>
             </div>
           </div>

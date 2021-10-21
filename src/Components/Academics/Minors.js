@@ -1,3 +1,4 @@
+// ************* Created by Sarveshwar Pandey************
 import React, { Component } from 'react'
 import Group from './Assets/Group.png'
 import Group2 from './Assets/Group2.png'
@@ -6,10 +7,11 @@ class Minors extends Component {
     render() {
         return (
             <div id="bottom">
-                <h2 id="minors">Minors and Honours</h2>
+                
 
                 <div id="r1">
                     <div className="lcont l1">
+                    <h2 id="minors">Minors and Honours</h2>
                         <h3>Minor Specialization</h3>
                         <p>
                             Students who are willing to excel in some specialization other than his/her own department,
@@ -33,7 +35,7 @@ class Minors extends Component {
                             minor specialization aptly mentioned on their degree they receive upon graduation.
                         </p>
                     </div>
-                    <div className="minors_img">
+                    <div className="minors_img minors_img1">
                         
                     <img alt="img" src={Group} />
                         

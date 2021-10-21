@@ -34,15 +34,23 @@
   color: #fdfdff;
 }
 
-.TeamTemplate__MemberName {
+.TeamTemplate__MemberInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
   max-width: 15rem;
+  margin: 0.8rem 0;
+}
+
+.TeamTemplate__MemberName {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.6rem;
-  margin: 0.8rem 0 0 0;
   word-wrap: break-word;
+  margin: 0;
 }
 
 .TeamTemplate__MemberPost {
@@ -51,7 +59,7 @@
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1rem;
-  margin: 0.5rem 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 991px) {
@@ -78,15 +86,17 @@
     margin-top: 1rem;
   }
 
+  .TeamTemplate__MemberInfo {
+    margin: 0.3rem 0;
+  }
+
   .TeamTemplate__MemberName {
     font-size: 0.6rem;
     line-height: 0.688rem;
-    margin: 0.3rem 0 0 0;
   }
 
   .TeamTemplate__MemberPost {
     font-size: 0.322rem;
     line-height: 0.375rem;
-    margin: 0.2rem 0 0.5rem 0;
   }
 }

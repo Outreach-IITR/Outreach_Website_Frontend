@@ -24,8 +24,12 @@ const TeamTemplate = (props) => {
             style={{ "--hover_color": background }}
           >
             <img src={member.image} alt="icon" />
-            <h4 className="TeamTemplate__MemberName">{member.name}</h4>
-            <h6 className="TeamTemplate__MemberPost">{member.post}</h6>
+            <div className="TeamTemplate__MemberInfo">
+              <h4 className="TeamTemplate__MemberName">{member.name}</h4>
+              {member.post && (
+                <h6 className="TeamTemplate__MemberPost">{member.post}</h6>
+              )}
+            </div>
           </div>
         );
       })}

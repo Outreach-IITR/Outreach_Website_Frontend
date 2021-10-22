@@ -1,4 +1,4 @@
-.Carousel {
+.YTCarousel {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,7 +136,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .Carousel {
+  .YTCarousel {
     margin: 5rem 0;
   }
   .slide {

@@ -47,7 +47,7 @@ const Groups = () => {
   };
 
   return (
-    <div className="containerG">
+    <div id="CampusGroups" className="containerG">
       <h1 id="groupsHeading">Campus Groups</h1>
       <div className="subBoxGroup">
         <h2 id="subheadingGroup">
@@ -106,7 +106,11 @@ const Groups = () => {
             />
           </MyDesktop>
         </h2>
-        <div className="sliderGroup invisible-scrollbar" ref={culRef} onScroll={handleScrollCul}>
+        <div
+          className="sliderGroup invisible-scrollbar"
+          ref={culRef}
+          onScroll={handleScrollCul}
+        >
           {techData.map((data, idx) => {
             return (
               <div className="cardG" key={idx + 67}>

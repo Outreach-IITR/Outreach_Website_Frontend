@@ -14,28 +14,26 @@ const Footer = () => {
           <h3 id="footer-quick-links">Quick&#160;Links</h3>
           <ul className="footer-column">
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Lorem Ipsum
+              <a href="https://iitr.ac.in/" className="footer-item">
+                IITR Official Page
               </a>
             </li>
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Lorem ipsum 22
+              <a href="https://acad.iitr.ac.in/" className="footer-item">
+                ACADS
               </a>
             </li>
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Testing Lorem
+              <a href="https://scsp.iitr.ac.in/" className="footer-item">
+                SCHOLARSHIPS
               </a>
             </li>
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Lorem Ipsum
-              </a>
-            </li>
-            <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Lorem Ipsum
+              <a
+                href="https://www.iitr.ac.in/departments/DM/pages/Activities+Annual_Events.html"
+                className="footer-item"
+              >
+                Annual Events
               </a>
             </li>
           </ul>
@@ -45,13 +43,18 @@ const Footer = () => {
           <h3 id="footer-academics">Academics</h3>
           <ul className="footer-column">
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
+              <a href="/academics/#Scholarships" className="footer-item">
+                Scholarships
+              </a>
+            </li>
+            <li className="footer-column-item">
+              <a href="/academics/#Departments_heading" className="footer-item">
                 Departments
               </a>
             </li>
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Lorem ipsum 22
+              <a href="/academics/#minors" className="footer-item">
+                Minors and Honors
               </a>
             </li>
           </ul>
@@ -63,28 +66,23 @@ const Footer = () => {
           <h3 id="footer-life">Life&#160;at&#160;IIT&#160;R</h3>
           <ul className="footer-column">
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Lorem Ipsum
+              <a href="/lifeatiitr/#Events" className="footer-item">
+                Events
               </a>
             </li>
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Lorem ipsum 22
+              <a href="/lifeatiitr/#CampusGroups" className="footer-item">
+                Campus Groups
               </a>
             </li>
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Testing Lorem
+              <a href="/lifeatiitr/#InsideCampus" className="footer-item">
+                Inside Campus
               </a>
             </li>
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Lorem Ipsum
-              </a>
-            </li>
-            <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Lorem Ipsum
+              <a href="/lifeatiitr/#OutsideCampus" className="footer-item">
+                Outside Campus
               </a>
             </li>
           </ul>
@@ -94,18 +92,18 @@ const Footer = () => {
           <h3 id="footer-about-us">About&#160;Us</h3>
           <ul className="footer-column">
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                About&#160;Outreach
+              <a href="/about/#AboutOutreach" className="footer-item">
+                About Outreach
               </a>
             </li>
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                About&#160;IIT&#160;Roorkee
+              <a href="/about/#AboutIITR" className="footer-item">
+                About IIT Roorkee
               </a>
             </li>
             <li className="footer-column-item">
-              <a href="/" className="footer-item">
-                Outreach&#160;Team
+              <a href="/about/#OurTeam" className="footer-item">
+                Our Team
               </a>
             </li>
           </ul>

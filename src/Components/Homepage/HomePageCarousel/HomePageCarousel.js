@@ -50,7 +50,7 @@ const HomePageCarousel = () => {
   };
 
   return (
-    <div className="Carousel">
+    <div className="YTCarousel">
       <div className="Carousel__Title">
         <h3>IIT Roorkee at a Glance</h3>
         <p>Dont just take our word, see yourself</p>

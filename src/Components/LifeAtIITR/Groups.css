@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 200px;
 }
 
 #groupsHeading {
@@ -33,7 +32,7 @@
   color: #feba10;
 }
 
-#subheadingGroup>input {
+#subheadingGroup > input {
   margin-left: 57px;
 }
 
@@ -76,13 +75,13 @@
   /* margin: 20px; */
 }
 
-.cardG>img {
+.cardG > img {
   margin: 10px;
   height: 130px;
   width: 130px;
 }
 
-.cardG>h6 {
+.cardG > h6 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -96,7 +95,7 @@
   /* tex */
 }
 
-.cardG>p {
+.cardG > p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

@@ -1,5 +1,5 @@
-#Events__Section {
-  margin: 6.875rem 0 6.8rem 0;
+#Events {
+  padding: 6.875rem 0 6.8rem 0;
   text-align: center;
 }
 
@@ -66,11 +66,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .Events__heading {
-    font-size: 0.875rem;
-    line-height: 1.063rem;
-  }
-
   .Events__list {
     margin-top: 1rem;
     flex-direction: column;

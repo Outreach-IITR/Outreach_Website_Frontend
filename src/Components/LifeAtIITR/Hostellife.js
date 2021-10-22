@@ -19,12 +19,12 @@ export class Hostellife extends Component {
                 autoplay: true,
                 autoplaySpeed: 2000,
                 pauseOnHover: true,
-                beforeChange: function(currentSlide, nextSlide) {
-                  console.log("before change", currentSlide, nextSlide);
-                },
-                afterChange: function(currentSlide) {
-                  console.log("after change", currentSlide);
-                }
+                // beforeChange: function(currentSlide, nextSlide) {
+                //   console.log("before change", currentSlide, nextSlide);
+                // },
+                // afterChange: function(currentSlide) {
+                //   console.log("after change", currentSlide);
+                // }
               };
               return (
                 <div>

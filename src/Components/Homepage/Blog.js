@@ -1,5 +1,5 @@
 import React from 'react'
-import person_ref from './Assets/person_ref.png'
+// import person_ref from './Assets/person_ref.png'
 import blog_1 from './Assets/blog_1.png'
 import blog_2 from './Assets/blog_2.png'
 import blog_3 from './Assets/blog_3.png'

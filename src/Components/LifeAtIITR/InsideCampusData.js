@@ -1,8 +1,9 @@
 import Carousel1 from "../Crousel/Assets/carousel1.png";
+import R-insider_1 from "./Assets/R-insider_Img/R-insider_1.png" ;
 
 const InsideCampusData = [
   {
-    image: Carousel1,
+    image: R_insider_1,
     caption: "1 Lorem Ipsum is simply dummy",
     description:
       "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",

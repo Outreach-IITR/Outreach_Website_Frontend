@@ -1,8 +1,15 @@
 .main-footer {
-  display: flex;
   width: 100%;
-  flex-direction: row;
   background-color: #1d1d1f;
+}
+
+.footer-content {
+  margin: auto;
+  width: fit-content;
+  max-width: 1440px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -113,10 +120,12 @@
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
-@media (max-width: 960px) {
-  .main-footer {
+@media (max-width: 1106px) {
+  .footer-content {
     flex-direction: column;
+    justify-content: center;
   }
+
   .section-one {
     margin-left: 0rem;
   }

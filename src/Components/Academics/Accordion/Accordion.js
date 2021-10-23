@@ -18,13 +18,14 @@ function Accordion_segment() {
             </label>
             <div className="accordion_content">
               <p>
-                This scholarship is for those students who maintain an annual
-                C.G.P.A above 7.5(First yearites however, are judged on the
-                basis of their JEE rank, which has to be under 10,000) and whose
-                family income is less than 5 LPA. The beneficiary gets Rs. 1000
-                per month for 10 months.
+                A UG student who is an MCM scholarship beneficiary gets tuition
+                fee reimbursement and additionally ₹1000 per month for 10
+                months. Whereas an MSc. student who is an MCM scholarship
+                beneficiary gets ₹1000 per month for 10 months.
               </p>
-              <a href="/">Know more...</a>
+              <a href="https://scsp.iitr.ac.in/merit-cum-means-2021/">
+                Know more...
+              </a>
             </div>
           </div>
 
@@ -37,10 +38,12 @@ function Accordion_segment() {
             </label>
             <div className="accordion_content">
               <p>
-                This scholarship is awarded to meritorious students (AIR under
-                300) with a monthly stipend of Rs. 25000.
+                Students having up to 250 All India Rank in JEE (Advanced) 2021
+                are eligible for James Thomason Scholarship.
               </p>
-              <a href="/">Know more...</a>
+              <a href="https://scsp.iitr.ac.in/james-thomason-scholarship/">
+                Know more...
+              </a>
             </div>
           </div>
 
@@ -58,7 +61,9 @@ function Accordion_segment() {
                 digit JEE AIR or less. Eligible candidates may avail 80000/-
                 every year.
               </p>
-              <a href="/">Know more...</a>
+              <a href="https://scsp.iitr.ac.in/inspire-scholarship/">
+                Know more...
+              </a>
             </div>
           </div>
 
@@ -71,11 +76,13 @@ function Accordion_segment() {
             </label>
             <div className="accordion_content">
               <p>
-                Fourth yearites are eligible to apply for this scholarship and
-                their track record for the preceding three years is taken into
-                account while giving out the scholarship which is of Rs 50000.
+                Eighty Nine Class of Roorkee Endowment (ENCORE) is an endowment
+                fund established by the IIT Roorkee graduating class of 1989 for
+                the benefit of the Institute, its students, faculty and staff.
               </p>
-              <a href="/">Know more...</a>
+              <a href="https://sites.google.com/site/iitrencore89/">
+                Know more...
+              </a>
             </div>
           </div>
 
@@ -88,29 +95,11 @@ function Accordion_segment() {
             </label>
             <div className="accordion_content">
               <p>
-                These awards recognize students for outstanding academic, co and
-                extra curricular achievements. The award amount is based on the
-                donor pool.
+                For young IIT-R graduates, IITRHF provide variety of support in
+                their early years of career development; help develop their
+                skills and self-confidence through interaction with their peers.
               </p>
-              <a href="/">Know more...</a>
-            </div>
-          </div>
-
-          <div>
-            <input type="checkbox" id="section6" class="accordion_input" />
-            <label for="section6" class="accordion__label">
-              <ul className="accordion_segment_section">
-                <li>Google Anita Borg Realtionship</li>
-              </ul>
-            </label>
-            <div className="accordion_content">
-              <p>
-                The scholarship is a medium to motivate girls to perform
-                excellently and acquire leadership roles in computing and
-                technology. Google chooses the girls on the basis of their
-                academic and leadership qualities.
-              </p>
-              <a href="/">Know more...</a>
+              <a href="https://www.iitr-heritagefund.org/">Know more...</a>
             </div>
           </div>
 
@@ -123,11 +112,15 @@ function Accordion_segment() {
             </label>
             <div className="accordion_content accordion_last_section">
               <p>
-                Aditya Birla Scholarship is available to the top 20 students(JEE
-                Rank -wise) in the institute. . ABS scholars receive a sum of
-                1,00,000/- annually.
+                Top 15 students on the basis of their JEE advance rank are
+                eligible to apply. Alongwith them 1 student each on the basis of
+                merit cum means, and top ranked students each from Mechanical ,
+                Electrical, Civil and Chemical Engineering are eligible to
+                apply.
               </p>
-              <a href="/">Know more...</a>
+              <a href="https://www.iitr.ac.in/Main/pages/Aditya_Birla_Scholarship.html">
+                Know more...
+              </a>
             </div>
           </div>
         </div>

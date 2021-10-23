@@ -1,4 +1,4 @@
-#SecondSection > .Mobile {
+#WhyIITR > .Mobile {
   display: none;
 }
 
@@ -10,7 +10,7 @@
   font-family: SF UI Text;
 }
 
-#SecondSection {
+#WhyIITR {
   margin: 12rem 0 8rem 0;
   padding-right: 6.25rem;
   position: relative;
@@ -120,11 +120,11 @@
     display: none;
   }
 
-  #SecondSection > .Mobile {
+  #WhyIITR > .Mobile {
     display: block;
   }
 
-  #SecondSection {
+  #WhyIITR {
     margin: 8rem 2rem 0rem 2rem;
     padding: 0;
     position: relative;

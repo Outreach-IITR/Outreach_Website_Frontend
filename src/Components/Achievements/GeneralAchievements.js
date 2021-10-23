@@ -30,7 +30,7 @@ const GeneralAchievements = () => {
                 >
                   <div>
                     <p>{obj.dep}</p>
-                    <a href={obj.link}>Know More</a>
+                    {obj.link !== "" && <a href={obj.link}>Know More</a>}
                   </div>
                   <p>{obj.date}</p>
                 </div>

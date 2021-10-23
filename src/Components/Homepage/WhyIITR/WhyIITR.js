@@ -17,7 +17,7 @@ AOS.init();
 
 const HomePageCarousel = () => {
   return (
-    <div id="SecondSection">
+    <div id="WhyIITR">
       <div className="Mobile">
         <p className="WhyIITR__Para">Know more about IITR before deciding</p>
         <h1 className="WhyIITR__Heading">Why IIT Roorkee ?</h1>

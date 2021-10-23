@@ -2,14 +2,12 @@
   display: flex;
   width: 100%;
   flex-direction: row;
-  flex-wrap: wrap;
   background-color: #1d1d1f;
   align-items: center;
 }
 
 .section-one {
-  display: flex;  
-  margin-left: 10rem;
+  display: flex;
 }
 
 .quick-links-div {
@@ -115,7 +113,7 @@
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
-@media (max-width: 85rem) {
+@media (max-width: 960px) {
   .main-footer {
     flex-direction: column;
   }
@@ -135,7 +133,6 @@
   .icons {
     padding-left: 7rem;
     align-items: center;
-    
   }
   .footer-column {
     padding-bottom: 2rem;
@@ -155,7 +152,7 @@
     padding-top: 1rem;
     margin-left: 2rem;
   }
-  
+
   #footer-about-us {
     padding-top: 1rem;
     margin-left: 2rem;
@@ -163,16 +160,15 @@
   #footer-quick-links {
     margin-left: 2rem;
   }
-  
+
   #footer-academics {
     margin-left: 2rem;
   }
 
   .icons-mobile-view {
-    display:flex;
+    display: flex;
   }
   .icons-desktop-view {
     display: none;
   }
-  
 }

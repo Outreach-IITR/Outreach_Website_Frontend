@@ -132,7 +132,7 @@ const Footer = () => {
             +91&#160;0123456789
             <br />
             <br />
-            outrach@iitr.ac.in
+            outreach@iitr.ac.in
             <br />
             <br />
             SAC Building, IIT Roorkee,

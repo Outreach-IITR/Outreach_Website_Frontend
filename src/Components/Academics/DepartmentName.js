@@ -126,8 +126,8 @@ export const departmentinfo = [
       "The department has Climatology Lab, Computer Lab, lab on Net Zero Emissions, Computerized Design Studios equipped with state-of-art equipment and software, an Art Lab, and a Workshop. The students also get exposure to the professional world outside through national and international projects and internships.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: "-",
-    wrong: "-",
+    correct: null,
+    wrong: null,
     acadCrouselData: [
       {
         image: archi1,
@@ -169,8 +169,8 @@ export const departmentinfo = [
       "The coursework offers training and research in the interdisciplinary areas of biotechnology with a particular emphasis on extending the knowledge generated from these studies towards the development of technologies of commercial significance.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: 0,
+    wrong: 6,
     acadCrouselData: [
       {
         image: be1,
@@ -212,8 +212,8 @@ export const departmentinfo = [
       "The department is engaged in creating laboratories in analytical/instrumental analysis, modeling and simulation, safety, and hydrocarbon engineering at the research frontier.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: 13,
+    wrong: 13,
     acadCrouselData: [
       {
         image: ce1,
@@ -255,7 +255,7 @@ export const departmentinfo = [
       "The department is concerned with interdisciplinary research on contemporary problems of chemical science relating to industrial, rural, and agricultural areas and the utilization of industrial wastes for the generation of energy, chemicals, and biopolymers.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
+    correct: 0,
     wrong: 5,
     acadCrouselData: [
       {
@@ -297,8 +297,8 @@ export const departmentinfo = [
     info2: null,
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: 10,
+    wrong: 10,
     acadCrouselData: [
       {
         image: civil1,
@@ -340,8 +340,8 @@ export const departmentinfo = [
       "The Department has successfully completed a large number of sponsored research projects funded by DRDO, DST, UGC, ISRO, DOE, AICTE, MCIT, etc. The Department also provides R&D and consultancy services to various industries.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: 10,
+    wrong: 0,
     acadCrouselData: [
       {
         image: cs1,
@@ -512,8 +512,8 @@ export const departmentinfo = [
       "The department has state-of-the-art research facilities to support its academic programs and research and it continues to expand the base of knowledge through numerous referred publications.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: 16,
+    wrong: 6,
     acadCrouselData: [
       {
         image: ee1,
@@ -555,8 +555,8 @@ export const departmentinfo = [
       " Various cultural and sports activities are also held year-round to inculcate the spirit of brotherhood and develop a well-rounded human being.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: 10,
+    wrong: 0,
     acadCrouselData: [
       {
         image: ece1,
@@ -640,8 +640,8 @@ export const departmentinfo = [
     info2: "Department provides research facilities and projects to work on.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: 0,
+    wrong: 14,
     acadCrouselData: [
       {
         image: h1,
@@ -762,15 +762,15 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "Mathematics ",
+    name: "Mathematics",
     info1:
       "A wide range of topics is taught related to Mathematics to Undergraduate and Postgraduate students of various engineering and science departments. Besides the central computing facilities of the institute, the department boasts its own state-of-the-art Computational Lab and Mathematical Modelling Lab. ",
     info2:
       "The Department also offers facilities for research work leading to a Ph.D. degree in different branches of Pure and Applied Mathematics. The Department of Mathematics also has expertise in various fields of Computer Science and Technology and several subjects of this field are taught by teachers of the Mathematics department in tandem, majorly in fields like programming languages and techniques, fuzzy networks, simulation, modeling, and computer graphics. ",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: 4,
+    wrong: 0,
     acadCrouselData: [
       {
         image: ma1,
@@ -812,8 +812,8 @@ export const departmentinfo = [
       "The laboratory and workshop facilities are equipped with modern sophisticated equipment for effective work in research areas related to the Mechanical and Production and Industrial departments. The faculty actively participates in sponsored research and consultancy work. ",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: 15,
+    wrong: 7,
     acadCrouselData: [
       {
         image: mi1,
@@ -855,7 +855,7 @@ export const departmentinfo = [
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
     correct: 3,
-    wrong: 5,
+    wrong: 13,
     acadCrouselData: [
       {
         image: mm1,
@@ -940,8 +940,8 @@ export const departmentinfo = [
       "Additional to the above courses, the facilities of the Department of Physics are also actively engaged in different areas of research on some of the trending topics like Atmospheric and Space Physics, Atomic and Molecular physics, Condensed Matter Physics, Nuclear Physics, Optics, and Theoretical High Energy Physics.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: 4,
+    wrong: 4,
     acadCrouselData: [
       {
         image: p1,

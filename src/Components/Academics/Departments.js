@@ -112,18 +112,29 @@ const Departments = () => {
               <p>{departmentinfo[id].info2}</p>
               <b>{departmentinfo[id].degree}</b>
               <br />
-              <b>
-                {departmentinfo[id].bcstats}
-                {"  "}
-                {departmentinfo[id].correct}
-                {"  "}
+              {
+                !departmentinfo[id].correct && !departmentinfo[id].wrong ?
+                  <b>
+                    Branch change not applicable.
+                  </b> :
 
-                <img src={plus} alt="" />
-                {"  "}
-                {departmentinfo[id].wrong}
-                {"  "}
-                <img src={minus} alt="" />
-              </b>
+                  <b>
+                    {departmentinfo[id].bcstats}
+                    {"  "}
+                    {departmentinfo[id].correct}
+                    {"  "}
+
+                    <img src={plus} alt="" />
+                    {"  "}
+                    {departmentinfo[id].wrong}
+                    {"  "}
+                    {
+                      departmentinfo[id].wrong ?
+
+                        <img src={minus} alt="" /> : null
+                    }
+                  </b>
+              }
               <br />
               <div className="button">
                 <button>Placement Statistics</button>

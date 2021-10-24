@@ -6,7 +6,7 @@ import WhyIITR_2 from "./Assets/WhyIITR_2.png";
 import WhyIITR_2_Mobile from "./Assets/WhyIITR_2_Mobile.png";
 import WhyIITR_3 from "./Assets/WhyIITR_3.png";
 
-import AcresCampus from "./Assets/AcresCampus.svg";
+import AcresCampus from "./Assets/AcresCampus.png";
 import Architecture_Planing from "./Assets/Architecture_Planing.svg";
 import ScholarshipScheme from "./Assets/ScholarshipScheme.svg";
 import Startups from "./Assets/Startups.svg";

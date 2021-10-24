@@ -69,9 +69,12 @@
   /* identical to box height */
   letter-spacing: -0.02em;
   color: #fec32e;
+  background: linear-gradient(to left, white 50%, #fec32e 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
 }
 #FirstSectionContent button:hover {
-  background-color: #fec32e;
+  background-position: left;
   color: white;
 }
 

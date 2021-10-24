@@ -20,6 +20,7 @@ class Homepage extends React.Component {
           <div id="FirstSection">
             <div id="FirstSectionContent">
               <h1>Outreach</h1>
+              <h2>THE STUDENT'S DESK</h2>
               <p>
                 Bid adieu to all your doubts, anything that you might be
                 confused about. Get answers to all of your questions, from the

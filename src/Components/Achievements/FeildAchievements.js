@@ -11,6 +11,7 @@ const Feild_wise_ach = () => {
 
   const onClickFeildhandler = (idx) => {
     setCurrentFeild(idx);
+    setCurrent(0);
   };
 
   const onClickHandler = (idx) => {

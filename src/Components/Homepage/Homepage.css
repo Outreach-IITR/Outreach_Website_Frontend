@@ -1,261 +1,271 @@
 #FirstSection {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    /* height: 85vh; */
-    padding-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* height: 85vh; */
+  padding-top: 7rem;
 }
-
 
 #FirstSectionContent {
-    padding-top: 10rem;
-    font-family: SF UI Text;
+  padding-top: 10rem;
+  font-family: SF UI Text;
 }
 
-#tap_to_know{
-    cursor: pointer;
+#tap_to_know {
+  cursor: pointer;
 }
 
-#FirstSectionContent p{
-    max-width: 30rem;
-    height: 3.7rem;
-    font-size: 1rem;
-    line-height: 1.2rem;
-    letter-spacing: 0.05em;
-    margin-bottom: 4rem;
+#FirstSectionContent p {
+  max-width: 30rem;
+  height: 3.7rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 4rem;
 }
 
-#FirstSectionContent h1{
-    font-family: montserrat;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 3rem;
-    line-height: 3.8rem;
-    letter-spacing: 0.02em;
-    display: flex;
-    margin-bottom: 3rem;
-    text-transform: uppercase;
-    color: #333333;
+#FirstSectionContent h1 {
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 3.8rem;
+  letter-spacing: 0.02em;
+  display: flex;
+  text-transform: uppercase;
+  color: #f96508;
+  padding: 0;
+  margin: 0;
+}
 
+#FirstSectionContent h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(63, 63, 63, 0.67);
+  padding: 0;
+  margin: 0 0 2.125rem 0;
 }
-#FirstSectionContent button{
-    width: 13.5em;
-    height: 2.3rem;
-    border: 1px solid #FEC32E;
-    box-sizing: border-box;
-    border-radius: 8px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1rem;
-    padding-top: 0.1rem;
-    background-color: white;
-    /* identical to box height */
-    letter-spacing: -0.02em;
-    color: #FEC32E;
+
+#FirstSectionContent button {
+  width: 13.5em;
+  height: 2.3rem;
+  border: 1px solid #fec32e;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding-top: 0.1rem;
+  background-color: white;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: #fec32e;
 }
-#FirstSectionContent button:hover{
-    background-color: #FEC32E;
-    color: white;
+#FirstSectionContent button:hover {
+  background-color: #fec32e;
+  color: white;
 }
 
 /* Right Side Image Section 1 on Home Page */
 /* Image transition on first section of home page */
 #FirstSectionImage {
-    position: relative;
-    margin-top: 1rem;
+  position: relative;
+  margin-top: 1rem;
 }
 
 #Text-bottom {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
 }
 
 /* Setting max width of both the images */
-.Transform-img{
-    max-width: 36rem;
+.Transform-img {
+  max-width: 36rem;
 }
 
 #First-image {
-    margin-top: 4rem;
-    z-index: 1;
-    position: relative; 
+  margin-top: 4rem;
+  z-index: 1;
+  position: relative;
 }
 
 /* First image + Question marks both combined div css */
 .First-image-combined {
-        animation-name: fade-in-image-first;
-        animation-duration: 5s;
-        animation-timing-function: ease-in-out;
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
+  animation-name: fade-in-image-first;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 /* First image css */
 #First-image {
-    margin-top: 4rem;
-    z-index: 1;
-    position: relative; 
+  margin-top: 4rem;
+  z-index: 1;
+  position: relative;
 }
 
 /* Q marks css */
 #Q-marks {
-    margin-top: 1rem;
-    z-index: 2;
-    position: absolute;
-    top: 0rem;
-    left: 0rem;
-    animation-name: Q-mark-up-down;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
+  margin-top: 1rem;
+  z-index: 2;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  animation-name: Q-mark-up-down;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
-
 
 /* Animation of Q marks - Jumping Up and Down */
 @keyframes Q-mark-up-down {
-    0% {
-        top: 0rem;
-    }
-    5% {
-        top: 0.05rem;
-    }
-    10% {
-        top: 0.1rem;
-    }
-    15% {
-        top: 0.15rem;
-    }
-    20% {
-        top: 0.2rem;
-    }
-    25% {
-        top: 0.25rem;
-    }
-    30% {
-        top: 0.3rem;
-    }
-    35% {
-        top: 0.35rem;
-    }
-    40% {
-        top: 0.4rem;
-    }
-    45% {
-        top: 0.45rem;
-    }
-    50% {
-        top: 0.5rem;
-    }
-    55% {
-        top: 0.45rem;
-    }
-    60% {
-        top: 0.4rem;
-    }
-    65% {
-        top: 0.35rem;
-    }
-    70% {
-        top: 0.3rem;
-    }
-    75% {
-        top: 0.25rem;
-    }
-    80% {
-        top: 0.2rem;
-    }
-    85% {
-        top: 0.15rem;
-    }
-    90% {
-        top: 0.1rem;
-    }
-    95% {
-        top: 0.05rem;
-    }
-    100% {
-        top: 0rem;
-    }
+  0% {
+    top: 0rem;
+  }
+  5% {
+    top: 0.05rem;
+  }
+  10% {
+    top: 0.1rem;
+  }
+  15% {
+    top: 0.15rem;
+  }
+  20% {
+    top: 0.2rem;
+  }
+  25% {
+    top: 0.25rem;
+  }
+  30% {
+    top: 0.3rem;
+  }
+  35% {
+    top: 0.35rem;
+  }
+  40% {
+    top: 0.4rem;
+  }
+  45% {
+    top: 0.45rem;
+  }
+  50% {
+    top: 0.5rem;
+  }
+  55% {
+    top: 0.45rem;
+  }
+  60% {
+    top: 0.4rem;
+  }
+  65% {
+    top: 0.35rem;
+  }
+  70% {
+    top: 0.3rem;
+  }
+  75% {
+    top: 0.25rem;
+  }
+  80% {
+    top: 0.2rem;
+  }
+  85% {
+    top: 0.15rem;
+  }
+  90% {
+    top: 0.1rem;
+  }
+  95% {
+    top: 0.05rem;
+  }
+  100% {
+    top: 0rem;
+  }
 }
 
 /* Animation of first image combined */
 @keyframes fade-in-image-first {
-    0% {
-        opacity:1;
-        z-index: 1;
-    }
-    43% {
-        opacity:1;
-        z-index: 1;
-    }
-    57% {
-        opacity:0;
-        display: none;
-        z-index: -1;
-    }
-    100% {
-        opacity:0;
-        display: none;
-        z-index: -1;
-    }
-
+  0% {
+    opacity: 1;
+    z-index: 1;
+  }
+  43% {
+    opacity: 1;
+    z-index: 1;
+  }
+  57% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
 }
 
 /* Second image css */
 #Second-image {
-    position: absolute;
-    top: 2rem;
-    left: 0rem;
-    background-size: auto;
-    animation-name: fade-in-image-second;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
+  position: absolute;
+  top: 2rem;
+  left: 0rem;
+  background-size: auto;
+  animation-name: fade-in-image-second;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 /* Animation of Second image */
 @keyframes fade-in-image-second {
-    100% {
-        opacity:1;
-        z-index: 1;
-    }
-    57% {
-        opacity:1;
-        z-index: 1;
-    }
-    43% {
-        opacity:0;
-        z-index: -1;
-    }
-    0% {
-        opacity:0;
-        z-index: -1;
-    }
-
+  100% {
+    opacity: 1;
+    z-index: 1;
+  }
+  57% {
+    opacity: 1;
+    z-index: 1;
+  }
+  43% {
+    opacity: 0;
+    z-index: -1;
+  }
+  0% {
+    opacity: 0;
+    z-index: -1;
+  }
 }
 
-
-@media screen and (max-width: 995px){
-    #FirstSection{
-        justify-content: center;
-    }
+@media screen and (max-width: 995px) {
+  #FirstSection {
+    justify-content: center;
+  }
 }
 
-
-@media screen and (max-width: 665px){
-        #FirstSectionImage img{
-            max-width: 25rem;
-        }
-        #FirstSection{
-            padding-top: 0rem;
-        }
-        #FirstSectionContent{
-            padding-top: 5rem;
-        }
+@media screen and (max-width: 665px) {
+  #FirstSectionImage img {
+    max-width: 25rem;
+  }
+  #FirstSection {
+    padding-top: 0rem;
+  }
+  #FirstSectionContent {
+    padding-top: 5rem;
+  }
 }

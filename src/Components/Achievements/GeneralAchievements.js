@@ -15,7 +15,7 @@ const GeneralAchievements = () => {
     <div>
       <div id="general-achievements">
         <div id="general-achievements-headings">
-          <h1>General Achievements</h1>
+          <h1>Feathers in our Cap</h1>
           <h3>Land of Infinite Possibilities</h3>
         </div>
         <div className="gen-ach-content">

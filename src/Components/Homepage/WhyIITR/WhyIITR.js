@@ -6,6 +6,7 @@ import WhyIITR_2 from "./Assets/WhyIITR_2.png";
 import WhyIITR_2_Mobile from "./Assets/WhyIITR_2_Mobile.png";
 import WhyIITR_3 from "./Assets/WhyIITR_3.png";
 
+import AcresCampus from "./Assets/AcresCampus.svg";
 import Architecture_Planing from "./Assets/Architecture_Planing.svg";
 import ScholarshipScheme from "./Assets/ScholarshipScheme.svg";
 import Startups from "./Assets/Startups.svg";
@@ -61,8 +62,8 @@ const HomePageCarousel = () => {
         </p>
         <div className="WhyIITR__Icon">
           <div>
-            <img alt="icon" src={Architecture_Planing} />
-            <p>Architecture and Planing in the Country</p>
+            <img alt="icon" src={AcresCampus} />
+            <p>Acres campus</p>
           </div>
           <div>
             <img alt="icon" src={ScholarshipScheme} />
@@ -73,8 +74,8 @@ const HomePageCarousel = () => {
             <p>Startups</p>
           </div>
           <div>
-            <img alt="icon" src={Startups} />
-            <p>Startups</p>
+            <img alt="icon" src={Architecture_Planing} />
+            <p>Architecture and Planing in the Country</p>
           </div>
         </div>
       </div>

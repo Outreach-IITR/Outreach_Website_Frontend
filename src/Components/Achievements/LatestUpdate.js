@@ -33,7 +33,7 @@ const LatestUpdate = () => {
 
   return (
     <div className="LatestUpdate__Section">
-      <h1 className="LatestUpdate__Heading">Latest Updates</h1>
+      <h1 className="LatestUpdate__Heading">Recent Accomplishments</h1>
       <div className="LatestUpdate__Carousel">
         <img
           src={LeftArrow}

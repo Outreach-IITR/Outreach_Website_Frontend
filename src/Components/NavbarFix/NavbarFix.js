@@ -1,12 +1,30 @@
 import React, {useState, useEffect} from 'react';
 import "./NavbarFix.css";
 import logo from './Assets/logo.svg';
+import Dropdown from '../Navbar/Dropdown';
 
 
 const NavbarFix = () => {
     
     const [showList, setShowList] = useState(false);
     const [navbar, setHeader] = useState("main-nav1")
+    const [dropdown, setDropdown] = useState(false);
+
+    const onMouseEnter = () => {
+        if (window.innerWidth < 960) {
+          setDropdown(false);
+        } else {
+          setDropdown(true);
+        }
+      };
+    
+      const onMouseLeave = () => {
+        if (window.innerWidth < 960) {
+          setDropdown(false);
+        } else {
+          setDropdown(false);
+        }
+      };
 
     const listenScrollEvent = (event) => {
         if (window.scrollY < 80) {
@@ -43,9 +61,13 @@ const NavbarFix = () => {
                         <li className="menu-link-item">
                             <a href="/lifeatiitr" className="menu-item">Life&nbsp;at&nbsp;IITR</a>
                         </li>
-                        <li className="menu-link-item">
-                            <a href="/placements" className="menu-item">Placements</a>
-                        </li>
+                        <li className="menu-link-item" id="nav-placements" 
+                        onMouseEnter={onMouseEnter}
+                        onMouseLeave={onMouseLeave}
+                    >
+                        <a href="/placement/2020-21" className="menu-item" >Placements</a>
+                        <div id="nav-placments-item">{dropdown && <Dropdown/>}</div>
+                    </li>
                     </ul>      
                 </div>
 

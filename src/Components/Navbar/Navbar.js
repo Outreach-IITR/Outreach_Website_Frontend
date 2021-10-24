@@ -2,8 +2,29 @@ import React, { useState } from 'react';
 import "./Navbar.css";
 import logo from './Assets/logo.svg';
 
+import Dropdown from './Dropdown'
+
 const Navbar = () => {
+    
     const [showList, setShowList] = useState(false);
+    
+    const [dropdown, setDropdown] = useState(false);
+
+    const onMouseEnter = () => {
+        if (window.innerWidth < 960) {
+          setDropdown(false);
+        } else {
+          setDropdown(true);
+        }
+      };
+    
+      const onMouseLeave = () => {
+        if (window.innerWidth < 960) {
+          setDropdown(false);
+        } else {
+          setDropdown(false);
+        }
+      };
     return (
         <nav className="main-nav">
             <a href='/' className="logo">
@@ -24,8 +45,12 @@ const Navbar = () => {
                     <li className="menu-link-item">
                         <a href="/lifeatiitr" className="menu-item">Life&nbsp;at&nbsp;IITR</a>
                     </li>
-                    <li className="menu-link-item">
-                        <a href="/placements" className="menu-item">Placements</a>
+                    <li className="menu-link-item" id="nav-placements" 
+                        onMouseEnter={onMouseEnter}
+                        onMouseLeave={onMouseLeave}
+                    >
+                        <a href="/placement/2020-21" className="menu-item" >Placements</a>
+                        {dropdown && <Dropdown/>}
                     </li>
                 </ul>
             </div>

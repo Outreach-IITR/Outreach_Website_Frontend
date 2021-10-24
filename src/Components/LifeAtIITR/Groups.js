@@ -3,6 +3,7 @@ import MyMobile from "../../helperComponents/MyMobile";
 import MyDesktop from "../../helperComponents/MyDesktop";
 import "./Groups.css";
 import { techData } from "./techDetails";
+import { culData } from "./cultDetails";
 
 const Groups = () => {
   const [scrollTech, setScrollTech] = useState(0);
@@ -71,10 +72,10 @@ const Groups = () => {
         >
           {techData.map((data, idx) => {
             return (
-              <div className="cardG" key={idx}>
+              <div className="cardG invisible-scrollbar" key={idx}>
                 <img src={data.image} alt="" />
                 <h6>{data.name}</h6>
-                <p>{data.description}</p>
+                <p className="invisible-scrollbar">{data.description}</p>
               </div>
             );
           })}
@@ -107,12 +108,12 @@ const Groups = () => {
           </MyDesktop>
         </h2>
         <div className="sliderGroup invisible-scrollbar" ref={culRef} onScroll={handleScrollCul}>
-          {techData.map((data, idx) => {
+          {culData.map((data, idx) => {
             return (
-              <div className="cardG" key={idx + 67}>
+              <div className="cardG invisible-scrollbar" key={idx + 67}>
                 <img src={data.image} alt="" />
                 <h6>{data.name}</h6>
-                <p>{data.description}</p>
+                <p className="invisible-scrollbar">{data.description}</p>
               </div>
             );
           })}

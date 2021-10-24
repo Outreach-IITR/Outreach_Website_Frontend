@@ -12,7 +12,7 @@ const Events = () => {
     setCurrentEvent(event);
   };
   return (
-    <div id="Events__Section">
+    <div id="Events">
       <h1 className="Events__heading">Events</h1>
       <ul className="Events__list">
         {EventsData.map((event, key) => {

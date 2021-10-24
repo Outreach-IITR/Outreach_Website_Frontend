@@ -21,6 +21,11 @@ const Crousel = (props) => {
   };
 
   useEffect(() => {
+    const length = slides.length;
+    setCurrent(Math.floor(length / 2));
+  }, [slides]);
+
+  useEffect(() => {
     const timer = setTimeout(() => nextSlide(), 3000);
     return () => {
       clearTimeout(timer);

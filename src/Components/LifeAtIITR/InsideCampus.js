@@ -6,8 +6,8 @@ import InsideCampusData from "./InsideCampusData";
 
 const InsideCampus = () => {
   return (
-    <div className="InsideCampus__Section">
-      <h1 className="InsideCampus__heading">Inside Campus</h1>
+    <div id="InsideCampus" className="InsideCampus__Section">
+      <h1 className="InsideCampus__heading">R-Insider</h1>
       <Carousel slides={InsideCampusData} />
       <div className="CampusLife">
         <h3 className="CampusLife__heading">Campus Life</h3>

@@ -1,4 +1,4 @@
-#SecondSection > .Mobile {
+#WhyIITR > .Mobile {
   display: none;
 }
 
@@ -10,7 +10,7 @@
   font-family: SF UI Text;
 }
 
-#SecondSection {
+#WhyIITR {
   margin: 12rem 0 8rem 0;
   padding-right: 6.25rem;
   position: relative;
@@ -87,7 +87,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 2.5rem;
-  align-items: center;
   text-align: center;
 }
 
@@ -96,8 +95,8 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: 14px;
+  line-height: 1.125rem;
   text-align: center;
   color: #333333;
 }
@@ -120,11 +119,11 @@
     display: none;
   }
 
-  #SecondSection > .Mobile {
+  #WhyIITR > .Mobile {
     display: block;
   }
 
-  #SecondSection {
+  #WhyIITR {
     margin: 8rem 2rem 0rem 2rem;
     padding: 0;
     position: relative;

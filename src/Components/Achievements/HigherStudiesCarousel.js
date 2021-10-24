@@ -1,3 +1,4 @@
+//***********Made By Rahul Modi************/
 import React, { useState, useEffect, useCallback } from "react";
 
 import HS__Data from "./HigherStudiesData";
@@ -5,7 +6,7 @@ import HS__Data from "./HigherStudiesData";
 import "./HigherStudiesCarousel.css";
 import LeftArrow from "./Assets/LeftArrow.svg";
 import RightArrow from "./Assets/RightArrow.svg";
-import HigherStudiesCarousel__bg from "./Assets/HigherStudiesCarousel__bg.png";
+import HigherStudiesCarousel__bg from "./Assets/HigherStudiesCarousel_Img/HigherStudiesCarousel__bg.png";
 
 const HigherStudiesCarousel = () => {
   const [current, setCurrent] = useState(0);

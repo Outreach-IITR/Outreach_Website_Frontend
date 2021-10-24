@@ -4,8 +4,8 @@
   display: grid;
   grid-template-columns: fit-content fit-content fit-content fit-content;
   grid-template-rows: fit-content fit-content fit-content fit-content;
-  row-gap: 1rem;
-  columns: 1rem;
+  row-gap: 0rem;
+  column-gap: 0rem;
   padding: 4rem;
   overflow: hidden;
 }
@@ -13,63 +13,60 @@
 .BubbleCarousel img {
   align-self: center;
   justify-self: center;
-  width: 96px;
+  width: 100px;
   max-width: 100%;
   aspect-ratio: 1/1;
   transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.BubbleCarousel img:nth-of-type(1) {
-  width: 130px;
-  grid-column-start: 1;
+.BubbleCarousel img:nth-of-type(7n + 1) {
+  transform: scale(1.5);
+  grid-column-start: 2;
   grid-row-start: 2;
 }
 
-.BubbleCarousel img:nth-of-type(2) {
-  width: 65px;
+.BubbleCarousel img:nth-of-type(7n + 2) {
+  transform: scale(0.7);
   grid-column-start: 4;
   grid-row-start: 1;
 }
 
-.BubbleCarousel img:nth-of-type(3) {
-  width: 130px;
+.BubbleCarousel img:nth-of-type(7n + 3) {
+  transform: scale(1.25);
   grid-column-start: 5;
   grid-row-start: 2;
 }
 
-.BubbleCarousel img:nth-of-type(4) {
-  grid-column-start: 3;
-  grid-row-start: 2;
+.BubbleCarousel img:nth-of-type(7n + 4) {
+  grid-column-start: 4;
+  grid-row-start: 3;
 }
 
-.BubbleCarousel img:nth-of-type(5) {
-  grid-column-start: 2;
-  grid-row-start: 4;
-}
-
-.BubbleCarousel img:nth-of-type(6) {
-  grid-column-start: 5;
-  grid-row-start: 4;
-}
-.BubbleCarousel img:nth-of-type(7) {
+.BubbleCarousel img:nth-of-type(7n + 5) {
   grid-column-start: 1;
-  grid-row-start: 1;
+  grid-row-start: 4;
+}
+
+.BubbleCarousel img:nth-of-type(7n + 6) {
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+
+.BubbleCarousel img:nth-of-type(7n) {
+  grid-column-start: 5;
+  grid-row-start: 4;
 }
 
 .current {
-  transform: scale(2);
+  transform: scale(2) !important;
   border: 1.5px solid #f96508;
   border-radius: 50%;
   padding: 0px;
+  z-index: 3;
 }
 
-.BubbleCarousel img:nth-of-type(2).current {
-  transform: scale(2.8);
-}
-
-.BubbleCarousel img:nth-of-type(1).current,
-.BubbleCarousel img:nth-of-type(3).current {
-  transform: scale(1.5);
+.BubbleCarousel img:nth-of-type(7n + 1).current {
+  transform: scale(2.8) !important;
 }
 
 @media screen and (max-width: 800px) {

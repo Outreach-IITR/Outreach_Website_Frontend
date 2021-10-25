@@ -19,21 +19,40 @@ const Groups = () => {
       setScrollCul(culRef.current.scrollWidth - culRef.current.clientWidth);
     }
     UpdateSize();
-  }, []);
+  }, [myRef]);
+
+  if (!myRef) {
+    setScrollTech(myRef.current.scrollWidth - myRef.current.clientWidth);
+  }
 
   useEffect(() => {
-    function size() {
-      setScollValTech(myRef.current.scrollLeft);
-    }
-    size();
-    // window.onscroll()
-  }, []);
+    setScrollTech(myRef.current.scrollWidth - myRef.current.clientWidth);
+    setScrollCul(culRef.current.scrollWidth - culRef.current.clientWidth);
+  }, [myRef, scrollTech])
+
+  // useEffect(() => {
+  //   function size() {
+  //     setScollValTech(myRef.current.scrollLeft);
+  //   }
+  //   size();
+  //   // window.onscroll()
+  // }, []);
+  window.addEventListener("DOMContentLoaded", (() => {
+    setScrollTech(myRef.current.scrollWidth - myRef.current.clientWidth);
+    setScrollCul(culRef.current.scrollWidth - culRef.current.clientWidth);
+  }))
 
   const handleScrollTech = (e) => {
+    if (scrollTech === 0) {
+      setScrollTech(myRef.current.scrollWidth - myRef.current.clientWidth);
+    }
     setScollValTech(myRef.current.scrollLeft);
   };
 
   const handleScrollCul = (e) => {
+    if (scrollCul === 0) {
+      setScrollCul(culRef.current.scrollWidth - culRef.current.clientWidth);
+    }
     setScollValCul(culRef.current.scrollLeft);
   };
 
@@ -57,6 +76,7 @@ const Groups = () => {
             <input
               type="range"
               name="scroll"
+              onMouseEnter={handleScrollTech}
               min="0"
               value={scrollValTech}
               onChange={handleScrollRangeTech}
@@ -87,6 +107,7 @@ const Groups = () => {
               name="scroll"
               min="0"
               onChange={handleScrollRangeTech}
+              onMouseEnter={handleScrollTech}
               value={scrollValTech}
               max={scrollTech}
             />
@@ -101,6 +122,7 @@ const Groups = () => {
               type="range"
               name="scroll"
               min="0"
+              onMouseEnter={handleScrollCul}
               onChange={handleScrollRangeCul}
               value={scrollValCul}
               max={scrollCul}
@@ -123,6 +145,7 @@ const Groups = () => {
             <input
               type="range"
               name="scroll"
+              onMouseEnter={handleScrollCul}
               min="0"
               onChange={handleScrollRangeCul}
               value={scrollValCul}

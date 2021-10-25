@@ -25,12 +25,6 @@ export class Campuslife extends Component {
                 fade:true,
                 autoplaySpeed: 2000,
                 pauseOnHover: true,
-                // beforeChange: function(currentSlide, nextSlide) {
-                //   console.log("before change", currentSlide, nextSlide);
-                // },
-                // afterChange: function(currentSlide) {
-                //   console.log("after change", currentSlide);
-                // }
               };
               return (
                 <div>
@@ -40,31 +34,24 @@ export class Campuslife extends Component {
                     
                       <div className="imagescareousl_cl">
                           <img alt="img" className="carouselimg_cl" src={cl1}></img>
-                        <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_cl">
                           <img alt="img" className="carouselimg_cl" src={cl2}></img>
-                        <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_cl">
                           <img alt="img" className="carouselimg_cl" src={cl3}></img>
-                        <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_cl">
                           <img alt="img" className="carouselimg_cl" src={cl4}></img>
-                        <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_cl">
                           <img alt="img" className="carouselimg_cl" src={cl5}></img>
-                        <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_cl">
                           <img alt="img" className="carouselimg_cl" src={cl6}></img>
-                        <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_cl">
                           <img alt="img" className="carouselimg_cl" src={cl7}></img>
-                        <h4 className="imgdis_cl">Lorem ipsum dolor sit amet</h4>
                       </div>
                     
                   </Slider>

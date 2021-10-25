@@ -27,12 +27,6 @@ export class Hostellife extends Component {
                 autoplay: true,
                 autoplaySpeed: 2000,
                 pauseOnHover: true,
-                // beforeChange: function(currentSlide, nextSlide) {
-                //   console.log("before change", currentSlide, nextSlide);
-                // },
-                // afterChange: function(currentSlide) {
-                //   console.log("after change", currentSlide);
-                // }
               };
               return (
                 <div>
@@ -42,7 +36,7 @@ export class Hostellife extends Component {
                      <p id="hostelcontent">Imagine a life where you wake up to sunlight falling on your face, 
                      with your friend’s next door, waiting to go for a great workout in your hostel gym, 
                      to follow it up with breakfast in a mess that serves delicious food, only to repeat it 
-                     every morning but with more excitement. 
+                     every morning but with more excitement. <br /> <br />
                      This could be a small part of your routine here at IIT-R. To mention some specifics, 
                      there are no strict rules and regulations regarding hostel curfew timings. Hostels are 
                      also equipped with canteen facilities so you and your friends can enjoy that late-night 
@@ -56,39 +50,30 @@ export class Hostellife extends Component {
                     
                       <div className="imagescareousl_hl">
                           <img alt="src" className="carouselimg" src={hl1}></img>
-                        <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
                           <img alt="src" className="carouselimg" src={hl2}></img>
-                        <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
                           <img alt="src" className="carouselimg" src={hl3}></img>
-                        <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
                           <img alt="img" className="carouselimg" src={hl4}></img>
-                        <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
                           <img alt="img" className="carouselimg" src={hl5}></img>
-                        <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
                           <img alt="img" className="carouselimg" src={hl6}></img>
-                        <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
                           <img alt="img" className="carouselimg" src={hl7}></img>
-                        <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
                           <img alt="img" className="carouselimg" src={hl8}></img>
-                        <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                       <div className="imagescareousl_hl">
                           <img alt="img" className="carouselimg" src={hl9}></img>
-                        <h4 className="imgdis">Lorem ipsum dolor sit amet</h4>
                       </div>
                     
                   </Slider>

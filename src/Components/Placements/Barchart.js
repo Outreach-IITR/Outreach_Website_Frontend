@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Barchart.css"
 import {Bar} from "react-chartjs-2"
 import BarChart_alt from "./Assets/BarChart.png"
 
-const BarChart = () => {
+const BarChart = props => {
     return(<>
-    <div className="Barchart_heading"><h1>Median CTC in LPA (2019-20)</h1></div>
+    <div className="Barchart_heading"><h1>{props.heading}</h1></div>
     <div className="Barchart_placement">
             {/* <canvas></canvas> */}
             <Bar

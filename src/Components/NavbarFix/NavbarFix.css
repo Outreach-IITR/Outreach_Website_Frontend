@@ -1,5 +1,6 @@
 #nav_bg{
   background-color: white;
+  padding-top: 0.2rem;
 }
 
 .main-nav1 {
@@ -164,5 +165,11 @@
   }
   .logo{
     margin-left: 8rem;
+  }
+  .menu-item{
+    padding-left: 0;
+  }
+  .menu-link-ul{
+    text-align: left;
   }
 }

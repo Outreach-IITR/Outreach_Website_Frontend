@@ -11,7 +11,7 @@ export class Startups extends Component {
             <div id="achievement_startups">
                 <div id="startups_first">
                     <h2>Startups</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ipsum a, diam at. Morbi ipsum, sem integer amet erat varius turpis. Amet, at aliquam iaculis elementum dui nulla lobortis.Est ipsum a, diam at. Morbi ipsum, sem integer amet erat varius turpis. Amet, at aliquam iaculis elementum dui nulla lobortis.
+                    <p>Among all its astounding cultures, IIT-R also has a growing startup culture. To foster this culture there are various startup incubators at R-Land. If you desire to enter the field of entrepreneurship, IIT-R will provide you with a strong platform. 
                     </p>
                 </div>
                 <div id="startups_tides">
@@ -22,7 +22,7 @@ export class Startups extends Component {
                         </div>
                         <div id="tides_content">
                             <h1 id="tides_mobilenone">Tides Incubator</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ipsum a, diam at. Morbi ipsum, sem integer amet erat varius turpis. Amet, at aliquam iaculis elementum dui nulla lobortis.Est ipsum a, diam at. Morbi ipsum, sem integer amet erat varius turpis. Amet, at aliquam iaculis elementum dui nulla lobortis.</p>
+                            <p>Technology Incubation & Entrepreneurship Development Society(TIDES), a business incubator at R-Land is what one needs to grow their startup. From providing funding to giving guidance, TIDES provides it all. We can assure you that at R-Land, your dream of growing a startup won’t be left unchecked.</p>
                         </div>
                     </div>
                     <div id="brand">
@@ -37,7 +37,9 @@ export class Startups extends Component {
                         </div>
                         <div id="ecell_content">
                             <h1 id="ecell_mobilenone">E cell</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ipsum a, diam at. Morbi ipsum, sem integer amet erat varius turpis. Amet, at aliquam iaculis elementum dui nulla lobortis.Est ipsum a, diam at. Morbi ipsum, sem integer amet erat varius turpis. Amet, at aliquam iaculis elementum dui nulla lobortis.</p>
+                            <p>
+                            Entrepreneurship Cell, a campus group at IIT-R is committed to nurturing the ideas of budding entrepreneurs. If you want to dive into the field of entrepreneurship, E-Cell will mentor you, instill hunger for growth, team spirit, and other qualities in you. 
+                        </p>
                         </div>
                         </div>
                     <div id="brand">

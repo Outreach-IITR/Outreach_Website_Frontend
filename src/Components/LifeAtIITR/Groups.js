@@ -58,7 +58,7 @@ const Groups = () => {
               type="range"
               name="scroll"
               min="0"
-              // value={scrollValTech}
+              value={scrollValTech}
               onChange={handleScrollRangeTech}
               max={scrollTech}
             />
@@ -87,7 +87,7 @@ const Groups = () => {
               name="scroll"
               min="0"
               onChange={handleScrollRangeTech}
-              // value={scrollValTech}
+              value={scrollValTech}
               max={scrollTech}
             />
           </div>
@@ -102,7 +102,7 @@ const Groups = () => {
               name="scroll"
               min="0"
               onChange={handleScrollRangeCul}
-              // value={scrollValCul}
+              value={scrollValCul}
               max={scrollCul}
             />
           </MyDesktop>
@@ -125,7 +125,7 @@ const Groups = () => {
               name="scroll"
               min="0"
               onChange={handleScrollRangeCul}
-              // value={scrollValCul}
+              value={scrollValCul}
               max={scrollCul}
             />
           </div>

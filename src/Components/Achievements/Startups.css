@@ -46,14 +46,20 @@
     margin-right: 5%;
 }
 #brand{
+    margin-top: 40px;
     text-align: center;
 }
+#brand img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 #startups_alumni h1{
     margin-left: 16.5%;
     color: #F96508;
     }
 #startups_alumni{
-    margin-top: 30px;
+    margin-top: 100px;
 }
 #startups_first h2{
    
@@ -95,9 +101,34 @@ margin: 0 15% ;
 }
 
 @media (max-width:850px){
-    #brand{
+    /* #brand{
         display:none;
+    } */
+    #startups_alumni h1{
+        margin-left: 12%;
     }
+    #brand img{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        width: 25%;
+        padding-top: 1.5rem;
+    }
+    #brand img:nth-child(4){
+        width: 18%;
+        
+    }
+    #brand img:nth-child(5){
+        width: 18%;
+
+    }
+    #brand img:nth-child(6){
+        width: 18%;
+
+    }
+    #startups_alumni{
+        margin-top: 80px;
+    }
+
     #tides_detail{
         flex-direction: column;
         justify-content: flex-start;

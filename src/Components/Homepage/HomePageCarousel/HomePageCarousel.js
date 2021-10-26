@@ -51,7 +51,7 @@ const HomePageCarousel = () => {
 
   return (
     <div className="YTCarousel">
-      <div className="Carousel__Title">
+      <div className="YTCarousel__Title">
         <h3>IIT Roorkee at a Glance</h3>
         <p>Dont just take our word, see yourself</p>
       </div>

@@ -5,30 +5,30 @@ import HS__img3 from "./Assets/HigherStudiesCarousel_Img/HigherStudiesCarousel_3
 const HS__Data = [
   {
     id: 1,
-    name: "Lorem ipsum",
+    name: "Keerat",
     image: HS__img1,
-    designation: "Went to details, sem-ex, higher studies, etc.",
+    designation: "Research intern at Harvard University and IIIT-Delhi",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus eu, vitae aliquam aliquam pharetra, tortor elementum libero consectetur. Mi justo facilisis gravida eget porttitor ultrices interdum eu. Ac ullamcorper in mi tristique etiam orci vel eget. In in mauris, etiam faucibus tristique nisl volutpat. Nunc accumsan massa lectus nisi sem sit pretium eu facilisi.",
+      "Being from a PCMB background in senior school, I was keen to identify a stream wherein I could work on Biological Systems using Mathematical and Computational tools. Having Civil Engineering as my major, I wasn’t too confident about the switch initially, but with a little push from some wonderful seniors on campus, I started exploring and working on projects by the end of the first year.",
     link: "/",
   },
   {
     id: 2,
-    name: "massa lectus",
+    name: "Ajitesh Shukla",
     image: HS__img2,
-    designation: "Went to details, sem-ex, higher studies, etc.",
+    designation: "summer internship at NTU Singapore",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and.",
+      "My interest in the research field developed during my 2nd-year internship at SPARK, IITR. I worked in the domain of Computational Mechanics for the analysis of inflatable membranes used in space structures. I had a good experience and wanted to explore more in the research field. I had in mind from the start of the internship season that I wanted to do a research internship, and I had a decent research experience to back that up. I also applied for some core R&D profile companies, but had no luck there.",
     link: "/",
   },
   {
     id: 3,
-    name: "orci vel",
+    name: "Surya Sundar Raman",
     image: HS__img3,
-    designation: "Went to details, sem-ex, higher studies, etc.",
+    designation: "Research internships/projects at TIFR and TU Dresden",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus eu, vitae aliquam aliquam pharetra, tortor elementum libero consectetur. Mi justo facilisis gravida eget porttitor ultrices interdum eu. Ac ullamcorper in mi tristique etiam orci vel eget. In in mauris, etiam faucibus tristique nisl volutpat. Nunc accumsan massa lectus nisi sem sit pretium eu facilisi.",
-    link: "/",
+      "I did a small internship at the end of my second year at Inter University Accelerator Centre Delhi, and this was a result of being interested in nuclear physics since my 4th semester, when Professor Ajay Deo from IITR took a fascinating course on the same.",
+    link: "http://watchout.iitr.ac.in/2020/12/summer-diaries-tifr-and-tu-dresden",
   },
 ];
 

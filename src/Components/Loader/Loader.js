@@ -5,7 +5,7 @@ import Yellow_Part from "./Assets/Yellow_Part.svg";
 import Green_Part from "./Assets/Green_Part.svg";
 import "./Loader.css";
 
-const Loader = (props) => {
+const Loader = () => {
   return (
     <div className="Loader">
       <div id="LoadingText">

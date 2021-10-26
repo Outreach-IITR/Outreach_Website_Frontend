@@ -32,7 +32,7 @@ import AgraniVerma from "./Assets/OurTeam_Img/AgraniVerma.png";
 import AkshitGupta from "./Assets/OurTeam_Img/AkshitGupta.png";
 import AmanGupta from "./Assets/OurTeam_Img/AmanGupta.png";
 import AyushBansal from "./Assets/OurTeam_Img/AyushBansal.png";
-import GauriPancholi from "./Assets/OurTeam_Img/GauriPancholi.png";
+import GauriPachauri from "./Assets/OurTeam_Img/GauriPancholi.png";
 import RahulKetanModi from "./Assets/OurTeam_Img/RahulKetanModi.png";
 import RohitBamnawat from "./Assets/OurTeam_Img/RohitBamnawat.png";
 import SainathRaoP from "./Assets/OurTeam_Img/SainathRaoP.png";
@@ -223,8 +223,8 @@ const Development = [
     image: AyushBansal,
   },
   {
-    name: "Gauri Pancholi",
-    image: GauriPancholi,
+    name: "Gauri Pachauri",
+    image: GauriPachauri,
   },
   {
     name: "Rahul Ketan Modi",

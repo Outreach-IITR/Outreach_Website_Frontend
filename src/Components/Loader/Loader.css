@@ -1,5 +1,9 @@
+.LoaderActive::-webkit-scrollbar {
+  display: none;
+}
+
 .Loader {
-  position: absolute;
+  position: fixed;
   min-width: 100vw;
   min-height: 100vh;
   z-index: 1005;

@@ -22,7 +22,7 @@ const HigherStudiesCarousel = () => {
   };
 
   useEffect(() => {
-    const timer = setTimeout(() => nextSlide(), 3000);
+    const timer = setTimeout(() => nextSlide(), 5000);
     return () => {
       clearTimeout(timer);
     };

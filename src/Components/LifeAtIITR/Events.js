@@ -4,7 +4,7 @@ import Carousel from "../Crousel/Crousel";
 
 import "./Events.css";
 import EventsData from "./EventsData";
-import Events__Img from "./Assests/Events__Img.png";
+import Events__logo from "./Assests/Events_Img/Events_logo.png";
 
 const Events = () => {
   const [currentEvent, setCurrentEvent] = useState(0);
@@ -33,7 +33,7 @@ const Events = () => {
       <p className="Event__description">
         {EventsData[currentEvent].description}
       </p>
-      <img className="Companies_Logo" src={Events__Img} alt="Companies Logo" />
+      <img className="Companies_Logo" src={Events__logo} alt="Companies Logo" />
     </div>
   );
 };

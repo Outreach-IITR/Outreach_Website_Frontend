@@ -4,6 +4,13 @@ import BubbleCarousel__3 from "./Assets/BubbleCarousel__3.png";
 import BubbleCarousel__4 from "./Assets/BubbleCarousel__6.png";
 import BubbleCarousel__5 from "./Assets/BubbleCarousel__7.png";
 
+import Sports_1 from "./Assets/FieldWiseA_Img/Sports_1.png";
+import Sports_2 from "./Assets/FieldWiseA_Img/Sports_2.png";
+import Sports_3 from "./Assets/FieldWiseA_Img/Sports_3.png";
+import Sports_4 from "./Assets/FieldWiseA_Img/Sports_4.png";
+import Sports_5 from "./Assets/FieldWiseA_Img/Sports_5.png";
+import Sports_6 from "./Assets/FieldWiseA_Img/Sports_6.png";
+
 const Sports = {
   name: "Sports",
   description:
@@ -48,22 +55,22 @@ const Sports = {
   ],
   Bubble_List: [
     {
-      image: BubbleCarousel__1,
+      image: Sports_1,
     },
     {
-      image: BubbleCarousel__2,
+      image: Sports_2,
     },
     {
-      image: BubbleCarousel__3,
+      image: Sports_3,
     },
     {
-      image: BubbleCarousel__4,
+      image: Sports_4,
     },
     {
-      image: BubbleCarousel__5,
+      image: Sports_5,
     },
     {
-      image: BubbleCarousel__2,
+      image: Sports_6,
     },
   ],
 };

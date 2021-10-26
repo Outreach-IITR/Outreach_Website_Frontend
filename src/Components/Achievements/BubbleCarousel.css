@@ -35,6 +35,7 @@
   transform: scale(1.25);
   grid-column-start: 5;
   grid-row-start: 2;
+  margin: auto;
 }
 
 .BubbleCarousel img:nth-of-type(7n + 4) {
@@ -60,7 +61,7 @@
 .current {
   transform: scale(2) !important;
   border: 1.5px solid #f96508;
-  border-radius: 50%;
+  border-radius: 60%;
   padding: 0px;
   z-index: 3;
 }

@@ -66,6 +66,10 @@ const Groups = () => {
     culRef.current.scrollLeft = scrollValCul;
   };
 
+  window.addEventListener("load", () => {
+    setScrollTech(myRef.current.scrollWidth - myRef.current.clientWidth);
+  });
+
   return (
     <div id="CampusGroups" className="containerG">
       <h1 id="groupsHeading">Campus Groups</h1>
@@ -129,7 +133,11 @@ const Groups = () => {
             />
           </MyDesktop>
         </h2>
-        <div className="sliderGroup invisible-scrollbar" ref={culRef} onScroll={handleScrollCul}>
+        <div
+          className="sliderGroup invisible-scrollbar"
+          ref={culRef}
+          onScroll={handleScrollCul}
+        >
           {culData.map((data, idx) => {
             return (
               <div className="cardG invisible-scrollbar" key={idx + 67}>

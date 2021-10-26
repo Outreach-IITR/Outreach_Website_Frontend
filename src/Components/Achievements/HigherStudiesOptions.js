@@ -13,7 +13,11 @@ export class HigherStudiesOptions extends Component {
 
                     <h4 className="ellipseNumber">{this.props.num}</h4>
                 </div>
-                <p>{this.props.content}</p>
+                <div id="card_content">
+                <h3 id="p1">{this.props.content1}</h3>
+                <p id="p2">{this.props.content2}</p>
+                </div>
+                
             </div>
         )
     }

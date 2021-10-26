@@ -18,9 +18,11 @@ class App extends Component {
   }
 
   componentDidMount() {
+    document.body.style.overflow = "hidden";
     window.addEventListener("load", () => {
       setTimeout(() => {
         this.setState({ isLoading: false });
+        document.body.style.overflow = "auto";
       }, 2000);
     });
   }
@@ -29,7 +31,7 @@ class App extends Component {
     return (
       <>
         {this.state.isLoading && <Loader />}
-        <div style={this.state.isLoading ? { display: "none" } : {}}>
+        <div style={this.state.isLoading ? { visibility: "hidden" } : {}}>
           <div>
             <BrowserRouter>
               <Route path="/" exact component={Homepage} />

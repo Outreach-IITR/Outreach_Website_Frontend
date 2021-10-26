@@ -3,6 +3,7 @@
 }
 
 .Loader {
+  top: 0px;
   position: fixed;
   min-width: 100vw;
   min-height: 100vh;

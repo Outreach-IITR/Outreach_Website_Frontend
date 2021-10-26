@@ -383,8 +383,8 @@ export const departmentinfo = [
       "They aim at fostering design-focused education research and entrepreneurial activities with a focus to create commercial opportunities. The department has launched two new post-graduate programmes – masters in design (industrial design) and masters in innovation management (MIM) – commencing the academic year 2021-22.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: null,
+    wrong: null,
     acadCrouselData: [
       // {
       //   image: Carousel1,
@@ -426,8 +426,8 @@ export const departmentinfo = [
       "It is actively involved in carrying out sponsored research and consultancy projects through self-guiding state-of-art test facilities, and has played a key role at the national level in the formulation Indian Standard Codes of Practice for earthquake resistant design of Structures.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: null,
+    wrong: null,
     acadCrouselData: [
       {
         image: eq1,
@@ -469,8 +469,8 @@ export const departmentinfo = [
       "During the last six decades, the department has produced a large number of trained Earth Scientists who are the backbone of the Country's mineral, oil & gas, groundwater resources, and other exploration industries.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: 0,
+    wrong: 14,
     acadCrouselData: [
       {
         image: es1,
@@ -598,8 +598,8 @@ export const departmentinfo = [
       "Besides, there has been a considerable progression of tangible and academic infrastructure, providing an impetus for its bright future.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: null,
+    wrong: null,
     acadCrouselData: [
       {
         image: hs1,
@@ -640,8 +640,8 @@ export const departmentinfo = [
     info2: "Department provides research facilities and projects to work on.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 0,
-    wrong: 14,
+    correct: null,
+    wrong: null,
     acadCrouselData: [
       {
         image: h1,
@@ -683,8 +683,8 @@ export const departmentinfo = [
       "Technical support to over 25 different state and central government organizations for SHP development has been provided. IPPs and financial institutions are utilizing their expertise to support their SHP development.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: null,
+    wrong: null,
     acadCrouselData: [
       {
         image: hr1,
@@ -726,8 +726,8 @@ export const departmentinfo = [
       " Classrooms, together with modern infrastructure, provide an invigorating academic environment and an effective pedagogy further sets a platform conducive enough to nurture the best breed of managerial talent.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: null,
+    wrong: null,
     acadCrouselData: [
       {
         image: m1,
@@ -897,8 +897,8 @@ export const departmentinfo = [
       "The areas of active research have been fiber characterization, identification, and evaluation of new fibrous pulping raw materials, identification of chloro-organic compounds in wastewaters, color reduction of effluents, evaluation of recycling potential of pulps, drinking studies, paper surface characterization and printability, enzyme production and applications, modeling and simulation of pulp and papermaking operations to name a few.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: null,
+    wrong: null,
     acadCrouselData: [
       {
         image: pt1,
@@ -982,8 +982,8 @@ export const departmentinfo = [
     info2: null,
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 3,
-    wrong: 5,
+    correct: null,
+    wrong: null,
     acadCrouselData: [
       {
         image: wr1,

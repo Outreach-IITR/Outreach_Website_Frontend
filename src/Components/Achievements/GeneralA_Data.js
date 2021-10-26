@@ -3,6 +3,9 @@ import BubbleCarousel__2 from "./Assets/BubbleCarousel__2.png";
 import BubbleCarousel__3 from "./Assets/BubbleCarousel__3.png";
 import BubbleCarousel__4 from "./Assets/BubbleCarousel__6.png";
 import BubbleCarousel__5 from "./Assets/BubbleCarousel__7.png";
+import GeneralA_2 from "./Assets/GeneralA_Img/GeneralA_2.png";
+import GeneralA_3 from "./Assets/GeneralA_Img/GeneralA_3.png";
+import GeneralA_4 from "./Assets/GeneralA_Img/GeneralA_4.png";
 
 export const GeneralA_List = [
   {
@@ -66,13 +69,13 @@ export const GeneralA_Bubble = [
     image: BubbleCarousel__1,
   },
   {
-    image: BubbleCarousel__2,
+    image: GeneralA_2,
   },
   {
-    image: BubbleCarousel__3,
+    image: GeneralA_3,
   },
   {
-    image: BubbleCarousel__4,
+    image: GeneralA_4,
   },
   {
     image: BubbleCarousel__5,

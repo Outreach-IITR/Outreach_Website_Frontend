@@ -105,6 +105,7 @@
   height: 335px;
   overflow: auto;
   padding-right: 1rem;
+  overscroll-behavior: contain;
 }
 
 #feild-ach-data-text {

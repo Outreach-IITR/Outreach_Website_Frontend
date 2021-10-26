@@ -12,8 +12,7 @@ const Life = () => {
   return (
     <div>
       <NavbarFix />
-      <Background heading="Life at R-Land" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus amet sit purus, in facilisis risus. Nulla sem lectus at habitasse turpis.
-07/08/21 " />
+      <Background heading="Life at R-Land" text="Welcome to the one-stop destination for knowing about the grandeur of Life at IITR." />
       <InsideCampus />
       <Hostellife />
       <Campuslife />

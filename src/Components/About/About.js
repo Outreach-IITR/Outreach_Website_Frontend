@@ -10,7 +10,7 @@ class About extends Component {
     return (
       <div>
         <NavbarFix/>
-        <Background  heading="About Us" text="Lacus elementum blandit venenatis faucibus vulputate ultrices blandit euismod." />
+        <Background  heading="About Us" text="Here's a glimpse of Asia's oldest technical institution, which has strived to help students explore their potential beyond par." />
         <AboutIITR />
         <AboutOutreach />
         <OurTeam />

@@ -13,7 +13,7 @@ class Placements extends Component {
     return (
       <>
         <NavbarFix />
-        <Background heading="Placements" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus amet sit purus, in facilisis risus. Nulla sem lectus at habitasse turpis. 07/08/21 " />
+        <Background heading="Placements" text="All important placement stats at one destination" />
         <CTC/>
         <BarChart/>
         <CampusOffer/>  

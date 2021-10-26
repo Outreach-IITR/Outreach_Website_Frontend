@@ -115,7 +115,7 @@ const Departments = () => {
               {
                 !departmentinfo[id].correct && !departmentinfo[id].wrong ?
                   <b>
-                    Branch change not applicable.
+                    {/* Branch change not applicable. */}
                   </b> :
 
                   <b>
@@ -137,7 +137,9 @@ const Departments = () => {
               }
               <br />
               <div className="button">
+                <a href="https://iitr.ac.in/Placements/pages/index.html" target="_blank" rel="noreferrer">
                 <button>Placement Statistics</button>
+                </a>
               </div>
             </div>
           </>

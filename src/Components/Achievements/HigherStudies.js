@@ -12,19 +12,30 @@ const HigherStudies = () => {
       <div id="HigherStudies_content">
         <h1>Thomasonians around the globe</h1>
         <div id="PartFirst">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ipsum a,
-          diam at. Morbi ipsum, sem integer amet erat varius turpis. Amet, at
-          aliquam iaculis elementum dui nulla lobortis.Est ipsum a, diam at.
-          Morbi ipsum, sem integer amet erat varius turpis. Amet, at aliquam
-          iaculis elementum dui nulla lobortis.
+          Thomasonians have carried the legacy of our college to all parts of the world. IIT Roorkee students are admitted to top colleges around the world like Harvard, Stanford, MIT for higher studies every year. Time spent in Roorkee prepares students for excelling at any place they decide to go next.
         </div>
         <div id="PartSecond">
           <HigherStudiesOptions
             id="PS1"
-            num="230"
-            content="Lorem ipsum dolor sit amet"
+            num="18"
+            content1="Asia"
+            content2="Isrel, China, Singapore, Japan,
+            South Korea, etc."
+            
           />
           <HigherStudiesOptions
+            id="PS1"
+            num="22"
+            content1="Europe"
+            content2="Germany, England, Spain, Switzerland, France,etc."
+          />
+          <HigherStudiesOptions
+            id="PS1"
+            num="17"
+            content1="America"
+            content2="United States, Canada, etc."
+          />
+          {/* <HigherStudiesOptions
             id="PS1"
             num="230"
             content="Lorem ipsum dolor sit amet"
@@ -38,17 +49,7 @@ const HigherStudies = () => {
             id="PS1"
             num="230"
             content="Lorem ipsum dolor sit amet"
-          />
-          <HigherStudiesOptions
-            id="PS1"
-            num="230"
-            content="Lorem ipsum dolor sit amet"
-          />
-          <HigherStudiesOptions
-            id="PS1"
-            num="230"
-            content="Lorem ipsum dolor sit amet"
-          />
+          /> */}
         </div>
       </div>
     </div>

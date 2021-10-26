@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
 import logo from './Assets/logo.svg';
+import { NavLink } from 'react-router-dom';
 
 import Dropdown from './Dropdown'
 
@@ -33,24 +34,24 @@ const Navbar = () => {
 
             <div className={showList ? "mobile-menu-link" : "menu-link"}>
                 <ul className="menu-link-ul">
-                    <li className="menu-link-item">
-                        <a href="/about" className="menu-item">About</a>
-                    </li>
-                    <li className="menu-link-item">
-                        <a href="/academics" className="menu-item">Academics</a>
-                    </li>
-                    <li className="menu-link-item">
-                        <a href="/achievements" className="menu-item">Achievements</a>
-                    </li>
-                    <li className="menu-link-item">
-                        <a href="/lifeatiitr" className="menu-item">Life&nbsp;at&nbsp;IITR</a>
-                    </li>
-                    <li className="menu-link-item" id="nav-placements" 
+                <li className="menu-link-item">
+                            <NavLink to ="/about" activeClassName="active-page" className="menu-item">About</NavLink>
+                        </li>
+                        <li className="menu-link-item">
+                            <NavLink to="/academics" activeClassName="active-page" className="menu-item">Academics</NavLink>
+                        </li>
+                        <li className="menu-link-item">
+                            <NavLink to="/achievements" activeClassName="active-page" className="menu-item">Achievements</NavLink>
+                        </li>
+                        <li className="menu-link-item">
+                            <NavLink to="/lifeatiitr" activeClassName="active-page" className="menu-item">Life&nbsp;at&nbsp;IITR</NavLink>
+                        </li>
+                        <li className="menu-link-item" id="nav-placements" 
                         onMouseEnter={onMouseEnter}
                         onMouseLeave={onMouseLeave}
                     >
-                        <a href="/placement/2020-21" className="menu-item" >Placements</a>
-                        {dropdown && <Dropdown/>}
+                        <NavLink to="/placements/2020-21" activeClassName="active-page" className="menu-item" >Placements</NavLink>
+                        <div id="nav-placments-item">{dropdown && <Dropdown/>}</div>
                     </li>
                 </ul>
             </div>

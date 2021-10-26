@@ -61,6 +61,16 @@
   list-style-type: none;
   padding: 0;
 }
+.menu-link-item a:focus{
+  color: #026ba1;
+}
+.menu-link-item  a:active{
+  color: #026ba1;
+}
+/* .menu-link-item a{
+  color: #026ba1;
+} */
+
 
 .Discussion-forum {
   display: grid;
@@ -95,6 +105,9 @@
 
 .List-menu-icon {
   color: #f96508;
+}
+.active-page{
+  color: #026ba1 !important;
 }
 
 .menu-item {

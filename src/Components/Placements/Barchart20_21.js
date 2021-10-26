@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Barchart.css"
 import {Bar} from "react-chartjs-2"
-import BarChart_alt from "./Assets/BarChart.png"
+import BarChart_alt from "./Assets/Barchart20_21.png"
 
-const BarChart = props => {
+const BarChart20_21 = props => {
     return(<>
     <div className="Barchart_heading"><h1>{props.heading}</h1></div>
     <div className="Barchart_placement">
@@ -15,8 +15,8 @@ const BarChart = props => {
                 datasets: [
                   {
                     label: 'Median CTC',
-                    data: [20.75,11.16,7,12.996,17.67,5.5,13.5,33,27,21,14.42,13,27.665,15,15,11.69,12.978],
-                    backgroundColor: '#009082',
+                    data: [24.3,10,7,11,13.7,5.5,13.6,27.5,20,20,13,16,13.5,15,11.1,13,12.978],
+                    backgroundColor: '#41B8D5',
                    
                   }
                 ],
@@ -55,4 +55,4 @@ const BarChart = props => {
         
     );
 }
-export default BarChart;
+export default BarChart20_21;

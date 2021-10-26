@@ -18,11 +18,11 @@ class App extends Component {
   }
 
   componentDidMount() {
-    document.body.style.overflow = "hidden";
+    document.body.style.overflowY = "hidden";
     window.addEventListener("load", () => {
       setTimeout(() => {
         this.setState({ isLoading: false });
-        document.body.style.overflow = "auto";
+        document.body.style.overflowY = "auto";
       }, 2000);
     });
   }

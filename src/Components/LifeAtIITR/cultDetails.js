@@ -49,7 +49,7 @@ export const culData = [
   {
     name: 'Audio and Lights section',
     image: audio,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue egestas tellus in convallis amet et. Faucibus ipsum, arcu, curabitur vitae phasellus accumsan aliquet.'
+    description: 'The audio section manages the surround sound and the microphones, while the lights section illuminates the events which take place at the college. Apart from this, the Audio Section also hosts a radio show on the evening of Valentine’s Day.'
   },
   {
     name: 'Dramatics Section',
@@ -114,7 +114,7 @@ export const culData = [
   {
     name: 'Eco Group',
     image: ec,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue egestas tellus in convallis amet et. Faucibus ipsum, arcu, curabitur vitae phasellus accumsan aliquet.'
+    description: 'The Eco Group comes under the Institute Green Committee with the Director as Chairman and is for people who wish to change the perspective of the Junta towards mother nature. It has collaborated with UBA, NSS and even an electronic waste recycling company for several awareness campaigns, webinars and installation of waste segregation bins in the hostels.'
   },
   {
     name: 'Debating Society',

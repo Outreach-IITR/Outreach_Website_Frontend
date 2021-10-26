@@ -10,7 +10,7 @@ const HS__Data = [
     designation: "Research intern at Harvard University and IIIT-Delhi",
     description:
       "Being from a PCMB background in senior school, I was keen to identify a stream wherein I could work on Biological Systems using Mathematical and Computational tools. Having Civil Engineering as my major, I wasn’t too confident about the switch initially, but with a little push from some wonderful seniors on campus, I started exploring and working on projects by the end of the first year.",
-    link: "/",
+    link: "http://watchout.iitr.ac.in/2020/11/summer-diaries-harvard-university-and-iiit-delhi",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const HS__Data = [
     designation: "summer internship at NTU Singapore",
     description:
       "My interest in the research field developed during my 2nd-year internship at SPARK, IITR. I worked in the domain of Computational Mechanics for the analysis of inflatable membranes used in space structures. I had a good experience and wanted to explore more in the research field. I had in mind from the start of the internship season that I wanted to do a research internship, and I had a decent research experience to back that up. I also applied for some core R&D profile companies, but had no luck there.",
-    link: "/",
+    link: "http://watchout.iitr.ac.in/2020/09/summer-diaries-ajitesh-shukla",
   },
   {
     id: 3,

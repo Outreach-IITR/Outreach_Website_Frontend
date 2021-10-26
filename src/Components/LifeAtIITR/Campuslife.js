@@ -58,13 +58,15 @@ export class Campuslife extends Component {
                 </div>
                 <div id="campus_content">
                      <h3 id="campushead">Campus Facilities</h3>
-                     <p id="campuscontent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, pellentesque morbi egestas 
-                         lorem cras sed eu. Libero pharetra tellus mi eu aliquam cras.Lorem ipsum dolor sit amet, 
-                         consectetur adipiscing elit. Pharetra, pellentesque morbi egestas lorem cras sed eu. Libero pharetra 
-                         tellus mi eu aliquam cras.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, 
-                         pellentesque morbi egestas lorem cras sed eu. Libero pharetra tellus mi eu aliquam cras.Lorem 
-                         ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, pellentesque morbi egestas lorem 
-                         cras sed eu. Libero pharetra tellus mi eu aliquam cras.</p>
+                     <p id="campuscontent">The IITR campus provides a number of utilitarian amenities
+                      that make its students' lives on campus trouble free. These include eateries 
+                      from Amul and Nescafe to the famed CCD, banks like SBI and PNB as well as 3-4 
+                      ATMs, a well equipped hospital in case of emergencies and 3 guesthouses for 
+                      accommodation of guests and delegates who visit the campus. The campus has 
+                      a mandir, a church, and a masjid, a post office which is well equipped and 
+                      caters to the need of the students and the faculty, as well as the non 
+                      residents on campus, and also provides its students with a number of 
+                      sports facilities for them to excel in the sport of their choice.</p>
                 </div>
                 </div>
                 </div>

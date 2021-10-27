@@ -57,6 +57,10 @@ letter-spacing: 0.05em;
 #update_content_data{
     padding-bottom: 2rem;
 }
+#update_content_data p{
+    font-family: SI UI Text;
+    font-size: 1rem;
+}
 @media screen and (max-width: 995px){
     #updatessection{
         justify-content: center;

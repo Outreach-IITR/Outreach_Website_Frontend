@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import "./NavbarFix.css";
 import logo from './Assets/logo.svg';
 import Dropdown from '../Navbar/Dropdown';
+import { NavLink } from 'react-router-dom';
 
 
 const NavbarFix = () => {
@@ -43,29 +44,29 @@ const NavbarFix = () => {
 
         return (
             <nav className={navbar} id="nav_bg">
-                <a href ='/' className="logo">
+                <NavLink to ='/' className="logo">
                     <img alt="img" src={logo} />
-                </a>
+                </NavLink>
 
                 <div className= {showList ? "mobile-menu-link" : "menu-link"}>
                     <ul className="menu-link-ul">
                         <li className="menu-link-item">
-                            <a href="/about" className="menu-item">About</a>
+                            <NavLink to ="/about" activeClassName="active-page" className="menu-item">About</NavLink>
                         </li>
                         <li className="menu-link-item">
-                            <a href="/academics" className="menu-item">Academics</a>
+                            <NavLink to="/academics" activeClassName="active-page" className="menu-item">Academics</NavLink>
                         </li>
                         <li className="menu-link-item">
-                            <a href="/achievements" className="menu-item">Achievements</a>
+                            <NavLink to="/achievements" activeClassName="active-page" className="menu-item">Achievements</NavLink>
                         </li>
                         <li className="menu-link-item">
-                            <a href="/lifeatiitr" className="menu-item">Life&nbsp;at&nbsp;IITR</a>
+                            <NavLink to="/lifeatiitr" activeClassName="active-page" className="menu-item">Life&nbsp;at&nbsp;IITR</NavLink>
                         </li>
                         <li className="menu-link-item" id="nav-placements" 
                         onMouseEnter={onMouseEnter}
                         onMouseLeave={onMouseLeave}
                     >
-                        <a href="/placement/2020-21" className="menu-item" >Placements</a>
+                        <NavLink to="/placements/2020-21" className="menu-item" >Placements</NavLink>
                         <div id="nav-placments-item">{dropdown && <Dropdown/>}</div>
                     </li>
                     </ul>      

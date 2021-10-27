@@ -21,7 +21,7 @@ class Blog extends React.Component {
                             Blogs
                         </h1>
                         <div id="blog_undertext"><p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Get insights into the happenings at IITR through our latest blogs.
                         </p>
                         </div>
                         

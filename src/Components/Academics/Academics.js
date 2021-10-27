@@ -12,7 +12,7 @@ class Academics extends Component {
         <NavbarFix />
         <Background
           heading="Academics"
-          text="Lacus elementum blandit venenatis faucibus vulputate ultrices blandit euismod."
+          text="IITR provides students with the best environment and buffet of opportunities to steer their academic careers."
         />
         <AccordionSegment />
         <Departments />

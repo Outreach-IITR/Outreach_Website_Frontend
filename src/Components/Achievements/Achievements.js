@@ -15,7 +15,7 @@ class Achievements extends Component {
         <NavbarFix />
         <Background
           heading="Achievements"
-          text="Lacus elementum blandit venenatis faucibus vulputate ultrices blandit euismod."
+          text="Achievements-The aggregation of great efforts, determination, courage and skills"
         />
         <LatestUpdate />
         <GeneralAchievements />

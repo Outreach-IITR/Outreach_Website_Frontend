@@ -24,10 +24,11 @@
 #Blog_first_section p{
     width: 9.625rem;
     height: 4.5rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.2rem;
     letter-spacing: 00.05em;
     margin-bottom: 4rem;
+    font-family: Si UI Text;
 }
 #Blog_first_section h1{
     font-family: montserrat;
@@ -163,7 +164,13 @@
     
 }
 #blogbox_content h2{
-     font-size: 1.3rem;
+     font-size: 1.15rem;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: 600;
+}
+#blogbox_content p{
+    font-family: SI UI Text;
 }
 
 #blog_writer{
@@ -174,6 +181,7 @@
 #blog_writer p{
     padding-top: 0.5em;
     padding-left: 1em;
+    font-family: SI UI Text;
 }
 
 #blogbox1:hover{

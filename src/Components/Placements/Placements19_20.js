@@ -15,7 +15,7 @@ class Placements19_20 extends Component {
     return (
       <>
         <NavbarFix />
-        <Background heading="Placements" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus amet sit purus, in facilisis risus. Nulla sem lectus at habitasse turpis. 07/08/21 " />
+        <Background heading="Placements" text="All important placement stats at one destination" />
         <CTC heading='Heighest CTC in LPA (2019-2020)' image={CTC_image}/>
         <BarChart heading='Median CTC in LPA (2019-20)'/>
         <CampusOffer/>  

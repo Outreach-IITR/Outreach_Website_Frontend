@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import NavbarFix from "../NavbarFix/NavbarFix";
 import Background from "../Background/Background";
 import CTC from "./CTCsection";
-import BarChart from "./Barchart";
+import BarChart from "./Barchart20_21";
 import CampusOffer from"./Campus_offers";
 import StudentsForHigherStudies from "./studentsForHigherStudies"
 import LastPart from "./Preference&Distribution";
@@ -14,7 +14,7 @@ class Placements20_21 extends Component {
     return (
       <>
         <NavbarFix />
-        <Background heading="Placements" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus amet sit purus, in facilisis risus. Nulla sem lectus at habitasse turpis. 07/08/21 " />
+        <Background heading="Placements" text="All important placement stats at one destination" />
         <CTC heading='Heighest CTC in LPA (2020-2021)' image={CTC_image}/>
         <BarChart heading='Median CTC in LPA (2020-21)'/>
         <CampusOffer/>  

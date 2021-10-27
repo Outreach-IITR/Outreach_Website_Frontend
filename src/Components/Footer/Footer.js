@@ -21,12 +21,12 @@ const Footer = () => {
               </li>
               <li className="footer-column-item">
                 <a href="https://acad.iitr.ac.in/" className="footer-item">
-                  ACADS
+                  Acads
                 </a>
               </li>
               <li className="footer-column-item">
                 <a href="https://scsp.iitr.ac.in/" className="footer-item">
-                  SCHOLARSHIPS
+                  Scholarships
                 </a>
               </li>
               <li className="footer-column-item">

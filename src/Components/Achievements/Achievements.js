@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavbarFix from "../NavbarFix/NavbarFix";
 import Background from "../Background/Background";
-import LatestUpdate from "./LatestUpdate";
+// import LatestUpdate from "./LatestUpdate";
 import GeneralAchievements from "./GeneralAchievements";
 import FeildAchievements from "./FeildAchievements";
 import HigherStudiesCarousel from "./HigherStudiesCarousel";
@@ -17,7 +17,7 @@ class Achievements extends Component {
           heading="Achievements"
           text="Achievements-The aggregation of great efforts, determination, courage and skills"
         />
-        <LatestUpdate />
+        {/* <LatestUpdate /> */}
         <GeneralAchievements />
         <FeildAchievements />
         <HigherStudies />

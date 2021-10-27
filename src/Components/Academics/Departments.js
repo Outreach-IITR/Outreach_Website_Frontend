@@ -31,7 +31,6 @@ const Departments = () => {
   const handleSelection = (index) => {
     setId(index);
     setClickBackground(background);
-    console.log(myRef.current);
     myRef.current.scrollIntoView();
   };
 
@@ -55,20 +54,15 @@ const Departments = () => {
       <div className="containerD">
         <MyMobile>
           {list.map((data, idx) => {
-            return (
-              <>
-                {idx < 6 * depPage && idx >= 6 * (depPage - 1) ? (
-                  <div
-                    className={`cardD ${idx === id ? "selectedBackground" : ""
-                      }`}
-                    key={data.id}
-                    onClick={() => handleSelection(idx)}
-                  >
-                    <p>{data.dep}</p>
-                  </div>
-                ) : null}
-              </>
-            );
+            return idx < 6 * depPage && idx >= 6 * (depPage - 1) ? (
+              <div
+                className={`cardD ${idx === id ? "selectedBackground" : ""}`}
+                key={data.id}
+                onClick={() => handleSelection(idx)}
+              >
+                <p>{data.dep}</p>
+              </div>
+            ) : null;
           })}
           <div className="counterDepartment">
             <img src={backArrow} alt="" onClick={handlePageBackward} />
@@ -113,33 +107,30 @@ const Departments = () => {
               <p>{departmentinfo[id].info2}</p>
               <b>{departmentinfo[id].degree}</b>
               <br />
-              {
-                !departmentinfo[id].correct && !departmentinfo[id].wrong ?
-                  <b>
-                    {/* Branch change not applicable. */}
-                  </b> :
+              {!departmentinfo[id].correct && !departmentinfo[id].wrong ? (
+                <b>{/* Branch change not applicable. */}</b>
+              ) : (
+                <b>
+                  {departmentinfo[id].bcstats}
+                  {"  "}
+                  {departmentinfo[id].correct}
+                  {"  "}
 
-                  <b>
-                    {departmentinfo[id].bcstats}
-                    {"  "}
-                    {departmentinfo[id].correct}
-                    {"  "}
-
-                    <img src={plus} alt="" />
-                    {"  "}
-                    {departmentinfo[id].wrong}
-                    {"  "}
-                    {
-                      departmentinfo[id].wrong ?
-
-                        <img src={minus} alt="" /> : departmentinfo[id].wrong === 0 ? <img src={minus} alt="" /> : null
-                    }
-                  </b>
-              }
+                  <img src={plus} alt="" />
+                  {"  "}
+                  {departmentinfo[id].wrong}
+                  {"  "}
+                  {departmentinfo[id].wrong ? (
+                    <img src={minus} alt="" />
+                  ) : departmentinfo[id].wrong === 0 ? (
+                    <img src={minus} alt="" />
+                  ) : null}
+                </b>
+              )}
               <br />
               <div className="button">
                 <Link to="/placement/2020-21">
-                <button>Placement Statistics</button>
+                  <button>Placement Statistics</button>
                 </Link>
               </div>
             </div>

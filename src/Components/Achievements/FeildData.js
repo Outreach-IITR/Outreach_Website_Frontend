@@ -1,15 +1,28 @@
-import BubbleCarousel__1 from "./Assets/BubbleCarousel__1.png";
-import BubbleCarousel__2 from "./Assets/BubbleCarousel__2.png";
-import BubbleCarousel__3 from "./Assets/BubbleCarousel__3.png";
-import BubbleCarousel__4 from "./Assets/BubbleCarousel__6.png";
-import BubbleCarousel__5 from "./Assets/BubbleCarousel__7.png";
-
+//Sports
 import Sports_1 from "./Assets/FieldWiseA_Img/Sports_1.png";
 import Sports_2 from "./Assets/FieldWiseA_Img/Sports_2.png";
 import Sports_3 from "./Assets/FieldWiseA_Img/Sports_3.png";
 import Sports_4 from "./Assets/FieldWiseA_Img/Sports_4.png";
 import Sports_5 from "./Assets/FieldWiseA_Img/Sports_5.png";
 import Sports_6 from "./Assets/FieldWiseA_Img/Sports_6.png";
+
+//Technology
+import Technology_1 from "./Assets/FieldWiseA_Img/Technology_1.png";
+import Technology_2 from "./Assets/FieldWiseA_Img/Technology_2.png";
+import Technology_3_6 from "./Assets/FieldWiseA_Img/Technology_3.png";
+import Technology_4 from "./Assets/FieldWiseA_Img/Technology_4.png";
+import Technology_5 from "./Assets/FieldWiseA_Img/Technology_5.png";
+import Technology_6 from "./Assets/FieldWiseA_Img/Technology_6.png";
+import Technology_8 from "./Assets/FieldWiseA_Img/Technology_8.png";
+import Technology_9 from "./Assets/FieldWiseA_Img/Technology_9.png";
+import Technology_10 from "./Assets/FieldWiseA_Img/Technology_10.png";
+
+//Cultural
+import Cultural_1 from "./Assets/FieldWiseA_Img/Cultural_1.png";
+import Cultural_2 from "./Assets/FieldWiseA_Img/Cultural_2.png";
+import Cultural_3 from "./Assets/FieldWiseA_Img/Cultural_3.png";
+import Cultural_4 from "./Assets/FieldWiseA_Img/Cultural_4.png";
+import Cultural_5 from "./Assets/FieldWiseA_Img/Cultural_5.png";
 
 const Sports = {
   name: "Sports",
@@ -94,27 +107,27 @@ const Technology = {
     },
     {
       id: 3,
+      dep: "33 GSoC selection (Globally highest).",
+      link: "https://opensource.googleblog.com/2021/06/google-summer-of-code-2021-student-stats.html",
+      date: "2021",
+    },
+    {
+      id: 4,
       dep: "InfoSec IITR regularly participate in competitive hacking competitions and have been consistently ranked among the top 3 CTF teams in India.",
       link: "http://watchout.iitr.ac.in/Freshman_Guide_To_IITR.pdf",
       date: "",
     },
     {
-      id: 4,
+      id: 5,
       dep: "KNOx achievements in BAJA include 2nd place among 326 teams in CAE category (awarded by ANSYS Inc.).",
       link: "https://iitr.ac.in/departments/ME/pages/Events+Student_Sections+KNOx.html",
       date: "2013",
     },
     {
-      id: 5,
+      id: 6,
       dep: "IITR team in ICPC world final since 7 years.",
       link: "",
       date: "",
-    },
-    {
-      id: 6,
-      dep: "33 GSoC selection (Globally highest). ",
-      link: "https://opensource.googleblog.com/2021/06/google-summer-of-code-2021-student-stats.html",
-      date: "2021",
     },
     {
       id: 7,
@@ -143,34 +156,34 @@ const Technology = {
   ],
   Bubble_List: [
     {
-      image: BubbleCarousel__1,
+      image: Technology_1,
     },
     {
-      image: BubbleCarousel__2,
+      image: Technology_2,
     },
     {
-      image: BubbleCarousel__3,
+      image: Technology_3_6,
     },
     {
-      image: BubbleCarousel__4,
+      image: Technology_4,
     },
     {
-      image: BubbleCarousel__5,
+      image: Technology_5,
     },
     {
-      image: BubbleCarousel__1,
+      image: Technology_6,
     },
     {
-      image: BubbleCarousel__2,
+      image: Technology_3_6,
     },
     {
-      image: BubbleCarousel__3,
+      image: Technology_8,
     },
     {
-      image: BubbleCarousel__4,
+      image: Technology_9,
     },
     {
-      image: BubbleCarousel__5,
+      image: Technology_10,
     },
   ],
 };
@@ -182,59 +195,50 @@ const Cultural = {
   Achievements_List: [
     {
       id: 1,
-      dep: "Cultural Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.",
+      dep: "IIT Roorkee stands 2nd in Inter IIT Cult meet 2018.",
       link: "",
       date: "30/12/2018",
     },
     {
       id: 2,
-      dep: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.",
+      dep: "Many videos of Cinesec IITR has achieved more than million views on YouTube.",
       link: "",
-      date: "08/07/21",
+      date: "",
     },
     {
       id: 3,
-      dep: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.",
+      dep: "DebSoc IITR team were semifinalists at the inter IIT Debating Championship and Arnav from the team adjudged the final debate of the tournament.",
       link: "",
-      date: "08/07/21",
+      date: "",
     },
     {
       id: 4,
-      dep: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.",
+      dep: "The work of Kshitij has also been appreciated by the former President of India, Dr. A.P.J. Abdul Kalam and Dr. Murali Manohar Joshi.",
       link: "",
-      date: "08/07/21",
+      date: "",
     },
     {
       id: 5,
-      dep: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.",
+      dep: "IITR team stands 1st in 51 hours filmmaking at Inter IIT Cult meet 2019.",
       link: "",
-      date: "08/07/21",
-    },
-    {
-      id: 6,
-      dep: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum duis enim parturient et, a cursus elit enim egestas.",
-      link: "",
-      date: "08/07/21",
+      date: "28/12/19",
     },
   ],
   Bubble_List: [
     {
-      image: BubbleCarousel__1,
+      image: Cultural_1,
     },
     {
-      image: BubbleCarousel__2,
+      image: Cultural_2,
     },
     {
-      image: BubbleCarousel__3,
+      image: Cultural_3,
     },
     {
-      image: BubbleCarousel__4,
+      image: Cultural_4,
     },
     {
-      image: BubbleCarousel__5,
-    },
-    {
-      image: BubbleCarousel__2,
+      image: Cultural_5,
     },
   ],
 };

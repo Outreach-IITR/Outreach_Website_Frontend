@@ -6,6 +6,7 @@
   grid-template-columns: auto auto auto;
   column-gap: 5rem;
   height: 250px;
+  align-items: center;
 }
 
 .HS__CarouselSpace {

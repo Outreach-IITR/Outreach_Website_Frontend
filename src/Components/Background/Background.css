@@ -123,8 +123,7 @@
     padding-top: 4rem;
   }
   #about_us_head_tag h1 {
-    font-size: 1.477rem;
-    line-height: 1.813rem;
+    font-size: 1.5rem;
     /* color: black; */
   }
   #about_us_head_downsign img {
@@ -132,8 +131,7 @@
   }
 
   #about_us_head_data p {
-    font-size: 0.25rem;
-    line-height: 0.25px;
+    font-size: 0.75rem;
     /* color: black; */
   }
 }

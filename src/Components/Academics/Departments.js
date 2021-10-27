@@ -10,7 +10,7 @@ import backArrow from "./Assets/BackArrow.svg";
 import forArrow from "./Assets/ForArrow.svg";
 import MyMobile from "../../helperComponents/MyMobile";
 import MyDesktop from "../../helperComponents/MyDesktop";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Departments = () => {
   const [background, setBackground] = useState("");
@@ -129,9 +129,9 @@ const Departments = () => {
               )}
               <br />
               <div className="button">
-                <Link to="/placement/2020-21">
+                <a href="/placements/2020-21">
                   <button>Placement Statistics</button>
-                </Link>
+                </a>
               </div>
             </div>
           </>

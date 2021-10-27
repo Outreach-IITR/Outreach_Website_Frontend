@@ -10,8 +10,8 @@ function Accordion_segment() {
       <div className="content_box">
         <div className="accordion">
           <div>
-            <input type="checkbox" id="section1" class="accordion_input" />
-            <label for="section1" class="accordion__label">
+            <input type="checkbox" id="section1" className="accordion_input" />
+            <label htmlFor="section1" className="accordion__label">
               <ul className="accordion_segment_section">
                 <li>Meritcum Means Scholarship</li>
               </ul>
@@ -30,8 +30,8 @@ function Accordion_segment() {
           </div>
 
           <div>
-            <input type="checkbox" id="section2" class="accordion_input" />
-            <label for="section2" class="accordion__label">
+            <input type="checkbox" id="section2" className="accordion_input" />
+            <label htmlFor="section2" className="accordion__label">
               <ul className="accordion_segment_section">
                 <li>James Thomson Scholarship</li>
               </ul>
@@ -48,8 +48,8 @@ function Accordion_segment() {
           </div>
 
           <div>
-            <input type="checkbox" id="section3" class="accordion_input" />
-            <label for="section3" class="accordion__label">
+            <input type="checkbox" id="section3" className="accordion_input" />
+            <label htmlFor="section3" className="accordion__label">
               <ul className="accordion_segment_section">
                 <li>Inspire Scholarship</li>
               </ul>
@@ -68,8 +68,8 @@ function Accordion_segment() {
           </div>
 
           <div>
-            <input type="checkbox" id="section4" class="accordion_input" />
-            <label for="section4" class="accordion__label">
+            <input type="checkbox" id="section4" className="accordion_input" />
+            <label htmlFor="section4" className="accordion__label">
               <ul className="accordion_segment_section">
                 <li>Encore Scholarship</li>
               </ul>
@@ -87,8 +87,8 @@ function Accordion_segment() {
           </div>
 
           <div>
-            <input type="checkbox" id="section5" class="accordion_input" />
-            <label for="section5" class="accordion__label">
+            <input type="checkbox" id="section5" className="accordion_input" />
+            <label htmlFor="section5" className="accordion__label">
               <ul className="accordion_segment_section">
                 <li>Heritage Awards</li>
               </ul>
@@ -104,8 +104,8 @@ function Accordion_segment() {
           </div>
 
           <div>
-            <input type="checkbox" id="section7" class="accordion_input" />
-            <label for="section7" class="accordion__label">
+            <input type="checkbox" id="section7" className="accordion_input" />
+            <label htmlFor="section7" className="accordion__label">
               <ul className="accordion_segment_section">
                 <li>Aditya Birla Scholarship</li>
               </ul>

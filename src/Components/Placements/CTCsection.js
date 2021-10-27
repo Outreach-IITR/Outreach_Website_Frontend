@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import CTC_image from './Assets/ctc.png'
+import React from "react";
+// import CTC_image from './Assets/ctc.png'
 import "./CTCsection.css"
 
 class CTC extends React.Component {

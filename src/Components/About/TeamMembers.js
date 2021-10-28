@@ -69,7 +69,6 @@ import YatharthGoyal from "./Assets/OurTeam_Img/YatharthGoyal.png";
 
 //Editorial
 import MohitGuleria from "./Assets/OurTeam_Img/MohitGuleria.png";
-import PiyushAgarwal from "./Assets/OurTeam_Img/PiyushAgarwal.png";
 import DheerSamtani from "./Assets/OurTeam_Img/DheerSamtani.png";
 import ShubhamPal from "./Assets/OurTeam_Img/ShubhamPal.png";
 import AbhishekKumar from "./Assets/OurTeam_Img/AbhishekKumar.png";
@@ -361,10 +360,6 @@ const Editorial = [
   {
     name: "Mohit Guleria",
     image: MohitGuleria,
-  },
-  {
-    name: "Piyush Agarwal",
-    image: PiyushAgarwal,
   },
   {
     name: "Dheer Samtani",

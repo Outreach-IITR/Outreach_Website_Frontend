@@ -175,6 +175,10 @@ const Design = [
     image: AryanDhankani,
   },
   {
+    name: "Aman Gupta",
+    image: AmanGupta,
+  },
+  {
     name: "Harshita Verma",
     image: HarshitaVerma,
   },

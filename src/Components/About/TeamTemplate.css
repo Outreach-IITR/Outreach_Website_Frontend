@@ -1,16 +1,18 @@
 .TeamTemplate {
-  display: grid;
+  display: flex;
   position: relative;
-  padding: 0 4rem;
   margin-top: 4rem;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  column-gap: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  column-gap: 4rem;
   row-gap: 2vw;
   text-align: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 .TeamTemplate__ImgCard {
+  width: 15.625vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,8 +26,8 @@
 }
 
 .TeamTemplate__ImgCard img {
-  width: 15rem;
-  height: 12.6rem;
+  width: 100%;
+  max-width: 100%;
   background-color: #f1f1f1;
 }
 
@@ -37,10 +39,11 @@
 .TeamTemplate__MemberInfo {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  row-gap: 0.5rem;
   height: 100%;
   max-width: 15rem;
-  margin: 0.8rem 0;
+  margin: 1.5rem 0.5rem;
 }
 
 .TeamTemplate__MemberName {
@@ -65,13 +68,12 @@
 @media screen and (max-width: 991px) {
   .TeamTemplate {
     padding: 0 1.5rem;
-    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 4vw;
     row-gap: 2vw;
   }
   .TeamTemplate__ImgCard {
     border-radius: 10%;
-    max-width: 100%;
+    max-width: 25%;
   }
   .TeamTemplate__ImgCard img {
     position: relative;
@@ -79,20 +81,26 @@
     min-width: 100%;
     height: auto;
   }
+  .TeamTemplate__MemberName {
+    font-size: 1.25rem;
+    line-height: 0.688rem;
+  }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   .TeamTemplate {
     margin-top: 1rem;
-  }
-
-  .TeamTemplate__MemberInfo {
-    margin: 0.3rem 0;
+    grid-template-columns: 25vw 25vw 25vw;
+    column-gap: auto;
   }
 
   .TeamTemplate__MemberName {
     font-size: 0.6rem;
     line-height: 0.688rem;
+  }
+
+  .TeamTemplate__MemberInfo {
+    margin: 0.5rem 0.5rem;
   }
 
   .TeamTemplate__MemberPost {

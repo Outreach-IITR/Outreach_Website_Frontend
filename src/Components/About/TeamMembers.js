@@ -69,7 +69,6 @@ import YatharthGoyal from "./Assets/OurTeam_Img/YatharthGoyal.png";
 
 //Editorial
 import MohitGuleria from "./Assets/OurTeam_Img/MohitGuleria.png";
-import PiyushAgarwal from "./Assets/OurTeam_Img/PiyushAgarwal.png";
 import DheerSamtani from "./Assets/OurTeam_Img/DheerSamtani.png";
 import ShubhamPal from "./Assets/OurTeam_Img/ShubhamPal.png";
 import AbhishekKumar from "./Assets/OurTeam_Img/AbhishekKumar.png";
@@ -94,6 +93,9 @@ import TanyaSinha from "./Assets/OurTeam_Img/TanyaSinha.png";
 import SinjaSharma from "./Assets/OurTeam_Img/SinjaSharma.png";
 import AtharvaAggarwal from "./Assets/OurTeam_Img/AtharvaAggarwal.png";
 import KinshuKumar from "./Assets/OurTeam_Img/KinshuKumar.png";
+import PiyushAgarwal_SocialMedia from "./Assets/OurTeam_Img/PiyushAgarwal_SocialMedia.png";
+import NitishKumar from "./Assets/OurTeam_Img/NitishKumar.png";
+import IshitaGarg from "./Assets/OurTeam_Img/IshitaGarg.png";
 
 const Secretaries = [
   {
@@ -170,6 +172,10 @@ const Design = [
   {
     name: "Aryan Dhankani",
     image: AryanDhankani,
+  },
+  {
+    name: "Aman Gupta",
+    image: AmanGupta,
   },
   {
     name: "Harshita Verma",
@@ -356,10 +362,6 @@ const Editorial = [
     image: MohitGuleria,
   },
   {
-    name: "Piyush Agarwal",
-    image: PiyushAgarwal,
-  },
-  {
     name: "Dheer Samtani",
     image: DheerSamtani,
   },
@@ -449,6 +451,18 @@ const SocialMedia = [
   {
     name: "Kinshu Kumar",
     image: KinshuKumar,
+  },
+  {
+    name: "Piyush Agarwal",
+    image: PiyushAgarwal_SocialMedia,
+  },
+  {
+    name: "Nitish Kumar",
+    image: NitishKumar,
+  },
+  {
+    name: "Ishita Garg",
+    image: IshitaGarg,
   },
 ];
 

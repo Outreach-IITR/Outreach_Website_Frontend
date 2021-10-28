@@ -21,16 +21,10 @@ const Feild_wise_ach = () => {
   return (
     <>
       <div id="Feild_wise_ach">
-        <div onClick={() => onClickFeildhandler(0)} id="Feild_wise_ach_1">
-          
-        </div>
-        <div onClick={() => onClickFeildhandler(1)} id="Feild_wise_ach_2">
-          
-        </div>
+        <div onClick={() => onClickFeildhandler(0)} id="Feild_wise_ach_1"></div>
+        <div onClick={() => onClickFeildhandler(1)} id="Feild_wise_ach_2"></div>
 
-        <div onClick={() => onClickFeildhandler(2)} id="Feild_wise_ach_3">
-          
-        </div>
+        <div onClick={() => onClickFeildhandler(2)} id="Feild_wise_ach_3"></div>
       </div>
       <div className="feild-ach-content">
         <BubbleCarousel

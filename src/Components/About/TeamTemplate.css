@@ -4,7 +4,7 @@
   padding: 0 4rem;
   margin-top: 4rem;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  column-gap: auto;
+  column-gap: 4rem;
   row-gap: 2vw;
   text-align: center;
   justify-items: center;
@@ -66,7 +66,7 @@
   .TeamTemplate {
     padding: 0 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 4vw;
+    column-gap: 3rem;
     row-gap: 2vw;
   }
   .TeamTemplate__ImgCard {
@@ -84,10 +84,8 @@
 @media screen and (max-width: 700px) {
   .TeamTemplate {
     margin-top: 1rem;
-  }
-
-  .TeamTemplate__MemberInfo {
-    margin: 0.3rem 0;
+    grid-template-columns: 25vw 25vw 25vw;
+    column-gap: auto;
   }
 
   .TeamTemplate__MemberName {

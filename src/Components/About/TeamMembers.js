@@ -94,6 +94,9 @@ import TanyaSinha from "./Assets/OurTeam_Img/TanyaSinha.png";
 import SinjaSharma from "./Assets/OurTeam_Img/SinjaSharma.png";
 import AtharvaAggarwal from "./Assets/OurTeam_Img/AtharvaAggarwal.png";
 import KinshuKumar from "./Assets/OurTeam_Img/KinshuKumar.png";
+import PiyushAgarwal_SocialMedia from "./Assets/OurTeam_Img/PiyushAgarwal_SocialMedia.png";
+import NitishKumar from "./Assets/OurTeam_Img/NitishKumar.png";
+import IshitaGarg from "./Assets/OurTeam_Img/IshitaGarg.png";
 
 const Secretaries = [
   {
@@ -449,6 +452,18 @@ const SocialMedia = [
   {
     name: "Kinshu Kumar",
     image: KinshuKumar,
+  },
+  {
+    name: "Piyush Agarwal",
+    image: PiyushAgarwal_SocialMedia,
+  },
+  {
+    name: "Nitish Kumar",
+    image: NitishKumar,
+  },
+  {
+    name: "Ishita Garg",
+    image: IshitaGarg,
   },
 ];
 

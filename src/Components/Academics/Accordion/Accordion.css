@@ -18,7 +18,7 @@
 
 .content_box {
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-direction: row;
   margin-left: 6%;
   /* max-height: 1000px; */
@@ -33,7 +33,7 @@
 .accordion_content {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 50px;
+  padding-left: 1rem;
   font-family: SF UI Text;
   font-style: normal;
   font-weight: normal;
@@ -134,7 +134,7 @@ input[type="checkbox"]:checked + label {
   height: auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .content_box {
     display: flex;
     flex-direction: column-reverse;
@@ -145,6 +145,7 @@ input[type="checkbox"]:checked + label {
   }
 
   .image_box {
+    max-width: 422.25px;
     width: 80%;
     text-align: center;
     position: relative;

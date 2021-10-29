@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./NavbarFix.css";
 import logo from "./Assets/logo.svg";
+import logo_black from "./Assets/logoBlack.png"
 import Dropdown from "../Navbar/Dropdown";
 
 const NavbarFix = () => {
   const [showList, setShowList] = useState(false);
   const [navbar, setHeader] = useState("main-nav1");
   const [dropdown, setDropdown] = useState(false);
+  const [outlogo, setOutlogo] = useState(logo);
 
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
@@ -40,10 +42,22 @@ const NavbarFix = () => {
 
   const pathname = window.location.pathname;
 
+  
+    
+
+  useEffect(() => {
+    if(window.scrollY>=80) {
+      setOutlogo(logo_black);
+    }
+    else {
+      setOutlogo(logo);
+    }
+  }, [window.scrollY]);
+
   return (
     <nav className={navbar} id="nav_bg">
       <a href="/" className="logo">
-        <img alt="img" src={logo} />
+        <img alt="img" src={outlogo} />
       </a>
 
       <div className={showList ? "mobile-menu-link" : "menu-link"}>

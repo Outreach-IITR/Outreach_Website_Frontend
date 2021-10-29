@@ -36,7 +36,7 @@
     color: #FFFFFF !important;
   }
   #Departments_heading {
-    margin-bottom: 18px !important;
+    margin-bottom: 48px !important;
   }
   .counterDepartment {
     font-style: normal;
@@ -113,7 +113,7 @@
   /* margin: 100px 0px; */
   justify-content: space-around;
   text-align: center;
-  font-family: Montserrat;
+  font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

@@ -3,6 +3,19 @@
     flex-direction: column;
     margin: 50px 0;
 }
+
+.startup_cont{
+    font-family: SF UI Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 131%;
+    /* or 18px */
+
+    /* text-align: center; */
+    letter-spacing: 0.05em;
+}
+
 #startups_tides, #starups_ecell{
     display: flex;
     flex-direction: column;
@@ -73,7 +86,7 @@ text-align: center;
 color: #026BA1;
 }
 #startups_first p{
-font-family: Montserrat;
+font-family: "SF UI Text";
 font-size: 14px;
 font-style: normal;
 font-weight: 400;

@@ -38,8 +38,8 @@ function Accordion_segment() {
             </label>
             <div className="accordion_content">
               <p>
-                Students having up to 250 All India Rank in JEE (Advanced) 2021
-                are eligible for James Thomason Scholarship.
+              Students having up to 250 All India Rank in JEE (Advanced) 2021 are eligible for the prestigious James Thomason Scholarship, which includes a stipend of ₹25,000 per month
+
               </p>
               <a href="https://scsp.iitr.ac.in/james-thomason-scholarship/">
                 Know more...

@@ -19,7 +19,7 @@ const HigherStudies = () => {
             id="PS1"
             num="18"
             content1="Asia"
-            content2="Isrel, China, Singapore, Japan,
+            content2="Israel, China, Singapore, Japan,
             South Korea, etc."
             
           />

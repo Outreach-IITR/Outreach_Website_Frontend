@@ -23,7 +23,7 @@ export class Startups extends Component {
             <div id="achievement_startups">
                 <div id="startups_first">
                     <h2>Startups</h2>
-                    <p>Among all its astounding cultures, IIT-R also has a growing startup culture. To foster this culture there are various startup incubators at R-Land. If you desire to enter the field of entrepreneurship, IIT-R will provide you with a strong platform.
+                    <p className="startup_cont" >Among all its astounding cultures, IIT-R also has a growing startup culture. To foster this culture there are various startup incubators at R-Land. If you desire to enter the field of entrepreneurship, IIT-R will provide you with a strong platform.
                     </p>
                 </div>
 
@@ -35,7 +35,7 @@ export class Startups extends Component {
                         </div>
                         <div id="ecell_content">
                             <h1 id="ecell_mobilenone">E cell</h1>
-                            <p>
+                            <p className="startup_cont">
                                 Entrepreneurship Cell, a campus group at IIT-R is committed to nurturing the ideas of budding entrepreneurs. If you want to dive into the field of entrepreneurship, E-Cell will mentor you, instill hunger for growth, team spirit, and other qualities in you.
                             </p>
                         </div>
@@ -50,7 +50,7 @@ export class Startups extends Component {
                         </div>
                         <div id="tides_content">
                             <h1 id="tides_mobilenone">Tides Incubator</h1>
-                            <p>Technology Incubation & Entrepreneurship Development Society(TIDES), a business incubator at R-Land is what one needs to grow their startup. From providing funding to giving guidance, TIDES provides it all. We can assure you that at R-Land, your dream of growing a startup won’t be left unchecked.</p>
+                            <p className="startup_cont">Technology Incubation & Entrepreneurship Development Society(TIDES), a business incubator at R-Land is what one needs to grow their startup. From providing funding to giving guidance, TIDES provides it all. We can assure you that at R-Land, your dream of growing a startup won’t be left unchecked.</p>
                         </div>
                     </div>
                     <div id="brand">

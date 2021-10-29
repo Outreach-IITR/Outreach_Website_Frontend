@@ -75,7 +75,7 @@ const HomePageCarousel = () => {
           </div>
           <div>
             <img alt="icon" src={Architecture_Planing} />
-            <p>Architecture and Planning in the Country</p>
+            <p>Architecture and Planning in the Country (NIRF 2021) </p>
           </div>
         </div>
       </div>

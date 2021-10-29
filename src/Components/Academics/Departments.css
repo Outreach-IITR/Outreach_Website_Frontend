@@ -157,3 +157,12 @@
 .whiteD {
   color: #ffffff;
 }
+
+
+/*--------------------------------------ATUL------------------------------------------------------------*/
+@media only screen and (max-width: 450px){
+
+  .imgDescription_Dep {
+    padding: 0px 9%;
+  }
+}

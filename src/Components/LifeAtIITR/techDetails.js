@@ -65,7 +65,7 @@ export const techData = [
   {
     name: 'MARS',
     image: mars,
-    description: 'MaRS (Models and Robotics Section) is a group for enthusiasts interested in robotics. It provides a platform where one c an pursue his/her interest in a variety of projects which can solve existing problems with real life application.'
+    description: 'MaRS (Models and Robotics Section) is a group for enthusiasts interested in robotics. It provides a platform where one can pursue his/her interest in a variety of projects which can solve existing problems with real life application.'
   }
 ];
 

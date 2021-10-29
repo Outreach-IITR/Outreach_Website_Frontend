@@ -547,8 +547,6 @@ export const departmentinfo = [
     name: "Electronics and Communication Engineering",
     info1:
       "This Department features innovative undergraduate programs and world-class research centers and labs, combining theory with practice. The Department offers one Undergraduate and three Post-Graduate programs and an opportunity to learn from renowned faculty who engage students in the classroom through high-impact teaching methods and lead pioneering research endeavors. Apart from regular classroom teaching and labs, seminars and colloquia are also often organized by students and the Department to interact with people of repute and understand the latest in the field of Electronics.",
-    info2:
-      " Various cultural and sports activities are also held year-round to inculcate the spirit of brotherhood and develop a well-rounded human being.",
     degree: "Degree Offered: B.Tech. Electronics and communication engineering, M Tech in Communication, Network & Signal Processing, M Tech in Microelectronics & VLSI, M Tech in RF & Microwave, M Tech in VLSI for Industry Professionals & PHD in Electronics and communication engineering",
     bcstats: "Branch Change stats B.Tech only:",
     correct: 10,
@@ -660,7 +658,7 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "Hydro and Renewable Energy",
+    name: "Hydro and Renewable Energy (HRED)",
     info1:
       "HRED has been providing professional support in the field of Small Hydropower Development covering planning, Detailed Project Reports, Detailed Engineering Designs and Construction drawings, Technical Specifications of Turn Key execution/equipment Supply, Refurbishment, Renovation and Modernisation of SHP Stations, Techno-Economic Appraisal, R & D / Monitoring of Projects, Remote Sensing and GIS-Based Applications.",
     info2:
@@ -789,7 +787,7 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "Mechanics and Industrial Engineering ",
+    name: "Mechanical and Industrial Engineering ",
     info1:
       "IIT Roorkee offers both undergraduate and postgraduate courses in various facets of Mechanical and Industrial Engineering. The Master of Technology courses offered under this department at IIT Roorkee are Machine Design Engineering, Production and Industrial Engineering, Thermal System Engineering, Welding Engineering and CAD, CAM, and Robotics.",
     info2:

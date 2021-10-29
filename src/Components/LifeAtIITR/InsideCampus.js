@@ -17,7 +17,7 @@ const InsideCampus = () => {
           a great teacher, and given our glorious and long heritage of over 150
           years, we have had a long time to learn! Combine that with the latest
           cutting-edge technologies, and you have IITR in a nutshell. From the
-          mesmerizing James Thomson Building to the speedy Internet, from the
+          mesmerizing James Thomason Building to the speedy Internet, from the
           struggles of trying to get to class scheduled for 8am on time after
           waking up at 7.30am to experiencing calm evenings where one is sure to
           find a guitarist strumming his strings, from chapos at nescafe,

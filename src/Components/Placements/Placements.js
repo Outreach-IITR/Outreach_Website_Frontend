@@ -13,7 +13,7 @@ class Placements extends Component {
     return (
       <>
         <NavbarFix />
-        <Background heading="Placements" text="All important placement stats at one destination" />
+        <Background heading="Placements" text="All important stats at one place" />
         <CTC/>
         <BarChart/>
         <CampusOffer/>  

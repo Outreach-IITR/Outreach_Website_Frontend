@@ -14,8 +14,8 @@ class Placements20_21 extends Component {
     return (
       <>
         <NavbarFix />
-        <Background heading="Placements" text="All important placement stats at one destination" />
-        <CTC heading='Heighest CTC in LPA (2020-2021)' image={CTC_image}/>
+        <Background heading="Placements" text="All important stats at one place" />
+        <CTC heading='Highest CTC in LPA (2020-2021)' image={CTC_image}/>
         <BarChart heading='Median CTC in LPA (2020-21)'/>
         <CampusOffer/>  
         <StudentsForHigherStudies/> 

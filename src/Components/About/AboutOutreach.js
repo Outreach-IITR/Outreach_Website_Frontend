@@ -21,8 +21,7 @@ const AboutOutreach = () => {
           </p>
           <p>
             We spread the message of IIT-R to places near and far, and our
-            simple motto is to help new students achieve their potential beyond
-            par. Meeting all of your demands, we ensure to deliver the most
+            simple motto is to help new students achieve excellence. Meeting all of your demands, we ensure to deliver the most
             appropriate message of our institution, so you don’t have to look
             further beyond. We glorify the advancements of IITR and aid
             aspirants and future students to make life-changing decisions. We

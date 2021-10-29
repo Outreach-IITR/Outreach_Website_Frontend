@@ -7,7 +7,7 @@ class StudentsForHigherStudies extends React.Component{
       <>
       <div id="Std_for_study">
         <div id="Std_for_study_heading">
-          <h2>Percentage of students going for Higher Studies</h2>
+          <h2>Students pursuing higher studies</h2>
         </div>
         <div id="Std_for_study_data">
           <div id="Std_for_study_img">

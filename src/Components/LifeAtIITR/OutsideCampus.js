@@ -16,7 +16,7 @@ const InsideCampus = () => {
           considering everyone’s taste and the places people come from. Among
           all, the highly rated and well known are CCD, Prakash, Radha Krishna,
           Pizza Hut, Chennai kings. Giani’s ice-cream, Rolla Costa’s shakes and
-          rolls, Amul, and Desi Tadka they have the art to surprise people with
+          rolls, Amul, and Desi Tadka. They have the art to surprise people with
           their edible taste. Hotels exhibit efforts to ensure the safety of the
           guests and maintain remarkable hygiene.
         </p>

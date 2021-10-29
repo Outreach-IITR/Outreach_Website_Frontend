@@ -37,7 +37,8 @@ class Updates extends React.Component {
                         </li>
                         <li>
                             <div id="update_content_data">
-                            <p>Next year onwards, a new department for Data Science and Artificial intelligence will be introduced in IIT Roorkee.
+                            <p>Mehta Family School of Data Science and Artificial intelligence inaugurated at IIT Roorkee this year.
+
                                 <br/> <a href="https://www.iitr.ac.in/mfsdsai/pages/index.html">Know More</a>
                             </p>
                             </div>

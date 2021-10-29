@@ -3,8 +3,8 @@ import "./Footer.css";
 import facebook from "./Assets/facebook.svg";
 import linkedin from "./Assets/linkedin.svg";
 import outreach_logo from "./Assets/outreach_logo.svg";
-import quora from "./Assets/quora.svg";
-import youtube from "./Assets/youtube.svg";
+// import quora from "./Assets/quora.svg";
+// import youtube from "./Assets/youtube.svg";
 import instagram from "./Assets/instagram.svg"
 
 const Footer = () => {

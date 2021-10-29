@@ -587,7 +587,7 @@ export const departmentinfo = [
       "It is a lively department, encompassing teaching and research programs in the fields of English, Economics, Philosophy, Psychology, Sociology, Fine Arts, and related inter and cross-disciplinary subjects. In recent years, one of the notable achievements has been the expansion in research activities and exchanges of ideas, facilitated by the constant surge of discussions, consultations, and publications in esteemed and high-impact journals.",
     info2:
       "Besides, there has been a considerable progression of tangible and academic infrastructure, providing an impetus for its bright future.",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: M.Sc. Economics",
     bcstats: "Branch Change stats B.Tech only:",
     correct: null,
     wrong: null,
@@ -703,7 +703,7 @@ export const departmentinfo = [
       "Housed in an exclusively designed double-storeyed building, this department has excellent infrastructure to provide students with the necessary requisites to experience maximum learning and development. There is an exclusive library that houses some of the most cherished literature of the corporate world and state-of-the-art classrooms boast of having some of the best learning aids.",
     info2:
       " Classrooms, together with modern infrastructure, provide an invigorating academic environment and an effective pedagogy further sets a platform conducive enough to nurture the best breed of managerial talent.",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: M.B.A. , Term wise M.B.A. Program",
     bcstats: "Branch Change stats B.Tech only:",
     correct: null,
     wrong: null,

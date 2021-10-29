@@ -145,6 +145,7 @@
     }
     #campuscontent{
         padding: 5%;
+        width: auto;
     }
 
 }

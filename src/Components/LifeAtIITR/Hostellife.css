@@ -145,6 +145,7 @@
     }
     #hostelcontent {
         padding: 5%;
+        width: auto;
     }
     #sliderbox {
         width: 95%;

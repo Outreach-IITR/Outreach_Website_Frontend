@@ -4,8 +4,9 @@
 
 #AboutIITR {
   box-sizing: border-box;
+  max-width: 90%;
+  margin: auto;
   margin-top: 7rem;
-  padding: 0 5.75rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3.954rem;
@@ -13,7 +14,7 @@
 
 #AboutIITR_image {
   justify-self: end;
-  align-self: center;
+  align-self: start;
   position: relative;
   width: fit-content;
 }

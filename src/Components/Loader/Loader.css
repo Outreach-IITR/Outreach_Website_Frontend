@@ -112,3 +112,24 @@
     transform: rotate(359deg);
   }
 }
+
+@media screen and (max-width: 600px) {
+  #LogoContainer .BluePart,
+  #LogoContainer .YellowPart {
+    width: 45px;
+  }
+
+  #LogoContainer .OrangePart,
+  #LogoContainer .GreenPart {
+    height: 45px;
+  }
+
+  @keyframes zoom-in {
+    from {
+      width: 300px;
+    }
+    to {
+      width: 120px;
+    }
+  }
+}

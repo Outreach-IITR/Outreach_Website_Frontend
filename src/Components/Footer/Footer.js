@@ -5,6 +5,7 @@ import linkedin from "./Assets/linkedin.svg";
 import outreach_logo from "./Assets/outreach_logo.svg";
 import quora from "./Assets/quora.svg";
 import youtube from "./Assets/youtube.svg";
+import instagram from "./Assets/instagram.svg"
 
 const Footer = () => {
   return (
@@ -117,19 +118,19 @@ const Footer = () => {
         <div className="section-three">
           <div className="right-section">
             <img alt="img" id="outreach_logo" src={outreach_logo} />
-            <div className="icons icons-mobile-view">
-              <a href="/" target="_blank" rel="noreferrer">
+            <div className="icons icons-mobile-view" target="_blank" rel="noreferrer">
+              <a href="https://www.facebook.com/Outreach-Cell-IIT-Roorkee-102873668810173/" >
                 <img alt="img" src={facebook} />
               </a>
-              <a href="/" target="_blank" rel="noreferrer">
-                <img alt="img" src={quora} />
+              <a className="insta_logo" href="https://instagram.com/outreachiitr?utm_medium=copy_link" target="_blank" rel="noreferrer">
+                <img  alt="img" src={instagram} />
               </a>
-              <a href="/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/company/outreach-cell-iit-roorkee/" target="_blank" rel="noreferrer">
                 <img alt="img" src={linkedin} />
               </a>
-              <a href="/" target="_blank" rel="noreferrer">
+              {/* <a href="/" target="_blank" rel="noreferrer">
                 <img alt="img" src={youtube} />
-              </a>
+              </a> */}
             </div>
             <p className="footer-right-text">
               <br />
@@ -144,18 +145,18 @@ const Footer = () => {
               Roorkee, Uttarakhand, India - 247667
             </p>
             <div className="icons icons-desktop-view">
-              <a href="/" target="_blank" rel="noreferrer">
+              <a href="https://www.facebook.com/Outreach-Cell-IIT-Roorkee-102873668810173/" target="_blank" rel="noreferrer">
                 <img alt="img" src={facebook} />
               </a>
-              <a href="/" target="_blank" rel="noreferrer">
-                <img alt="img" src={quora} />
+              <a className="insta_logo" href="https://instagram.com/outreachiitr?utm_medium=copy_link" target="_blank" rel="noreferrer">
+                <img alt="img" src={instagram} />
               </a>
-              <a href="/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/company/outreach-cell-iit-roorkee/" target="_blank" rel="noreferrer">
                 <img alt="img" src={linkedin} />
               </a>
-              <a href="/" target="_blank" rel="noreferrer">
+              {/* <a  href="/" target="_blank" rel="noreferrer">
                 <img alt="img" src={youtube} />
-              </a>
+              </a> */}
             </div>
             <p className="footer-right-text" id="copy-right">
               <br />

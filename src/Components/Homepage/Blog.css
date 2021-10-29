@@ -28,7 +28,7 @@
     line-height: 1.2rem;
     letter-spacing: 00.05em;
     margin-bottom: 4rem;
-    font-family: "SF UI Text";
+    font-family: "Poppins";
 }
 #Blog_first_section h1{
     font-family: montserrat;
@@ -170,7 +170,7 @@
      font-weight: 600;
 }
 #blogbox_content p{
-    font-family: "SF UI Text";
+    font-family: "Poppins";
     line-height: 131%;
     letter-spacing: 0.05em;
 }
@@ -183,7 +183,7 @@
 #blog_writer p{
     padding-top: 0.5em;
     padding-left: 1em;
-    font-family: SF UI Text;
+    font-family: "Poppins";
 }
 
 #blogbox1:hover{

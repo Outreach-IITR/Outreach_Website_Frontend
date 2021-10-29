@@ -58,10 +58,8 @@ letter-spacing: 0.05em;
     padding-bottom: 2rem;
 }
 #update_content_data p{
-    font-family: "SF UI Text";
+    font-family: 'Poppins';
     font-size: 1rem;
-    line-height: 131%;
-    letter-spacing: 0.05em;
 }
 @media screen and (max-width: 995px){
     #updatessection{

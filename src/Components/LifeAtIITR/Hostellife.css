@@ -47,7 +47,7 @@
 }
 
 #hostelcontent{
-    font-family: "SF UI Text";
+    font-family: "Poppins";
     font-size: 14px;
     line-height: 131%;
     letter-spacing: 0.05em;
@@ -76,7 +76,7 @@
     flex: 0.5;
     flex-direction: column;
     justify-content: center;
-    font-family: "San Francisco";
+    font-family: "Poppins";
 }
 
 .imagescareousl_hl {

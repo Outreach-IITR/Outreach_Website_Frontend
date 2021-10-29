@@ -10,7 +10,7 @@
 }
 
 #PartFirst{
-  font-family: SF UI Text;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -71,7 +71,7 @@
 
 .HS__CarouselData > p,
 .HS__CarouselData > a {
-  font-family: SF UI Text;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem;

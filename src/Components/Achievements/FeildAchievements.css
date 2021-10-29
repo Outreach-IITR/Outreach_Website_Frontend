@@ -75,7 +75,7 @@
   color: #026ba1;
 }
 #feild-ach-data p {
-  font-family: "SF UI text";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -131,7 +131,7 @@
 
 #feild-ach-data-text p {
   margin: 5px 0 0 0;
-  font-family: "SF UI Text";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -152,7 +152,7 @@
 
 #feild-ach-data-text a {
   width: fit-content;
-  font-family: "SF UI Text";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 10px;

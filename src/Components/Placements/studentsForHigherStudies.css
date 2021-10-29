@@ -35,7 +35,7 @@ color: #33434C;
 #Std_for_study_img p{
   padding-top: 1rem;
   text-align: center;
-  font-family: SF UI Text;
+  font-family: "Poppins";
 font-style: normal;
 font-weight: normal;
 font-size: .875rem;
@@ -52,7 +52,7 @@ color: #000000;
 
 }
 #Std_for_study_content p{
-  font-family: SF UI Text;
+  font-family: "Poppins";
 font-style: normal;
 font-weight: normal;
 font-size: 1rem;

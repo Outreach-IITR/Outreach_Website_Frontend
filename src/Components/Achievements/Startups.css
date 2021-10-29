@@ -5,7 +5,7 @@
 }
 
 .startup_cont{
-    font-family: SF UI Text;
+    font-family: "Poppins";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -86,7 +86,7 @@ text-align: center;
 color: #026BA1;
 }
 #startups_first p{
-font-family: "SF UI Text";
+font-family: "Poppins";
 font-size: 14px;
 font-style: normal;
 font-weight: 400;

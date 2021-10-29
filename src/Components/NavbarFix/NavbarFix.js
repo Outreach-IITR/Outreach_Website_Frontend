@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./NavbarFix.css";
 import logo from "./Assets/logo.svg";
-import logo_black from "./Assets/logoBlack.png"
+import logo_black from "./Assets/logo_black.svg"
 import Dropdown from "../Navbar/Dropdown";
 
 const NavbarFix = () => {
@@ -47,7 +47,13 @@ const NavbarFix = () => {
 
   useEffect(() => {
     if(window.scrollY>=80) {
-      setOutlogo(logo_black);
+      if(window.innerWidth<960){
+        setOutlogo(logo);
+      }
+      else{
+        setOutlogo(logo_black);
+      }
+      
     }
     else {
       setOutlogo(logo);

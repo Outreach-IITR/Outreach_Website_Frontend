@@ -7,7 +7,7 @@ class Campus_offer extends React.Component{
     return(
       <div id="Campus_offer">
         <div id="Campus_offer_heading">
-          <h2>No. of Campus offers <br/> yearwise</h2>
+          <h2>No. of on-Campus offers <br/> yearwise</h2>
         </div>
         <div id="Campus_offer_image">
           <img alt="img" src={Campus_offer_img}></img>

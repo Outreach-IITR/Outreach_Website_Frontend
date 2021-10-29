@@ -13,7 +13,7 @@
 }
 
 #AboutIITR_image {
-  justify-self: end;
+  justify-self: start;
   align-self: start;
   position: relative;
   width: fit-content;
@@ -45,7 +45,7 @@
 #AboutIITR_content_data {
   box-sizing: border-box;
   position: relative;
-  max-width: 36rem;
+  max-width: 576px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: normal;

@@ -136,10 +136,10 @@
     /* color: black; */
   }
 }
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1500px){
   #aboutbg {
     margin: 7rem auto;
-    background: url("./Assets/bg1.svg");
+    background: url("./Assets/grp.png");
     height: 35.5rem;
     max-width: 90%;
     background-attachment: fixed;
@@ -149,7 +149,7 @@
     max-height: 100vh;
     overflow-y: scroll;
     /* overflow: hidden; */
-    background-size: contain;
+    /* background-size: contain; */
   }
   #aboutbg::-webkit-scrollbar {
     display: none;

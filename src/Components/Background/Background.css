@@ -149,7 +149,7 @@
     max-height: 100vh;
     overflow-y: scroll;
     /* overflow: hidden; */
-    /* background-size: contain; */
+    background-size: contain;
   }
   #aboutbg::-webkit-scrollbar {
     display: none;

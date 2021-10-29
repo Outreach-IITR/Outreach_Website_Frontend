@@ -76,6 +76,9 @@
     flex-direction: column;
     justify-content: center;
 }
+#campuscontent{
+    width: 110%;
+}
 .imagescareousl_cl {
     position: relative;
     text-align: center;

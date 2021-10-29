@@ -116,7 +116,7 @@ import hs3 from "./Assets/departments/hs3.png";
 
 export const departmentinfo = [
   {
-    name: "Architechture and Planning ",
+    name: "Architecture and Planning ",
     info1:
       "Ranked no 1 in NIRF architecture colleges ranking, the Department of Architecture and planning is the perfect place to get an architectural degree. The department offers an ideal combination of academic and competitive base for students. Being part of one of the country's first engineering universities, the students have access to the best faculties available in India.",
     info2:
@@ -161,7 +161,7 @@ export const departmentinfo = [
   {
     name: "Biosciences and Bioengineering ",
     info1:
-      "Biology as a department may sound tedious and sturdy, but it is way different from the biology taught at the school level. The stream entails all the aspects of life sciences, and the coursework is well designed, keeping in mind that students from all backgrounds come forward to study this subject. The department has research programs that encompass various fundamental and applied aspects of modern biotechnology.",
+      "Biosciences and Bioengineering as a department may sound tedious and sturdy, but it is way different from the biology taught at the school level. The stream entails all the aspects of life sciences, and the coursework is well designed, keeping in mind that students from all backgrounds come forward to study this subject. The department has research programs that encompass various fundamental and applied aspects of modern biotechnology.",
     info2:
       "The coursework offers training and research in the interdisciplinary areas of biotechnology with a particular emphasis on extending the knowledge generated from these studies towards the development of technologies of commercial significance.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
@@ -375,7 +375,7 @@ export const departmentinfo = [
   {
     name: "Design ",
     info1:
-      "The newly established Department of design here in IIT Roorkee incorporates activities that create commercial opportunities and contribute to the economic growth of the country. It aims at creating a culture of innovation and creative problem-solving. The department offers contemporary courses that would expose students to the fundamentals of design and prototyping, design thinking, product-human interface.",
+      "The newly established Department of Design (DoD) here in IIT Roorkee incorporates activities that create commercial opportunities and contribute to the economic growth of the country. It aims at creating a culture of innovation and creative problem-solving. The department offers contemporary courses that would expose students to the fundamentals of design and prototyping, design thinking, product-human interface.",
     info2:
       "They aim at fostering design-focused education research and entrepreneurial activities with a focus to create commercial opportunities. The department has launched two new post-graduate programmes – masters in design (industrial design) and masters in innovation management (MIM) – commencing the academic year 2021-22.",
     degree: "Degree Offered: M.Des. (Industrial Design), MIM (Masters in Innovation Management)",
@@ -539,7 +539,7 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "Electronics and communication engineering ",
+    name: "Electronics and Communication Engineering",
     info1:
       "This Department features innovative undergraduate programs and world-class research centers and labs, combining theory with practice. The Department offers one Undergraduate and three Post-Graduate programs and an opportunity to learn from renowned faculty who engage students in the classroom through high-impact teaching methods and lead pioneering research endeavors. Apart from regular classroom teaching and labs, seminars and colloquia are also often organized by students and the Department to interact with people of repute and understand the latest in the field of Electronics.",
     info2:
@@ -582,7 +582,7 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "Humanities and Social sciences ",
+    name: "Humanities and Social Sciences",
     info1:
       "It is a lively department, encompassing teaching and research programs in the fields of English, Economics, Philosophy, Psychology, Sociology, Fine Arts, and related inter and cross-disciplinary subjects. In recent years, one of the notable achievements has been the expansion in research activities and exchanges of ideas, facilitated by the constant surge of discussions, consultations, and publications in esteemed and high-impact journals.",
     info2:
@@ -655,7 +655,7 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "Hydro and Renewable energy ",
+    name: "Hydro and Renewable Energy",
     info1:
       "HRED has been providing professional support in the field of Small Hydropower Development covering planning, Detailed Project Reports, Detailed Engineering Designs and Construction drawings, Technical Specifications of Turn Key execution/equipment Supply, Refurbishment, Renovation and Modernisation of SHP Stations, Techno-Economic Appraisal, R & D / Monitoring of Projects, Remote Sensing and GIS-Based Applications.",
     info2:
@@ -698,7 +698,7 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "Management studies ",
+    name: "Management Studies",
     info1:
       "Housed in an exclusively designed double-storeyed building, this department has excellent infrastructure to provide students with the necessary requisites to experience maximum learning and development. There is an exclusive library that houses some of the most cherished literature of the corporate world and state-of-the-art classrooms boast of having some of the best learning aids.",
     info2:
@@ -786,7 +786,7 @@ export const departmentinfo = [
   {
     name: "Mechanics and Industrial Engineering ",
     info1:
-      "IT Roorkee offers both undergraduate and postgraduate courses in various facets of Mechanical and Industrial Engineering. The Master of Technology courses offered under this department at IIT Roorkee are Machine Design Engineering, Production and Industrial Engineering, Thermal System Engineering, Welding Engineering and CAD, CAM, and Robotics.",
+      "IIT Roorkee offers both undergraduate and postgraduate courses in various facets of Mechanical and Industrial Engineering. The Master of Technology courses offered under this department at IIT Roorkee are Machine Design Engineering, Production and Industrial Engineering, Thermal System Engineering, Welding Engineering and CAD, CAM, and Robotics.",
     info2:
       "The laboratory and workshop facilities are equipped with modern sophisticated equipment for effective work in research areas related to the Mechanical and Production and Industrial departments. The faculty actively participates in sponsored research and consultancy work. ",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
@@ -955,7 +955,7 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "WaterResource Department and Management ",
+    name: "Water Resources Development and Management",
     info1:
       "The WRDM department primarily offers Postgraduate Degrees and training to in-service Civil, Electrical, and Mechanical Engineers and Agricultural Scientists in Water Resources Development and Irrigation Management. The department also provides consultancy services and does research in the fields of irrigation, flood control, drainage, groundwater development and hydropower.",
     info2: null,

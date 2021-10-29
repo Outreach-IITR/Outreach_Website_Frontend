@@ -52,6 +52,7 @@ const NavbarFix = () => {
     else {
       setOutlogo(logo);
     }
+    // eslint-disable-next-line
   }, [window.scrollY]);
 
   return (

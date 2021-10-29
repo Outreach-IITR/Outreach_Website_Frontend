@@ -16,7 +16,7 @@ const AboutOutreach = () => {
         <div id="AboutOutreach_content_data">
           <p>
             Outreach cell, IIT Roorkee, is a student-led community under the
-            aegis of Dean of Student Welfare, IIT Roorkee, to connect the
+            aegis of Dean of Students' Welfare, IIT Roorkee, to connect the
             outside world with the culture of IIT Roorkee.
           </p>
           <p>

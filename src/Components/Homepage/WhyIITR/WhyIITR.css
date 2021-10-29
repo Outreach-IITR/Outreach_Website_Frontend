@@ -7,7 +7,10 @@
 }
 
 #cont {
-  font-family: SF UI Text;
+  font-family: "SF UI Text";
+  font-size: 14px;
+  line-height: 131%;
+  letter-spacing: 0.05em;
 }
 
 #WhyIITR {

@@ -116,7 +116,7 @@ import hs3 from "./Assets/departments/hs3.png";
 
 export const departmentinfo = [
   {
-    name: "Architechture and Planning ",
+    name: "Architecture and Planning ",
     info1:
       "Ranked no 1 in NIRF architecture colleges ranking, the Department of Architecture and planning is the perfect place to get an architectural degree. The department offers an ideal combination of academic and competitive base for students. Being part of one of the country's first engineering universities, the students have access to the best faculties available in India.",
     info2:
@@ -161,7 +161,7 @@ export const departmentinfo = [
   {
     name: "Biosciences and Bioengineering ",
     info1:
-      "Biology as a department may sound tedious and sturdy, but it is way different from the biology taught at the school level. The stream entails all the aspects of life sciences, and the coursework is well designed, keeping in mind that students from all backgrounds come forward to study this subject. The department has research programs that encompass various fundamental and applied aspects of modern biotechnology.",
+      "Bioengineering or biosciences as a department may sound tedious and sturdy, but it is way different from the biology taught at the school level. The stream entails all the aspects of life sciences, and the coursework is well designed, keeping in mind that students from all backgrounds come forward to study this subject. The department has research programs that encompass various fundamental and applied aspects of modern biotechnology.",
     info2:
       "The coursework offers training and research in the interdisciplinary areas of biotechnology with a particular emphasis on extending the knowledge generated from these studies towards the development of technologies of commercial significance.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
@@ -375,7 +375,7 @@ export const departmentinfo = [
   {
     name: "Design ",
     info1:
-      "The newly established Department of design here in IIT Roorkee incorporates activities that create commercial opportunities and contribute to the economic growth of the country. It aims at creating a culture of innovation and creative problem-solving. The department offers contemporary courses that would expose students to the fundamentals of design and prototyping, design thinking, product-human interface.",
+      "The newly established Department of Design (DoD) here in IIT Roorkee incorporates activities that create commercial opportunities and contribute to the economic growth of the country. It aims at creating a culture of innovation and creative problem-solving. The department offers contemporary courses that would expose students to the fundamentals of design and prototyping, design thinking, product-human interface.",
     info2:
       "They aim at fostering design-focused education research and entrepreneurial activities with a focus to create commercial opportunities. The department has launched two new post-graduate programmes – masters in design (industrial design) and masters in innovation management (MIM) – commencing the academic year 2021-22.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",

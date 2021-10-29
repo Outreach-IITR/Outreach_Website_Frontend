@@ -16,7 +16,7 @@ const Footer = () => {
             <ul className="footer-column">
               <li className="footer-column-item">
                 <a href="https://iitr.ac.in/" className="footer-item">
-                  IITR Official Page
+                  IITR Home
                 </a>
               </li>
               <li className="footer-column-item">
@@ -133,7 +133,7 @@ const Footer = () => {
             </div>
             <p className="footer-right-text">
               <br />
-              +91&#160;0123456789
+              +91&#160;9560198159
               <br />
               <br />
               outreach@iitr.ac.in
@@ -141,7 +141,7 @@ const Footer = () => {
               <br />
               SAC Building, IIT Roorkee,
               <br />
-              Roorkee, Uttrakhand, India - 247667
+              Roorkee, Uttarakhand, India - 247667
             </p>
             <div className="icons icons-desktop-view">
               <a href="/" target="_blank" rel="noreferrer">

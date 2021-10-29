@@ -33,7 +33,7 @@ function Accordion_segment() {
             <input type="checkbox" id="section2" className="accordion_input" />
             <label htmlFor="section2" className="accordion__label">
               <ul className="accordion_segment_section">
-                <li>James Thomson Scholarship</li>
+                <li>James Thomason Scholarship</li>
               </ul>
             </label>
             <div className="accordion_content">
@@ -58,7 +58,7 @@ function Accordion_segment() {
               <p>
                 This scholarship is offered exclusively to students enrolled in
                 basic science streams a.k.a Integrated MSc courses with a 4
-                digit JEE AIR or less. Eligible candidates may avail 80000/-
+                digit JEE AIR or less. Eligible candidates may avail 80,000 INR
                 every year.
               </p>
               <a href="https://scsp.iitr.ac.in/inspire-scholarship/">

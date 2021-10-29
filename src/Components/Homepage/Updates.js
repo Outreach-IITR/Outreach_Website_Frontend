@@ -16,7 +16,7 @@ class Updates extends React.Component {
                     <ul>
                         <li>
                             <div id="update_content_data">
-                            <p>Under the department of Management studies, IIt Roorkee introduced a new integrated program in Economics.
+                            <p>Under the department of Management studies, IIT Roorkee introduced a new integrated program in Economics.
                                 {/* <br/> <a href="/">Know More</a> */}
                             </p>    
                             </div>
@@ -38,14 +38,14 @@ class Updates extends React.Component {
                         <li>
                             <div id="update_content_data">
                             <p>Next year onwards, a new department for Data Science and Artificial intelligence will be introduced in IIT Roorkee.
-                                <br/> <a href="https://www.youtube.com/watch?v=a-zUxaDtmTE&ab_channel=IITRoorkee">Know More</a>
+                                <br/> <a href="https://www.iitr.ac.in/mfsdsai/pages/index.html">Know More</a>
                             </p>
                             </div>
                         </li>
                         <li>
                             <div id="update_content_data">
                             <p>Team IIT Roorkee has reached its record 7th consecutive ICPC World finals.
-                                <br/> <a href="https://icpc.amrita.ac.in/2022/">Know More</a>
+                                <br/> <a href="https://pc2.ecs.baylor.edu/scoreboard/">Know More</a>
                             </p>
                             </div>
                         </li>

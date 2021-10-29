@@ -67,7 +67,7 @@ const HomePageCarousel = () => {
           </div>
           <div>
             <img alt="icon" src={ScholarshipScheme} />
-            <p>Scolarships schemes for rankers</p>
+            <p>Scholarships schemes for rankers</p>
           </div>
           <div>
             <img alt="icon" src={Startups} />
@@ -75,7 +75,7 @@ const HomePageCarousel = () => {
           </div>
           <div>
             <img alt="icon" src={Architecture_Planing} />
-            <p>Architecture and Planing in the Country</p>
+            <p>Architecture and Planning in the Country</p>
           </div>
         </div>
       </div>

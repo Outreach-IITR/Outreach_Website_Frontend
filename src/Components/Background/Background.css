@@ -3,7 +3,7 @@
 }
 
 #aboutbg {
-  margin: 7rem auto;
+  margin: 6rem auto;
   background: url("./Assets/bg1.svg");
   height: 35.5rem;
   max-width: 90%;
@@ -14,6 +14,7 @@
   max-height: 100vh;
   overflow-y: scroll;
   /* overflow: hidden; */
+  /* background-size: contain; */
 }
 /* body::-webkit-scrollbar {
   display: none;
@@ -133,5 +134,24 @@
   #about_us_head_data p {
     font-size: 0.75rem;
     /* color: black; */
+  }
+}
+@media screen and (min-width: 1600px){
+  #aboutbg {
+    margin: 7rem auto;
+    background: url("./Assets/bg1.svg");
+    height: 35.5rem;
+    max-width: 90%;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    border-radius: 1.25rem;
+    /* background-size: cover; */
+    max-height: 100vh;
+    overflow-y: scroll;
+    /* overflow: hidden; */
+    /* background-size: contain; */
+  }
+  #aboutbg::-webkit-scrollbar {
+    display: none;
   }
 }

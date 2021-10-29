@@ -42,6 +42,13 @@
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
   }
 
+#campuscontent{
+    font-family: "SF UI Text";
+    font-size: 14px;
+    line-height: 131%;
+    letter-spacing: 0.05em;
+}
+
 .carouselimg_cl{
     width: 100%;
     height: 100%;

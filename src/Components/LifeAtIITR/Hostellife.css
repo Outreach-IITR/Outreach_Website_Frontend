@@ -46,6 +46,13 @@
     height: 100%;
 }
 
+#hostelcontent{
+    font-family: "SF UI Text";
+    font-size: 14px;
+    line-height: 131%;
+    letter-spacing: 0.05em;
+}
+
 #hostellifep {
     display: flex;
     flex: 0.1;

@@ -71,7 +71,7 @@ const Thomso = {
 };
 
 const Cogni = {
-  name: "Cogni",
+  name: "Cognizance",
   description:
     "Cognizance, the Annual Technical Festival of IIT Roorkee, is the congregation of some of the finest technical minds in the country, providing them a platform to promulgate their skills. Having commenced in 2003, Cognizance has emerged as one of the largest festival of its kind in the Indian subcontinent. It is an agglomeration of over 200 events, held annually in the month of March. An enthralling kaleidoscope of events like Robosapiens, Model United Nations, Power Drift, Armageddon, Blogomania, Chaos, Illushun, Quizzotica, workshops, guest lectures and many more, Cognizance witnesses an enormous footfall with the widest spectra of students visiting from various national and foreign institutes.",
   CarouselData: [

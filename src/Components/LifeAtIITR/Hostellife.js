@@ -36,7 +36,7 @@ export class Hostellife extends Component {
                      <p id="hostelcontent">Imagine a life where you wake up to sunlight falling on your face, 
                      with your friend’s next door, waiting to go for a great workout in your hostel gym, 
                      to follow it up with breakfast in a mess that serves delicious food, only to repeat it 
-                     every morning but with more excitement. <br /> <br />
+                     every morning but with more excitement. <br />
                      This could be a small part of your routine here at IIT-R. To mention some specifics, 
                      there are no strict rules and regulations regarding hostel curfew timings. Hostels are 
                      also equipped with canteen facilities so you and your friends can enjoy that late-night 

@@ -121,7 +121,7 @@ export const departmentinfo = [
       "Ranked no 1 in NIRF architecture colleges ranking, the Department of Architecture and planning is the perfect place to get an architectural degree. The department offers an ideal combination of academic and competitive base for students. Being part of one of the country's first engineering universities, the students have access to the best faculties available in India.",
     info2:
       "The department has Climatology Lab, Computer Lab, lab on Net Zero Emissions, Computerized Design Studios equipped with state-of-art equipment and software, an Art Lab, and a Workshop. The students also get exposure to the professional world outside through national and international projects and internships.",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: Barch, March, M.U.R.P",
     bcstats: "Branch Change stats B.Tech only:",
     correct: null,
     wrong: null,
@@ -161,7 +161,7 @@ export const departmentinfo = [
   {
     name: "Biosciences and Bioengineering ",
     info1:
-      "Bioengineering or biosciences as a department may sound tedious and sturdy, but it is way different from the biology taught at the school level. The stream entails all the aspects of life sciences, and the coursework is well designed, keeping in mind that students from all backgrounds come forward to study this subject. The department has research programs that encompass various fundamental and applied aspects of modern biotechnology.",
+      "Biosciences and Bioengineering as a department may sound tedious and sturdy, but it is way different from the biology taught at the school level. The stream entails all the aspects of life sciences, and the coursework is well designed, keeping in mind that students from all backgrounds come forward to study this subject. The department has research programs that encompass various fundamental and applied aspects of modern biotechnology.",
     info2:
       "The coursework offers training and research in the interdisciplinary areas of biotechnology with a particular emphasis on extending the knowledge generated from these studies towards the development of technologies of commercial significance.",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
@@ -250,7 +250,7 @@ export const departmentinfo = [
       "One can consider this department to be active and oriented towards the research and academia side. At the undergraduate level, subjects like Organic Chemistry, Kinetics, Advanced Coordination Chemistry, and solid-state chemistry are taught. A complete perspective on chemistry can be developed through this course. The Chemistry Department houses various labs that house equipment ranging from simple titrations to advanced spectrometers.",
     info2:
       "The department is concerned with interdisciplinary research on contemporary problems of chemical science relating to industrial, rural, and agricultural areas and the utilization of industrial wastes for the generation of energy, chemicals, and biopolymers.",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: BS-MS (Chemical Sciences)",
     bcstats: "Branch Change stats B.Tech only:",
     correct: 0,
     wrong: 5,
@@ -378,7 +378,7 @@ export const departmentinfo = [
       "The newly established Department of Design (DoD) here in IIT Roorkee incorporates activities that create commercial opportunities and contribute to the economic growth of the country. It aims at creating a culture of innovation and creative problem-solving. The department offers contemporary courses that would expose students to the fundamentals of design and prototyping, design thinking, product-human interface.",
     info2:
       "They aim at fostering design-focused education research and entrepreneurial activities with a focus to create commercial opportunities. The department has launched two new post-graduate programmes – masters in design (industrial design) and masters in innovation management (MIM) – commencing the academic year 2021-22.",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: M.Des. (Industrial Design), MIM (Masters in Innovation Management)",
     bcstats: "Branch Change stats B.Tech only:",
     correct: null,
     wrong: null,
@@ -421,7 +421,7 @@ export const departmentinfo = [
       "The Department of Earthquake Engineering happens to be the only one of its kind in the country till date that deals with earthquake engineering problems and challenges. It has been fully interdisciplinary since its existence, bringing together structural and soil engineers, geologists and seismologists working as a team under one roof.",
     info2:
       "It is actively involved in carrying out sponsored research and consultancy projects through self-guiding state-of-art test facilities, and has played a key role at the national level in the formulation Indian Standard Codes of Practice for earthquake resistant design of Structures.",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: Soil Dynamics, Structural Dynamics, Seismic Vulnerabiligy and Risk Assessment",
     bcstats: "Branch Change stats B.Tech only:",
     correct: null,
     wrong: null,
@@ -458,7 +458,7 @@ export const departmentinfo = [
       "The Department of Earth Sciences (formerly the Department of Geology and Geophysics) is one of the leading departments in the country engaged in high-quality teaching, research, and consultancy in the field of Earth Sciences. The main strength of the department is an amalgamation of two major divisions of Earth Sciences: Geology and Geophysics under one umbrella.",
     info2:
       "During the last six decades, the department has produced a large number of trained Earth Scientists who are the backbone of the Country's mineral, oil & gas, groundwater resources, and other exploration industries.",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: M.Sc. Applied Geology",
     bcstats: "Branch Change stats B.Tech only:",
     correct: 0,
     wrong: 14,
@@ -539,12 +539,12 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "Electronics and communication engineering ",
+    name: "Electronics and Communication Engineering",
     info1:
       "This Department features innovative undergraduate programs and world-class research centers and labs, combining theory with practice. The Department offers one Undergraduate and three Post-Graduate programs and an opportunity to learn from renowned faculty who engage students in the classroom through high-impact teaching methods and lead pioneering research endeavors. Apart from regular classroom teaching and labs, seminars and colloquia are also often organized by students and the Department to interact with people of repute and understand the latest in the field of Electronics.",
     info2:
       " Various cultural and sports activities are also held year-round to inculcate the spirit of brotherhood and develop a well-rounded human being.",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: M.Sc. Economics",
     bcstats: "Branch Change stats B.Tech only:",
     correct: 10,
     wrong: 0,
@@ -582,7 +582,7 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "Humanities and Social sciences ",
+    name: "Humanities and Social Sciences",
     info1:
       "It is a lively department, encompassing teaching and research programs in the fields of English, Economics, Philosophy, Psychology, Sociology, Fine Arts, and related inter and cross-disciplinary subjects. In recent years, one of the notable achievements has been the expansion in research activities and exchanges of ideas, facilitated by the constant surge of discussions, consultations, and publications in esteemed and high-impact journals.",
     info2:
@@ -623,7 +623,7 @@ export const departmentinfo = [
     info1:
       "UNESCO and the Government of India are sponsoring the courses offered by the department at present. National Institute of Hydrology (NIH) is located in Roorkee. The Department has full-time devoted faculties with specializations in surface water hydrology (Floods, Droughts), water resources systems, watershed management, Geo-hydrology, groundwater geophysics, stochastic hydrology, hydro-informatics, environmental hydrology, atmospheric physics, climate change etc.",
     info2: "Department provides research facilities and projects to work on.",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: M.B.A. , Term wise M.B.A. Program",
     bcstats: "Branch Change stats B.Tech only:",
     correct: null,
     wrong: null,
@@ -655,7 +655,7 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "Hydro and Renewable energy ",
+    name: "Hydro and Renewable Energy",
     info1:
       "HRED has been providing professional support in the field of Small Hydropower Development covering planning, Detailed Project Reports, Detailed Engineering Designs and Construction drawings, Technical Specifications of Turn Key execution/equipment Supply, Refurbishment, Renovation and Modernisation of SHP Stations, Techno-Economic Appraisal, R & D / Monitoring of Projects, Remote Sensing and GIS-Based Applications.",
     info2:
@@ -698,7 +698,7 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "Management studies ",
+    name: "Management Studies",
     info1:
       "Housed in an exclusively designed double-storeyed building, this department has excellent infrastructure to provide students with the necessary requisites to experience maximum learning and development. There is an exclusive library that houses some of the most cherished literature of the corporate world and state-of-the-art classrooms boast of having some of the best learning aids.",
     info2:
@@ -746,7 +746,7 @@ export const departmentinfo = [
       "A wide range of topics is taught related to Mathematics to Undergraduate and Postgraduate students of various engineering and science departments. Besides the central computing facilities of the institute, the department boasts its own state-of-the-art Computational Lab and Mathematical Modelling Lab. ",
     info2:
       "The Department also offers facilities for research work leading to a Ph.D. degree in different branches of Pure and Applied Mathematics. The Department of Mathematics also has expertise in various fields of Computer Science and Technology and several subjects of this field are taught by teachers of the Mathematics department in tandem, majorly in fields like programming languages and techniques, fuzzy networks, simulation, modeling, and computer graphics. ",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: BS-MS (Mathematics and Computing)",
     bcstats: "Branch Change stats B.Tech only:",
     correct: 4,
     wrong: 0,
@@ -786,7 +786,7 @@ export const departmentinfo = [
   {
     name: "Mechanics and Industrial Engineering ",
     info1:
-      "IT Roorkee offers both undergraduate and postgraduate courses in various facets of Mechanical and Industrial Engineering. The Master of Technology courses offered under this department at IIT Roorkee are Machine Design Engineering, Production and Industrial Engineering, Thermal System Engineering, Welding Engineering and CAD, CAM, and Robotics.",
+      "IIT Roorkee offers both undergraduate and postgraduate courses in various facets of Mechanical and Industrial Engineering. The Master of Technology courses offered under this department at IIT Roorkee are Machine Design Engineering, Production and Industrial Engineering, Thermal System Engineering, Welding Engineering and CAD, CAM, and Robotics.",
     info2:
       "The laboratory and workshop facilities are equipped with modern sophisticated equipment for effective work in research areas related to the Mechanical and Production and Industrial departments. The faculty actively participates in sponsored research and consultancy work. ",
     degree: "Degree Offered: B.Tech, M.Tech, Phd",
@@ -874,7 +874,7 @@ export const departmentinfo = [
       "IIT Roorkee houses an excellent Department of Paper Technology. Its erudite faculty and premier research facilities help the department to serve Indian industries through various research areas. Established in 1964, the department upholds a legacy of excellent academics and research.",
     info2:
       "The areas of active research have been fiber characterization, identification, and evaluation of new fibrous pulping raw materials, identification of chloro-organic compounds in wastewaters, color reduction of effluents, evaluation of recycling potential of pulps, drinking studies, paper surface characterization and printability, enzyme production and applications, modeling and simulation of pulp and papermaking operations to name a few.",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: Pulp & Paper Engineering, Packaging Technology",
     bcstats: "Branch Change stats B.Tech only:",
     correct: null,
     wrong: null,
@@ -917,7 +917,7 @@ export const departmentinfo = [
       "Apart from catering to the teaching of core physics courses to undergraduate engineering students, the Department of Physics runs a five-year Integrated M.Sc. (Physics) and two-year Integrated M.Sc. (Physics) as well. The B.Tech program of Engineering Physics was also introduced in 2015. Apart from these, the department has also includes M.Tech. (Photonics) and M.Tech. (Solid-state Electronics Material) program.",
     info2:
       "Additional to the above courses, the facilities of the Department of Physics are also actively engaged in different areas of research on some of the trending topics like Atmospheric and Space Physics, Atomic and Molecular physics, Condensed Matter Physics, Nuclear Physics, Optics, and Theoretical High Energy Physics.",
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: Physics, Solid State Electronic Materials",
     bcstats: "Branch Change stats B.Tech only:",
     correct: 4,
     wrong: 4,
@@ -955,11 +955,11 @@ export const departmentinfo = [
     ],
   },
   {
-    name: "WaterResource Department and Management ",
+    name: "Water Resources Development and Management",
     info1:
       "The WRDM department primarily offers Postgraduate Degrees and training to in-service Civil, Electrical, and Mechanical Engineers and Agricultural Scientists in Water Resources Development and Irrigation Management. The department also provides consultancy services and does research in the fields of irrigation, flood control, drainage, groundwater development and hydropower.",
     info2: null,
-    degree: "Degree Offered: B.Tech, M.Tech, Phd",
+    degree: "Degree Offered: Irrigation Water Management, Water Resources Development",
     bcstats: "Branch Change stats B.Tech only:",
     correct: null,
     wrong: null,

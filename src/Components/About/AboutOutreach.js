@@ -7,7 +7,7 @@ const AboutOutreach = () => {
   return (
     <div id="AboutOutreach">
       <h1 id="AboutOutreach_heading" className="MobileView">
-        About IIT Roorkee
+        About Outreach
       </h1>
       <div id="AboutOutreach_content">
         <div id="AboutOutreach_heading">

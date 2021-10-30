@@ -18,7 +18,7 @@ const HS__Data = [
     image: HS__img2,
     designation: "summer internship at NTU Singapore",
     description:
-      "My interest in the research field developed during my 2nd-year internship at SPARK, IITR. I worked in the domain of Computational Mechanics for the analysis of inflatable membranes used in space structures. I had a good experience and wanted to explore more in the research field. I had in mind from the start of the internship season that I wanted to do a research internship, and I had a decent research experience to back that up. I also applied for some core R&D profile companies, but had no luck there.",
+      "My interest in the research field developed during my 2nd-year internship at SPARK, IITR. I worked in the domain of Computational Mechanics for the analysis of inflatable membranes used in space structures. I had a good experience and wanted to explore more in the research field.",
     link: "http://watchout.iitr.ac.in/2020/09/summer-diaries-ajitesh-shukla",
   },
   {

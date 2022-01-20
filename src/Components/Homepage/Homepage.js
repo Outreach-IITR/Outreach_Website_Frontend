@@ -65,7 +65,7 @@ class Homepage extends React.Component {
           <HomePageCarousel />
         </div>
         <Updates />
-        <Blog />
+        {/* <Blog /> */}
       </>
     );
   }

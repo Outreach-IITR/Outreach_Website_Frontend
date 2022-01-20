@@ -4,7 +4,7 @@ import Qmarks from "./Assets/Q-marks.svg";
 import RightImage2 from "./Assets/RightImage_2.png";
 import TextBottom from "./Assets/Image-text-bottom.svg";
 import Updates from "./Updates";
-import Blog from "./Blog";
+// import Blog from "./Blog";
 import Navbar from "../Navbar/Navbar";
 import "./Homepage.css";
 

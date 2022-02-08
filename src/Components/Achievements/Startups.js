@@ -18,6 +18,7 @@ import inmobi from './Assets/inmobi.png'
 import dealShare from './Assets/dealShare.png'
 import tickle from './Assets/tickle.png'
 import zetwerk from './Assets/zetwerk.png'
+import ihub from './Assets/ihub.png'
 
 
 export class Startups extends Component {
@@ -63,10 +64,26 @@ export class Startups extends Component {
                         <img alt="img" src={hindonics}></img>
                         <img alt="img" src={madguy}></img>
                     </div>
+                    
+                    <div id="startups_ecell">
+                    <div id="ecell_detail">
+                        <h1 id="tides_mobileview">iHUB Divya Sampark </h1>
+                        <div id="ecell_logo">
+                            <img className='ihub_img' alt="img" src={ihub} />
+                        </div>
+                        <div id="ecell_content">
+                            <h1 id="ecell_mobilenone">iHUB Divya Sampark </h1>
+                            <p className="startup_cont">
+                                iHUB DivyaSampark, aims to enable innovative ecosystem in cyber- physical systems (CPS) and becoming the source for the next generation of digital technologies, products and services by promoting translational research, enhancing core competencies, capacity building, training to provide solutions for national strategic sectors and becoming a key contributor to Digital India.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
 
                 </div>
                 <div id="startups_alumni">
-                    <h1>From Alumni Network</h1>
+                    <h1>Startups from Alumni Network</h1>
                     <div id="brand">
                         <img alt="img" src={razorpay}></img>
                         <img alt="img" src={fampay}></img>

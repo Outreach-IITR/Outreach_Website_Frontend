@@ -18,7 +18,7 @@ export const techData = [
     description: 'Members of this group are in charge of winning arbitrary hackathons, organizing the most fun and educational workshops and lectures for the IITR junta, developing awesome applications like Quizio, Rootex and Cerebro.'
   },
   {
-    name: 'INFOSEC',
+    name: 'INFOSEC-IITR',
     image: infosec,
     description: 'This group makes IITR extraordinarily proud as it has been consistently ranked among the top 3 CTF teams in India, InfoSecIITR is a group of information security enthusiasts. They regularly participate in competitive hacking competitions and regularly win too.'
   },

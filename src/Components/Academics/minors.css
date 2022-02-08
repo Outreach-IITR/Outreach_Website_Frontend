@@ -25,6 +25,7 @@
 }
 .minors_img1 {
   margin-top: 7rem;
+  object-fit: fill;
 }
 .minors_img img {
   object-fit: fill;

@@ -69,7 +69,8 @@
 }
 
 #startups_alumni h1 {
-  margin-left: 16.5%;
+  text-align: center;
+  margin-left: 0;
   color: #f96508;
 }
 #startups_alumni {
@@ -122,9 +123,6 @@
   /* #brand{
         display:none;
     } */
-  #startups_alumni h1 {
-    margin-left: 12%;
-  }
   #brand img {
     margin-left: 0.5rem;
     margin-right: 0.5rem;

@@ -3,15 +3,13 @@ import Sports_1 from "./Assets/FieldWiseA_Img/Sports_1.png";
 import Sports_2 from "./Assets/FieldWiseA_Img/Sports_2.png";
 import Sports_3 from "./Assets/FieldWiseA_Img/Sports_3.png";
 import Sports_4 from "./Assets/FieldWiseA_Img/Sports_4.png";
-import Sports_5 from "./Assets/FieldWiseA_Img/Sports_5.png";
-import Sports_6 from "./Assets/FieldWiseA_Img/Sports_6.png";
+
 
 //Technology
 import Technology_1 from "./Assets/FieldWiseA_Img/Technology_1.png";
 import Technology_2 from "./Assets/FieldWiseA_Img/Technology_2.png";
 import Technology_3_6 from "./Assets/FieldWiseA_Img/Technology_3.png";
 import Technology_4 from "./Assets/FieldWiseA_Img/Technology_4.png";
-import Technology_5 from "./Assets/FieldWiseA_Img/Technology_5.png";
 import Technology_6 from "./Assets/FieldWiseA_Img/Technology_6.png";
 import Technology_8 from "./Assets/FieldWiseA_Img/Technology_8.png";
 import Technology_9 from "./Assets/FieldWiseA_Img/Technology_9.png";
@@ -53,18 +51,6 @@ const Sports = {
       link: "",
       date: "25/12/2015",
     },
-    {
-      id: 5,
-      dep: "In 49th sports meet IIT Roorkee came FIrst in the Overall General Championship (Women).",
-      link: "",
-      date: " 28/12/2014",
-    },
-    {
-      id: 6,
-      dep: "In the 48th sports meet Roorkee won gold in Basketball (women) , Football(men), Squash and swimming , volleyball (women) and silver medal in Badminton(men) , Basketball(men).",
-      link: "",
-      date: "18/12/2013",
-    },
   ],
   Bubble_List: [
     {
@@ -78,13 +64,7 @@ const Sports = {
     },
     {
       image: Sports_4,
-    },
-    {
-      image: Sports_5,
-    },
-    {
-      image: Sports_6,
-    },
+    }
   ],
 };
 
@@ -116,12 +96,6 @@ const Technology = {
       dep: "InfoSec IITR regularly participate in competitive hacking competitions and have been consistently ranked among the top 3 CTF teams in India.",
       link: "http://watchout.iitr.ac.in/Freshman_Guide_To_IITR.pdf",
       date: "",
-    },
-    {
-      id: 5,
-      dep: "KNOx achievements in BAJA include 2nd place among 326 teams in CAE category (awarded by ANSYS Inc.).",
-      link: "https://iitr.ac.in/departments/ME/pages/Events+Student_Sections+KNOx.html",
-      date: "2013",
     },
     {
       id: 6,
@@ -166,9 +140,6 @@ const Technology = {
     },
     {
       image: Technology_4,
-    },
-    {
-      image: Technology_5,
     },
     {
       image: Technology_6,

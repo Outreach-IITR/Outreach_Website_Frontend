@@ -43,6 +43,7 @@
 
 @media screen and (max-width: 456px) {
   .OC__SubSection {
+    margin-top: 2em;
     padding: 0 2rem;
   }
 }

@@ -17,7 +17,7 @@ const BarChart = (props) => {
               "Applied Mathematics",
               "Architecture & Planning",
               "B.Tech (Process Engineering) and M.B.A",
-              "Biotechnology",
+              "Biotechnology/BSBE",
               "Chemical Engineering",
               "Chemistry",
               "Civil Engineering",

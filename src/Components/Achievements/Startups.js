@@ -15,6 +15,9 @@ import vedantu from './Assets/vedantu.png'
 import airmeet from './Assets/airmeet.png'
 import upgrad from './Assets/upgrad.png'
 import inmobi from './Assets/inmobi.png'
+import dealShare from './Assets/dealShare.png'
+import tickle from './Assets/tickle.png'
+import zetwerk from './Assets/zetwerk.png'
 
 
 export class Startups extends Component {
@@ -69,8 +72,13 @@ export class Startups extends Component {
                         <img alt="img" src={fampay}></img>
                         <img alt="img" src={vedantu}></img>
                         <img alt="img" src={airmeet}></img>
-                        <img alt="img" src={upgrad}></img>
                         <img alt="img" src={inmobi}></img>
+                    </div>
+                    <div id="brand">
+                        <img alt="img" src={tickle}></img>
+                        <img alt="img" src={zetwerk}></img>
+                        <img alt="img" src={dealShare}></img>
+                        <img alt="img" src={upgrad}></img>
                     </div>
                     <p style={{
                         color: "#3F3F3FBF", textAlign: "center", marginTop: "30px", fontWeight: 600,

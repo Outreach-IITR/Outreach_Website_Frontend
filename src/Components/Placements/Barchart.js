@@ -1,7 +1,7 @@
 import React from "react";
 import "./Barchart.css"
 import {Bar} from "react-chartjs-2"
-import BarChart_alt from "./Assets/BarChart.png"
+import BarChart_alt from "./Assets/19-20.jpg"
 
 const BarChart = (props) => {
   return (
@@ -22,22 +22,24 @@ const BarChart = (props) => {
               "Chemistry",
               "Civil Engineering",
               "Computer Science and Engineering",
+              "Earth Science",
               "Electrical Engineering",
               "Electronics and communication engineering",
+              "Engineering Physics",
               "Mechanical Engineering",
               "Metallurgical and Materials Engineering",
-              "Engineering Physics",
-              "Production and Industrial Engineering",
-              "Polymer Science",
               "Master of Technology",
-              "Earth Science",
+              "Polymer Science",
+              "Production and Industrial Engineering",
+              
+              
             ],
             datasets: [
               {
                 label: "Median CTC",
                 data: [
-                  20.75, 11.16, 7, 12.996, 17.67, 5.5, 13.5, 33, 27, 21, 14.42,
-                  13, 27.665, 15, 15, 11.69, 12.978,
+                  20.75, 11.16, 7, 12.996, 17.67, 5.5, 13.5, 33, 12.978, 27, 21,27.665, 14.42,
+                  13, 11.69, 15, 15, 
                 ],
                 backgroundColor: "#009082",
               },

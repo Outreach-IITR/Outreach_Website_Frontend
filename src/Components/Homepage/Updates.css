@@ -60,6 +60,7 @@ letter-spacing: 0.05em;
 #update_content_data p{
     font-family: 'Poppins';
     font-size: 1rem;
+    text-align: justify;
 }
 @media screen and (max-width: 995px){
     #updatessection{

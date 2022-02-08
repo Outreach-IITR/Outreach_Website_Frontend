@@ -1,7 +1,7 @@
 import React from "react";
 import "./Barchart.css"
 import {Bar} from "react-chartjs-2"
-import BarChart_alt from "./Assets/Barchart20_21.png"
+import BarChart_alt from "./Assets/20_21.jpg"
 
 const BarChart20_21 = props => {
     return(<>
@@ -11,12 +11,12 @@ const BarChart20_21 = props => {
             <Bar
             data={{
                 
-                labels: ['Applied Mathematics','Architecture & Planning','B.Tech (Process Engineering) and M.B.A','Biotechnology','Chemical Engineering','Chemistry','Civil Engineering','Computer Science and Engineering','Electrical Engineering','Electronics and communication engineering','Mechanical Engineering','Metallurgical and Materials Engineering','Engineering Physics','Production and Industrial Engineering','Polymer Science','Master of Technology','Earth Science'],
+                labels: ['Applied Mathematics','Architecture & Planning','B.Tech (Process Engineering) and M.B.A','Biotechnology/BSBE','Chemical Engineering','Chemistry','Civil Engineering','Computer Science and Engineering','Earth Science','Electrical Engineering','Electronics and communication engineering','Engineering Physics','Mechanical Engineering','Metallurgical and Materials Engineering','Master of Technology','Polymer Science','Production and Industrial Engineering' ],
                 datasets: [
                   {
                     label: 'Median CTC',
-                    data: [24.3,10,7,11,13.7,5.5,13.6,27.5,20,20,13,16,13.5,15,11.1,13,12.978],
-                    backgroundColor: '#41B8D5',
+                    data: [24.3,10,7,11,13.7,5.5,13.6,27.5,12.978,20,20,13.5,13,16,13,11.1,15],
+                    backgroundColor: '#31356E',
                    
                   }
                 ],

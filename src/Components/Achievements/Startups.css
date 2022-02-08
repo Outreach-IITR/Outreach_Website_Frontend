@@ -12,7 +12,7 @@
     line-height: 131%;
     /* or 18px */
 
-    /* text-align: center; */
+    text-align: justify;
     letter-spacing: 0.05em;
 }
 
@@ -37,6 +37,7 @@
 #tides_content{
     flex: 0.6;
     margin-right: 3%;
+    text-align: justify;
 }
 #tides_content h1{
     color: #F96508;

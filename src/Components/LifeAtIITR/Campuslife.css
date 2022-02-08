@@ -75,6 +75,7 @@
     flex: 0.5;
     flex-direction: column;
     justify-content: center;
+    text-align: justify;
 }
 #campuscontent{
     width: 110%;

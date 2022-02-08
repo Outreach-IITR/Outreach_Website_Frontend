@@ -209,16 +209,20 @@ const Design = [
 
 const Development = [
   {
-    name: "Aastha",
-    image: Aastha,
-  },
-  {
-    name: "Agrani Verma",
-    image: AgraniVerma,
+    name: "Rahul Ketan Modi",
+    image: RahulKetanModi,
   },
   {
     name: "Akshit Gupta",
     image: AkshitGupta,
+  },
+    {
+    name: "RohitBamnawat",
+    image: RohitBamnawat,
+  },
+  {
+    name: "Agrani Verma",
+    image: AgraniVerma,
   },
   {
     name: "Aman Gupta",
@@ -231,14 +235,6 @@ const Development = [
   {
     name: "Gauri Pachauri",
     image: GauriPachauri,
-  },
-  {
-    name: "Rahul Ketan Modi",
-    image: RahulKetanModi,
-  },
-  {
-    name: "RohitBamnawat",
-    image: RohitBamnawat,
   },
   {
     name: "Sainath Rao P.",
@@ -259,6 +255,10 @@ const Development = [
   {
     name: "Ujjwal Sarswat",
     image: UjjwalSarswat,
+  },
+  {
+    name: "Aastha",
+    image: Aastha,
   },
 ];
 

@@ -66,6 +66,7 @@
 #brand img{
     margin-left: 1rem;
     margin-right: 1rem;
+    vertical-align: middle;
 }
 
 #startups_alumni h1{
@@ -96,10 +97,13 @@ letter-spacing: 0.05em;
 text-align: center;
 width: 70%;
 margin: 0 15% ;
+/* text-align: justify; */
+
 }
 
 #startups_first{
     margin-bottom: 30px;
+    text-align: justify;
 }
 #tides_mobileview{
     display: none;

@@ -2,153 +2,154 @@
 @import "~slick-carousel/slick/slick-theme.css";
 /** Ultra Light */
 @font-face {
-    font-family: "San Francisco";
-    font-weight: 100;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
-  }
-  
-  /** Thin */
-  @font-face {
-    font-family: "San Francisco";
-    font-weight: 200;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
-  }
-  
-  /** Regular */
-  @font-face {
-    font-family: "San Francisco";
-    font-weight: 400;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-  }
-  
-  /** Medium */
-  @font-face {
-    font-family: "San Francisco";
-    font-weight: 500;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
-  }
-  
-  /** Semi Bold */
-  @font-face {
-    font-family: "San Francisco";
-    font-weight: 600;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
-  }
-  
-  /** Bold */ 
-  @font-face {
-    font-family: "San Francisco";
-    font-weight: 700;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
-  }
-.carouselimg {
-    width: 100%;
-    height: 100%;
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
 }
 
-#hostelcontent{
-    font-family: "Poppins";
-    font-size: 14px;
-    line-height: 131%;
-    letter-spacing: 0.05em;
-    text-align: justify;
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+.carouselimg {
+  width: 100%;
+  height: 100%;
+}
+
+#hostelcontent {
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 131%;
+  letter-spacing: 0.05em;
+  text-align: justify;
 }
 
 #hostellifep {
-    display: flex;
-    flex: 0.1;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 10%;
+  display: flex;
+  flex: 0.1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
 }
 
 #hostelhead {
-    font-size: 2rem;
-    color: #F96508;
-    font-family: Montserrat;
-    margin-top: 5%;
+  font-size: 2rem;
+  color: #f96508;
+  font-family: Montserrat;
+  margin-top: 5%;
 }
 
 #sliderbox {
-    width: 40%;
+  width: 40%;
 }
 
 #hostel_content {
-    display: flex;
-    flex: 0.5;
-    flex-direction: column;
-    justify-content: center;
-    font-family: "Poppins";
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins";
 }
-#hostelcontent{
-    width: 120%;
+#hostelcontent {
+  width: 120%;
 }
 .imagescareousl_hl {
-    position: relative;
-    text-align: center;
-    padding-top: 1.8rem;
+  position: relative;
+  text-align: center;
+  padding-top: 1.8rem;
 }
 
 .imgdis {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-top: 40%;
-    color: #fff;
-    font-family: Montserrat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 40%;
+  color: #fff;
+  font-family: Montserrat;
 }
 
 .slick-dots {
-    position: absolute;
-    left: 55%;
-    bottom: 40%;
-    transform: rotate(90deg);
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
+  position: absolute;
+  left: 55%;
+  bottom: 40%;
+  transform: rotate(90deg);
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
 }
 
 .slick-dots li button:before {
-    font-family: 'slick';
-    font-size: 0.9rem;
-    line-height: 20px;
-    color: #c4c4c4;
+  font-family: "slick";
+  font-size: 0.9rem;
+  line-height: 20px;
+  color: #c4c4c4;
 }
 
 .slick-dots li.slick-active button:before {
-    opacity: .75;
-    color: #026BA1;
+  opacity: 0.75;
+  color: #026ba1;
 }
 
-@media(max-width: 1100px) {
-    .slick-dots li button:before {
-        display: none;
-    }
-    #hostellifep {
-        display: flex;
-        flex: 0.1;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 10%;
-    }
-    .imgdis {
-        padding-top: 36%;
-    }
-    #hostelhead {
-        text-align: center;
-        padding-top: 10%;
-    }
-    #hostelcontent {
-        padding: 5%;
-        width: auto;
-    }
-    #sliderbox {
-        width: 95%;
-    }
+@media (max-width: 1100px) {
+  .slick-dots li button:before {
+    display: none;
+  }
+  #hostellifep {
+    display: flex;
+    flex: 0.1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .imgdis {
+    padding-top: 36%;
+  }
+  #hostelhead {
+    text-align: center;
+    padding-top: 10%;
+  }
+  #hostelcontent {
+    padding: 5%;
+    width: auto;
+  }
+  #sliderbox {
+    width: 95%;
+  }
 }

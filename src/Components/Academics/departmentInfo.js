@@ -20,6 +20,8 @@ const list = [
   { id: 19, dep: "Paper Technology" },
   { id: 20, dep: "Physics" },
   { id: 21, dep: "Water Resources Development and Management" },
+  { id: 22, dep: "Applied Science and Engineering" },
+  { id: 23, dep: "Polymer and Process Engineering" },
 ];
 
 module.exports = list;

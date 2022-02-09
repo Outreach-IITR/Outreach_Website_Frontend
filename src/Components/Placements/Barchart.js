@@ -25,7 +25,7 @@ const BarChart = (props) => {
               "Earth Science",
               "Electrical Engineering",
               "Electronics and communication engineering",
-              "Engineering Physics",
+              "Physics",
               "Mechanical Engineering",
               "Metallurgical and Materials Engineering",
               "Master of Technology",

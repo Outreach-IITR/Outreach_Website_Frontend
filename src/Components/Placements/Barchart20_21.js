@@ -11,7 +11,7 @@ const BarChart20_21 = props => {
             <Bar
             data={{
                 
-                labels: ['Applied Mathematics','Architecture & Planning','B.Tech (Process Engineering) and M.B.A','Biotechnology/BSBE','Chemical Engineering','Chemistry','Civil Engineering','Computer Science and Engineering','Earth Science','Electrical Engineering','Electronics and communication engineering','Engineering Physics','Mechanical Engineering','Metallurgical and Materials Engineering','Master of Technology','Polymer Science','Production and Industrial Engineering' ],
+                labels: ['Applied Mathematics','Architecture & Planning','B.Tech (Process Engineering) and M.B.A','Biotechnology/BSBE','Chemical Engineering','Chemistry','Civil Engineering','Computer Science and Engineering','Earth Science','Electrical Engineering','Electronics and communication engineering','Physics','Mechanical Engineering','Metallurgical and Materials Engineering','Master of Technology','Polymer Science','Production and Industrial Engineering' ],
                 datasets: [
                   {
                     label: 'Median CTC',

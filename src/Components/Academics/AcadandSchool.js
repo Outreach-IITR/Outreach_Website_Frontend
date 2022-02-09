@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import "./AcadandSchool.css";
 import { AcadCenter } from "./Assets/AcadCenterData";
 import { SchoolData } from "./Assets/SchoolData";
+import Crousel from "../Crousel/Crousel";
 
 const AcadandSchool = () => {
   const [clickBackground, setClickBackground] = useState("");
@@ -64,6 +65,7 @@ const AcadandSchool = () => {
         {id !== "" ? (
           <>
             <h1 id="Departments_heading">{AcadCenter[id].name}</h1>
+            <Crousel slides={AcadCenter[id].crouselData} />
             <div className="imgDescription_Dep">
               <p>{AcadCenter[id].description}</p>
               <br />
@@ -102,6 +104,7 @@ const AcadandSchool = () => {
         {schoolId !== "" ? (
           <>
             <h1 id="Departments_heading">{SchoolData[schoolId].name}</h1>
+            <Crousel slides={SchoolData[schoolId].crouselData} />
             <div className="imgDescription_Dep">
               <p>{SchoolData[schoolId].description}</p>
               <br />

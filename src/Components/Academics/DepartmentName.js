@@ -114,6 +114,18 @@ import hs1 from "./Assets/departments/hs1.png";
 import hs2 from "./Assets/departments/hs2.png";
 import hs3 from "./Assets/departments/hs3.png";
 
+//dase
+import dase1 from "./Assets/departments/dase1.png";
+import dase2 from "./Assets/departments/dase2.png";
+import dase3 from "./Assets/departments/dase3.png";
+import dase4 from "./Assets/departments/dase4.png";
+import dase5 from "./Assets/departments/dase5.png";
+
+//appe
+import dppe1 from "./Assets/departments/dppe1.png";
+import dppe2 from "./Assets/departments/dppe2.png";
+import dppe3 from "./Assets/departments/dppe3.png";
+
 export const departmentinfo = [
   {
     name: "Architecture and Planning ",
@@ -1025,36 +1037,36 @@ export const departmentinfo = [
     correct: null,
     wrong: null,
     acadCrouselData: [
-      // {
-      //   image: archi1,
-      //   // caption: "1 Lorem Ipsum is simply dummy",
-      //   description:
-      //     "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
-      // },
-      // {
-      //   image: archi2,
-      //   // caption: "2 Lorem Ipsum is simply dummy",
-      //   description:
-      //     "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
-      // },
-      // {
-      //   image: archi3,
-      //   // caption: "3 Lorem Ipsum is simply dummy",
-      //   description:
-      //     "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      // },
-      // {
-      //   image: archi4,
-      //   // caption: "4 Lorem Ipsum is simply dummy",
-      //   description:
-      //     "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-      // },
-      // {
-      //   image: archi5,
-      //   // caption: "5 Lorem Ipsum is simply dummy",
-      //   description:
-      //     "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      // },
+      {
+        image: dase1,
+        // caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: dase2,
+        // caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: dase3,
+        // caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: dase4,
+        // caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: dase5,
+        // caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
     ],
   },
   {
@@ -1068,36 +1080,24 @@ export const departmentinfo = [
     correct: null,
     wrong: null,
     acadCrouselData: [
-      // {
-      //   image: archi1,
-      //   // caption: "1 Lorem Ipsum is simply dummy",
-      //   description:
-      //     "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
-      // },
-      // {
-      //   image: archi2,
-      //   // caption: "2 Lorem Ipsum is simply dummy",
-      //   description:
-      //     "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
-      // },
-      // {
-      //   image: archi3,
-      //   // caption: "3 Lorem Ipsum is simply dummy",
-      //   description:
-      //     "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      // },
-      // {
-      //   image: archi4,
-      //   // caption: "4 Lorem Ipsum is simply dummy",
-      //   description:
-      //     "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-      // },
-      // {
-      //   image: archi5,
-      //   // caption: "5 Lorem Ipsum is simply dummy",
-      //   description:
-      //     "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      // },
+      {
+        image: dppe1,
+        // caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: dppe2,
+        // caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: dppe3,
+        // caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
     ],
   },
 ];

@@ -7,7 +7,7 @@ import WhyIITR_2_Mobile from "./Assets/WhyIITR_2_Mobile.png";
 import WhyIITR_3 from "./Assets/WhyIITR_3.png";
 
 import AcresCampus from "./Assets/AcresCampus.png";
-import Architecture_Planing from "./Assets/Architecture_Planing.svg";
+import NIRF_Rank from "./Assets/NIRF_Rank.svg";
 import ScholarshipScheme from "./Assets/ScholarshipScheme.svg";
 import Startups from "./Assets/Startups.svg";
 
@@ -74,8 +74,8 @@ const HomePageCarousel = () => {
             <p>Startups</p>
           </div>
           <div>
-            <img alt="icon" src={Architecture_Planing} />
-            <p>Architecture and Planning in the Country (NIRF 2021) </p>
+            <img alt="icon" src={NIRF_Rank} />
+            <p>NIRF Ranking in the Country </p>
           </div>
         </div>
       </div>

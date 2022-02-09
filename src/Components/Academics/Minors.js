@@ -69,6 +69,10 @@ class Minors extends Component {
                         offered only to the students having a CGPA greater than 7.5 and an
                         approval from their respective departments.
                     </p>
+                    <h3>Change of Registration from M Tech/IDD to Ph.D.</h3>
+                    <p>
+                    Students pursuing M.Tech./M.Arch/ MURP/ IDD/ IMT programs at IIT Roorkee with CGPA not less than 8.50 may opt for a lateral entry to the Ph.D. program. This option can be availed after completing two semesters of M.Tech/M.Arch/MURP, or after completing all theory courses of IDD/IMT.
+                    </p>
                 </div>
             </div>
         )

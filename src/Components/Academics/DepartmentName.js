@@ -128,6 +128,49 @@ import dppe3 from "./Assets/departments/dppe3.png";
 
 export const departmentinfo = [
   {
+    name: "Applied Science and Engineering",
+    info1:
+      "The Department of Applied Science and Engineering (DASE) is situated at Saharanpur Campus of IIT Roorkee. This department was created in March, 2012 with the mission of generating human resource, expanding human knowledge and benefit society through education and research on fundamental and Applied aspects of Science, Engineering and Technology in a singularly collegial, interdisciplinary atmosphere.",
+    info2:
+      "It comprises multi-disciplinary faculty members at present mainly related to Physics, Chemistry, Mathematics, Humanities (English literature) and Management background to cater the need of multi-disciplinary students at Saharanpur Campus of IIT Roorkee. Our faculty members, and scholars provide a home to the most promising doctoral and post-doctoral research with access to state of art educational/Research Laboratory resources and unparalleled  laboratory and library facilities for both Basic/Applied and Engineering research.  We have labs like Pulp Lab, Paper Lab, Recovery & Chemistry Lab, Unit Operation Lab, Pollution Control Lab, Instrumentation Lab, Polymer Lab, Physics Lab.",
+    degree: "Degree Offered: M. Tech Applied Science and Engineering.",
+    bcstats: "Branch Change stats B.Tech only:",
+    correct: null,
+    wrong: null,
+    acadCrouselData: [
+      {
+        image: dase1,
+        // caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: dase2,
+        // caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: dase3,
+        // caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+      {
+        image: dase4,
+        // caption: "4 Lorem Ipsum is simply dummy",
+        description:
+          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+      },
+      {
+        image: dase5,
+        // caption: "5 Lorem Ipsum is simply dummy",
+        description:
+          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ],
+  },
+  {
     name: "Architecture and Planning ",
     info1:
       "Ranked no 1 in NIRF architecture colleges ranking, the Department of Architecture and planning is the perfect place to get an architectural degree. The department offers an ideal combination of academic and competitive base for students. Being part of one of the country's first engineering universities, the students have access to the best faculties available in India.",
@@ -984,6 +1027,37 @@ export const departmentinfo = [
     ],
   },
   {
+    name: "Polymer and Process Engineering",
+    info1:
+      "The department performs fundamental and applied research in Polymer Science and Technology, Process Engineering and Management under the supervision of highly motivated faculty members, who are enthusiastically working towards creating a highly competitive, academic and research environment in the department.",
+    info2:
+      "The 5-Year course was designed to cater to the needs of the Polymer industry and simultaneously impart knowledge of the allied chemical, petrochemical industry and applied sciences. Subsequently, the department initiated a 5-Year Integrated Dual Degree program in Process Engineering and MBA in 2008. The course offered a Bachelor’s Degree in Process Engineering and a Master’s Degree in Business Administration on successful completion. The department efficiently supports a comprehensive course of B.Tech in Polymer Science & Engineering keeping in line with the dynamic needs of the industry and society. The department faculties are engaged in extensive research duly supported and funded by several industries and government funding agencies.",
+    degree: "Degree Offered: M. Tech Polymer and Process Engineering.",
+    bcstats: "Branch Change stats B.Tech only:",
+    correct: null,
+    wrong: null,
+    acadCrouselData: [
+      {
+        image: dppe1,
+        // caption: "1 Lorem Ipsum is simply dummy",
+        description:
+          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
+      },
+      {
+        image: dppe2,
+        // caption: "2 Lorem Ipsum is simply dummy",
+        description:
+          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
+      },
+      {
+        image: dppe3,
+        // caption: "3 Lorem Ipsum is simply dummy",
+        description:
+          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      },
+    ],
+  },
+  {
     name: "Water Resources Development and Management",
     info1:
       "The WRDM department primarily offers Postgraduate Degrees and training to in-service Civil, Electrical, and Mechanical Engineers and Agricultural Scientists in Water Resources Development and Irrigation Management. The department also provides consultancy services and does research in the fields of irrigation, flood control, drainage, groundwater development and hydropower.",
@@ -1024,80 +1098,6 @@ export const departmentinfo = [
       //   description:
       //     "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       // },
-    ],
-  },
-  {
-    name: "Applied Science and Engineering",
-    info1:
-      "The Department of Applied Science and Engineering (DASE) is situated at Saharanpur Campus of IIT Roorkee. This department was created in March, 2012 with the mission of generating human resource, expanding human knowledge and benefit society through education and research on fundamental and Applied aspects of Science, Engineering and Technology in a singularly collegial, interdisciplinary atmosphere.",
-    info2:
-      "It comprises multi-disciplinary faculty members at present mainly related to Physics, Chemistry, Mathematics, Humanities (English literature) and Management background to cater the need of multi-disciplinary students at Saharanpur Campus of IIT Roorkee. Our faculty members, and scholars provide a home to the most promising doctoral and post-doctoral research with access to state of art educational/Research Laboratory resources and unparalleled  laboratory and library facilities for both Basic/Applied and Engineering research.  We have labs like Pulp Lab, Paper Lab, Recovery & Chemistry Lab, Unit Operation Lab, Pollution Control Lab, Instrumentation Lab, Polymer Lab, Physics Lab.",
-    degree: "Degree Offered: M. Tech Applied Science and Engineering.",
-    bcstats: "Branch Change stats B.Tech only:",
-    correct: null,
-    wrong: null,
-    acadCrouselData: [
-      {
-        image: dase1,
-        // caption: "1 Lorem Ipsum is simply dummy",
-        description:
-          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
-      },
-      {
-        image: dase2,
-        // caption: "2 Lorem Ipsum is simply dummy",
-        description:
-          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
-      },
-      {
-        image: dase3,
-        // caption: "3 Lorem Ipsum is simply dummy",
-        description:
-          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      },
-      {
-        image: dase4,
-        // caption: "4 Lorem Ipsum is simply dummy",
-        description:
-          "4 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
-      },
-      {
-        image: dase5,
-        // caption: "5 Lorem Ipsum is simply dummy",
-        description:
-          "5 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      },
-    ],
-  },
-  {
-    name: "Polymer and Process Engineering",
-    info1:
-      "The department performs fundamental and applied research in Polymer Science and Technology, Process Engineering and Management under the supervision of highly motivated faculty members, who are enthusiastically working towards creating a highly competitive, academic and research environment in the department.",
-    info2:
-      "The 5-Year course was designed to cater to the needs of the Polymer industry and simultaneously impart knowledge of the allied chemical, petrochemical industry and applied sciences. Subsequently, the department initiated a 5-Year Integrated Dual Degree program in Process Engineering and MBA in 2008. The course offered a Bachelor’s Degree in Process Engineering and a Master’s Degree in Business Administration on successful completion. The department efficiently supports a comprehensive course of B.Tech in Polymer Science & Engineering keeping in line with the dynamic needs of the industry and society. The department faculties are engaged in extensive research duly supported and funded by several industries and government funding agencies.",
-    degree: "Degree Offered: M. Tech Polymer and Process Engineering.",
-    bcstats: "Branch Change stats B.Tech only:",
-    correct: null,
-    wrong: null,
-    acadCrouselData: [
-      {
-        image: dppe1,
-        // caption: "1 Lorem Ipsum is simply dummy",
-        description:
-          "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio tempus faucibus nulla sodales. Tellus at pharetra sed malesuada risus.",
-      },
-      {
-        image: dppe2,
-        // caption: "2 Lorem Ipsum is simply dummy",
-        description:
-          "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and ",
-      },
-      {
-        image: dppe3,
-        // caption: "3 Lorem Ipsum is simply dummy",
-        description:
-          "3 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      },
     ],
   },
 ];

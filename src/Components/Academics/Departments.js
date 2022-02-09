@@ -10,6 +10,7 @@ import backArrow from "./Assets/BackArrow.svg";
 import forArrow from "./Assets/ForArrow.svg";
 import MyMobile from "../../helperComponents/MyMobile";
 import MyDesktop from "../../helperComponents/MyDesktop";
+import AcadandSchool from "./AcadandSchool";
 // import { Link } from "react-router-dom";
 
 const Departments = () => {
@@ -137,6 +138,7 @@ const Departments = () => {
           </>
         ) : null}
       </div>
+      <AcadandSchool />
     </>
   );
 };

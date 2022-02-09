@@ -30,14 +30,14 @@ const Footer = () => {
                   Scholarships
                 </a>
               </li>
-              <li className="footer-column-item">
+              {/* <li className="footer-column-item">
                 <a
                   href="https://www.iitr.ac.in/departments/DM/pages/Activities+Annual_Events.html"
                   className="footer-item"
                 >
                   Annual Events
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -133,9 +133,9 @@ const Footer = () => {
               </a> */}
             </div>
             <p className="footer-right-text">
-              <br />
-              {/* +91&#160;9560198159 */}
-              <br />
+              {/* <br />
+              +91&#160;9560198159
+              <br /> */}
               <br />
               outreach@iitr.ac.in
               <br />

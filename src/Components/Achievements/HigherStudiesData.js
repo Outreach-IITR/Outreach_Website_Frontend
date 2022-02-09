@@ -7,7 +7,7 @@ const HS__Data = [
     id: 1,
     name: "Keerat",
     image: HS__img1,
-    designation: "Research intern at Harvard University and IIIT-Delhi",
+    designation: "Research intern at Harvard University",
     description:
       "Being from a PCMB background in senior school, I was keen to identify a stream wherein I could work on Biological Systems using Mathematical and Computational tools. Having Civil Engineering as my major, I wasn’t too confident about the switch initially, but with a little push from some wonderful seniors on campus, I started exploring and working on projects by the end of the first year.",
     link: "http://watchout.iitr.ac.in/2020/11/summer-diaries-harvard-university-and-iiit-delhi",

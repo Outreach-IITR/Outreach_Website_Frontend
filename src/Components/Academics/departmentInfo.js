@@ -12,14 +12,14 @@ const list = [
   { id: 11, dep: "Electronics and Communication Engineering" },
   { id: 12, dep: "Humanities and Social Sciences" },
   { id: 13, dep: "Hydrology" },
-  { id: 14, dep: "Hydro and Renewable Energy (HRED)" },
+  { id: 14, dep: "Hydro and Renewable Energy" },
   { id: 15, dep: "Management studies" },
   { id: 16, dep: "Mathematics" },
   { id: 17, dep: "Mechanical and Industrial Engineering" },
   { id: 18, dep: "Metallurgical and Materials Engineering" },
   { id: 19, dep: "Paper Technology" },
   { id: 20, dep: "Physics" },
-  { id: 21, dep: "WaterResource Department and Management" },
+  { id: 21, dep: "Water Resources Development and Management" },
 ];
 
 module.exports = list;

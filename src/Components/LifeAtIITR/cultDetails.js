@@ -32,7 +32,7 @@ export const culData = [
     description: 'The Quizzing Section is open for participation from the entirety of the IITR Junta. The section organises a Freshman Quiz at the start of the academic year, and sends contingents to Nihilanth, the annual inter IIT-IIM quiz, which is considered the Mecca of Indian Quizzing.'
   },
   {
-    name: 'Watch Out! News Agency',
+    name: 'Watch Out!',
     image: wona,
     description: 'Watch Out! is the official news and media body of IIT Roorkee. Founded more than twenty-five years ago, Watch Out! offers news and commentary on the happenings and ongoings of life at IITR. Along with regular reporting on the issues surrounding the administration, placements, academics, cultural council and bhawans, it has a web presence in conjunction with a semesterly print issue.'
   },

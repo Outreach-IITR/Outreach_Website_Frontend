@@ -134,7 +134,7 @@ const Footer = () => {
             </div>
             <p className="footer-right-text">
               <br />
-              +91&#160;9560198159
+              {/* +91&#160;9560198159 */}
               <br />
               <br />
               outreach@iitr.ac.in
@@ -160,7 +160,7 @@ const Footer = () => {
             </div>
             <p className="footer-right-text" id="copy-right">
               <br />
-              2021 Copyright, All rights reserved
+              2022 Copyright, All rights reserved
             </p>
           </div>
         </div>

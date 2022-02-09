@@ -96,6 +96,10 @@
   /* margin-left: 6.8%; */
 }
 
+#MTech_para{
+  padding-top: 5rem;
+}
+
 @media (max-width: 700px) {
   .minors_img1 {
     margin-top: 0;

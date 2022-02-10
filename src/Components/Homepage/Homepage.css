@@ -82,6 +82,10 @@ html {
   color: white;
 }
 
+#FirstSectionContent p{
+  text-align: justify;
+}
+
 /* Right Side Image Section 1 on Home Page */
 /* Image transition on first section of home page */
 #FirstSectionImage {

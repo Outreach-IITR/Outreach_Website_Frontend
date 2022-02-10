@@ -35,7 +35,7 @@ export const techData = [
   {
     name: 'IMG',
     image: img,
-    description: 'If you have been to the official site of IIT Roorkee, you are already impressed with their work. IMG is the place where you’d wanna be if you are into web development.'
+    description: 'If you have been to the official site of IIT Roorkee, you are already impressed with their work. IMG(Information Management Group) is the place where you’d wanna be if you are into web development.'
   },
   {
     name: 'IITRMS',
@@ -55,12 +55,12 @@ export const techData = [
   {
     name: 'ARIES',
     image: aries,
-    description: 'With projects ranging from AR models and quadcopters to self-driving cars and an assortment of bots, ArIES is the premier electronics group on campus with a fondness for artificial intelligence.'
+    description: 'With projects ranging from AR models and quadcopters to self-driving cars and an assortment of bots, ArIES(Artificial Intelligence and Electronics Society) is the premier electronics group on campus with a fondness for artificial intelligence.'
   },
   {
     name: 'PAG',
     image: pag,
-    description: 'Standing true to its name, PAG takes care of the programming and algorithmic quotient of the IITR junta. Said to be tough to get into, but if you have a knack for solving logical and mathematical problems, you belong here.'
+    description: 'Standing true to its name, PAG(Programming And Algorithms Group) takes care of the programming and algorithmic quotient of the IITR junta. Said to be tough to get into, but if you have a knack for solving logical and mathematical problems, you belong here.'
   },
   {
     name: 'MARS',

@@ -24,7 +24,7 @@ export const culData = [
   {
     name: 'Cinesec',
     image: e22,
-    description: 'The Cinematics section, or CineSec as called by the IITR junta, is a dedicated campus group dealing with various aspects of movie-making such as scripting, editing, direction, and production. Equipped with professional instruments, it is responsible for creating short movies, campus news, interviews, gags, info videos, and event coverages in the IITR cam pus. Capturing magination on camera, they also produce the much-awaited Fresher’s video'
+    description: 'The Cinematic section, or CineSec as called by the IITR junta, is a dedicated campus group dealing with various aspects of movie-making such as scripting, editing, direction, and production. Equipped with professional instruments, it is responsible for creating short movies, campus news, interviews, gags, info videos, and event coverages in the IITR cam pus. Capturing magination on camera, they also produce the much-awaited Fresher’s video'
   },
   {
     name: 'Quizzing Section',

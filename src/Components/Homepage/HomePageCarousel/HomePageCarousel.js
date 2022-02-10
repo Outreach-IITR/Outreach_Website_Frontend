@@ -53,7 +53,7 @@ const HomePageCarousel = () => {
     <div className="YTCarousel">
       <div className="YTCarousel__Title">
         <h3>IIT Roorkee at a Glance</h3>
-        <p>Don't just take our word, see yourself</p>
+        <p>Don't just take our word, see for yourself</p>
       </div>
 
       <section className="slider">

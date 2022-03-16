@@ -7,6 +7,7 @@ import Dropdown from "../Navbar/Dropdown";
 const NavbarFix = () => {
   const [showList, setShowList] = useState(false);
   const [navbar, setHeader] = useState("main-nav1");
+  const [navcolor, setnavcolor] = useState("black");
   const [dropdown, setDropdown] = useState(false);
   const [outlogo, setOutlogo] = useState(logo);
 
@@ -28,9 +29,11 @@ const NavbarFix = () => {
 
   const listenScrollEvent = (event) => {
     if (window.scrollY < 80) {
-      return setHeader("main-nav1");
+      setHeader("main-nav1");
+      setnavcolor("black")
     } else if (window.scrollY > 7) {
-      return setHeader("main-nav-fix");
+      setHeader("main-nav-fix");
+      setnavcolor("white")
     }
   };
 
@@ -62,7 +65,7 @@ const NavbarFix = () => {
   }, [window.scrollY]);
 
   return (
-    <nav className={navbar} id="nav_bg">
+    <nav className={navbar} id="nav_bg" styles={{"--navcolor":navcolor}}>
       <a href="/" className="logo">
         <img alt="img" src={outlogo} />
       </a>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import './Background.css';
 import down from "./Assets/down.svg";
 
-
+ 
 class Background extends Component {
   render() {
     return (

@@ -12,7 +12,7 @@ const Events = () => {
     setCurrentEvent(event);
   };
   return (
-    <div id="Events">
+    <div id="Events" className="ui container">
       <h1 className="Events__heading">Events</h1>
       <ul className="Events__list">
         {EventsData.map((event, key) => {

@@ -57,7 +57,7 @@ class Homepage extends React.Component {
           </div>
         </div>
 
-        <div>
+        <div className="">
           <WhyIITR />
         </div>
 

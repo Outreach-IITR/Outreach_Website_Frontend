@@ -5,7 +5,7 @@ import OutsideCampusData from "./OutsideCampusData";
 
 const InsideCampus = () => {
   return (
-    <div id="OutsideCampus" className="OutsideCampus__Section">
+    <div id="OutsideCampus" className="OutsideCampus__Section ui container">
       <h1 className="OutsideCampus__heading">R Neighbourhood</h1>
       <Carousel slides={OutsideCampusData} />
       <div className="OC__SubSection">

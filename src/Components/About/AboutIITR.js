@@ -4,7 +4,7 @@ import AboutIITR_Img from "./Assets/AboutIITR_Img.png";
 
 const AboutOutreach = () => {
   return (
-    <div id="AboutIITR">
+    <div id="AboutIITR" className="ui container">
       <h1 id="AboutIITR_heading" className="MobileView">
         About IIT Roorkee
       </h1>

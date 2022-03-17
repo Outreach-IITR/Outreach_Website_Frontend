@@ -4,6 +4,11 @@
     overflow-x: hidden;
 } */
 
+.updates_container{
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
 ul {
     padding-inline-start: 1.125rem;
 }

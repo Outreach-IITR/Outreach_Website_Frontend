@@ -6,7 +6,7 @@ import down from "./Assets/down.svg";
 class Background extends Component {
   render() {
     return (
-      <div>
+      <div className="outer_container">
         <div id="aboutbg">
           <div id="about_data">
             <div id="about_us_head_tag">

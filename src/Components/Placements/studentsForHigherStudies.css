@@ -1,3 +1,8 @@
+.Std_container{
+  margin:0 auto;
+  max-width: 1300px;
+}
+
 #Std_for_study{
   display: flex;
   flex-direction: column;
@@ -71,7 +76,7 @@ letter-spacing: 0.05em;
 color: #3F3F3F;
 
 }
-@media screen and (max-width:900px){
+@media screen and (max-width:1230px){
   #Std_for_study_data{
     display: flex;
     flex-direction: column;

@@ -71,7 +71,7 @@ const Groups = () => {
   });
 
   return (
-    <div id="CampusGroups" className="containerG">
+    <div id="CampusGroups" className="containerG ">
       <h1 id="groupsHeading">Campus Groups</h1>
       <div className="subBoxGroup">
         <h2 id="subheadingGroup">

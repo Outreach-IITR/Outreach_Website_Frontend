@@ -27,7 +27,7 @@ export class Campuslife extends Component {
                 pauseOnHover: true,
               };
               return (
-                <div>
+                <div className='ui container'>
                 <div id="campuslifep">
                 <div id="sliderbox_cl">
                   <Slider {...settings}>

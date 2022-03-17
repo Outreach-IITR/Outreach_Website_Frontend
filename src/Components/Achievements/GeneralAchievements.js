@@ -12,7 +12,7 @@ const GeneralAchievements = () => {
   };
 
   return (
-    <div>
+    <div className="ui container">
       <div id="general-achievements">
         <div id="general-achievements-headings">
           <h1>Feathers in our Cap</h1>

@@ -34,6 +34,7 @@ const HigherStudiesCarousel = () => {
   }
 
   return (
+    <div className="ui container">
     <div className="HigherStudies__Carousel">
       <img
         src={LeftArrow}
@@ -67,6 +68,7 @@ const HigherStudiesCarousel = () => {
         alt="right naviagtion"
         onClick={nextSlide}
       />
+    </div>
     </div>
   );
 };

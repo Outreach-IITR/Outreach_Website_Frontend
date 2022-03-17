@@ -24,7 +24,7 @@ import ihub from './Assets/ihub.png'
 export class Startups extends Component {
     render() {
         return (
-            <div id="achievement_startups">
+            <div id="achievement_startups" className='ui container'>
                 <div id="startups_first">
                     <h2>Startups</h2>
                     <p className="startup_cont" >Among all its astounding cultures, IIT-R also has a growing startup culture. To foster this culture there are various startup incubators at R-Land. If you desire to enter the field of entrepreneurship, IIT-R will provide you with a strong platform.

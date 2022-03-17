@@ -13,7 +13,7 @@ function Accordion_segment() {
   };
 
   return (
-    <div id="Scholarships" className="accordion_segment_container">
+    <div id="Scholarships" className="accordion_segment_container ui container">
       <h2 className="accordion_segment_header">Scholarships</h2>
       <div className="content_box">
         <div className="accordion">

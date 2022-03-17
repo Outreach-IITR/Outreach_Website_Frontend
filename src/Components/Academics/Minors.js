@@ -6,6 +6,7 @@ import './minors.css'
 class Minors extends Component {
     render() {
         return (
+            <div  className="">
             <div id="bottom">
                 
 
@@ -74,6 +75,7 @@ class Minors extends Component {
                     Students pursuing M.Tech./M.Arch/ MURP/ IDD/ IMT programs at IIT Roorkee with CGPA not less than 8.50 may opt for a lateral entry to the Ph.D. program. This option can be availed after completing two semesters of M.Tech/M.Arch/MURP, or after completing all theory courses of IDD/IMT.
                     </p>
                 </div>
+            </div>
             </div>
         )
     }

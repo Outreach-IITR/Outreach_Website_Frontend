@@ -29,7 +29,7 @@ export class Hostellife extends Component {
                 pauseOnHover: true,
               };
               return (
-                <div>
+                <div className='ui container'>
                 <div id="hostellifep">
                 <div id="hostel_content">
                      <h3 id="hostelhead">Hostel Life</h3>

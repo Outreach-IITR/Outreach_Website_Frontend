@@ -4,7 +4,7 @@ import std_higher_img from "./Assets/4part.png"
 class StudentsForHigherStudies extends React.Component{
   render(){
     return(
-      <>
+      <div className="Std_container">
       <div id="Std_for_study">
         
         <div id="Std_for_study_data">
@@ -29,7 +29,7 @@ class StudentsForHigherStudies extends React.Component{
           
         </div>
       </div>
-      </>
+      </div>
 
     );
   };

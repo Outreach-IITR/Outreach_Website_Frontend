@@ -28,7 +28,7 @@
   width: 100%;
   height: fit-content;
   max-width: 100%;
-  align-self: center;
+  align-self: flex-start;
 }
 
 .WhyIITR__Img2 {
@@ -103,6 +103,83 @@
   line-height: 1.125rem;
   text-align: center;
   color: #333333;
+}
+
+@media screen and (min-width: 1600px) {
+  #WhyIITR {
+    max-width: 1300px;    
+    margin: 12rem auto;
+    padding-right: 6.25rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+  }
+
+  .WhyIITR__Img2 {
+    display: none;
+  }
+
+  #SecondSectionImage {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .WhyIITR__Img2_Mobile {
+    max-width: 70%;
+    display: inline-block;
+    position: relative;
+    display: inherit;
+    transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+
+  .WhyIITR__Img3 {
+    position: absolute;
+    width: 50%;
+    top: 15%;
+    left: 100%;
+    transform: translate(-100%, 0);
+  }
+
+  .WhyIITR__Img1 {
+    width: 30%;
+    top: 35%;
+    left: 90%;
+    transform: translate(-100%, 0);
+    z-index: 1;
+  }
+
+  .WhyIITR__Img1:hover {
+    transform: translate(-100%, 0) scale(1.1);
+  }
+
+  .WhyIITR__Img2_Mobile:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  .WhyIITR__Para {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.573em;
+    line-height: 0.688rem;
+    letter-spacing: -0.02em;
+    color: #3f3f3fad;
+    margin-bottom: 0.25rem;
+  }
+
+  .WhyIITR__Heading {
+    margin: 0;
+    padding-bottom: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.625rem;
+    line-height: 2rem;
+    color: #026ba1;
+  }
 }
 
 @media screen and (max-width: 1200px) {

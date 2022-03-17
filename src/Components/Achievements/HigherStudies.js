@@ -5,7 +5,7 @@ import HigherStudiesOptions from "./HigherStudiesOptions";
 
 const HigherStudies = () => {
   return (
-    <div id="HigherStudies">
+    <div id="HigherStudies" className="HS__container">
       <h1 id="HigherStudies_heading" className="MobileView">
         Thomasonians around the globe
       </h1>

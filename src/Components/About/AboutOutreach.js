@@ -5,7 +5,7 @@ import aboutusimg from "./Assets/AboutOutreach_Img.png";
 
 const AboutOutreach = () => {
   return (
-    <div id="AboutOutreach">
+    <div id="AboutOutreach" className="ui container">
       <h1 id="AboutOutreach_heading" className="MobileView">
         About Outreach
       </h1>

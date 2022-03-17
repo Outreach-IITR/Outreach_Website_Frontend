@@ -9,7 +9,7 @@ AOS.init();
 class Updates extends React.Component {
     render() {
         return (
-            <><div id="updatessection">
+            <div className='updates_container'><div id="updatessection" >
             <div id="updates_first_section" data-aos="fade-up" data-aos-duration="1000">
                 <h1>Updates</h1>
                 <div id="update_content">
@@ -58,7 +58,7 @@ class Updates extends React.Component {
             <img alt="img" src={Updateimage} />
             </div>
 
-        </div></>
+        </div></div>
         )
     }}
     export default Updates;

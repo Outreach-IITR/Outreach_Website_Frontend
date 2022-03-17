@@ -1,6 +1,6 @@
 #bottom {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin: 5rem auto;
+  max-width: 1300px;
 }
 #r1 {
   display: flex;

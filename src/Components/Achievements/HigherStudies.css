@@ -1,3 +1,8 @@
+.HS__container{
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
 #HigherStudies_heading.MobileView {
     display: none;
   }
@@ -42,12 +47,6 @@
       width: 40%;
   }
 
-  @media (max-width:500px){
-   
-    #HigherStudies {
-      padding: 0;
-    } 
-} 
 
 @media (max-width:500px){
    
@@ -61,6 +60,11 @@
   #PartFirst{
     text-align: justify;
   }
+
+  #PartSecond{
+    flex-direction: column;
+    align-content: center;
+  }
 } 
 
 @media (max-width:400px){
@@ -70,7 +74,6 @@
   #HigherStudies_content h1{
     font-size: 1.8rem;
   }
-
 } 
 
 

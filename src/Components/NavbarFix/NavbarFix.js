@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./NavbarFix.css";
 import logo from "./Assets/logo.svg";
-import logo_black from "./Assets/logo_black.svg"
+import logo_black from "./Assets/logo_black.svg";
 import Dropdown from "../Navbar/Dropdown";
 
 const NavbarFix = () => {
@@ -30,10 +30,10 @@ const NavbarFix = () => {
   const listenScrollEvent = (event) => {
     if (window.scrollY < 80) {
       setHeader("main-nav1");
-      setnavcolor("black")
+      setnavcolor("black");
     } else if (window.scrollY > 7) {
       setHeader("main-nav-fix");
-      setnavcolor("white")
+      setnavcolor("white");
     }
   };
 
@@ -45,27 +45,21 @@ const NavbarFix = () => {
 
   const pathname = window.location.pathname;
 
-  
-    
-
   useEffect(() => {
-    if(window.scrollY>=80) {
-      if(window.innerWidth<960){
+    if (window.scrollY >= 80) {
+      if (window.innerWidth < 960) {
         setOutlogo(logo);
-      }
-      else{
+      } else {
         setOutlogo(logo_black);
       }
-      
-    }
-    else {
+    } else {
       setOutlogo(logo);
     }
     // eslint-disable-next-line
   }, [window.scrollY]);
 
   return (
-    <nav className={navbar} id="nav_bg" styles={{"--navcolor":navcolor}}>
+    <nav className={navbar} id="nav_bg" styles={{ "--navcolor": navcolor }}>
       <a href="/" className="logo">
         <img alt="img" src={outlogo} />
       </a>

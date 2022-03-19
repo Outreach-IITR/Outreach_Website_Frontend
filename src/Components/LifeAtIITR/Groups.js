@@ -28,7 +28,7 @@ const Groups = () => {
   useEffect(() => {
     setScrollTech(myRef.current.scrollWidth - myRef.current.clientWidth);
     setScrollCul(culRef.current.scrollWidth - culRef.current.clientWidth);
-  }, [myRef, scrollTech])
+  }, [myRef, scrollTech]);
 
   // useEffect(() => {
   //   function size() {
@@ -37,10 +37,10 @@ const Groups = () => {
   //   size();
   //   // window.onscroll()
   // }, []);
-  window.addEventListener("DOMContentLoaded", (() => {
+  window.addEventListener("DOMContentLoaded", () => {
     setScrollTech(myRef.current.scrollWidth - myRef.current.clientWidth);
     setScrollCul(culRef.current.scrollWidth - culRef.current.clientWidth);
-  }))
+  });
 
   const handleScrollTech = (e) => {
     if (scrollTech === 0) {
@@ -71,7 +71,7 @@ const Groups = () => {
   });
 
   return (
-    <div id="CampusGroups" className="containerG ">
+    <div id="CampusGroups" className="containerG">
       <h1 id="groupsHeading">Campus Groups</h1>
       <div className="subBoxGroup">
         <h2 id="subheadingGroup">

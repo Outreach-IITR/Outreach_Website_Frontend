@@ -2,6 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (min-width: 1600px) {
+  .main_container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1500px !important;
+  }
+}
+
 #FirstSection {
   display: flex;
   justify-content: space-between;
@@ -12,7 +20,7 @@ html {
 
 #FirstSectionContent {
   padding-top: 10rem;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 #tap_to_know {
@@ -82,7 +90,7 @@ html {
   color: white;
 }
 
-#FirstSectionContent p{
+#FirstSectionContent p {
   text-align: justify;
 }
 

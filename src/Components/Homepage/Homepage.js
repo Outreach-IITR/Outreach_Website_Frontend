@@ -57,11 +57,11 @@ class Homepage extends React.Component {
           </div>
         </div>
 
-        <div className="">
+        <div>
           <WhyIITR />
         </div>
 
-        <div className="ui container">
+        <div className="main_container">
           <HomePageCarousel />
         </div>
         <Updates />

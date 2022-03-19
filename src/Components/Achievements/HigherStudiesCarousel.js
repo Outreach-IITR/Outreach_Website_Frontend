@@ -34,41 +34,41 @@ const HigherStudiesCarousel = () => {
   }
 
   return (
-    <div className="ui container">
-    <div className="HigherStudies__Carousel">
-      <img
-        src={LeftArrow}
-        alt="left naviagtion"
-        className="LU__Navigation"
-        onClick={prevSlide}
-      />
-      <div className="HS__CarouselSpace">
-        <div className="HS__CarouselImg">
-          <img
-            className="HS__CarouselBg"
-            src={HigherStudiesCarousel__bg}
-            alt="Bg envelop"
-          />
-          <img
-            className="HS__CarouselPic"
-            src={HS__Data[current].image}
-            alt="Author"
-          />
+    <div className="main_container">
+      <div className="HigherStudies__Carousel">
+        <img
+          src={LeftArrow}
+          alt="left naviagtion"
+          className="LU__Navigation"
+          onClick={prevSlide}
+        />
+        <div className="HS__CarouselSpace">
+          <div className="HS__CarouselImg">
+            <img
+              className="HS__CarouselBg"
+              src={HigherStudiesCarousel__bg}
+              alt="Bg envelop"
+            />
+            <img
+              className="HS__CarouselPic"
+              src={HS__Data[current].image}
+              alt="Author"
+            />
+          </div>
+          <div className="HS__CarouselData">
+            <h3>{HS__Data[current].name}</h3>
+            <h4>{HS__Data[current].designation}</h4>
+            <p>{HS__Data[current].description}</p>
+            <a href={HS__Data[current].link}>Read More</a>
+          </div>
         </div>
-        <div className="HS__CarouselData">
-          <h3>{HS__Data[current].name}</h3>
-          <h4>{HS__Data[current].designation}</h4>
-          <p>{HS__Data[current].description}</p>
-          <a href={HS__Data[current].link}>Read More</a>
-        </div>
+        <img
+          src={RightArrow}
+          className="LU__Navigation"
+          alt="right naviagtion"
+          onClick={nextSlide}
+        />
       </div>
-      <img
-        src={RightArrow}
-        className="LU__Navigation"
-        alt="right naviagtion"
-        onClick={nextSlide}
-      />
-    </div>
     </div>
   );
 };

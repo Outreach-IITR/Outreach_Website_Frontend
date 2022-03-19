@@ -50,7 +50,7 @@ const Departments = () => {
   };
 
   return (
-    <div className="ui container">
+    <div className="main_container">
       <h1 id="Departments_heading">Departments</h1>
       <div className="containerD">
         <MyMobile>

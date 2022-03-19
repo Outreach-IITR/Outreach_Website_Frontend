@@ -1,6 +1,5 @@
 #bottom {
   margin: 5rem auto;
-  max-width: 1300px;
 }
 #r1 {
   display: flex;
@@ -97,7 +96,7 @@
   /* margin-left: 6.8%; */
 }
 
-#MTech_para{
+#MTech_para {
   padding-top: 5rem;
 }
 

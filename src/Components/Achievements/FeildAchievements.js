@@ -19,7 +19,7 @@ const Feild_wise_ach = () => {
   };
 
   return (
-    <div className="ui container">
+    <div className="main_container">
       <div id="Feild_wise_ach">
         <div onClick={() => onClickFeildhandler(0)} id="Feild_wise_ach_1"></div>
         <div onClick={() => onClickFeildhandler(1)} id="Feild_wise_ach_2"></div>

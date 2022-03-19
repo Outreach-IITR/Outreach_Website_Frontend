@@ -49,7 +49,7 @@ const OurTeam = () => {
   };
 
   return (
-    <div id="OurTeam" className="ui container">
+    <div id="OurTeam" className="main_container">
       <h2 className="OurTeam__heading">Our Team</h2>
       <div className="SecretariesContainer">
         <div className="OurTeam__subheading" onClick={SecretariesHandler}>

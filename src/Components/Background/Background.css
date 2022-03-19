@@ -2,9 +2,9 @@
   display: none;
 }
 
-.outer_container{
+.outer_container {
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1500px;
 }
 
 #aboutbg {
@@ -116,7 +116,7 @@
     margin-right: 0;
     margin-bottom: 0;
     /* height: 10rem; */
-    /* background-repeat: no-repeat;
+/* background-repeat: no-repeat;
     margin-top: -1rem;
     width: 100vw;
     max-width: 100%;
@@ -127,7 +127,7 @@
     background-position-x: center;
     background-position-y: 0;
   } */
-/* } */ 
+/* } */
 
 @media screen and (max-width: 550px) {
   #aboutbg {
@@ -166,7 +166,7 @@
     /* color: black; */
   }
 }
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1500px) {
   #aboutbg {
     margin: 7rem auto;
     background: url("./Assets/bg5.png");

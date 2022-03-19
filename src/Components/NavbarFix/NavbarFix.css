@@ -1,8 +1,8 @@
-#nav_bg{
+#nav_bg {
   /* background-color: white; */
   padding-top: 0.2rem;
 }
-.navbar.active{
+.navbar.active {
   background: black;
 }
 .main-nav1 {
@@ -15,9 +15,8 @@
   top: 0;
   background-color: white;
   z-index: 1008;
-  transition: ease-in .5s;
-  color:black !important;
-  
+  transition: ease-in 0.5s;
+  color: black;
 }
 .main-nav-fix {
   display: grid;
@@ -32,8 +31,8 @@
   box-shadow: 0rem 0.2rem 0.6rem -0.4rem #333333;
   top: 0;
   opacity: 0.95;
-  color: white !important;
-  transition: ease-in .5s;
+  color: white;
+  transition: ease-in 0.5s;
 }
 
 .logo {
@@ -52,7 +51,6 @@
 
 #join_button {
   cursor: pointer;
-
 }
 
 .menu-link ul {
@@ -71,16 +69,15 @@
   padding: 0;
   color: inherit;
 }
-.menu-link-item a:focus{
+.menu-link-item a:focus {
   color: #026ba1;
 }
-.menu-link-item  a:active{
+.menu-link-item a:active {
   color: #026ba1;
 }
 /* .menu-link-item a{
   color: #026ba1;
 } */
-
 
 .Discussion-forum {
   display: grid;
@@ -99,7 +96,7 @@
   border-radius: 1rem;
 }
 .Discussion-forum-button:hover {
-  background-color: #FF8E47;
+  background-color: #ff8e47;
 }
 
 .List-menu {
@@ -120,7 +117,7 @@
 .menu-item {
   color: var(--navcolor);
 }
-.active-page{
+.active-page {
   color: #026ba1 !important;
 }
 .menu-item:hover {
@@ -128,13 +125,13 @@
 }
 
 @media (max-width: 68rem) {
-  .main-nav-fix{
+  .main-nav-fix {
     color: rgba(51, 51, 51, 0.7);
   }
   .menu-link {
     display: none;
   }
-  .main-nav-fix{
+  .main-nav-fix {
     background-color: white;
   }
   .main-nav {
@@ -161,19 +158,18 @@
     z-index: 10000;
     background-color: white;
     transition: ease-in 10s;
-    
   }
   .Discussion-forum {
-    background-color:white;
+    background-color: white;
     grid-row: 4/5;
     grid-column: 1/6;
     z-index: 10000;
     justify-content: center;
     /* margin: 0; */
-    padding-bottom:0;
+    padding-bottom: 0;
   }
-  .Discussion-forum-button{
-    padding: 0.6rem 1.5rem
+  .Discussion-forum-button {
+    padding: 0.6rem 1.5rem;
   }
 
   .Discussion-forum-button-list {
@@ -182,30 +178,29 @@
   .List-menu {
     display: grid;
   }
-  #join_button{
+  #join_button {
     margin: 0;
     margin-left: 1rem;
-    
   }
-  #nav-placements{
+  #nav-placements {
     flex-direction: none;
   }
-  .menu-link-item{
+  .menu-link-item {
     padding-bottom: 1rem;
     opacity: 1;
     justify-content: center;
-
   }
-  .logo{
+  .logo {
     margin-left: 8rem;
   }
-  .menu-item{
+  .menu-item {
     padding-left: 0;
     padding-right: 0;
     justify-content: center;
-    align-content: center
+    align-content: center;
+    color: black;
   }
-  .menu-link-ul{
+  .menu-link-ul {
     display: flex;
     text-align: center;
     flex-direction: column;

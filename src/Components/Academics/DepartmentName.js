@@ -224,7 +224,7 @@ export const departmentinfo = [
       "Degree Offered: B.Tech. Biosciences and Bioengineering (4 years), M.Tech. Bioprocess Engineering (2 years), M.Sc. Biotechnology (2 years) & Ph.D. Biotechnology",
     bcstats: "Branch Change stats B.Tech only:",
     correct: 0,
-    wrong: 6,
+    wrong: 9,
     acadCrouselData: [
       {
         image: be1,
@@ -267,8 +267,8 @@ export const departmentinfo = [
     degree:
       "Degree Offered: B.Tech. Chemical Engineering (4 years), M.Tech. Chemical Engineering (2 years) & Ph.D. Chemical Engineering",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 13,
-    wrong: 13,
+    correct: 14,
+    wrong: 11,
     acadCrouselData: [
       {
         image: ce1,
@@ -312,7 +312,7 @@ export const departmentinfo = [
       "Degree Offered: B.S. and M.S. Chemical Science (4+1 years), M.Sc. Chemistry (2 years) & Ph.D. Chemistry",
     bcstats: "Branch Change stats B.Tech only:",
     correct: 0,
-    wrong: 5,
+    wrong: 8,
     acadCrouselData: [
       {
         image: c1,
@@ -354,8 +354,8 @@ export const departmentinfo = [
     degree:
       "Degree Offered: B.Tech. Civil Engineering M.Tech. Environmental Engineering, M.Tech. Geomatics Engineering, M.Tech. Geotechnical Engineering, M.Tech. Hydraulics Engineering, M.Tech. Structural Engineering,M.Tech. Transportation Engineering, Ph.D. Environmental Engineering,Ph.D. Geomatics Engineering, Ph.D. Geotechnical Engineering, Ph.D. Hydraulics Engineering, Ph.D. Structural Engineering & Ph.D. Transportation Engineering",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 10,
-    wrong: 10,
+    correct: 5,
+    wrong: 16,
     acadCrouselData: [
       {
         image: civil1,
@@ -524,8 +524,8 @@ export const departmentinfo = [
     degree:
       "Degree Offered: Integrated M.Tech. Geological Technology, Integrated M.Tech. Geophysical Technology, M.Sc. Applied Geology, Ph.D. Geological Technology & Ph.D. Geophysical Technology",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 0,
-    wrong: 14,
+    correct: 3,
+    wrong: 11,
     acadCrouselData: [
       {
         image: es1,
@@ -569,7 +569,7 @@ export const departmentinfo = [
       "Degree Offered: B.Tech. Electrical Engineering, B.Tech. and M.Tech. Instrumentation and Control, B.Tech. and M.Tech. Power Electronics, M.Tech Electric Drives and Power Elections, M.Tech. Power System Engineering, M.Tech. Instrumentation and Signal Processing, M.Tech. System and Control & Ph.D. Electrical Engineering",
     bcstats: "Branch Change stats B.Tech only:",
     correct: 16,
-    wrong: 6,
+    wrong: 5,
     acadCrouselData: [
       {
         image: ee1,
@@ -611,7 +611,7 @@ export const departmentinfo = [
       "Degree Offered: B.Tech. Electronics and communication engineering, M Tech in Communication, Network & Signal Processing, M Tech in Microelectronics & VLSI, M Tech in RF & Microwave, M Tech in VLSI for Industry Professionals & PHD in Electronics and communication engineering",
     bcstats: "Branch Change stats B.Tech only:",
     correct: 10,
-    wrong: 0,
+    wrong: 1,
     acadCrouselData: [
       {
         image: ece1,
@@ -860,8 +860,8 @@ export const departmentinfo = [
     degree:
       "Degree Offered: B.Tech. in Mechanical Engineering, B.Tech. in Industrial and Production Engineering, M. Tech in CAD, CAM, Robotics, M. Tech in Machine Design Engineering, M. Tech in Production and Industrial Systems engg, M. Tech in thermal engineering, M. Tech in additive and joining technologies & Ph.D.",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 15,
-    wrong: 7,
+    correct: 14,
+    wrong: 4,
     acadCrouselData: [
       {
         image: mi1,
@@ -991,8 +991,8 @@ export const departmentinfo = [
     degree:
       "Degree Offered: B.Tech in Engineering Physics, Integrated M.Sc. in Physics, M.Sc. in Physics, M.Sc. (JAM), M. Tech Solid State Electronic Materials, M. Tech Photonics, Pre-Ph.D",
     bcstats: "Branch Change stats B.Tech only:",
-    correct: 4,
-    wrong: 4,
+    correct: 6,
+    wrong: 3,
     acadCrouselData: [
       {
         image: p1,

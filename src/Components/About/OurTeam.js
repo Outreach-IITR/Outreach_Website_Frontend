@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./OurTeam.css";
 
 import TeamMembers from "./TeamMembers";
+import Secretaries from "./Secretaries";
 import TeamTemplate from "./TeamTemplate";
 import ArrowUp from "./Assets/ArrowUp.svg";
 import ArrowDown from "./Assets/ArrowDown.svg";
@@ -59,7 +60,10 @@ const OurTeam = () => {
           )}
         </div>
         {(!isMobile || showSecretaries) && (
-          <TeamTemplate TeamList={TeamMembers.Secretaries} />
+          <>
+            <Secretaries SecretariesList={TeamMembers.Secretaries} />
+            <TeamTemplate TeamList={TeamMembers.JointSecretaries} />
+          </>
         )}
       </div>
       <div className="TeamContainer">

@@ -1,4 +1,5 @@
 //*************Created By Rahul Modi*************
+//*************Updated By Devanshu Harish Borkar*************
 import React, { useState } from "react";
 
 import EmailVector from "./Assets/EmailVector.png";
@@ -7,14 +8,10 @@ import LinkedInVector from "./Assets/LinkedInVector.png";
 
 const Secretaries = (props) => {
   const [background, setBackground] = useState("");
-  const backgroundColor_List = ["#feba10", "#f96508", "#06ca3d", "#026ba1"];
+  const backgroundColor_List = ["#026ba1"];
 
   const OnHoverHandler = () => {
-    let indx;
-    do {
-      indx = Math.floor(4 * Math.random());
-    } while (background === backgroundColor_List[indx]);
-    setBackground(backgroundColor_List[indx]);
+    setBackground(backgroundColor_List);
   };
 
   return (

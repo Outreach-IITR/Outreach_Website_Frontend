@@ -1,0 +1,281 @@
+#WhyIITR > .Mobile {
+  display: none;
+}
+
+.WhyIITR__Img2_Mobile {
+  display: none;
+}
+
+#cont {
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 131%;
+  letter-spacing: 0.05em;
+  text-align: justify;
+}
+
+#WhyIITR {
+  margin: 12rem 0 8rem 0;
+  padding-right: 6.25rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+}
+
+#SecondSectionImage {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  max-width: 100%;
+  align-self: flex-start;
+}
+
+.WhyIITR__Img2 {
+  width: 30vw;
+  transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.WhyIITR__Img3 {
+  position: absolute;
+  width: 30vw;
+  top: 50%;
+  left: 12vw;
+  transform: translate(0, -50%);
+  z-index: -1;
+}
+
+.WhyIITR__Img1 {
+  position: absolute;
+  width: 20vw;
+  top: 50%;
+  left: 17vw;
+  transform: translate(0, -25%);
+  z-index: 0;
+  transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.WhyIITR__Img1:hover {
+  transform: translate(0, -25%) scale(1.1);
+  z-index: 1;
+}
+
+.WhyIITR__Img2:hover {
+  z-index: 1;
+  transform: scale(1.1);
+}
+
+.WhyIITR__Para {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  letter-spacing: -0.02em;
+  color: #3f3f3fad;
+  margin-bottom: 0.25rem;
+}
+
+.WhyIITR__Heading {
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  color: #026ba1;
+  padding-bottom: 1.5rem;
+}
+
+.WhyIITR__Icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 2.5rem;
+  text-align: center;
+}
+
+.WhyIITR__Icon div > p {
+  width: 7.25rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.125rem;
+  text-align: center;
+  color: #333333;
+}
+
+@media screen and (min-width: 1600px) {
+  #WhyIITR {
+    max-width: 1300px;    
+    margin: 12rem auto;
+    padding-right: 6.25rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+  }
+
+  .WhyIITR__Img2 {
+    display: none;
+  }
+
+  #SecondSectionImage {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .WhyIITR__Img2_Mobile {
+    max-width: 70%;
+    display: inline-block;
+    position: relative;
+    display: inherit;
+    transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+
+  .WhyIITR__Img3 {
+    position: absolute;
+    width: 50%;
+    top: 15%;
+    left: 100%;
+    transform: translate(-100%, 0);
+  }
+
+  .WhyIITR__Img1 {
+    width: 30%;
+    top: 35%;
+    left: 90%;
+    transform: translate(-100%, 0);
+    z-index: 1;
+  }
+
+  .WhyIITR__Img1:hover {
+    transform: translate(-100%, 0) scale(1.1);
+  }
+
+  .WhyIITR__Img2_Mobile:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  .WhyIITR__Para {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.573em;
+    line-height: 0.688rem;
+    letter-spacing: -0.02em;
+    color: #3f3f3fad;
+    margin-bottom: 0.25rem;
+  }
+
+  .WhyIITR__Heading {
+    margin: 0;
+    padding-bottom: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.625rem;
+    line-height: 2rem;
+    color: #026ba1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .WhyIITR__Icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2.5rem;
+    row-gap: 1.875rem;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #SecondSectionContent > .PC {
+    display: none;
+  }
+
+  #WhyIITR > .Mobile {
+    display: block;
+  }
+
+  #WhyIITR {
+    margin: 8rem 2rem 0rem 2rem;
+    padding: 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(fit-content, 3);
+    row-gap: 2.5rem;
+  }
+
+  .WhyIITR__Img2 {
+    display: none;
+  }
+
+  #SecondSectionImage {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .WhyIITR__Img2_Mobile {
+    display: inline-block;
+    position: relative;
+    width: 70vw;
+    display: inherit;
+    transition: transform 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+
+  .WhyIITR__Img3 {
+    position: absolute;
+    width: 44vw;
+    top: 15%;
+    left: 100%;
+    transform: translate(-100%, 0);
+  }
+
+  .WhyIITR__Img1 {
+    width: 30vw;
+    top: 35%;
+    left: 90%;
+    transform: translate(-100%, 0);
+    z-index: 1;
+  }
+
+  .WhyIITR__Img1:hover {
+    transform: translate(-100%, 0) scale(1.1);
+  }
+
+  .WhyIITR__Img2_Mobile:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  .WhyIITR__Para {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.573em;
+    line-height: 0.688rem;
+    letter-spacing: -0.02em;
+    color: #3f3f3fad;
+    margin-bottom: 0.25rem;
+  }
+
+  .WhyIITR__Heading {
+    margin: 0;
+    padding-bottom: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.625rem;
+    line-height: 2rem;
+    color: #026ba1;
+  }
+}

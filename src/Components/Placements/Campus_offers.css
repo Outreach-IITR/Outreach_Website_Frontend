@@ -1,0 +1,42 @@
+#Campus_offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#Campus_offer_heading{
+    text-align: center;
+}
+#Campus_offer_heading h2{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #33434C;
+}
+
+#Campus_offer_image{
+    display: flex;
+    justify-content: center;
+}
+#Campus_offer_image img{
+    /* width: 44rem; */
+    height: 44rem;
+}
+
+@media screen and (max-width:900px){
+    #Campus_offer_heading{
+        text-align: center;
+        /* padding-top: 3rem; */
+        padding-bottom: 2rem;
+    
+    }
+    #Campus_offer_image img{
+        max-width: 90%;
+        height: 90%;
+    }
+    
+}

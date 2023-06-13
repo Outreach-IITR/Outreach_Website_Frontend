@@ -1,0 +1,114 @@
+#Std_for_study {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 6rem;
+}
+#std-right {
+  display: flex;
+  flex-direction: column;
+}
+#Std_for_study_heading {
+  text-align: left;
+  padding-top: 8rem;
+  margin-right: 5rem;
+}
+#Std_for_study_heading h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #33434c;
+}
+#Std_for_study_data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#Std_for_study_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#Std_for_study_img img {
+  width: 60rem;
+}
+#Std_for_study_img p {
+  padding-top: 1rem;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  /* or 18px */
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+#Std_for_study_content {
+  margin-top: 3rem;
+  margin-right: 7rem;
+  margin-left: 0rem;
+  text-align: justify;
+  padding-left: 0.5rem;
+}
+#Std_for_study_content p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.125rem;
+
+  letter-spacing: 0.05em;
+
+  color: #3f3f3f;
+}
+@media screen and (max-width: 1230px) {
+  #Std_for_study_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #Std_for_study_content {
+    /* width:80%; */
+    margin-top: 3rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+    text-align: center;
+  }
+  #Std_for_study_img img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  #Std_for_study_content {
+    /* width:80%; */
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    text-align: center;
+  }
+  #Std_for_study_content p {
+    font-size: 0.875rem;
+  }
+  #Std_for_study_img {
+    padding-top: 2rem;
+  }
+  #Std_for_study_img img {
+    width: 100%;
+  }
+  #Std_for_study_heading {
+    justify-content: center;
+    text-align: center;
+    margin-right: 0;
+    padding-top: 3rem;
+  }
+  #Std_for_study_heading h2 {
+    font-size: 1.3rem;
+  }
+}

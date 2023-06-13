@@ -1,0 +1,135 @@
+.LoaderActive::-webkit-scrollbar {
+  display: none;
+}
+
+.Loader {
+  top: 0px;
+  position: fixed;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 1005;
+  background-color: White;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#LoadingText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: absolute;
+  font-family: Montserrat;
+  top: 5vw;
+  left: 5vw;
+}
+
+#LoadingText h1 {
+  margin: 0;
+  margin-right: 10px;
+}
+
+#LoadingText div {
+  aspect-ratio: 1/1;
+  width: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+#LoadingText div:nth-of-type(1) {
+  animation: LoadingDot 1s linear 0s infinite alternate;
+}
+#LoadingText div:nth-of-type(2) {
+  animation: LoadingDot 1s linear 500ms infinite alternate;
+}
+#LoadingText div:nth-of-type(3) {
+  animation: LoadingDot 1s linear 1s infinite alternate;
+}
+
+#LogoContainer {
+  aspect-ratio: 1/1;
+  max-width: 100vw;
+  display: grid;
+  position: relative;
+  justify-items: center;
+  align-items: center;
+  animation: zoom-in 500ms linear 100ms,
+    rotate 4s cubic-bezier(0.86, 0, 0.07, 1) 600ms infinite alternate;
+}
+
+#LogoContainer .BluePart {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+#LogoContainer .OrangePart {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+#LogoContainer .YellowPart {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+#LogoContainer .GreenPart {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+@keyframes LoadingDot {
+  form {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes zoom-in {
+  from {
+    width: 400px;
+  }
+  to {
+    width: 235px;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #LogoContainer .BluePart,
+  #LogoContainer .YellowPart {
+    width: 45px;
+  }
+
+  #LogoContainer .OrangePart,
+  #LogoContainer .GreenPart {
+    height: 45px;
+  }
+
+  @keyframes zoom-in {
+    from {
+      width: 300px;
+    }
+    to {
+      width: 120px;
+    }
+  }
+}

@@ -1,0 +1,137 @@
+.main-nav {
+    display: grid;
+    width: 100%;
+    height: 6rem;
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+    grid-template-columns: 3rem 1fr 2fr 1fr 3rem;
+}
+
+.logo {
+    display: grid;
+    grid-column: 2/3;
+    padding: 1.4rem;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center; 
+}
+
+.menu-link {
+    grid-column: 3/4;
+}
+
+#join_button{
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+    letter-spacing: -0.02em;
+}
+
+.menu-link ul {
+    height: 4rem;
+    display: flex;
+    /* font-size: medium; */
+    font-weight: bold;
+    list-style-type:none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-link-item {
+    /* position: relative; */
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.Discussion-forum {
+    display: grid;
+    grid-column: 4/5;
+    justify-content: center;
+    align-items: center; 
+}
+
+.Discussion-forum-button {
+    background-color: #F96508;
+    padding: 0.7rem 2rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+.Discussion-forum-button:hover {
+    background-color: #000000;
+}
+
+.List-menu {
+    grid-column: 5/6;
+    padding: 1rem;
+    display: none;
+    font-size: 1.5rem;
+    border:none;
+    /* background-color: white; */
+    justify-content: center;
+    align-items: center;
+}
+
+.List-menu-icon {
+    color: #F96508;
+}
+
+.menu-item {
+  color: rgba(51, 51, 51, 0.7);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.menu-item:hover {
+   color: #026BA1;
+}
+#nav-placements{
+    display: flex;
+    flex-direction: column;
+}
+#nav-placments-item{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 68rem) {
+    
+    .menu-link {
+        display: none;
+        
+    }
+
+    .mobile-menu-link {
+        grid-row:2/4;
+        grid-column: 1/6;
+        font-size: medium;
+        font-weight: bold;
+        text-align: center;
+        display: grid;
+        margin-top: -1.2rem;
+        margin-left:-3rem;
+        transition: all 2s linear;
+        transform-origin: top;
+        z-index: 99;
+        background-color: white;
+        /* padding-bottom: 1rem; */
+    }
+    .Discussion-forum {
+        background-color: white;
+        grid-row:4/5;
+        grid-column: 1/6;
+        z-index: 99;
+    }
+
+    .Discussion-forum-button-list{
+        display: none;
+    }
+    .List-menu {
+        display: grid;
+        
+    }
+}

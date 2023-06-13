@@ -1,0 +1,128 @@
+#AboutOutreach_heading.MobileView {
+  display: none;
+}
+
+#AboutOutreach {
+  box-sizing: border-box;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.954rem;
+}
+
+#AboutOutreach_image {
+  position: relative;
+  align-self: center;
+  width: 100%;
+}
+
+#AboutOutreach_image img {
+  position: relative;
+  max-width: 648.74px;
+  width: 100%;
+}
+
+#AboutOutreach_content {
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  text-align: justify;
+}
+
+#AboutOutreach_heading {
+  position: relative;
+  margin-bottom: 1.25rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  color: #f96508;
+}
+
+#AboutOutreach_content_data {
+  box-sizing: border-box;
+  position: relative;
+  max-width: 40.546rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 131%;
+  letter-spacing: 0.05em;
+  color: #3f3f3f;
+}
+
+@media (max-width: 1000px) {
+  #AboutOutreach {
+    margin-top: 2.625rem;
+    padding: 0 1.875rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto, 3);
+    column-gap: none;
+    justify-items: center;
+  }
+
+  #AboutOutreach_heading.MobileView {
+    display: block;
+    padding: 0;
+  }
+
+  #AboutOutreach_heading {
+    display: none;
+  }
+
+  #AboutOutreach_image {
+    text-align: center;
+    max-width: 50%;
+    padding: 0 1rem;
+  }
+
+  #AboutOutreach_content {
+    grid-row: 3;
+    justify-self: center;
+    max-width: 60%;
+    margin-top: 2.563rem;
+  }
+
+  #AboutOutreach_content_data {
+    box-sizing: border-box;
+    position: relative;
+  }
+}
+
+@media (max-width: 750px) {
+  #AboutOutreach_heading.MobileView {
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+  }
+
+  #AboutOutreach_image {
+    justify-self: center;
+    max-width: 100%;
+  }
+  #AboutOutreach_image img {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  #AboutOutreach_content {
+    max-width: 100%;
+  }
+
+  #AboutOutreach_content_data {
+    max-width: 300px;
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 131%;
+    letter-spacing: 0.05em;
+  }
+}
+
+@media (max-width: 320px) {
+  #AboutOutreach {
+    padding: 0 10px;
+  }
+}

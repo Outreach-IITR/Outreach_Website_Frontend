@@ -1,0 +1,111 @@
+#OurTeam {
+  margin: 10rem 0 0 0;
+}
+
+.OurTeam__heading {
+  box-sizing: border-box;
+  width: 400px;
+  height: 50px;
+  background-color: #FFD6BC;
+  border: 2px solid #FFC099;
+  border-radius: 12px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  color: #026BA1;
+  margin: 0rem;
+  margin-left: 25rem;
+}
+
+.SecretariesContainer {
+  margin: 2rem 0 5.5rem 0;
+}
+
+.TeamContainer {
+  margin: 6rem 0 3rem;
+}
+
+.OurTeam__subheading {
+  display: flex;
+  box-sizing: border-box;
+  width: 290px;
+  height: 50px;
+  background: #026BA1;
+  border: 2px solid #026BA1;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: #feba10;
+  margin: 0rem;
+  margin-left: 29rem;
+}
+
+.OurTeam__subheading h3 {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.vertical__list {
+  margin: auto;
+  padding: 0;
+  margin-top: 3rem;
+  width: 90%;
+  max-width: 45rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1.5rem;
+}
+
+.vertical__list > li {
+  color: #33333380;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  cursor: pointer;
+}
+
+.vertical__list > li:hover {
+  color: #012131;
+}
+
+.vertical__list > .active {
+  color: #026ba1;
+}
+
+@media screen and (max-width: 600px) {
+  .OurTeam__heading {
+    font-size: 0.875rem;
+    line-height: 1.063rem;
+  }
+
+  .OurTeam__subheading h3 {
+    font-size: 0.688rem;
+    line-height: 0.813rem;
+    letter-spacing: -0.02em;
+  }
+
+  .vertical__list {
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.4rem;
+  }
+  .vertical__list > li {
+    font-size: 0.688rem;
+  }
+}

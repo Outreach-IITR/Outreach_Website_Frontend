@@ -1,0 +1,68 @@
+#ctc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+#ctc_heading{
+    text-align: center;
+    padding-bottom: 5rem;
+
+}
+#ctc_heading h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #33434C;
+
+}
+#ctc_image{
+    display: flex;
+    justify-content: center;
+    margin-right: 3rem;
+}
+#ctc_image img{
+    width:79.60rem;
+    height: 51.4375rem;
+}
+
+@media screen and (max-width:900px){
+    #ctc{
+        padding-bottom: 1rem;
+    }
+    #ctc_heading{
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    
+    }
+    #ctc_image img{
+        max-width: 90%;
+        height: 90%;
+    }
+    
+}
+@media screen and (max-width:550px){
+    #ctc{
+        padding-bottom: 0;
+    }
+    #ctc_heading{
+        
+        padding-top: 0.75rem;
+        padding-bottom: 1rem;
+    }
+    #ctc_heading h2{
+        font-size: 1rem;
+    }
+    #ctc_image img{
+        max-width: 98%;
+        margin-right: 0;
+        
+    }
+
+}

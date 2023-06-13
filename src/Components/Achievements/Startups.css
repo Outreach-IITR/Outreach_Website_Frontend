@@ -1,0 +1,180 @@
+#achievement_startups {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.startup_cont {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 131%;
+  /* or 18px */
+
+  text-align: justify;
+  letter-spacing: 0.05em;
+}
+
+#startups_tides,
+#starups_ecell {
+  display: flex;
+  flex-direction: column;
+}
+#tides_detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+#ecell_detail {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+#tides_content {
+  flex: 0.6;
+  margin-right: 3%;
+  text-align: justify;
+}
+#tides_content h1 {
+  color: #f96508;
+}
+#tides_logo {
+  flex: 0.1;
+  text-align: center;
+  margin-left: 8%;
+}
+#ecell_content {
+  flex: 0.6;
+  margin-left: 8%;
+}
+#ecell_content h1 {
+  color: #f96508;
+}
+#ecell_logo {
+  flex: 0.1;
+  margin-right: 5%;
+}
+#brand {
+  margin-top: 40px;
+  text-align: center;
+}
+#brand img {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+#startups_alumni h1 {
+  text-align: center;
+  margin-left: 0;
+  color: #f96508;
+}
+#startups_alumni {
+  margin-top: 100px;
+}
+#startups_first h2 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #026ba1;
+}
+#startups_first p {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  width: 70%;
+  margin: 0 15%;
+  /* text-align: justify; */
+}
+
+#startups_first {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+#tides_mobileview {
+  display: none;
+}
+#tides_mobilenone {
+  display: block;
+}
+#ecell_mobileview {
+  display: none;
+}
+#ecell_mobilenone {
+  display: block;
+}
+.ihub_img {
+  max-width: 296px;
+}
+
+@media (max-width: 850px) {
+  /* #brand{
+        display:none;
+    } */
+  #brand img {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 25%;
+    padding-top: 1.5rem;
+  }
+  #brand img:nth-child(4) {
+    width: 18%;
+  }
+  #brand img:nth-child(5) {
+    width: 18%;
+  }
+  #brand img:nth-child(6) {
+    width: 18%;
+  }
+  #startups_alumni {
+    margin-top: 80px;
+  }
+
+  #tides_detail {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #ecell_detail {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #tides_content {
+    text-align: left;
+    margin-left: 5%;
+  }
+  #ecell_content {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #tides_mobileview {
+    display: block;
+    color: #f96508;
+    margin-left: 3%;
+  }
+  #tides_mobilenone {
+    display: none;
+  }
+  #ecell_mobileview {
+    display: block;
+    color: #f96508;
+  }
+  #ecell_mobilenone {
+    display: none;
+  }
+  #startups_first p {
+    text-align: center;
+  }
+}

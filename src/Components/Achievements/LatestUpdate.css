@@ -1,0 +1,72 @@
+.LatestUpdate__Section {
+  margin: 6rem 2rem;
+  position: relative;
+}
+
+.LatestUpdate__Heading {
+  position: relative;
+  max-width: 100%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.75px;
+  text-align: center;
+  color: #feba10;
+}
+
+.LatestUpdate__Carousel {
+  margin-top: 3.375rem;
+  display: grid;
+  grid-template-areas: "navprev C1 C2 C3 navnext";
+  column-gap: 4rem;
+}
+
+.LU__Navigation {
+  position: relative;
+  align-self: center;
+}
+
+.LU__CarouselImg {
+  max-width: 100%;
+}
+
+.LU__CarouselImg img {
+  width: 100%;
+  position: relative;
+}
+
+.LU__CarouselImg div {
+  width: 100%;
+}
+
+.LU__CarouselImg div p {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 131%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #3f3f3f;
+}
+
+@media screen and (max-width: 1000px) {
+  .LatestUpdate__Carousel {
+    grid-template-areas: "navprev C1 C2 navnext";
+    column-gap: 2rem;
+  }
+  .LU__CarouselImg:nth-of-type(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .LatestUpdate__Carousel {
+    grid-template-areas: "navprev C1 navnext";
+  }
+  .LU__CarouselImg:nth-of-type(2) {
+    display: none;
+  }
+}

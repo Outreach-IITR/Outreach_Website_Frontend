@@ -1,0 +1,248 @@
+#Feild_wise_ach {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+/* #Feild_wise_ach1{
+    border-radius: 50%;
+
+} */
+
+#Feild_wise_ach_1 {
+  width: 17.8rem;
+  height: 17.8rem;
+  background: url("./Assets/sports_head.png");
+  background-size: cover;
+  border-radius: 50%;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+#Feild_wise_ach_1 h2 {
+  padding-top: 14rem;
+  position: relative;
+  text-align: center;
+  z-index: 1000;
+  color: white;
+  opacity: 1;
+}
+#Feild_wise_ach_2 {
+  width: 17.8rem;
+  height: 17.8rem;
+  background: url("./Assets/tech_head.png");
+  background-size: cover;
+  border-radius: 50%;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+#Feild_wise_ach_2 h2 {
+  padding-top: 14rem;
+  position: relative;
+  text-align: center;
+  z-index: 1000;
+  color: white;
+  opacity: 1;
+}
+#Feild_wise_ach_3 {
+  width: 17.8rem;
+  height: 17.8rem;
+  background: url("./Assets/cult_head.png");
+  background-size: cover;
+  border-radius: 50%;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+#Feild_wise_ach_3 h2 {
+  padding-top: 14rem;
+  position: relative;
+  text-align: center;
+  z-index: 1000;
+  color: white;
+  opacity: 1;
+}
+/* ********************** */
+#feild-ach-data h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  letter-spacing: -0.02em;
+  color: #026ba1;
+}
+#feild-ach-data p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 131%;
+  text-align: justify;
+  /* or 18px */
+
+  letter-spacing: 0.05em;
+
+  color: #3f3f3f;
+}
+.feild-ach-content {
+  margin: 3.5rem 6.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#feild-ach-data {
+  max-width: 50%;
+  max-width: 585px;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-feild-data {
+  height: 335px;
+  overflow: auto;
+  padding-right: 1rem;
+}
+
+#feild-ach-data-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 1.5rem;
+  margin-top: 0.5rem;
+  border-left: 5px solid transparent;
+  padding-left: 10px;
+  padding-bottom: 8px;
+}
+#date_ach {
+  justify-content: right;
+}
+
+#feild-ach-data-text:hover {
+  border-left: 8px solid #eb6c6a;
+}
+
+#feild-ach-data-text.active {
+  border-left: 8px solid #eb6c6a;
+}
+
+#feild-ach-data-text p {
+  margin: 5px 0 0 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 131%;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #3f3f3f;
+}
+
+#feild-ach-data-text p:hover {
+  cursor: pointer;
+}
+
+#feild-ach-data-text > #date_ach {
+  min-width: 4.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#feild-ach-data-text a {
+  width: fit-content;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 131%;
+  letter-spacing: 0.05em;
+  color: #eb6c6a;
+}
+
+#feild-ach-data-imgs {
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .feild-ach-content {
+    flex-direction: column-reverse;
+    margin: 3.5rem 2rem;
+  }
+
+  #feild-ach-data {
+    max-width: 100%;
+    max-width: 585px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.scroll-feild-data::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 4px;
+  border-radius: 1rem;
+}
+
+.scroll-feild-data::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+.scroll-feild-data::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4;
+  outline: none;
+  border-radius: 5rem;
+}
+
+@media screen and (max-width: 900px) {
+  #Feild_wise_ach_1 {
+    width: 15rem;
+    height: 15rem;
+  }
+  #Feild_wise_ach_2 {
+    width: 15rem;
+    height: 15rem;
+  }
+  #Feild_wise_ach_3 {
+    width: 15rem;
+    height: 15rem;
+  }
+  #Feild_wise_ach_1 h2 {
+    padding-top: 11.5rem;
+  }
+  #Feild_wise_ach_2 h2 {
+    padding-top: 11.5rem;
+  }
+  #Feild_wise_ach_3 h2 {
+    padding-top: 11.5rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  #Feild_wise_ach_1 {
+    width: 7rem;
+    height: 7rem;
+  }
+  #Feild_wise_ach_2 {
+    width: 7rem;
+    height: 7rem;
+  }
+  #Feild_wise_ach_3 {
+    width: 7rem;
+    height: 7rem;
+  }
+  #Feild_wise_ach_1 h2 {
+    font-size: 1rem;
+    padding-top: 4.5rem;
+  }
+  #Feild_wise_ach_2 h2 {
+    font-size: 1rem;
+    padding-top: 4.5rem;
+  }
+  #Feild_wise_ach_3 h2 {
+    font-size: 1rem;
+    padding-top: 4.5rem;
+  }
+}

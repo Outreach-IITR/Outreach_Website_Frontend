@@ -1,0 +1,193 @@
+.main-footer {
+  width: 100%;
+  background-color: #1d1d1f;
+}
+
+.footer-content {
+  margin: auto;
+  width: fit-content;
+  max-width: 1440px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section-one {
+  display: flex;
+}
+
+.quick-links-div {
+  flex: 1;
+}
+
+.academics-div {
+  flex: 1;
+}
+
+.section-two {
+  display: flex;
+}
+
+.life-div {
+  flex: 1;
+}
+.about-us-div {
+  flex: 1;
+}
+
+.section-three {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer-quick-links {
+  color: #f96508;
+  padding-top: 4rem;
+  margin-left: 5rem;
+}
+
+#footer-academics {
+  color: #feba10;
+  padding-top: 4rem;
+  margin-left: 5rem;
+}
+
+#footer-life {
+  color: #06ca3d;
+  padding-top: 4rem;
+  margin-left: 5rem;
+}
+
+#footer-about-us {
+  color: #026ba1;
+  padding-top: 4rem;
+  margin-left: 5rem;
+}
+
+.footer-column {
+  list-style-type: none;
+  padding-bottom: 4rem;
+  padding-left: 5rem;
+}
+
+.footer-item {
+  color: #fdfdff;
+}
+
+.footer-column-item {
+  padding-top: 0.5rem;
+}
+
+#outreach_logo {
+  max-width: 40rem;
+  padding-top: 2rem;
+  display: block;
+  margin-left: 7rem;
+  margin-right: auto;
+  width: 60%;
+}
+
+.footer-right-text {
+  font-size: 0.8rem;
+  color: #fdfdff;
+  padding-top: 1rem;
+  padding-left: 8rem;
+}
+
+.icons {
+  padding-left: 8rem;
+  display: flex;
+  margin-bottom: 0;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* align-content: center; */
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icons img {
+  padding-right: 0.5rem;
+  width: 30px;
+}
+
+#copy-right {
+  color: #94989b;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+}
+
+.icons-mobile-view {
+  /* display: none; */
+  padding-top: 2rem;
+  margin-left: -0.5rem;
+  display: none;
+}
+.insta_logo img{
+  width: 33px;
+  /* padding: 0; */
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 1106px) {
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-one {
+    margin-left: 0rem;
+  }
+
+  .section-three {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-right-text {
+    padding: 0;
+    text-align: center;
+  }
+  .icons {
+    padding-left: 7rem;
+    align-items: center;
+  }
+  .footer-column {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #outreach_logo {
+    align-items: center;
+    padding-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  #footer-life {
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
+
+  #footer-about-us {
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
+  #footer-quick-links {
+    margin-left: 2rem;
+  }
+
+  #footer-academics {
+    margin-left: 2rem;
+  }
+
+  .icons-mobile-view {
+    display: flex;
+  }
+  .icons-desktop-view {
+    display: none;
+  }
+}

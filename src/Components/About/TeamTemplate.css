@@ -1,0 +1,139 @@
+.TeamTemplate {
+  display: flex;
+  position: relative;
+  margin-top: 4rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  column-gap: 4rem;
+  row-gap: 2vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.TeamTemplate__ImgCard {
+  width: 15.625vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: fit-content;
+  overflow: hidden;
+  background: #f1f1f1;
+  border-radius: 25px;
+  overflow: hidden;
+  color: #3f3f3f;
+}
+
+.TeamTemplate__ImgCard img {
+  width: 100%;
+  max-width: 100%;
+  background-color: #f1f1f1;
+}
+
+.TeamTemplate__ImgCard:hover {
+  background-color: var(--hover_color);
+  color: #fdfdff;
+}
+
+.TeamTemplate__MemberInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 0.5rem;
+  height: 100%;
+  max-width: 15rem;
+  margin: 1.5rem 0.5rem;
+}
+
+.TeamTemplate__MemberName {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+.TeamTemplate__MemberPost {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  margin: 0;
+}
+
+.Team_ContactInfo {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.Team_ContactInfo > a > img {
+  width: 2rem;
+  background-color: transparent;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  padding: 0.5em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media screen and (max-width: 991px) {
+  .TeamTemplate {
+    padding: 0 1.5rem;
+    column-gap: 4vw;
+    row-gap: 2vw;
+  }
+  .TeamTemplate__ImgCard {
+    border-radius: 10%;
+    max-width: 25%;
+  }
+  .TeamTemplate__ImgCard img {
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+  }
+  .TeamTemplate__MemberName {
+    font-size: 1.25rem;
+    line-height: 0.688rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .TeamTemplate {
+    margin-top: 1rem;
+    grid-template-columns: 25vw 25vw 25vw;
+    column-gap: auto;
+  }
+
+  .TeamTemplate__MemberName {
+    font-size: 0.6rem;
+    line-height: 0.688rem;
+  }
+
+  .TeamTemplate__MemberInfo {
+    margin: 0.5rem 0.5rem;
+  }
+
+  .TeamTemplate__MemberPost {
+    font-size: 0.322rem;
+    line-height: 0.375rem;
+  }
+  .Team_ContactInfo > a > img {
+    width: 1rem;
+  }
+}

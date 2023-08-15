@@ -5,6 +5,7 @@ import "./OurTeam.css";
 import TeamMembers from "./TeamMembers";
 import Secretaries from "./Secretaries";
 import TeamTemplate from "./TeamTemplate";
+import Founders from "./Founders";
 import ArrowUp from "./Assets/ArrowUp.svg";
 import ArrowDown from "./Assets/ArrowDown.svg";
 
@@ -51,14 +52,20 @@ const OurTeam = () => {
 
   return (
     <div id="OurTeam" className="ui container">
+      <div className="random">
       <h2 className="OurTeam__heading">Our Team</h2>
+      </div>
       <div className="SecretariesContainer">
+      <div className="random">
+
         <div className="OurTeam__subheading" onClick={SecretariesHandler}>
           <h3>Secretaries</h3>
           {isMobile && (
             <img src={showSecretaries ? ArrowUp : ArrowDown} alt="arrow" />
           )}
         </div>
+        </div>
+
         {(!isMobile || showSecretaries) && (
           <>
             <Secretaries SecretariesList={TeamMembers.Secretaries} />
@@ -67,11 +74,13 @@ const OurTeam = () => {
         )}
       </div>
       <div className="TeamContainer">
+      <div className="random">
         <div className="OurTeam__subheading" onClick={TeamMemberHandler}>
           <h3>Team Members</h3>
           {isMobile && (
             <img src={showTeamMember ? ArrowUp : ArrowDown} alt="arrow" />
           )}
+        </div>
         </div>
         {(!isMobile || showTeamMember) && (
           <>
@@ -89,9 +98,20 @@ const OurTeam = () => {
               ))}
             </ul>
             <TeamTemplate TeamList={TeamMembers[`${vertical}`]} />
+      
+
+
           </>
         )}
+
       </div>
+      <div className="random">
+
+            <div className="Founders">
+          <h3>Meet our Founders</h3>
+          </div>
+          </div>
+            <Founders TeamList={TeamMembers.founders} />
     </div>
   );
 };

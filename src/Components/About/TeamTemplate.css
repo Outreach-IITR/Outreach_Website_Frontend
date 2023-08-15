@@ -12,7 +12,7 @@
 }
 
 .TeamTemplate__ImgCard {
-  width: 15.625vw;
+  max-width: 15.625vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

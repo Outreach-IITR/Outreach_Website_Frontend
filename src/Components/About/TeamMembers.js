@@ -51,7 +51,7 @@ import SwatantraDwivedi from "./Assets/OurTeam_Img/SwatantraDwivedi.png";
 
 //Operations
 import AditiAnand from "./Assets/OurTeam_Img/AditiAnand.png";
-import Sapnavijay from "./Assets/OurTeam_Img/SapnaVijay.png";
+import Sapnavijay from "./Assets/OurTeam_Img/Sapnavijay.png";
 import HardikSahni from "./Assets/OurTeam_Img/Hardik.png";
 import Jatin from "./Assets/OurTeam_Img/Jatin.png";
 import RoopaPramodan from "./Assets/OurTeam_Img/RoopaPramodan.png";
@@ -93,6 +93,16 @@ import RajdeepSingh from "./Assets/OurTeam_Img/RajdeepSingh.png";
 import SarthakWarade from "./Assets/OurTeam_Img/SarthakWarade.png";
 import AashiJain from "./Assets/OurTeam_Img/AashiJain.png";
 import Jyoti from "./Assets/OurTeam_Img/Jyoti.png";
+
+//Founders
+import ShivamChopra from "./Assets/OurTeam_Img/Shivam Chopra.png";
+import ManuGarg from "./Assets/OurTeam_Img/Manu Garg.png";
+import KanhaiyaMadeshia from "./Assets/OurTeam_Img/Kanhaiya Madeshia.png";
+import ShivanshBhat from "./Assets/OurTeam_Img/Shivansh Bhat.png";
+import SankalpVedrajan from "./Assets/OurTeam_Img/Sankalp Vedrajan.png";
+import AbhishekJha from "./Assets/OurTeam_Img/Abhishek Jha.png";
+import AishwaryaMertia from "./Assets/OurTeam_Img/Aishwarya Mertia.png";
+
 
 const Secretaries = [
   {
@@ -499,6 +509,37 @@ const SocialMedia = [
     post: "Team Member",
   },
 ];
+const founders = [
+  {
+    name: "Shivam Chopra",
+    image: ShivamChopra
+  },
+  {
+    name: "Manu Garg",
+    image: ManuGarg
+  },
+  {
+    name: "Kanhaiya Madeshia",
+    image: KanhaiyaMadeshia
+  },
+  {
+    name: "Shivansh Bhat",
+    image: ShivanshBhat
+  },
+  {
+    name: "Sankalp Vedrajan",
+    image: SankalpVedrajan
+  },
+  {
+    name: "Abhishek Jha",
+    image: AbhishekJha
+  },
+  {
+    name: "Aishwarya Mertia",
+    image: AishwaryaMertia
+  }
+];
+
 
 const TeamMembers = {
   Secretaries,
@@ -509,6 +550,7 @@ const TeamMembers = {
   Operations,
   Editorial,
   "Social Media": SocialMedia,
+  founders
 };
 
 export default TeamMembers;

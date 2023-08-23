@@ -2,7 +2,6 @@
   display: flex;
   position: relative;
   margin-top: 4rem;
-  margin-bottom: 4rem;
   flex-direction: row;
   flex-wrap: wrap;
   flex: 1;
@@ -12,7 +11,7 @@
   justify-content: center;
 }
 
-.Founder__ImgCard {
+.TeamTemplate__ImgCard {
   max-width: 15.625vw;
   display: flex;
   flex-direction: column;
@@ -21,18 +20,17 @@
   overflow: hidden;
   background: #f1f1f1;
   border-radius: 25px;
-  border: 3px solid #F5DA48;
   overflow: hidden;
   color: #3f3f3f;
 }
 
-.Founder__ImgCard img {
+.TeamTemplate__ImgCard img {
   width: 100%;
   max-width: 100%;
   background-color: #f1f1f1;
 }
 
-.Founder__ImgCard:hover {
+.TeamTemplate__ImgCard:hover {
   background-color: var(--hover_color);
   color: #fdfdff;
 }
@@ -99,18 +97,18 @@
     column-gap: 4vw;
     row-gap: 2vw;
   }
-  .Founder__ImgCard {
-    border-radius: 8%;
+  .TeamTemplate__ImgCard {
+    border-radius: 10%;
     max-width: 25%;
   }
-  .Founder__ImgCard img {
+  .TeamTemplate__ImgCard img {
     position: relative;
     max-width: 100%;
     min-width: 100%;
     height: auto;
   }
   .TeamTemplate__MemberName {
-    font-size: 1.0rem;
+    font-size: 1.25rem;
     line-height: 0.688rem;
   }
 }

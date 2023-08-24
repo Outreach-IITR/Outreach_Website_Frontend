@@ -457,13 +457,13 @@ const founders = [
     post: "Batch 2022",
   },
   {
-    name: "Shivansh Bhat",
-    image: ShivanshBhat,
+    name: "Sankalp Vedrajan",
+    image: SankalpVedrajan,
     post: "Batch 2023",
   },
   {
-    name: "Sankalp Vedrajan",
-    image: SankalpVedrajan,
+    name: "Shivansh Bhat",
+    image: ShivanshBhat,
     post: "Batch 2023",
   },
   {

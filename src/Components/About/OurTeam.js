@@ -1,4 +1,4 @@
-//*************Created By Rahul Modi*************
+//************Created By Rahul Modi************
 import React, { useState, useEffect } from "react";
 import "./OurTeam.css";
 
@@ -108,7 +108,7 @@ const OurTeam = () => {
       <div className="random">
 
             <div className="Founders">
-          <h3>Meet our Founders</h3>
+          <h3>Founders</h3>
           </div>
           </div>
             <Founders TeamList={TeamMembers.founders} />

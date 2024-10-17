@@ -2,83 +2,77 @@
 //************Updated By Devanshu Harish Borkar************
 
 // Secretaries
-import NitinSharma from "./Assets/OurTeam_Img/NitinSharma.png";
-import SapnaBurdak from "./Assets/OurTeam_Img/SapnaBurdak.png";
-import SachinMerothiya from "./Assets/OurTeam_Img/SachinMerothiya.png";
-import DevanshuHarishBorkar from "./Assets/OurTeam_Img/DevanshuHarishBorkar.png";
-import AdityaBhandari from "./Assets/OurTeam_Img/AdityaBhandari.png";
-import AnirudhDeol from "./Assets/OurTeam_Img/AnirudhDeol.png";
-import PayalOdedara from "./Assets/OurTeam_Img/PayalOdedara.png";
-import SagarKharat from "./Assets/OurTeam_Img/SagarKharat.png";
-import ArpanKumar from "./Assets/OurTeam_Img/ArpanKumar.png";
-import PrathamGoel from "./Assets/OurTeam_Img/PrathamGoel.png";
-import AdityaRaj from "./Assets/OurTeam_Img/AdityaRaj.png";
-import AnkitKumarArya from "./Assets/OurTeam_Img/AnkitKumarArya.png";
-import ShoilayeeChoudhary from "./Assets/OurTeam_Img/ShoilayeeChoudhari.png";
+import AumVivekPathak from "./Assets/OurTeam_Img/AumVivekPathak.jpg";
+import SarthakWarade from "./Assets/OurTeam_Img/SarthakWarade.png";
+import IshaanJain from "./Assets/OurTeam_Img/IshaanJain.jpeg";
 
-// Previous Secretaries
-
-
-// Design
-import Priyanjali from "./Assets/OurTeam_Img/Priyanjali.png";
-import Rohith from "./Assets/OurTeam_Img/Rohith.png";
-import Arju from "./Assets/OurTeam_Img/Arju.png";
-import VaibhavPrajapati from "./Assets/OurTeam_Img/VaibhavPrajapati.png";
-import SanikaChaudhari from "./Assets/OurTeam_Img/SanikaChoudhary.png";
+// Joint Secretaries
+import YashGehlot from "./Assets/OurTeam_Img/YashGehlot.jpeg";
+import NishantTrambadiya from "./Assets/OurTeam_Img/NishantTrambadiya.png";
+import PakhiBhardwaj from "./Assets/OurTeam_Img/PakhiBhardwaj.jpeg";
+import SanikaChaudhari from "./Assets/OurTeam_Img/SanikaManishChaudhari.jpg";
+import ShreyaBajpai from "./Assets/OurTeam_Img/ShreyaBajpai.jpg";
+import RubaanHasaan from "./Assets/OurTeam_Img/RubaanHasan.png";
 import Tushar from "./Assets/OurTeam_Img/Tushar.png";
 import ShashvatPapne from "./Assets/OurTeam_Img/ShashvatPapne.png";
+import Swayam from "./Assets/OurTeam_Img/Swayam.png";
+import SwatantraDwivedi from "./Assets/OurTeam_Img/SwatantraDwiwedi.jpg";
+import AyushDangwal from "./Assets/OurTeam_Img/AyushDangwal.png";
+import AryanRaj from "./Assets/OurTeam_Img/AryanRaj.png";
+
+// Design
+import BhaskarSagar from "./Assets/OurTeam_Img/BhaskarSagar.jpg";
+import Pihoo from "./Assets/OurTeam_Img/Pihoo.jpg";
+import PriyamAgarwal from "./Assets/OurTeam_Img/PriyamAgarwal.jpg";
 
 // Development
-import AdityaPathak from "./Assets/OurTeam_Img/AdityaPathak.png";
-import PaabanPanda from "./Assets/OurTeam_Img/PaabanPanda.png";
-import ShreyaBajpai from "./Assets/OurTeam_Img/ShreyaBajpai.png";
+import AyushBhardwaj from "./Assets/OurTeam_Img/AyushBhardwaj.jpg";
+import OmprakashBalara from "./Assets/OurTeam_Img/OmprakashBalara.jpg";
+import UtkarshAnand from "./Assets/OurTeam_Img/UtkarshAnand.png";
+import AmanTiwari from "./Assets/OurTeam_Img/AmanTiwari.jpg";
+import ArpitPandey from "./Assets/OurTeam_Img/ArpitKumarPandey.jpg";
+import DeepakBhagat from "./Assets/OurTeam_Img/Deepak.jpg";
+import HarshKumar from "./Assets/OurTeam_Img/HarshKumar.jpg";
+import RakshitRajendra from "./Assets/OurTeam_Img/RakshitRajendra.png";
 
-//Multimedia
-import KaranGangwar from "./Assets/OurTeam_Img/KaranGangwar.png";
-import RubaanHasaan from "./Assets/OurTeam_Img/RubaanHasan.png";
-import NikhilRaj from "./Assets/OurTeam_Img/NikhilRaj.png";
+// Multimedia
 import AkshatBakshi from "./Assets/OurTeam_Img/AkshatBakshi.png";
-import DheerajMaurya from "./Assets/OurTeam_Img/DheerajMaurya.png";
-import DeeptanshuAhari from "./Assets/OurTeam_Img/DeeptanshuAhari.png";
-import Swayam from "./Assets/OurTeam_Img/Swayam.png";
-import SwatantraDwivedi from "./Assets/OurTeam_Img/SwatantraDwivedi.png";
+import AmanJakhar from "./Assets/OurTeam_Img/AmanJakhar.jpg";
+import DipakVarma from "./Assets/OurTeam_Img/DipakVarma.jpg";
+import RiteshRatnakar from "./Assets/OurTeam_Img/RiteshKumar.jpg";
+import RahulMeena from "./Assets/OurTeam_Img/RahulKumarMeena.jpg";
 
-//Operations
-import AditiAnand from "./Assets/OurTeam_Img/AditiAnand.png";
-import Sapnavijay from "./Assets/OurTeam_Img/Sapnavijay.png";
-import HardikSahni from "./Assets/OurTeam_Img/Hardik.png";
-import Jatin from "./Assets/OurTeam_Img/Jatin.png";
-import DeepakRathore from "./Assets/OurTeam_Img/DeepakRathore.png";
-import IshaanJain from "./Assets/OurTeam_Img/IshaanJain.png";
-import RajRathore from "./Assets/OurTeam_Img/RajRathore.png";
-import Kuldeep from "./Assets/OurTeam_Img/Kuldeep.png";
-import SwadeshSwain from "./Assets/OurTeam_Img/SwadeshSwain.png";
+// Operations
 import VanshikaSingh from "./Assets/OurTeam_Img/VanshikaSingh.png";
-import VedikaGoyal from "./Assets/OurTeam_Img/VedikaGoyal.png";
+import AnshBhardwaj from "./Assets/OurTeam_Img/AnshBhardwaj.jpg";
+import DhruvJyotSingh from "./Assets/OurTeam_Img/DhruvJyotSingh.jpg";
+import Harshita from "./Assets/OurTeam_Img/Harshita.jpeg";
+import KartikGarg from "./Assets/OurTeam_Img/KartikGarg.jpg";
+import NitinNigam from "./Assets/OurTeam_Img/NitinNigam.jpg";
+import NivitiSharma from "./Assets/OurTeam_Img/NivitiSharma.jpeg";
+import Piyush from "./Assets/OurTeam_Img/Piyush.png";
+import RiyaNigam from "./Assets/OurTeam_Img/RiyaNigam.jpg";
+import YuvrajSinghLamba from "./Assets/OurTeam_Img/YuvrajSinghLamba.jpg";
 
-//Editorial
-import AyushKumar from "./Assets/OurTeam_Img/AyushKumar.png";
-import ArinTiwari from "./Assets/OurTeam_Img/ArinTiwari.png";
-import AyushDangwal from "./Assets/OurTeam_Img/AyushDangwal.png";
-import AayushiChoudhary from "./Assets/OurTeam_Img/Aayushi.png";
-import SaumyaSingh from "./Assets/OurTeam_Img/SaumyaSingh.png";
-import AryanRaj from "./Assets/OurTeam_Img/AryanRaj.png";
-import AnishaSamantaray from "./Assets/OurTeam_Img/Anisha.png";
-import SiddhantGupta from "./Assets/OurTeam_Img/SiddhantGupta.png";
+// Editorial
+import AltamashZahid from "./Assets/OurTeam_Img/AltamashZahid.jpg";
+import Chanchal from "./Assets/OurTeam_Img/Chanchal.jpg";
+import ChhavikashRaj from "./Assets/OurTeam_Img/ChhavikashRaj.jpg";
+import Jheel from "./Assets/OurTeam_Img/JheelMaheshwari.jpg";
+import SmritiPriya from "./Assets/OurTeam_Img/SmritiPriya.jpg";
 
-//SocialMedia
-import ShreyanshTiwari from "./Assets/OurTeam_Img/ShreyanshTiwari.png";
-import KhushiBatheja from "./Assets/OurTeam_Img/KhushiBhateja.png";
-import GoklaniKamalKumarKishorbhai from "./Assets/OurTeam_Img/KamalGoklani.png";
-import AryanPorwal from "./Assets/OurTeam_Img/AryanPorwal.png";
-import AbhishekRanjan from "./Assets/OurTeam_Img/AbhishekRanjan.png";
-import AumVivekPathak from "./Assets/OurTeam_Img/AumVivekPathak.png";
-import NikhilBhaskar from "./Assets/OurTeam_Img/NikhilBhaskar.png";
-import YashGehlot from "./Assets/OurTeam_Img/YashGehlot.png";
-import NishantTrambadiya from "./Assets/OurTeam_Img/NishantTrambadiya.png";
-import RajdeepSingh from "./Assets/OurTeam_Img/RajdeepSingh.png";
-import SarthakWarade from "./Assets/OurTeam_Img/SarthakWarade.png";
+// Social Media
 import Jyoti from "./Assets/OurTeam_Img/Jyoti.png";
+import DhruvAgravat from "./Assets/OurTeam_Img/DhruvAgravat.jpg";
+import HariomPatidar from "./Assets/OurTeam_Img/HariomPatidar.jpg";
+import JayantChandoliya from "./Assets/OurTeam_Img/JayantChandolia.png";
+import MridulAgarwal from "./Assets/OurTeam_Img/MridulAgrawal.jpg";
+import NamanGoyal from "./Assets/OurTeam_Img/NamanGoyal.png";
+import PrathamJana from "./Assets/OurTeam_Img/PrathamJana.jpg";
+import Rohit from "./Assets/OurTeam_Img/Rohit.jpg";
+import Sandeep from "./Assets/OurTeam_Img/Sandeep.jpg";
+import SatyamKumar from "./Assets/OurTeam_Img/SatyamKumar.jpeg";
+import VishalMeena from "./Assets/OurTeam_Img/VishalMeena.jpeg";
 
 //Founders
 import ShivamChopra from "./Assets/OurTeam_Img/Shivam Chopra.png";
@@ -92,351 +86,319 @@ import AishwaryaMertia from "./Assets/OurTeam_Img/Aishwarya Mertia.png";
 
 const Secretaries = [
   {
-    name: "Nitin Sharma",
-    image: NitinSharma,
+    name: "Aum Vivek Pathak",
+    image: AumVivekPathak,
     post: "Secretary",
-    email: "n_sharma@me.iitr.ac.in",
-    phoneNo: "+91 8955257367",
-    linkedIn: "https://www.linkedin.com/in/nitin-sharma-8b608b278/",
+    email: "aum_vp@me.iitr.ac.in",
+    phoneNo: "+91 8130109526",
+    linkedIn: "https://www.linkedin.com/in/aum-vivek-pathak-24b73724a",
   },
   {
-    name: "Sapna Burdak",
-    image: SapnaBurdak,
+    name: "Sarthak Warade",
+    image: SarthakWarade,
     post: "Additional Secretary",
-    email: "s_burdak@bt.iitr.ac.in",
-    phoneNo: "+91 9783637967",
-    linkedIn: "https://www.linkedin.com/in/sapna-burdak-043050229",
+    email: "Sarthak_w@me.iitr.ac.in",
+    phoneNo: "+91 9131654619",
+    linkedIn: "https://www.linkedin.com/in/sarthak-warade-19a234256",
   },
   {
-    name: "Sachin Merothiya ",
-    image: SachinMerothiya,
+    name: "Ishaan Jain",
+    image: IshaanJain,
     post: "Additional Secretary",
-    email: "s_merothiya@ee.iitr.ac.in",
-    phoneNo: "+91 6397599591",
-    linkedIn: "https://www.linkedin.com/in/sachin-merothiya-024989241",
+    email: "ishaan_j@cs.iitr.ac.in",
+    phoneNo: "+91 8447691065",
+    linkedIn: "https://www.linkedin.com/in/ishaan-jain-609940276",
   },
 ];
 
 const JointSecretaries = [
   {
-    name: "Devanshu Harish Borkar",
-    image: DevanshuHarishBorkar,
+    name: "Rubaan Hasaan",
+    image: RubaanHasaan,
+    post: "",
+  },
+  {
+    name: "Swatantra Dwiwedi",
+    image: SwatantraDwivedi,
+    post: "",
+  },
+  {
+    name: "Nishant Trambadiya",
+    image: NishantTrambadiya,
     post: "Joint Secretary",
   },
   {
-    name: "Aditya Bhandari",
-    image: AdityaBhandari,
+    name: "Sanika Chaudhari",
+    image: SanikaChaudhari,
     post: "Joint Secretary",
   },
   {
-    name: "Anirudh Deol",
-    image: AnirudhDeol,
+    name: "Yash Gehlot",
+    image: YashGehlot,
     post: "Joint Secretary",
   },
   {
-    name: "Pratham Goel",
-    image: PrathamGoel,
+    name: "Aryan Raj",
+    image: AryanRaj,
     post: "Joint Secretary",
   },
   {
-    name: "Sagar Kharat",
-    image: SagarKharat,
+    name: "Ayush Dangwal",
+    image: AyushDangwal,
     post: "Joint Secretary",
   },
   {
-    name: "Arpan Kumar",
-    image: ArpanKumar,
+    name: "Tushar",
+    image: Tushar,
     post: "Joint Secretary",
   },
   {
-    name: " Payal Odedara",
-    image: PayalOdedara,
+    name: " Shashvat Papne",
+    image: ShashvatPapne,
     post: "Joint Secretary",
   },
   {
-    name: "Aditya Raj",
-    image: AdityaRaj,
+    name: "Swayam",
+    image: Swayam,
     post: "Joint Secretary",
   },
   {
-    name: "Ankit Kumar Arya",
-    image: AnkitKumarArya,
+    name: "Pakhi Bhardwaj",
+    image: PakhiBhardwaj,
     post: "Joint Secretary",
   },
   {
-    name: "Shoilayee Choudhary",
-    image: ShoilayeeChoudhary,
+    name: "Shreya Bajpai",
+    image: ShreyaBajpai,
     post: "Joint Secretary",
   },
 ];
 
 const Design = [
-  {
-    name: "Priyanjali",
-    image: Priyanjali,
-    post: "Manager",
-  },
-  {
-    name: "Rohith",
-    image: Rohith,
-    post: "Manager",
-  },
 
   {
-    name: "Arju",
-    image: Arju,
+    name: "Bhaskar Sagar",
+    image: BhaskarSagar,
     post: "Team Member",
   },
   {
-    name: "Vaibhav Prajapati",
-    image: VaibhavPrajapati,
+    name: "Pihoo",
+    image: Pihoo,
     post: "Team Member",
   },
   {
-    name: "Sanika Chaudhari",
-    image: SanikaChaudhari,
-    post: "Team Member",
-  },
-  
-  {
-    name: "Tushar",
-    image: Tushar,
-    post: "Team Member",
-  },
-  {
-    name: "Shashvat Papne",
-    image: ShashvatPapne,
+    name: "Priyam Agarwal",
+    image: PriyamAgarwal,
     post: "Team Member",
   },
 ];
 
 const Development = [
   {
-    name: "Aditya Pathak",
-    image: AdityaPathak,
-    post: "Team Member",
+    name: "Ayush Bhardwaj",
+    image: AyushBhardwaj,
+    post: "Manager",
   },
-  
   {
-    name: "Paaban Panda",
-    image: PaabanPanda,
-    post: "Team Member",
+    name: "Omprakash Balara",
+    image: OmprakashBalara,
+    post: "Manager",
   },
-  
   {
-    name: "Shreya Bajpai",
-    image: ShreyaBajpai,
+    name: "Utkarsh Anand",
+    image: UtkarshAnand,
+    post: "Manager",
+  },
+  {
+    name: "Aman Tiwari",
+    image: AmanTiwari,
     post: "Team Member",
   },
-  
+  {
+    name: "Arpit Pandey",
+    image: ArpitPandey,
+    post: "Team Member",
+  },
+  {
+    name: "Deepak Bhagat",
+    image: DeepakBhagat,
+    post: "Team Member",
+  },
+  {
+    name: "Harsh Kumar",
+    image: HarshKumar,
+    post: "Team Member",
+  },
+  {
+    name: "Rakshit Rajendra",
+    image: RakshitRajendra,
+    post: "Team Member",
+  },  
 ];
 
 const Multimedia = [
   {
-    name: "Karan Gangwar",
-    image: KaranGangwar,
+    name: "Akshat Bakshi",
+    image: AkshatBakshi,
     post: "Manager",
   },
   {
-    name: "Rubaan Hasan",
-    image: RubaanHasaan,
+    name: "Aman Jakhar",
+    image: AmanJakhar,
     post: "Team Mmember",
   },
   {
-    name: "Nikhil Raj",
-    image: NikhilRaj,
+    name: "Dipak Varma",
+    image: DipakVarma,
     post: "Team Member",
   },
   {
-    name: "Akshat Bakshi",
-    image: AkshatBakshi,
+    name: "Rahul Meena",
+    image: RahulMeena,
     post: "Team Member",
   },
-  
   {
-    name: "Dheeraj Maurya",
-    image: DheerajMaurya,
-    post: "Team Member",
-  },{
-    name: "Deeptanshu Ahari",
-    image: DeeptanshuAhari,
-    post: "Team Member",
-  },{
-    name: "Swayam",
-    image: Swayam,
-    post: "Team Member",
-  },{
-    name: "Swatantra Dwivedi",
-    image: SwatantraDwivedi,
+    name: "Ritesh Ratnakar",
+    image: RiteshRatnakar,
     post: "Team Member",
   },
 ];
 
 const Operations = [
   {
-    name: "Aditi Anand",
-    image: AditiAnand,
-    post: "Manager",
-  },
-  {
-    name: "Sapna Vijay",
-    image: Sapnavijay,
-    post: "Manager",
-  },
-  {
-    name: "Hardik Sahni",
-    image: HardikSahni,
-    post: "Manager",
-  },
-  {
-    name: "Jatin",
-    image: Jatin,
-    post: "Manager",
-  },
-  
-  {
-    name: "Deepak Rathore",
-    image: DeepakRathore,
-    post: "Team Member",
-  },
-  {
-    name: "Ishaan Jain",
-    image: IshaanJain,
-    post: "Team Member",
-  },
-  
-  {
-    name: "Raj Rathore",
-    image: RajRathore,
-    post: "Team Member",
-  },
-  
-  {
-    name: "Kuldeep",
-    image: Kuldeep,
-    post: "Team Member",
-  },
-  {
-    name: "Swadesh Swain",
-    image: SwadeshSwain,
-    post: "Team Member",
-  },
-  {
     name: "Vanshika Singh",
     image: VanshikaSingh,
+    post: "Manager",
+  },
+  {
+    name: "Ansh Bhardwaj",
+    image: AnshBhardwaj,
     post: "Team Member",
   },
   {
-    name: "Vedika Goyal",
-    image: VedikaGoyal,
+    name: "Dhruv Jyot Singh",
+    image: DhruvJyotSingh,
+    post: "Team Member",
+  },
+  {
+    name: "Harshita",
+    image: Harshita,
+    post: "Team Member",
+  },
+  {
+    name: "Kartik Garg",
+    image: KartikGarg,
+    post: "Team Member",
+  },
+  {
+    name: "Nitin Nigam",
+    image: NitinNigam,
+    post: "Team Member",
+  },
+  {
+    name: "Niviti Sharma",
+    image: NivitiSharma,
+    post: "Team Member",
+  },
+  {
+    name: "Piyush",
+    image: Piyush,
+    post: "Team Member",
+  },
+  {
+    name: "Riya Nigam",
+    image: RiyaNigam,
+    post: "Team Member",
+  },
+  {
+    name: "Yuvraj Singh Lamba",
+    image: YuvrajSinghLamba,
     post: "Team Member",
   },
 ];
 
 const Editorial = [
   {
-    name: "Ayush Kumar",
-    image: AyushKumar,
-    post: "Manager",
-  },
-  
-  {
-    name: "Arin Tiwari",
-    image: ArinTiwari,
-    post: "Manager",
-  },
-  {
-    name: "Ayush Dangwal",
-    image: AyushDangwal,
+    name: "Altamash Zahid",
+    image: AltamashZahid,
     post: "Team Member",
   },
   {
-    name: "Aayushi Choudhary",
-    image: AayushiChoudhary,
-    post: "Team Member",
-  },
-  
-  {
-    name: "Saumya Singh",
-    image: SaumyaSingh,
+    name: "Chanchal",
+    image: Chanchal,
     post: "Team Member",
   },
   {
-    name: "Aryan Raj",
-    image: AryanRaj,
+    name: "Chhavikash Raj",
+    image: ChhavikashRaj,
     post: "Team Member",
   },
   {
-    name: "Anisha Samantaray",
-    image: AnishaSamantaray,
+    name: "Jheel",
+    image: Jheel,
     post: "Team Member",
   },
   {
-    name: "Siddhant Gupta",
-    image: SiddhantGupta,
+    name: "Smriti Priya",
+    image: SmritiPriya,
     post: "Team Member",
   },
 ];
 
 const SocialMedia = [
   {
-    name: "Shreyansh Tiwari",
-    image: ShreyanshTiwari,
-    post: "Manager",
-  },
-  {
-    name: "Khushi Batheja",
-    image: KhushiBatheja,
-    post: "Manager",
-  },
-  {
-    name: "Kamal Goklani",
-    image: GoklaniKamalKumarKishorbhai,
-    post: "Manager",
-  },
-  {
-    name: "Aryan Porwal",
-    image: AryanPorwal,
-    post: "Manager",
-  },
-  {
-    name: "Abhishek Ranjan",
-    image: AbhishekRanjan,
-    post: "Team Member",
-  },
-  {
-    name: "Aum Vivek Pathak",
-    image: AumVivekPathak,
-    post: "Team Member",
-  },
-  {
-    name: "Nikhil Bhaskar",
-    image: NikhilBhaskar,
-    post: "Team Member",
-  },
-  {
-    name: "Yash Gehlot",
-    image: YashGehlot,
-    post: "Team Member",
-  },
-  {
-    name: "Nishant Trambadiya",
-    image: NishantTrambadiya,
-    post: "Team Member",
-  },
-  {
-    name: "Rajdeep Singh",
-    image: RajdeepSingh,
-    post: "Team Member",
-  },
-  {
-    name: "Sarthak Warade",
-    image: SarthakWarade,
-    post: "Team Member",
-  },
-  {
     name: "Jyoti",
     image: Jyoti,
+    post: "Manager",
+  },
+  {
+    name: "Dhruv Agravat",
+    image: DhruvAgravat,
+    post: "Team Member",
+  },
+  {
+    name: "Hariom Patidar",
+    image: HariomPatidar,
+    post: "Team Member",
+  },
+  {
+    name: "JayantChandoliya",
+    image: JayantChandoliya,
+    post: "Team Member",
+  },
+  {
+    name: "Mridul Agarwal",
+    image: MridulAgarwal,
+    post: "Team Member",
+  },
+  {
+    name: "Naman Goyal",
+    image: NamanGoyal,
+    post: "Team Member",
+  },
+  {
+    name: "Pratham Jana",
+    image: PrathamJana,
+    post: "Team Member",
+  },
+  {
+    name: "Rohit",
+    image: Rohit,
+    post: "Team Member",
+  },
+  {
+    name: "Sandeep",
+    image: Sandeep,
+    post: "Team Member",
+  },
+  {
+    name: "Satyam Kumar",
+    image: SatyamKumar,
+    post: "Team Member",
+  },
+  {
+    name: "Vishal Meena",
+    image: VishalMeena,
     post: "Team Member",
   },
 ];

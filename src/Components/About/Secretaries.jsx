@@ -49,13 +49,15 @@ const Secretaries = (props) => {
                   <img src={ContactVector} alt="" />
                   <div className="tooltiptext">{member.phoneNo}</div>
                 </a>
-                <a
-                  href={member.linkedIn}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={LinkedInVector} alt="" />
-                </a>
+                {member.linkedIn && (
+                  <a
+                    href={member.linkedIn}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={LinkedInVector} alt="" />
+                  </a>
+                )}
               </div>
             </div>
           </div>

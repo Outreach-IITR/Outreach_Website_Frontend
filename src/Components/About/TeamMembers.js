@@ -4,6 +4,7 @@
 // Secretaries
 import ParteekGupta from "./Assets/OurTeam_Img/ParteekGupta.jpg";
 import HimeshKumar from "./Assets/OurTeam_Img/HimeshKumar.jpg";
+import VaibhavSharma from "./Assets/OurTeam_Img/VaibhavSharma.jpg";
 
 // Joint Secretaries
 import YashGehlot from "./Assets/OurTeam_Img/YashGehlot.jpeg";
@@ -100,6 +101,7 @@ const Secretaries = [
   },
   {
     name: "Vaibhav Sharma",
+    image: VaibhavSharma,
     post: "Additional Secretary",
     email: "vaibhav_s2@ph.iitr.ac.in",
     phoneNo: "+91 9569672796",

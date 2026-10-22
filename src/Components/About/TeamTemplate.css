@@ -25,9 +25,20 @@
 }
 
 .TeamTemplate__ImgCard img {
+  display: block;
   width: 100%;
   max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   background-color: #f1f1f1;
+}
+
+.TeamTemplate__SecretaryImage--himesh-kumar {
+  object-position: center top;
+}
+
+.TeamTemplate__SecretaryImage--vaibhav-sharma {
+  transform: scale(1.1);
 }
 
 .TeamTemplate__PhotoPlaceholder {
@@ -118,7 +129,8 @@
     position: relative;
     max-width: 100%;
     min-width: 100%;
-    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
   }
   .TeamTemplate__MemberName {
     font-size: 1.25rem;

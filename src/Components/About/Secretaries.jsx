@@ -25,7 +25,13 @@ const Secretaries = (props) => {
             style={{ "--hover_color": background }}
           >
             {member.image ? (
-              <img src={member.image} alt={member.name} />
+              <img
+                className={`TeamTemplate__SecretaryImage TeamTemplate__SecretaryImage--${member.name
+                  .toLowerCase()
+                  .replace(/\s+/g, "-")}`}
+                src={member.image}
+                alt={member.name}
+              />
             ) : (
               <div
                 className="TeamTemplate__PhotoPlaceholder"

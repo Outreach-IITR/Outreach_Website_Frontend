@@ -32,7 +32,7 @@ const Secretaries = (props) => {
               )}
               <div className="Team_ContactInfo">
                 <a
-                  href={`mailto: ${member.email}`}
+                  href={`mailto:${member.email}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="tooltip"
@@ -41,7 +41,7 @@ const Secretaries = (props) => {
                   <div className="tooltiptext">{member.email}</div>
                 </a>
                 <a
-                  href={`tel: ${member.phoneNo}`}
+                  href={`tel:${member.phoneNo.replace(/\s/g, "")}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="tooltip"

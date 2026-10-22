@@ -24,7 +24,20 @@ const Secretaries = (props) => {
             onMouseEnter={OnHoverHandler}
             style={{ "--hover_color": background }}
           >
-            <img src={member.image} alt="icon" />
+            {member.image ? (
+              <img src={member.image} alt={member.name} />
+            ) : (
+              <div
+                className="TeamTemplate__PhotoPlaceholder"
+                role="img"
+                aria-label={`${member.name} photo unavailable`}
+              >
+                {member.name
+                  .split(" ")
+                  .map((namePart) => namePart[0])
+                  .join("")}
+              </div>
+            )}
             <div className="TeamTemplate__MemberInfo">
               <h4 className="TeamTemplate__MemberName">{member.name}</h4>
               {member.post && (
@@ -32,7 +45,7 @@ const Secretaries = (props) => {
               )}
               <div className="Team_ContactInfo">
                 <a
-                  href={`mailto: ${member.email}`}
+                  href={`mailto:${member.email}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="tooltip"
@@ -41,7 +54,7 @@ const Secretaries = (props) => {
                   <div className="tooltiptext">{member.email}</div>
                 </a>
                 <a
-                  href={`tel: ${member.phoneNo}`}
+                  href={`tel:${member.phoneNo.replace(/\s/g, "")}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="tooltip"
@@ -49,13 +62,15 @@ const Secretaries = (props) => {
                   <img src={ContactVector} alt="" />
                   <div className="tooltiptext">{member.phoneNo}</div>
                 </a>
-                <a
-                  href={member.linkedIn}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={LinkedInVector} alt="" />
-                </a>
+                {member.linkedIn && (
+                  <a
+                    href={member.linkedIn}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={LinkedInVector} alt="" />
+                  </a>
+                )}
               </div>
             </div>
           </div>

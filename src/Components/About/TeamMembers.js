@@ -2,9 +2,9 @@
 //************Updated By Devanshu Harish Borkar************
 
 // Secretaries
-import AumVivekPathak from "./Assets/OurTeam_Img/AumVivekPathak.jpg";
-import SarthakWarade from "./Assets/OurTeam_Img/SarthakWarade.png";
-import IshaanJain from "./Assets/OurTeam_Img/IshaanJain.jpeg";
+import ParteekGupta from "./Assets/OurTeam_Img/ParteekGupta.jpg";
+import HimeshKumar from "./Assets/OurTeam_Img/HimeshKumar.jpg";
+import VaibhavSharma from "./Assets/OurTeam_Img/VaibhavSharma.jpg";
 
 // Joint Secretaries
 import YashGehlot from "./Assets/OurTeam_Img/YashGehlot.jpeg";
@@ -86,28 +86,25 @@ import AishwaryaMertia from "./Assets/OurTeam_Img/Aishwarya Mertia.png";
 
 const Secretaries = [
   {
-    name: "Aum Vivek Pathak",
-    image: AumVivekPathak,
+    name: "Parteek Gupta",
+    image: ParteekGupta,
     post: "Secretary",
-    email: "aum_vp@me.iitr.ac.in",
-    phoneNo: "+91 8130109526",
-    linkedIn: "https://www.linkedin.com/in/aum-vivek-pathak-24b73724a",
+    email: "parteek_g@me.iitr.ac.in",
+    phoneNo: "+91 7056133480",
   },
   {
-    name: "Sarthak Warade",
-    image: SarthakWarade,
+    name: "Himesh Kumar",
+    image: HimeshKumar,
     post: "Additional Secretary",
-    email: "Sarthak_w@me.iitr.ac.in",
-    phoneNo: "+91 9131654619",
-    linkedIn: "https://www.linkedin.com/in/sarthak-warade-19a234256",
+    email: "Himesh_k@me.iitr.ac.in",
+    phoneNo: "+91 9541499808",
   },
   {
-    name: "Ishaan Jain",
-    image: IshaanJain,
+    name: "Vaibhav Sharma",
+    image: VaibhavSharma,
     post: "Additional Secretary",
-    email: "ishaan_j@cs.iitr.ac.in",
-    phoneNo: "+91 8447691065",
-    linkedIn: "https://www.linkedin.com/in/ishaan-jain-609940276",
+    email: "vaibhav_s2@ph.iitr.ac.in",
+    phoneNo: "+91 9569672796",
   },
 ];
 

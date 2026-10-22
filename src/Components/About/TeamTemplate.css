@@ -30,6 +30,19 @@
   background-color: #f1f1f1;
 }
 
+.TeamTemplate__PhotoPlaceholder {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 568 / 642;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcebf1;
+  color: #026ba1;
+  font-family: Montserrat;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 600;
+}
+
 .TeamTemplate__ImgCard:hover {
   background-color: var(--hover_color);
   color: #fdfdff;

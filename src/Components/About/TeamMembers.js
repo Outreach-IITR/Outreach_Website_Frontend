@@ -2,9 +2,8 @@
 //************Updated By Devanshu Harish Borkar************
 
 // Secretaries
-import AumVivekPathak from "./Assets/OurTeam_Img/AumVivekPathak.jpg";
-import SarthakWarade from "./Assets/OurTeam_Img/SarthakWarade.png";
-import IshaanJain from "./Assets/OurTeam_Img/IshaanJain.jpeg";
+import ParteekGupta from "./Assets/OurTeam_Img/ParteekGupta.jpg";
+import HimeshKumar from "./Assets/OurTeam_Img/HimeshKumar.jpg";
 
 // Joint Secretaries
 import YashGehlot from "./Assets/OurTeam_Img/YashGehlot.jpeg";
@@ -87,21 +86,20 @@ import AishwaryaMertia from "./Assets/OurTeam_Img/Aishwarya Mertia.png";
 const Secretaries = [
   {
     name: "Parteek Gupta",
-    image: AumVivekPathak,
+    image: ParteekGupta,
     post: "Secretary",
     email: "parteek_g@me.iitr.ac.in",
     phoneNo: "+91 7056133480",
   },
   {
     name: "Himesh Kumar",
-    image: SarthakWarade,
+    image: HimeshKumar,
     post: "Additional Secretary",
     email: "Himesh_k@me.iitr.ac.in",
     phoneNo: "+91 9541499808",
   },
   {
     name: "Vaibhav Sharma",
-    image: IshaanJain,
     post: "Additional Secretary",
     email: "vaibhav_s2@ph.iitr.ac.in",
     phoneNo: "+91 9569672796",

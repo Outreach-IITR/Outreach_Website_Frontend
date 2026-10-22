@@ -24,7 +24,20 @@ const Secretaries = (props) => {
             onMouseEnter={OnHoverHandler}
             style={{ "--hover_color": background }}
           >
-            <img src={member.image} alt="icon" />
+            {member.image ? (
+              <img src={member.image} alt={member.name} />
+            ) : (
+              <div
+                className="TeamTemplate__PhotoPlaceholder"
+                role="img"
+                aria-label={`${member.name} photo unavailable`}
+              >
+                {member.name
+                  .split(" ")
+                  .map((namePart) => namePart[0])
+                  .join("")}
+              </div>
+            )}
             <div className="TeamTemplate__MemberInfo">
               <h4 className="TeamTemplate__MemberName">{member.name}</h4>
               {member.post && (
